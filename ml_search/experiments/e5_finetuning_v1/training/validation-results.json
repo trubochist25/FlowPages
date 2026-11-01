@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "examples": 512,
+  "triplets_subset": 34,
+  "reviewed_candidates": 42,
+  "protected_training_books": 141,
+  "frozen_assessment_unchanged": true,
+  "production_files_unchanged": 8,
+  "exact_search_profiles": true,
+  "training_started": false,
+  "label_basis": "Assistant editorial review; no independent human review."
+}

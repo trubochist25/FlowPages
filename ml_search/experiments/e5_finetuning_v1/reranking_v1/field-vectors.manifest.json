@@ -1,0 +1,14 @@
+{
+  "format": "flowpages-multi-vector-fields-v1",
+  "model_name": "multilingual-e5-small-finetuned-lr1e-5-epoch3",
+  "catalog_sha256": "837003aa617e6036ef059f8bf2dfbc9c943f19a1cc7ed36e287a9f6c71db1a4f",
+  "books": 1000,
+  "dimension": 384,
+  "fields": [
+    "plot",
+    "annotation",
+    "structured",
+    "taxonomy"
+  ],
+  "index_sha256": "f0a80383ffde83d8a7b5eeba56cf6e63d0c14a4bb44d2bdc4b3856904edd25f7"
+}

@@ -1,0 +1,7 @@
+{
+  "service_environment_packages_unchanged": true,
+  "checkpoint_load_in_service_environment_cpu": true,
+  "embedding_dimension": 384,
+  "normalized_finite_vectors": true,
+  "service_model_and_index_not_replaced": true
+}

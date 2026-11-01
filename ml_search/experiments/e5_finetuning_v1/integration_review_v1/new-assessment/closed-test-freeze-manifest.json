@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-09-16T18:40:37.566451+00:00",
+  "status": "frozen_before_first_selected_configuration_retrieval",
+  "queries": 99,
+  "families": 33,
+  "families_with_grade2": 23,
+  "families_partial_only": 5,
+  "families_expected_empty": 5,
+  "draft_sha256": "c8f43281e50b0bbbeab28341e61f6672547ff96d1341ec9f50d6b186ff1e1c76",
+  "annotated_sha256": "c0f51aea47e401026baf6d034430f7baabb6b6f3c09e3968c954bf135928fc32",
+  "catalog_sha256": "115c7e689447db05d2e34bc5d83ab66238305b24b287601b36bd7fa3774bf5ee",
+  "selected_configuration": {
+    "model": "multilingual-e5-small-finetuned-lr1e-5-epoch3",
+    "primary_index": "comparison/index/book-index.npz",
+    "field_index": "reranking_v1/field-vectors.npz",
+    "fields": [
+      "plot",
+      "annotation",
+      "structured",
+      "taxonomy"
+    ],
+    "field_score": "max",
+    "alpha": 0.6,
+    "catalog_candidates": 1000,
+    "navigation_bypass": true
+  },
+  "limitations": [
+    "The queries and judgments were authored by the same AI agent.",
+    "Judgments are sparse and based on catalog search profiles, not full books.",
+    "Keyword candidate generation was used before annotation; selected-model retrieval was not used.",
+    "This is not independent human relevance assessment or real-user traffic."
+  ]
+}

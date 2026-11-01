@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "protected_production_files_unchanged": 8,
+  "service_environment_unchanged": true,
+  "frozen_assessment_unchanged": true,
+  "model_index_catalog_hashes_match": true,
+  "closed_test_metrics_recomputed_from_saved_results": true,
+  "all_108_positive_test_queries_target_unseen_books": true,
+  "navigation_cases_checked": 23,
+  "production_replaced": false
+}

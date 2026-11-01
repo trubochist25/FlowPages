@@ -1,0 +1,222 @@
+{
+  "frozen_hashes_valid": true,
+  "catalog_and_regression_unchanged": true,
+  "query_ids_unique": true,
+  "each_intent_family_in_single_split": true,
+  "variants_per_family": 3,
+  "judgment_records_checked": 339,
+  "no_exact_cross_split_query_duplicates": true,
+  "top_textual_overlap_pairs": [
+    {
+      "a": "test",
+      "a_id": "TEST-G37-V1",
+      "b": "dev",
+      "b_id": "DEV-G20-V1",
+      "character_similarity": 0.5294
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G40-V3",
+      "b": "dev",
+      "b_id": "DEV-G19-V1",
+      "character_similarity": 0.5166
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G39-V3",
+      "b": "dev",
+      "b_id": "DEV-G20-V2",
+      "character_similarity": 0.5028
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G37-V1",
+      "b": "dev",
+      "b_id": "DEV-G20-V2",
+      "character_similarity": 0.5026
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G37-V1",
+      "b": "dev",
+      "b_id": "DEV-G18-V1",
+      "character_similarity": 0.495
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G12-V2",
+      "b": "dev",
+      "b_id": "DEV-G07-V2",
+      "character_similarity": 0.4804
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G36-V3",
+      "b": "dev",
+      "b_id": "DEV-G15-V2",
+      "character_similarity": 0.4718
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G38-V3",
+      "b": "dev",
+      "b_id": "DEV-G19-V1",
+      "character_similarity": 0.4658
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G33-V2",
+      "b": "dev",
+      "b_id": "DEV-G10-V2",
+      "character_similarity": 0.4633
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G22-V3",
+      "b": "dev",
+      "b_id": "DEV-G07-V3",
+      "character_similarity": 0.4563
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G12-V2",
+      "b": "regression",
+      "b_id": "R55",
+      "character_similarity": 0.4805
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G05-V2",
+      "b": "regression",
+      "b_id": "R59",
+      "character_similarity": 0.4595
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G13-V2",
+      "b": "regression",
+      "b_id": "R35",
+      "character_similarity": 0.439
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G17-V1",
+      "b": "regression",
+      "b_id": "R1",
+      "character_similarity": 0.4319
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G05-V2",
+      "b": "regression",
+      "b_id": "R19",
+      "character_similarity": 0.4264
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G25-V2",
+      "b": "regression",
+      "b_id": "R24",
+      "character_similarity": 0.426
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G11-V2",
+      "b": "regression",
+      "b_id": "R56",
+      "character_similarity": 0.4229
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G19-V1",
+      "b": "regression",
+      "b_id": "R58",
+      "character_similarity": 0.4222
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G22-V1",
+      "b": "regression",
+      "b_id": "R59",
+      "character_similarity": 0.4183
+    },
+    {
+      "a": "test",
+      "a_id": "TEST-G07-V2",
+      "b": "regression",
+      "b_id": "R58",
+      "character_similarity": 0.4171
+    },
+    {
+      "a": "dev",
+      "a_id": "DEV-G05-V3",
+      "b": "regression",
+      "b_id": "R60",
+      "character_similarity": 0.52
+    },
+    {
+      "a": "dev",
+      "a_id": "DEV-G16-V2",
+      "b": "regression",
+      "b_id": "R58",
+      "character_similarity": 0.4809
+    },
+    {
+      "a": "dev",
+      "a_id": "DEV-G02-V1",
+      "b": "regression",
+      "b_id": "R58",
+      "character_similarity": 0.4778
+    },
+    {
+      "a": "dev",
+      "a_id": "DEV-G11-V1",
+      "b": "regression",
+      "b_id": "R13",
+      "character_similarity": 0.4747
+    },
+    {
+      "a": "dev",
+      "a_id": "DEV-G16-V1",
+      "b": "regression",
+      "b_id": "R8",
+      "character_similarity": 0.4667
+    },
+    {
+      "a": "dev",
+      "a_id": "DEV-G12-V2",
+      "b": "regression",
+      "b_id": "R38",
+      "character_similarity": 0.4233
+    },
+    {
+      "a": "dev",
+      "a_id": "DEV-G10-V3",
+      "b": "regression",
+      "b_id": "R3",
+      "character_similarity": 0.4225
+    },
+    {
+      "a": "dev",
+      "a_id": "DEV-G09-V1",
+      "b": "regression",
+      "b_id": "R55",
+      "character_similarity": 0.4188
+    },
+    {
+      "a": "dev",
+      "a_id": "DEV-G16-V1",
+      "b": "regression",
+      "b_id": "R20",
+      "character_similarity": 0.4131
+    },
+    {
+      "a": "dev",
+      "a_id": "DEV-G10-V3",
+      "b": "regression",
+      "b_id": "R55",
+      "character_similarity": 0.4124
+    }
+  ],
+  "limitation": "Textual screening and manual intent review are not a mathematical guarantee against semantic leakage. Repeat against future training data."
+}

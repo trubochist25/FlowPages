@@ -1,0 +1,16 @@
+{
+  "approved_by_user": true,
+  "approval_text": "Да, использовать эти критерии",
+  "fixed_before_closed_test_evaluation": true,
+  "primary_scope": "Full unchanged system, all nonempty frozen-test queries; family-macro aggregation",
+  "minimum_ndcg10_gain": 0.03,
+  "maximum_regression_hit3_drop": 0.02,
+  "maximum_regression_hit10_drop": 0.02,
+  "new_strict_filter_or_navigation_errors_allowed": 0,
+  "new_mandatory_alchemy_failures_allowed": 0,
+  "maximum_full_search_p95_ratio": 1.2,
+  "latency_protocol": "Same service environment CPU, four torch threads, warmed models, interleaved old/new order, three passes of frozen-test queries; no query-vector cache",
+  "ndcg_protocol": "Fixed graded qrels, gain 2^grade-1, unknown contributes zero but remains ungraded. Report as provisional; incomplete judgments alone cannot establish convincing deployment improvement.",
+  "stability_protocol": "Paired family bootstrap 5000 draws and leave-one-family-out range; no parameter changes after test",
+  "deployment_authorized": false
+}

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "covered_unique_queries_per_epoch": 512,
+  "forbidden_pairs": 856,
+  "directed_in_batch_comparisons_checked": 5336,
+  "shared_passage_duplicates": 0,
+  "reserved_books_in_batches": 0,
+  "known_additional_positives_as_negatives": 0,
+  "manual_additional_exclusions": "Reflective / relationship / gentle-reading group of 16 books blocked mutually, based on training profiles and requests, not dev scores.",
+  "explicit_negatives": "34 grade-0 triplets will use isolated batch size 1.",
+  "label_basis": "Assistant editorial catalog review; not independent exhaustive human relevance judgment.",
+  "preliminary_run_excluded": true,
+  "approved_before_final_training": true,
+  "batch_plan_sha256": "b6ccf9de77a3985b3a339a93ea5cab3499165dafc94eb709bb51b08961a1c6b7"
+}

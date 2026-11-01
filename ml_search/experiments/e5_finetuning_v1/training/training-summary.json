@@ -1,0 +1,18 @@
+{
+  "examples": 512,
+  "primary_positive_books": 64,
+  "additional_compatible_positive_books": 2,
+  "triplets": 34,
+  "reviewed_candidates": 42,
+  "queries_mined": 128,
+  "original_errors_with_candidates": 51,
+  "supplementary_excluded_books": [
+    887
+  ],
+  "training_excluded_book_count": 141,
+  "training_eligible_book_count": 859,
+  "catalog_sha256": "115c7e689447db05d2e34bc5d83ab66238305b24b287601b36bd7fa3774bf5ee",
+  "fixed_dev_test_unchanged": true,
+  "review_basis": "Assistant editorial review against catalog; not independent human review.",
+  "model_training_started": false
+}

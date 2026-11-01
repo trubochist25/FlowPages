@@ -1,0 +1,294 @@
+{{ header }}
+<main id="fp-alchemy" class="fp-alchemy"
+  data-analyze-url="{{ analyze_url }}"
+  data-recommend-url="{{ recommend_url }}"
+  data-suggest-url="{{ suggest_url }}"
+  data-event-url="{{ event_url }}"
+  data-alchemy-token="{{ alchemy_token }}"
+  data-remove-label="{{ button_remove }}"
+  data-avoid-label="{{ text_avoid }}"
+  data-exclude-label="{{ text_exclude }}"
+  data-band-close="{{ text_band_close }}"
+  data-band-balanced="{{ text_band_balanced }}"
+  data-band-bold="{{ text_band_bold }}"
+  data-matched-label="{{ text_matched }}"
+  data-cart-label="{{ button_cart }}"
+  data-wishlist-label="{{ button_wishlist }}"
+  data-rating-label="{{ text_rating_flowpages }}"
+  data-no-reviews="{{ text_no_local_reviews }}"
+  data-anchor-limit="{{ error_anchor_limit }}"
+  data-duplicate="{{ error_duplicate }}"
+  data-ingredient-required="{{ error_ingredient_required }}"
+  data-generic-error="{{ error_generic }}"
+  data-analyzing-label="{{ text_analyzing }}"
+  data-mixing-label="{{ text_mixing }}"
+  data-analysis-ready="{{ text_analysis_ready }}"
+  data-mix-ready="{{ text_mix_ready }}"
+  data-dirty-label="{{ text_dirty }}"
+  data-results-count="{{ text_results_count }}"
+  data-no-results="{{ text_no_results }}"
+  data-no-results-filters="{{ text_no_results_filters }}"
+  data-partial-results="{{ text_partial_results }}"
+  data-relaxations-label="{{ text_relaxations }}"
+  data-anchor-empty="{{ text_anchor_empty }}"
+  data-query-required="{{ error_query_required }}"
+  data-results-empty="{{ text_results_empty }}"
+  data-decimal-point="{{ rating_decimal_point }}"
+  data-surprise-precise="{{ text_surprise_precise }}"
+  data-surprise-balanced="{{ text_surprise_balanced }}"
+  data-surprise-brave="{{ text_surprise_brave }}"
+  data-surprise-wild="{{ text_surprise_wild }}"
+  data-weight-label="{{ text_weight }}"
+  data-mode-label="{{ text_mode }}"
+  data-ritual-title="{{ text_ritual_title }}"
+  data-ritual-complete="{{ text_ritual_complete }}"
+  data-anchor-aspects-label="{{ text_anchor_aspects }}"
+  data-anchor-aspects-placeholder="{{ text_anchor_aspects_placeholder }}">
+  <div class="container">
+    <ul class="breadcrumb fp-alchemy__breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+      {% for breadcrumb in breadcrumbs %}
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="{{ breadcrumb.href }}"><span itemprop="name">{{ breadcrumb.text }}</span></a>
+        <meta itemprop="position" content="{{ loop.index }}" />
+      </li>
+      {% endfor %}
+    </ul>
+
+    <section class="fp-alchemy-hero" aria-labelledby="fp-alchemy-title">
+      <div class="fp-alchemy-hero__copy">
+        <span class="fp-kicker fp-kicker--light">{{ text_kicker }}</span>
+        <h1 id="fp-alchemy-title">{{ heading_title }}</h1>
+        <p>{{ text_intro }}</p>
+        <div class="fp-alchemy-hero__privacy"><i class="fa fa-lock" aria-hidden="true"></i>{{ text_privacy }}</div>
+      </div>
+      <div class="fp-alchemy-emblem" aria-hidden="true">
+        <span class="fp-alchemy-emblem__orbit">I · II · III</span>
+        <span class="fp-alchemy-emblem__vessel">A</span>
+        <span class="fp-alchemy-emblem__caption">describe · refine · reveal</span>
+      </div>
+    </section>
+
+    {{ content_top }}
+
+    <div class="fp-alchemy-workbench">
+      <section class="fp-alchemy-stage" aria-labelledby="fp-alchemy-request-title">
+        <header class="fp-alchemy-stage__header">
+          <span class="fp-alchemy-stage__number">01</span>
+          <div>
+            <h2 id="fp-alchemy-request-title">{{ text_step_request }}</h2>
+            <p>{{ text_request_help }}</p>
+          </div>
+        </header>
+
+        <form id="fp-alchemy-analyze-form" class="fp-alchemy-request" novalidate>
+          <label for="fp-alchemy-query">{{ text_query_label }}</label>
+          <textarea id="fp-alchemy-query" maxlength="500" rows="5" required placeholder="{{ text_query_placeholder }}"></textarea>
+          <div class="fp-alchemy-request__under">
+            <span id="fp-alchemy-counter" aria-live="polite">0 / 500</span>
+            <button type="submit" class="fp-alchemy-primary" id="fp-alchemy-analyze">
+              <i class="fa fa-flask" aria-hidden="true"></i><span>{{ button_analyze }}</span>
+            </button>
+          </div>
+        </form>
+
+        <div class="fp-alchemy-examples" aria-label="{{ text_examples }}">
+          <span>{{ text_examples }}</span>
+          <button type="button" data-alchemy-example="Камерная тайна для дождливого вечера, без мистики и жестокости, до 400 страниц">{{ text_example_one }}</button>
+          <button type="button" data-alchemy-example="Как Дюна, но короче и с меньшим количеством политики">{{ text_example_two }}</button>
+          <button type="button" data-alchemy-example="Умная научная фантастика о будущем, без мрачности, средний темп">{{ text_example_three }}</button>
+        </div>
+        <div class="fp-alchemy-status" id="fp-alchemy-status" role="status" aria-live="polite"></div>
+      </section>
+
+      <section class="fp-alchemy-stage" aria-labelledby="fp-alchemy-recipe-title">
+        <header class="fp-alchemy-stage__header">
+          <span class="fp-alchemy-stage__number">02</span>
+          <div>
+            <h2 id="fp-alchemy-recipe-title">{{ text_step_recipe }}</h2>
+            <p>{{ text_recipe_help }}</p>
+          </div>
+        </header>
+
+        <div class="fp-alchemy-placeholder" id="fp-alchemy-recipe-empty">
+          <span aria-hidden="true">✦</span>
+          <p>{{ text_recipe_empty }}</p>
+        </div>
+
+        <div id="fp-alchemy-recipe" hidden>
+          <div class="fp-alchemy-notices" id="fp-alchemy-analysis-notices" aria-live="polite"></div>
+
+          <div class="fp-alchemy-recipe-grid">
+            <section class="fp-alchemy-recipe-card" aria-labelledby="fp-positive-title">
+              <div class="fp-alchemy-recipe-card__heading">
+                <span class="fp-alchemy-marker fp-alchemy-marker--positive" aria-hidden="true"><i class="fa fa-check"></i></span>
+                <h3 id="fp-positive-title">{{ text_positive }}</h3>
+                <span class="fp-alchemy-count" id="fp-positive-count">0</span>
+              </div>
+              <div class="fp-alchemy-ingredients" id="fp-positive-list"></div>
+              <form class="fp-alchemy-add" id="fp-positive-add" novalidate>
+                <label class="sr-only" for="fp-positive-kind">{{ text_kind }}</label>
+                <select id="fp-positive-kind" aria-label="{{ text_kind }}">
+                  <option value="mood">{{ text_kind_mood }}</option>
+                  <option value="theme">{{ text_kind_theme }}</option>
+                  <option value="genre">{{ text_kind_genre }}</option>
+                  <option value="pace">{{ text_kind_pace }}</option>
+                  <option value="style">{{ text_kind_style }}</option>
+                  <option value="content">{{ text_kind_content }}</option>
+                  <option value="audience">{{ text_kind_audience }}</option>
+                  <option value="freeform">{{ text_kind_freeform }}</option>
+                </select>
+                <label class="sr-only" for="fp-positive-value">{{ text_value }}</label>
+                <input id="fp-positive-value" type="text" maxlength="120" placeholder="{{ text_value }}">
+                <button type="submit" aria-label="{{ text_add_positive }}"><i class="fa fa-plus" aria-hidden="true"></i></button>
+              </form>
+            </section>
+
+            <section class="fp-alchemy-recipe-card" aria-labelledby="fp-negative-title">
+              <div class="fp-alchemy-recipe-card__heading">
+                <span class="fp-alchemy-marker fp-alchemy-marker--negative" aria-hidden="true"><i class="fa fa-times"></i></span>
+                <h3 id="fp-negative-title">{{ text_negative }}</h3>
+                <span class="fp-alchemy-count" id="fp-negative-count">0</span>
+              </div>
+              <div class="fp-alchemy-ingredients" id="fp-negative-list"></div>
+              <form class="fp-alchemy-add" id="fp-negative-add" novalidate>
+                <label class="sr-only" for="fp-negative-kind">{{ text_kind }}</label>
+                <select id="fp-negative-kind" aria-label="{{ text_kind }}">
+                  <option value="content">{{ text_kind_content }}</option>
+                  <option value="mood">{{ text_kind_mood }}</option>
+                  <option value="theme">{{ text_kind_theme }}</option>
+                  <option value="genre">{{ text_kind_genre }}</option>
+                  <option value="pace">{{ text_kind_pace }}</option>
+                  <option value="style">{{ text_kind_style }}</option>
+                  <option value="audience">{{ text_kind_audience }}</option>
+                  <option value="freeform">{{ text_kind_freeform }}</option>
+                </select>
+                <label class="sr-only" for="fp-negative-value">{{ text_value }}</label>
+                <input id="fp-negative-value" type="text" maxlength="120" placeholder="{{ text_value }}">
+                <button type="submit" aria-label="{{ text_add_negative }}"><i class="fa fa-plus" aria-hidden="true"></i></button>
+              </form>
+            </section>
+          </div>
+
+          <section class="fp-alchemy-wide-card" aria-labelledby="fp-anchors-title">
+            <div class="fp-alchemy-wide-card__heading">
+              <div>
+                <span class="fp-kicker">{{ text_anchors }}</span>
+                <h3 id="fp-anchors-title">{{ text_anchor_search }}</h3>
+                <p class="fp-alchemy-wide-card__help">{{ text_anchor_aspects_hint }}</p>
+              </div>
+              <span class="fp-alchemy-limit" id="fp-anchor-count">0 / 3</span>
+            </div>
+            <div class="fp-alchemy-anchors" id="fp-anchor-list"></div>
+            <div class="fp-alchemy-anchor-search">
+              <label class="sr-only" for="fp-anchor-query">{{ text_anchor_search }}</label>
+              <i class="fa fa-search" aria-hidden="true"></i>
+              <input id="fp-anchor-query" type="search" maxlength="200" autocomplete="off" placeholder="{{ text_anchor_placeholder }}" aria-autocomplete="list" aria-controls="fp-anchor-suggestions" aria-expanded="false">
+              <div class="fp-alchemy-suggestions" id="fp-anchor-suggestions" role="listbox" hidden></div>
+            </div>
+          </section>
+
+          <section class="fp-alchemy-wide-card" aria-labelledby="fp-filters-title">
+            <div class="fp-alchemy-wide-card__heading">
+              <div>
+                <span class="fp-kicker">{{ text_filters_kicker }}</span>
+                <h3 id="fp-filters-title">{{ text_filters }}</h3>
+              </div>
+            </div>
+            <div class="fp-alchemy-filter-grid">
+              <fieldset>
+                <legend>{{ text_price }}</legend>
+                <label><span>{{ text_from }}</span><input id="fp-price-min" type="number" min="0" step="0.1" inputmode="decimal"></label>
+                <label><span>{{ text_to }}</span><input id="fp-price-max" type="number" min="0" step="0.1" inputmode="decimal"></label>
+              </fieldset>
+              <fieldset>
+                <legend>{{ text_pages }}</legend>
+                <label><span>{{ text_from }}</span><input id="fp-pages-min" type="number" min="1" step="1" inputmode="numeric"></label>
+                <label><span>{{ text_to }}</span><input id="fp-pages-max" type="number" min="1" step="1" inputmode="numeric"></label>
+              </fieldset>
+              <fieldset>
+                <legend>{{ text_year }}</legend>
+                <label><span>{{ text_from }}</span><input id="fp-year-min" type="number" min="0" step="1" inputmode="numeric"></label>
+                <label><span>{{ text_to }}</span><input id="fp-year-max" type="number" min="0" step="1" inputmode="numeric"></label>
+              </fieldset>
+              <fieldset class="fp-alchemy-age-field">
+                <legend>{{ text_age }}</legend>
+                <label class="sr-only" for="fp-age">{{ text_age }}</label>
+                <select id="fp-age">
+                  <option value="">{{ text_any_age }}</option>
+                  <option value="0+">0+</option>
+                  <option value="6+">6+</option>
+                  <option value="12+">12+</option>
+                  <option value="16+">16+</option>
+                  <option value="18+">18+</option>
+                </select>
+              </fieldset>
+            </div>
+            <label class="fp-alchemy-stock"><input id="fp-in-stock" type="checkbox" checked><span>{{ text_in_stock }}</span></label>
+          </section>
+
+          <section class="fp-alchemy-surprise" aria-labelledby="fp-surprise-title">
+            <div>
+              <span class="fp-kicker">{{ text_surprise }}</span>
+              <h3 id="fp-surprise-title"><output id="fp-surprise-name">{{ text_surprise_balanced }}</output></h3>
+              <p>{{ text_surprise_help }}</p>
+            </div>
+            <div class="fp-alchemy-surprise__control">
+              <input id="fp-surprise" type="range" min="0" max="1" step="0.05" value="0.35" aria-labelledby="fp-surprise-title fp-surprise-value">
+              <div><span>{{ text_surprise_precise }}</span><output id="fp-surprise-value">35%</output><span>{{ text_surprise_wild }}</span></div>
+            </div>
+          </section>
+
+          <div class="fp-alchemy-mixbar">
+            <button type="button" class="fp-alchemy-primary fp-alchemy-primary--mix" id="fp-alchemy-mix">
+              <i class="fa fa-magic" aria-hidden="true"></i><span>{{ button_mix }}</span>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="fp-alchemy-stage fp-alchemy-stage--results" id="fp-alchemy-results-stage" aria-labelledby="fp-alchemy-results-title">
+        <header class="fp-alchemy-stage__header">
+          <span class="fp-alchemy-stage__number">03</span>
+          <div>
+            <h2 id="fp-alchemy-results-title">{{ text_step_results }}</h2>
+            <p>{{ text_results_help }}</p>
+          </div>
+        </header>
+        <div class="fp-alchemy-output" id="fp-alchemy-output">
+          <div class="fp-alchemy-ritual" id="fp-alchemy-ritual" hidden aria-hidden="true">
+            <div class="fp-alchemy-ritual__chamber">
+              <span class="fp-alchemy-ritual__orbit fp-alchemy-ritual__orbit--outer"></span>
+              <span class="fp-alchemy-ritual__orbit fp-alchemy-ritual__orbit--inner"></span>
+              <span class="fp-alchemy-ritual__glyph">✦</span>
+              <div class="fp-alchemy-ritual__tokens" id="fp-alchemy-ritual-tokens"></div>
+              <div class="fp-alchemy-ritual__vessel">
+                <span class="fp-alchemy-ritual__liquid"></span>
+              </div>
+            </div>
+            <div class="fp-alchemy-ritual__copy">
+              <span class="fp-kicker">{{ text_ritual_kicker }}</span>
+              <h3 id="fp-alchemy-ritual-title">{{ text_ritual_title }}</h3>
+              <ol>
+                <li data-ritual-phase="intent"><span>01</span>{{ text_ritual_phase_intent }}</li>
+                <li data-ritual-phase="balance"><span>02</span>{{ text_ritual_phase_balance }}</li>
+                <li data-ritual-phase="catalog"><span>03</span>{{ text_ritual_phase_catalog }}</li>
+              </ol>
+            </div>
+          </div>
+          <div class="fp-alchemy-result-meta" id="fp-alchemy-result-meta" hidden></div>
+          <div class="fp-alchemy-notices" id="fp-alchemy-result-notices" aria-live="polite"></div>
+          <div class="fp-alchemy-placeholder" id="fp-alchemy-results-empty">
+            <span aria-hidden="true">◇</span>
+            <p>{{ text_results_empty }}</p>
+          </div>
+          <div class="fp-alchemy-results" id="fp-alchemy-results"></div>
+        </div>
+      </section>
+    </div>
+
+    {{ content_bottom }}
+  </div>
+</main>
+<script src="catalog/view/javascript/flowpages-alchemy.js?v=20260914-3" defer></script>
+{{ footer }}

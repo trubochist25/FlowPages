@@ -1,0 +1,189 @@
+{
+  "model": "intfloat/multilingual-e5-small",
+  "catalog_books": 1000,
+  "formula": "absolute_score * max(0, absolute_score - query_percentile)",
+  "counts": {
+    "search.semantic": {
+      "positive": 44,
+      "negative": 57
+    },
+    "alchemy.freeform": {
+      "positive": 54,
+      "negative": 54
+    }
+  },
+  "systems": {
+    "search.semantic": {
+      "50": {
+        "threshold": 0.007565,
+        "reason": "best_rejection_with_recall_at_least_90_percent",
+        "positive_samples": 44,
+        "negative_samples": 57,
+        "positive_recall": 1.0,
+        "negative_rejection": 0.0,
+        "balanced_accuracy": 0.5,
+        "meets_targets": false,
+        "positive_distribution": {
+          "min": 0.007565,
+          "p10": 0.010478,
+          "p25": 0.015847,
+          "median": 0.023996,
+          "p75": 0.029662,
+          "p90": 0.033712,
+          "max": 0.039086
+        },
+        "negative_distribution": {
+          "min": 0.013547,
+          "p10": 0.016832,
+          "p25": 0.01899,
+          "median": 0.021874,
+          "p75": 0.02448,
+          "p90": 0.027402,
+          "max": 0.036023
+        }
+      },
+      "75": {
+        "threshold": 0.00388,
+        "reason": "best_rejection_with_recall_at_least_90_percent",
+        "positive_samples": 44,
+        "negative_samples": 57,
+        "positive_recall": 1.0,
+        "negative_rejection": 0.0,
+        "balanced_accuracy": 0.5,
+        "meets_targets": false,
+        "positive_distribution": {
+          "min": 0.00388,
+          "p10": 0.006578,
+          "p25": 0.011748,
+          "median": 0.019429,
+          "p75": 0.024449,
+          "p90": 0.028807,
+          "max": 0.034283
+        },
+        "negative_distribution": {
+          "min": 0.01069,
+          "p10": 0.013506,
+          "p25": 0.015366,
+          "median": 0.01821,
+          "p75": 0.020418,
+          "p90": 0.022907,
+          "max": 0.031483
+        }
+      },
+      "90": {
+        "threshold": 0.000454,
+        "reason": "best_rejection_with_recall_at_least_90_percent",
+        "positive_samples": 44,
+        "negative_samples": 57,
+        "positive_recall": 1.0,
+        "negative_rejection": 0.0,
+        "balanced_accuracy": 0.5,
+        "meets_targets": false,
+        "positive_distribution": {
+          "min": 0.000454,
+          "p10": 0.002939,
+          "p25": 0.007903,
+          "median": 0.015424,
+          "p75": 0.020253,
+          "p90": 0.02467,
+          "max": 0.029737
+        },
+        "negative_distribution": {
+          "min": 0.00754,
+          "p10": 0.009909,
+          "p25": 0.011744,
+          "median": 0.014341,
+          "p75": 0.016379,
+          "p90": 0.019923,
+          "max": 0.0267
+        }
+      }
+    },
+    "alchemy.freeform": {
+      "50": {
+        "threshold": 0.057173,
+        "reason": "best_rejection_with_recall_at_least_90_percent",
+        "positive_samples": 54,
+        "negative_samples": 54,
+        "positive_recall": 0.9074,
+        "negative_rejection": 0.1481,
+        "balanced_accuracy": 0.5278,
+        "meets_targets": false,
+        "positive_distribution": {
+          "min": 0.025994,
+          "p10": 0.057173,
+          "p25": 0.213714,
+          "median": 0.358204,
+          "p75": 0.712273,
+          "p90": 0.833306,
+          "max": 0.958007
+        },
+        "negative_distribution": {
+          "min": 0.0,
+          "p10": 0.035625,
+          "p25": 0.080813,
+          "median": 0.159459,
+          "p75": 0.230893,
+          "p90": 0.286719,
+          "max": 0.513122
+        }
+      },
+      "75": {
+        "threshold": 0.036317,
+        "reason": "best_rejection_with_recall_at_least_90_percent",
+        "positive_samples": 54,
+        "negative_samples": 54,
+        "positive_recall": 0.9259,
+        "negative_rejection": 0.1296,
+        "balanced_accuracy": 0.5278,
+        "meets_targets": false,
+        "positive_distribution": {
+          "min": 0.011128,
+          "p10": 0.050222,
+          "p25": 0.164479,
+          "median": 0.303011,
+          "p75": 0.639507,
+          "p90": 0.744299,
+          "max": 0.879744
+        },
+        "negative_distribution": {
+          "min": 0.0,
+          "p10": 0.035625,
+          "p25": 0.074735,
+          "median": 0.131196,
+          "p75": 0.190866,
+          "p90": 0.24665,
+          "max": 0.448455
+        }
+      },
+      "90": {
+        "threshold": 0.033704,
+        "reason": "best_rejection_with_recall_at_least_90_percent",
+        "positive_samples": 54,
+        "negative_samples": 54,
+        "positive_recall": 0.9074,
+        "negative_rejection": 0.0741,
+        "balanced_accuracy": 0.4907,
+        "meets_targets": false,
+        "positive_distribution": {
+          "min": 0.0,
+          "p10": 0.033704,
+          "p25": 0.11751,
+          "median": 0.251727,
+          "p75": 0.571565,
+          "p90": 0.67297,
+          "max": 0.811457
+        },
+        "negative_distribution": {
+          "min": 0.0,
+          "p10": 0.035625,
+          "p25": 0.068022,
+          "median": 0.104254,
+          "p75": 0.14789,
+          "p90": 0.202781,
+          "max": 0.380319
+        }
+      }
+    }
+  }
+}

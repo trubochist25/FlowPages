@@ -1,0 +1,13 @@
+{
+  "profile_hash_mismatches": [],
+  "queries_with_duplicate_judgments": [],
+  "families_editorially_inspected": 40,
+  "positive_book_choice_obvious_factual_errors_found": 0,
+  "review_scope": "Agent inspected one representative query, intention and book grades per family; not a blind independent full assessment.",
+  "risks": [
+    "Prior qrels are sparse.",
+    "Several grades were shared across paraphrases; each concrete formulation must be reviewed separately.",
+    "Queries authored from catalog profiles favor explicit profile vocabulary.",
+    "No-match queries mostly technical manuals, not typical ambiguous reading preferences."
+  ]
+}

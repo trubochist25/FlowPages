@@ -1,0 +1,14 @@
+{
+  "semantic": {
+    "family_mean_dcg_gain_possible_lower": -8.86715452443689,
+    "family_mean_dcg_gain_possible_upper": 9.7266237355282,
+    "gain_sign_not_guaranteed_for_all_unjudged_assignments": true,
+    "note": "Adversarial DCG sensitivity, not estimated relevance and not an NDCG confidence interval; unknown grades may range 0..2."
+  },
+  "full": {
+    "family_mean_dcg_gain_possible_lower": -6.385612827947995,
+    "family_mean_dcg_gain_possible_upper": 6.679507189235811,
+    "gain_sign_not_guaranteed_for_all_unjudged_assignments": true,
+    "note": "Adversarial DCG sensitivity, not estimated relevance and not an NDCG confidence interval; unknown grades may range 0..2."
+  }
+}

@@ -1,0 +1,117 @@
+{{ header }}
+<main id="common-home" class="fp-home">
+  <section class="fp-hero" aria-labelledby="fp-hero-title">
+    <img class="fp-hero__image" src="image/catalog/flowpages/hero-library.png" alt="Уютный читальный уголок с книжными полками" />
+    <div class="fp-hero__shade"></div>
+    <div class="container fp-hero__content">
+      <span class="fp-kicker fp-kicker--light">Книжный магазин</span>
+      <h1 id="fp-hero-title">Истории, в которых<br>хочется задержаться.</h1>
+      <p>Собираем книги для тихих вечеров, любопытных мыслей<br>и разговоров, которые продолжаются после последней страницы.</p>
+      <div class="fp-hero__actions">
+        <a class="fp-button fp-button--paper" href="index.php?route=product/category&path=60">Смотреть книги</a>
+        <a class="fp-link fp-link--light" href="index.php?route=product/search">Поиск <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <div class="fp-hero__folio">FlowPages · 01</div>
+  </section>
+
+  <section id="curated" class="fp-home-catalog" aria-label="Подборки книг">
+    {% for row in book_rows %}
+      {% set slider_id = 'fp-collection-slider-' ~ loop.index %}
+      <div class="fp-collection{% if loop.index is even %} fp-collection--tinted{% endif %}">
+        <div class="container">
+          <div class="fp-collection__heading">
+            <div class="fp-collection__title">
+              <span class="fp-collection__index">{{ row.index }}</span>
+              <div>
+                <span class="fp-kicker">{{ row.kicker }}</span>
+                <h2>{{ row.title }}</h2>
+              </div>
+            </div>
+            <a class="fp-collection__link" href="{{ row.href }}">
+              {{ row.link_text }} <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <div class="fp-book-slider" data-fp-slider>
+            <div class="fp-book-slider__stage">
+              <button type="button" class="fp-book-slider__arrow fp-book-slider__arrow--prev" data-fp-slider-prev aria-label="Предыдущие 5 книг" aria-controls="{{ slider_id }}">
+                <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+              </button>
+              <div class="fp-book-slider__viewport" id="{{ slider_id }}">
+                <div class="fp-book-slider__track" data-fp-slider-track>
+                  {% for slide in row.slides %}
+                    <div class="fp-book-rail fp-book-slider__page" data-fp-slider-page aria-hidden="{% if loop.first %}false{% else %}true{% endif %}"{% if not loop.first %} inert{% endif %}>
+                      {% for product in slide %}
+                        <article class="fp-catalog-card">
+                          <a class="fp-catalog-card__cover" href="{{ product.href }}">
+                            <img src="{{ product.thumb }}" alt="{{ product.name }}" loading="lazy" />
+                          </a>
+                          <div class="fp-catalog-card__body">
+                            <div class="fp-catalog-card__meta">
+                              <p class="fp-catalog-card__author">{% if product.author %}{{ product.author }}{% else %}&nbsp;{% endif %}</p>
+                              {% if product.external_rating %}
+                                <span class="fp-catalog-card__rating" aria-label="Рейтинг OpenLibrary {{ product.external_rating|number_format(1, ',', '') }} из 5"><i class="fa fa-star" aria-hidden="true"></i> {{ product.external_rating|number_format(1, ',', '') }}</span>
+                              {% endif %}
+                            </div>
+                            <h3><a href="{{ product.href }}" title="{{ product.name }}">{{ product.name }}</a></h3>
+                            <div class="fp-catalog-card__price">
+                              {% if product.special %}
+                                <strong>{{ product.special }}</strong><s>{{ product.price }}</s>
+                              {% elseif product.price %}
+                                <strong>{{ product.price }}</strong>
+                              {% endif %}
+                            </div>
+                          </div>
+                          <div class="fp-catalog-card__actions">
+                            <button type="button" class="fp-catalog-card__cart" onclick="cart.add('{{ product.product_id }}');">
+                              <i class="fa fa-shopping-bag" aria-hidden="true"></i><span>В корзину</span>
+                            </button>
+                            <button type="button" class="fp-catalog-card__save" title="В закладки" aria-label="Добавить «{{ product.name }}» в закладки" onclick="wishlist.add('{{ product.product_id }}');">
+                              <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+                            </button>
+                          </div>
+                        </article>
+                      {% endfor %}
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+              <button type="button" class="fp-book-slider__arrow fp-book-slider__arrow--next" data-fp-slider-next aria-label="Следующие 5 книг" aria-controls="{{ slider_id }}">
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </button>
+            </div>
+            <span class="fp-collection__position" data-fp-slider-position aria-live="polite" aria-label="Порция 1 из {{ row.slides|length }}">
+              <strong data-fp-slider-current>01</strong><span aria-hidden="true">/</span><span>0{{ row.slides|length }}</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </section>
+
+  <section id="between-lines" class="fp-editorial">
+    <div class="container fp-editorial__grid">
+      <div class="fp-editorial__index">
+        <span>03</span>
+        <div></div>
+      </div>
+      <div class="fp-editorial__copy">
+        <span class="fp-kicker fp-kicker--light">Между строк</span>
+        <blockquote>«Чтение — это способ прожить<br>чуть больше одной жизни».</blockquote>
+        <p>Мы любим книги не за громкие обещания, а за послевкусие. Поэтому в FlowPages каждая подборка устроена как разговор — с паузами, неожиданными поворотами и местом для вашего собственного мнения.</p>
+      </div>
+      <div class="fp-editorial__monogram">fp</div>
+    </div>
+  </section>
+
+  <section class="fp-service-strip">
+    <div class="container fp-service-strip__grid">
+      <div><span>01</span><div><strong>Кураторский выбор</strong><p>Небольшие, осмысленные подборки</p></div></div>
+      <div><span>02</span><div><strong>Бережная упаковка</strong><p>Книга приедет в отличном состоянии</p></div></div>
+      <div><span>03</span><div><strong>Простой заказ</strong><p>Ничего лишнего между вами и книгой</p></div></div>
+    </div>
+  </section>
+</main>
+<script src="catalog/view/javascript/flowpages-home-slider.js?v=20260908-3" defer></script>
+{{ footer }}

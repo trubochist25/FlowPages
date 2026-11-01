@@ -1,0 +1,17 @@
+{
+  "project_root": "D:\\Programs\\OSPanel\\domains\\bookstore",
+  "catalog_path": "D:\\Programs\\OSPanel\\domains\\bookstore\\data\\book_catalog\\catalog.json",
+  "import_report_path": "D:\\Programs\\OSPanel\\domains\\bookstore\\data\\book_catalog\\import-report.json",
+  "data_dir": "D:\\Programs\\OSPanel\\domains\\bookstore\\data\\ml_search",
+  "model_key": "small",
+  "model_name": "intfloat/multilingual-e5-small",
+  "model_dimension": 384,
+  "model_cache_dir": "D:\\Programs\\OSPanel\\domains\\bookstore\\data\\ml_search\\model-cache",
+  "local_model_path": "D:\\Programs\\OSPanel\\domains\\bookstore\\data\\ml_search\\local-model",
+  "index_path": "D:\\Programs\\OSPanel\\domains\\bookstore\\data\\ml_search\\indexes\\multilingual-e5-small\\book-index.npz",
+  "manifest_path": "D:\\Programs\\OSPanel\\domains\\bookstore\\data\\ml_search\\indexes\\multilingual-e5-small\\manifest.json",
+  "host": "127.0.0.1",
+  "port": 8765,
+  "batch_size": 32,
+  "max_results": 50
+}

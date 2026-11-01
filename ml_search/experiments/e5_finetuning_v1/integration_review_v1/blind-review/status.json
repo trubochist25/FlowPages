@@ -1,0 +1,11 @@
+{
+  "queries": 120,
+  "candidate_pairs": 3315,
+  "unjudged_pairs": 3072,
+  "pool": "union of both models, semantic and full top-10, plus prior judged books",
+  "model_labels_ranks_prior_grades_hidden": true,
+  "fully_graded_queries": 0,
+  "independent_human_review_completed": false,
+  "real_user_queries_available": false,
+  "new_queries_must_be_marked_synthetic": true
+}

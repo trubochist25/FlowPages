@@ -1,0 +1,21 @@
+{
+  "files_sha256": {
+    "ml_search/experiments/e5_finetuning_v1/integration_variants_v2/fast-resolver-validation.json": "7d73a58d8fc1d83061fa90c071c5a477af64dd443659286e567c06b477cbf426",
+    "ml_search/experiments/e5_finetuning_v1/integration_variants_v2/fresh-query-resolver-screen.json": "36ff2e48b91aa7ac4ae5d1ca04843a7a46a8551e381bfad07b85efabc4e36da8",
+    "ml_search/experiments/e5_finetuning_v1/integration_variants_v2/INTEGRATION_VARIANTS_REPORT.md": "40a84bd26545c70c346993cf1e1f332081c6432a4613e5ec7cc183f18497f3e2",
+    "ml_search/experiments/e5_finetuning_v1/integration_variants_v2/real-engine-validation.json": "cf0967d8ebfaa96a270f209cfd0330a212ec29ee6ea2adb9a6eeacd08c397ac4",
+    "ml_search/experiments/e5_finetuning_v1/integration_variants_v2/resolver-heldout-stress.json": "6e55819fcd5ff2b12e1baa6a6507c29fb26355b31e08ece79715a89860f2be3d",
+    "ml_search/experiments/e5_finetuning_v1/integration_variants_v2/resolver-latency.json": "4895ea29b082703b4e7f28968cc1045a6fe69bc530693763b6f094530d0dd4e9",
+    "ml_search/experiments/e5_finetuning_v1/integration_variants_v2/resolver-probes.json": "dc480b701e5d1b9bb875ecb5d59ae50047c5986afd4318496c55d79f5c7cc214",
+    "ml_search/experiments/e5_finetuning_v1/integration_variants_v2/results.json": "af709ed5a621752c3e73c56805c67d62f4bf75841c1e7b316ededbc38875659c",
+    "ml_search/experiments/e5_finetuning_v1/integration_variants_v2/validation.json": "528a3b603a4aa6b6b90f9f8454ee7b92c3378d123ddb9cd2ec66d653b6a1215b",
+    "ml_search/experiments/e5_finetuning_v1/compare_integration_variants.py": "ad2888093af251d1cd8f2ced061e47e3a2ab71547cdbea5f4f66a30a96d04dd9",
+    "ml_search/experiments/e5_finetuning_v1/fast_title_resolver.py": "4d6a9fef75d911453d556513b2e995967b9535fd141cc03092b92a7cea139117",
+    "ml_search/experiments/e5_finetuning_v1/validate_fast_title_resolver.py": "7ade5d2d6dcb277211262f853b7eb12b1039a98edb96914c2daac08e7f171488",
+    "ml_search/experiments/e5_finetuning_v1/validate_entity_prototype.py": "6a2c2f81681dbbcc4b4c372f21a87c8fc897b7b699be212ffdbf2147e974cc1b",
+    "ml_search/experiments/e5_finetuning_v1/finish_integration_variants.py": "da75c5409e57e5fb6b4a75d45718fe7acf86a347fbad0f1c6d7997e2c6126d4a",
+    "ml_search/experiments/e5_finetuning_v1/integration-entity-prototype.log": "e36760a222f56129afba035df0d3cc011a0e61f446cf11b89e13f8a8f1345fef"
+  },
+  "production_modified": false,
+  "selected_variant": "new_entity"
+}

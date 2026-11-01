@@ -1,0 +1,2651 @@
+{
+  "experiment": "defense_search_relevance_top5",
+  "completed_at": "2026-09-17T12:19:49.614133+00:00",
+  "protocol": {
+    "comparison": "standard OpenCart lexical fallback versus active local ML search",
+    "top_k": 5,
+    "metrics": [
+      "first_relevant_rank",
+      "hit_rate_at_5"
+    ],
+    "inclusion": "only frozen cases with at least one grade-2 relevant catalog book",
+    "standard_search": "deterministic reproduction of catalog/controller/product/search.php fallback and catalog/model/catalog/product.php token matching over the exact imported catalog source",
+    "relevance_source": "frozen pre-retrieval editorial judgments with catalog evidence",
+    "known_limitation": "queries and judgments were authored by one AI agent and are not independent human relevance assessments"
+  },
+  "dataset": {
+    "path": "ml_search\\experiments\\e5_finetuning_v1\\integration_review_v1\\new-assessment\\test_queries.annotated.json",
+    "sha256": "c0f51aea47e401026baf6d034430f7baabb6b6f3c09e3968c954bf135928fc32",
+    "included_queries": 69,
+    "families": 23,
+    "categories": {
+      "atmosphere": 12,
+      "colloquial": 9,
+      "mood": 18,
+      "negation": 21,
+      "plot": 9
+    }
+  },
+  "ml_health": {
+    "status": "ok",
+    "model": "multilingual-e5-small-finetuned-lr1e-5-epoch3",
+    "model_key": "small",
+    "books": 1000,
+    "dimension": 384,
+    "fuzzy_title_resolver": true,
+    "multi_vector_reranker": true
+  },
+  "systems": {
+    "standard_cms": {
+      "overall": {
+        "queries": 69,
+        "hits_at_5": 0,
+        "hit_rate_at_5": 0.0,
+        "mean_first_relevant_rank_on_hits": null,
+        "median_first_relevant_rank_on_hits": null,
+        "first_relevant_rank_distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "by_category": {
+        "atmosphere": {
+          "queries": 12,
+          "hits_at_5": 0,
+          "hit_rate_at_5": 0.0,
+          "mean_first_relevant_rank_on_hits": null,
+          "median_first_relevant_rank_on_hits": null,
+          "first_relevant_rank_distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        },
+        "colloquial": {
+          "queries": 9,
+          "hits_at_5": 0,
+          "hit_rate_at_5": 0.0,
+          "mean_first_relevant_rank_on_hits": null,
+          "median_first_relevant_rank_on_hits": null,
+          "first_relevant_rank_distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        },
+        "mood": {
+          "queries": 18,
+          "hits_at_5": 0,
+          "hit_rate_at_5": 0.0,
+          "mean_first_relevant_rank_on_hits": null,
+          "median_first_relevant_rank_on_hits": null,
+          "first_relevant_rank_distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        },
+        "negation": {
+          "queries": 21,
+          "hits_at_5": 0,
+          "hit_rate_at_5": 0.0,
+          "mean_first_relevant_rank_on_hits": null,
+          "median_first_relevant_rank_on_hits": null,
+          "first_relevant_rank_distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        },
+        "plot": {
+          "queries": 9,
+          "hits_at_5": 0,
+          "hit_rate_at_5": 0.0,
+          "mean_first_relevant_rank_on_hits": null,
+          "median_first_relevant_rank_on_hits": null,
+          "first_relevant_rank_distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        }
+      }
+    },
+    "ml_system": {
+      "overall": {
+        "queries": 69,
+        "hits_at_5": 11,
+        "hit_rate_at_5": 0.15942,
+        "mean_first_relevant_rank_on_hits": 2.4545,
+        "median_first_relevant_rank_on_hits": 2,
+        "first_relevant_rank_distribution": {
+          "1": 5,
+          "2": 2,
+          "3": 0,
+          "4": 2,
+          "5": 2
+        }
+      },
+      "by_category": {
+        "atmosphere": {
+          "queries": 12,
+          "hits_at_5": 3,
+          "hit_rate_at_5": 0.25,
+          "mean_first_relevant_rank_on_hits": 2.3333,
+          "median_first_relevant_rank_on_hits": 2,
+          "first_relevant_rank_distribution": {
+            "1": 1,
+            "2": 1,
+            "3": 0,
+            "4": 1,
+            "5": 0
+          }
+        },
+        "colloquial": {
+          "queries": 9,
+          "hits_at_5": 2,
+          "hit_rate_at_5": 0.222222,
+          "mean_first_relevant_rank_on_hits": 1,
+          "median_first_relevant_rank_on_hits": 1.0,
+          "first_relevant_rank_distribution": {
+            "1": 2,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        },
+        "mood": {
+          "queries": 18,
+          "hits_at_5": 0,
+          "hit_rate_at_5": 0.0,
+          "mean_first_relevant_rank_on_hits": null,
+          "median_first_relevant_rank_on_hits": null,
+          "first_relevant_rank_distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        },
+        "negation": {
+          "queries": 21,
+          "hits_at_5": 4,
+          "hit_rate_at_5": 0.190476,
+          "mean_first_relevant_rank_on_hits": 4,
+          "median_first_relevant_rank_on_hits": 4.5,
+          "first_relevant_rank_distribution": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 1,
+            "5": 2
+          }
+        },
+        "plot": {
+          "queries": 9,
+          "hits_at_5": 2,
+          "hit_rate_at_5": 0.222222,
+          "mean_first_relevant_rank_on_hits": 1,
+          "median_first_relevant_rank_on_hits": 1.0,
+          "first_relevant_rank_distribution": {
+            "1": 2,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        }
+      }
+    }
+  },
+  "details": [
+    {
+      "query_id": "NEW-F01-V1",
+      "family_id": "NEW-F01",
+      "category": "mood",
+      "query": "После тяжёлой недели хочу добрую книгу, где люди помогают друг другу справляться с обычными проблемами",
+      "expected_catalog_ids": [
+        659
+      ],
+      "expected_titles": [
+        "Я посланник"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          77,
+          254,
+          726,
+          27,
+          715
+        ],
+        "titles": [
+          "Игры, в которые играют люди",
+          "Кто будет плакать, когда ты умрешь?",
+          "Часы работы",
+          "Маленькая жизнь",
+          "Винни-Пух / Дом на углу Пуха"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2599.339
+      }
+    },
+    {
+      "query_id": "NEW-F01-V2",
+      "family_id": "NEW-F01",
+      "category": "mood",
+      "query": "Нужно чтение для отдыха: повседневные трудности, поддержка и ощущение, что рядом есть хорошие люди",
+      "expected_catalog_ids": [
+        659
+      ],
+      "expected_titles": [
+        "Я посланник"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          765,
+          402,
+          516,
+          523,
+          254
+        ],
+        "titles": [
+          "Жизнь в полной катастрофе",
+          "Искусство быть счастливым",
+          "Почтовое отделение",
+          "Ворчливая божья коровка",
+          "Кто будет плакать, когда ты умрешь?"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1992.565
+      }
+    },
+    {
+      "query_id": "NEW-F01-V3",
+      "family_id": "NEW-F01",
+      "category": "mood",
+      "query": "Посоветуй что-нибудь успокаивающее про взаимную помощь, когда жизнь идёт не по плану",
+      "expected_catalog_ids": [
+        659
+      ],
+      "expected_titles": [
+        "Я посланник"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          765,
+          254,
+          760,
+          402,
+          383
+        ],
+        "titles": [
+          "Жизнь в полной катастрофе",
+          "Кто будет плакать, когда ты умрешь?",
+          "Вероника решает больше",
+          "Искусство быть счастливым",
+          "Лама Лама Красная пижама"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1966.652
+      }
+    },
+    {
+      "query_id": "NEW-F03-V1",
+      "family_id": "NEW-F03",
+      "category": "mood",
+      "query": "Ищу роман, после которого хочется позвонить старому другу, а не обязательно влюбиться",
+      "expected_catalog_ids": [
+        622
+      ],
+      "expected_titles": [
+        "Бесцветный Цкуру Тадзаки и годы его странствий"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          730,
+          209,
+          656,
+          174,
+          457
+        ],
+        "titles": [
+          "Сирано де Бержерак",
+          "Пятьдесят оттенков свободы",
+          "Один день",
+          "Белые ночи",
+          "Что, если это мы"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2076.751
+      }
+    },
+    {
+      "query_id": "NEW-F03-V2",
+      "family_id": "NEW-F03",
+      "category": "mood",
+      "query": "Хочу трогательную историю о дружбе взрослых людей и связях, которые переживают годы",
+      "expected_catalog_ids": [
+        622
+      ],
+      "expected_titles": [
+        "Бесцветный Цкуру Тадзаки и годы его странствий"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          27,
+          130,
+          172,
+          946,
+          437
+        ],
+        "titles": [
+          "Маленькая жизнь",
+          "Норвежское дерево",
+          "Никогда не отпускай меня",
+          "Парень встретил парня",
+          "Завтрак у Тиффани"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2160.643
+      }
+    },
+    {
+      "query_id": "NEW-F03-V3",
+      "family_id": "NEW-F03",
+      "category": "mood",
+      "query": "Нужна книга, напоминающая, почему стоит беречь давних друзей",
+      "expected_catalog_ids": [
+        622
+      ],
+      "expected_titles": [
+        "Бесцветный Цкуру Тадзаки и годы его странствий"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          656,
+          27,
+          5,
+          437,
+          412
+        ],
+        "titles": [
+          "Один день",
+          "Маленькая жизнь",
+          "Гарри Поттер и философский камень",
+          "Завтрак у Тиффани",
+          "Трейнспоттинг"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1848.184
+      }
+    },
+    {
+      "query_id": "NEW-F04-V1",
+      "family_id": "NEW-F04",
+      "category": "mood",
+      "query": "Хочу почувствовать азарт открытия: человек исследует неизвестное и постепенно понимает, как оно устроено",
+      "expected_catalog_ids": [
+        326
+      ],
+      "expected_titles": [
+        "Солярис"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          213,
+          504,
+          71,
+          9,
+          98
+        ],
+        "titles": [
+          "2001 г.",
+          "Чье тело?",
+          "Человек-невидимка",
+          "Алхимик",
+          "Задача трёх тел"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2263.732
+      }
+    },
+    {
+      "query_id": "NEW-F04-V2",
+      "family_id": "NEW-F04",
+      "category": "mood",
+      "query": "Посоветуй историю, в которой любопытство и исследования захватывают сильнее погонь",
+      "expected_catalog_ids": [
+        326
+      ],
+      "expected_titles": [
+        "Солярис"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          207,
+          443,
+          81,
+          511,
+          286
+        ],
+        "titles": [
+          "Скелет экипажа",
+          "Временная шкала",
+          "Машина времени. Война миров. Рассказы",
+          "Первые люди на Луне",
+          "«Вы, конечно, шутите, мистер Фейнман»"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2043.182
+      }
+    },
+    {
+      "query_id": "NEW-F04-V3",
+      "family_id": "NEW-F04",
+      "category": "mood",
+      "query": "Нужно чтение с ощущением открытия нового мира через наблюдения и догадки",
+      "expected_catalog_ids": [
+        326
+      ],
+      "expected_titles": [
+        "Солярис"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          267,
+          126,
+          603,
+          236,
+          253
+        ],
+        "titles": [
+          "Космос",
+          "Краткая история почти всего",
+          "Путеводитель по науке для умного человека",
+          "Затерянный мир",
+          "Двадцать тысячь лье под водой"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1837.178
+      }
+    },
+    {
+      "query_id": "NEW-F05-V1",
+      "family_id": "NEW-F05",
+      "category": "mood",
+      "query": "Хочу книгу о раздражении и зависти к чужому успеху, которая не пытается сразу меня исправить",
+      "expected_catalog_ids": [
+        464
+      ],
+      "expected_titles": [
+        "Талантливый мистер Рипли"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          4,
+          301,
+          707,
+          592,
+          304
+        ],
+        "titles": [
+          "Тонкое искусство пофигизма",
+          "Степной волк",
+          "Голод",
+          "Мартин Иден",
+          "Большая магия"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2124.373
+      }
+    },
+    {
+      "query_id": "NEW-F05-V2",
+      "family_id": "NEW-F05",
+      "category": "mood",
+      "query": "Интересен герой с некрасивыми чувствами: сравнивает себя с другими, завидует и злится",
+      "expected_catalog_ids": [
+        464
+      ],
+      "expected_titles": [
+        "Талантливый мистер Рипли"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          704,
+          121,
+          669,
+          301,
+          663
+        ],
+        "titles": [
+          "Снежная страна",
+          "Эмма",
+          "Высокая точность",
+          "Степной волк",
+          "Сета"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2142.81
+      }
+    },
+    {
+      "query_id": "NEW-F05-V3",
+      "family_id": "NEW-F05",
+      "category": "mood",
+      "query": "Нужна честная история про зависть и уязвлённое самолюбие, без бодрых советов",
+      "expected_catalog_ids": [
+        464
+      ],
+      "expected_titles": [
+        "Талантливый мистер Рипли"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          140,
+          567,
+          301,
+          860,
+          283
+        ],
+        "titles": [
+          "Записки изъ подполья",
+          "Бремя страстей человеческих",
+          "Степной волк",
+          "Сексус",
+          "Автобиография"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1944.686
+      }
+    },
+    {
+      "query_id": "NEW-F09-V1",
+      "family_id": "NEW-F09",
+      "category": "mood",
+      "query": "Ищу горькую историю о человеке, который добился славы, но потерял близость с людьми",
+      "expected_catalog_ids": [
+        592
+      ],
+      "expected_titles": [
+        "Мартин Иден"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          259,
+          886,
+          423,
+          895,
+          635
+        ],
+        "titles": [
+          "И восходит солнце",
+          "Идеально",
+          "Смерть Ивана Ильича",
+          "Незнакомец в зеркале",
+          "Захир"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2271.811
+      }
+    },
+    {
+      "query_id": "NEW-F09-V2",
+      "family_id": "NEW-F09",
+      "category": "mood",
+      "query": "Хочу книгу про цену известности: внешне успех, а внутри одиночество",
+      "expected_catalog_ids": [
+        592
+      ],
+      "expected_titles": [
+        "Мартин Иден"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          476,
+          337,
+          336,
+          301,
+          895
+        ],
+        "titles": [
+          "Величайший продавец в мире",
+          "Семь духовных законов успеха",
+          "Стоунер",
+          "Степной волк",
+          "Незнакомец в зеркале"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1978.782
+      }
+    },
+    {
+      "query_id": "NEW-F09-V3",
+      "family_id": "NEW-F09",
+      "category": "mood",
+      "query": "Посоветуй роман, где популярность не делает героя счастливее",
+      "expected_catalog_ids": [
+        592
+      ],
+      "expected_titles": [
+        "Мартин Иден"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          689,
+          655,
+          301,
+          33,
+          559
+        ],
+        "titles": [
+          "Приключения Кавалера и Клея",
+          "Счастливый принц и другие сказки",
+          "Степной волк",
+          "Heartstopper, Том 1",
+          "Ведьмы за рубежом"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1645.177
+      }
+    },
+    {
+      "query_id": "NEW-F10-V1",
+      "family_id": "NEW-F10",
+      "category": "mood",
+      "query": "Нужна спокойная книга о старении, в которой есть юмор и достоинство",
+      "expected_catalog_ids": [
+        178
+      ],
+      "expected_titles": [
+        "Любовь во время чумы"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          765,
+          4,
+          133,
+          124,
+          402
+        ],
+        "titles": [
+          "Жизнь в полной катастрофе",
+          "Тонкое искусство пофигизма",
+          "Большие надежды",
+          "Цветы для Элджернона",
+          "Искусство быть счастливым"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1898.485
+      }
+    },
+    {
+      "query_id": "NEW-F10-V2",
+      "family_id": "NEW-F10",
+      "category": "mood",
+      "query": "Хочу прочитать про пожилого человека без жалости к нему и без обязательного чуда",
+      "expected_catalog_ids": [
+        178
+      ],
+      "expected_titles": [
+        "Любовь во время чумы"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          153,
+          201,
+          271,
+          71,
+          148
+        ],
+        "titles": [
+          "Бессонница",
+          "Мужчина, который принял жену за шляпу",
+          "Над кукушкиным гнездом",
+          "Человек-невидимка",
+          "Кафка на пляже"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2133.107
+      }
+    },
+    {
+      "query_id": "NEW-F10-V3",
+      "family_id": "NEW-F10",
+      "category": "mood",
+      "query": "Ищу человеческую историю о поздних годах жизни, смешную и немного грустную",
+      "expected_catalog_ids": [
+        178
+      ],
+      "expected_titles": [
+        "Любовь во время чумы"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          461,
+          368,
+          331,
+          153,
+          271
+        ],
+        "titles": [
+          "Декамерон",
+          "В Бруклине растёт дерево",
+          "Сердца в Атлантиде",
+          "Бессонница",
+          "Над кукушкиным гнездом"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2270.757
+      }
+    },
+    {
+      "query_id": "NEW-F11-V1",
+      "family_id": "NEW-F11",
+      "category": "atmosphere",
+      "query": "Хочу городскую историю с ночными улицами, дождём и ощущением, что все что-то скрывают",
+      "expected_catalog_ids": [
+        575
+      ],
+      "expected_titles": [
+        "Послемрак"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          815,
+          575,
+          601,
+          940,
+          333
+        ],
+        "titles": [
+          "Сошествие тьмы",
+          "Послемрак",
+          "Образ города",
+          "Виртуальный свет",
+          "Челюсти"
+        ],
+        "first_relevant_rank": 2,
+        "processing_ms": 2633.913
+      }
+    },
+    {
+      "query_id": "NEW-F11-V2",
+      "family_id": "NEW-F11",
+      "category": "atmosphere",
+      "query": "Посоветуй роман с атмосферой мокрого ночного города и постоянного недоверия",
+      "expected_catalog_ids": [
+        575
+      ],
+      "expected_titles": [
+        "Послемрак"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          425,
+          174,
+          295,
+          575,
+          876
+        ],
+        "titles": [
+          "Тропик Рака",
+          "Белые ночи",
+          "Четыре часа ночи",
+          "Послемрак",
+          "Ничего не бойся"
+        ],
+        "first_relevant_rank": 4,
+        "processing_ms": 2166.222
+      }
+    },
+    {
+      "query_id": "NEW-F11-V3",
+      "family_id": "NEW-F11",
+      "category": "atmosphere",
+      "query": "Нужно чтение с нуарным настроением: огни, дождь, чужие секреты",
+      "expected_catalog_ids": [
+        575
+      ],
+      "expected_titles": [
+        "Послемрак"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          552,
+          933,
+          839,
+          529,
+          794
+        ],
+        "titles": [
+          "Котик Петенька и его четыре чудесные пуговки",
+          "Последнее континент",
+          "Страна Чудес без тормозов и Конец Света",
+          "Штормовой остров",
+          "Одна дверь вдали от рая"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1904.49
+      }
+    },
+    {
+      "query_id": "NEW-F13-V1",
+      "family_id": "NEW-F13",
+      "category": "atmosphere",
+      "query": "Хочу книгу про полярную экспедицию: холод, изоляция и зависимость людей друг от друга",
+      "expected_catalog_ids": [
+        228
+      ],
+      "expected_titles": [
+        "Точка обмана"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          218,
+          323,
+          988,
+          916,
+          236
+        ],
+        "titles": [
+          "Приключения Робинзона Крузо",
+          "В воздухе",
+          "Затонувший мир",
+          "Экспедиция Кон-Тики",
+          "Затерянный мир"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2093.844
+      }
+    },
+    {
+      "query_id": "NEW-F13-V2",
+      "family_id": "NEW-F13",
+      "category": "atmosphere",
+      "query": "Нужна история выживания среди льда, где опасны и природа, и отношения внутри команды",
+      "expected_catalog_ids": [
+        228
+      ],
+      "expected_titles": [
+        "Точка обмана"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          136,
+          922,
+          207,
+          73,
+          768
+        ],
+        "titles": [
+          "Жизнь Пи",
+          "Комета в долине муми-троллей",
+          "Скелет экипажа",
+          "Моби Дик",
+          "Люди на деревьях"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2236.822
+      }
+    },
+    {
+      "query_id": "NEW-F13-V3",
+      "family_id": "NEW-F13",
+      "category": "atmosphere",
+      "query": "Ищу чтение с ощущением белой пустоты и замкнутой группы исследователей",
+      "expected_catalog_ids": [
+        228
+      ],
+      "expected_titles": [
+        "Точка обмана"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          126,
+          236,
+          761,
+          226,
+          84
+        ],
+        "titles": [
+          "Краткая история почти всего",
+          "Затерянный мир",
+          "Эль Клуб Дюма",
+          "Левая рука тьмы",
+          "Убийство в Восточном экспрессе"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2120.468
+      }
+    },
+    {
+      "query_id": "NEW-F16-V1",
+      "family_id": "NEW-F16",
+      "category": "atmosphere",
+      "query": "Хочу неспешную историю у моря в межсезонье, когда туристы уехали и осталось одиночество",
+      "expected_catalog_ids": [
+        872
+      ],
+      "expected_titles": [
+        "Море-океан"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          218,
+          333,
+          853,
+          160,
+          780
+        ],
+        "titles": [
+          "Приключения Робинзона Крузо",
+          "Челюсти",
+          "Двенадцать странствующих рассказов",
+          "Рождественская песнь",
+          "Среброкрыло"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2275.465
+      }
+    },
+    {
+      "query_id": "NEW-F16-V2",
+      "family_id": "NEW-F16",
+      "category": "atmosphere",
+      "query": "Посоветуй роман с пустым приморским городком, ветром и тихой жизнью",
+      "expected_catalog_ids": [
+        872
+      ],
+      "expected_titles": [
+        "Море-океан"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          395,
+          333,
+          708,
+          788,
+          913
+        ],
+        "titles": [
+          "Буря века",
+          "Челюсти",
+          "Регуляторы",
+          "Рожденный во льду",
+          "Дыхание скандала"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2091.38
+      }
+    },
+    {
+      "query_id": "NEW-F16-V3",
+      "family_id": "NEW-F16",
+      "category": "atmosphere",
+      "query": "Нужно чтение с атмосферой побережья вне сезона, без курортной суеты",
+      "expected_catalog_ids": [
+        872
+      ],
+      "expected_titles": [
+        "Море-океан"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          446,
+          704,
+          333,
+          725,
+          218
+        ],
+        "titles": [
+          "Зло под солнцем",
+          "Снежная страна",
+          "Челюсти",
+          "Генерал в своем лабиринте",
+          "Приключения Робинзона Крузо"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1813.873
+      }
+    },
+    {
+      "query_id": "NEW-F19-V1",
+      "family_id": "NEW-F19",
+      "category": "atmosphere",
+      "query": "Ищу фантастику с огромными пустыми сооружениями и ощущением чужой цивилизации",
+      "expected_catalog_ids": [
+        613
+      ],
+      "expected_titles": [
+        "Пространство Откровения"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          613,
+          401,
+          524,
+          535,
+          779
+        ],
+        "titles": [
+          "Пространство Откровения",
+          "Томминокеры",
+          "Сирены Титана",
+          "Планета Обезьян",
+          "Октябрьская страна"
+        ],
+        "first_relevant_rank": 1,
+        "processing_ms": 2230.876
+      }
+    },
+    {
+      "query_id": "NEW-F19-V2",
+      "family_id": "NEW-F19",
+      "category": "atmosphere",
+      "query": "Хочу историю исследования необычного места, которое явно построили не люди",
+      "expected_catalog_ids": [
+        613
+      ],
+      "expected_titles": [
+        "Пространство Откровения"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          511,
+          535,
+          181,
+          916,
+          504
+        ],
+        "titles": [
+          "Первые люди на Луне",
+          "Планета Обезьян",
+          "Утраченный символ",
+          "Экспедиция Кон-Тики",
+          "Чье тело?"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1884.324
+      }
+    },
+    {
+      "query_id": "NEW-F19-V3",
+      "family_id": "NEW-F19",
+      "category": "atmosphere",
+      "query": "Посоветуй книгу с масштабом загадочных инопланетных построек и одиночеством исследователей",
+      "expected_catalog_ids": [
+        613
+      ],
+      "expected_titles": [
+        "Пространство Откровения"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          126,
+          98,
+          420,
+          213,
+          267
+        ],
+        "titles": [
+          "Краткая история почти всего",
+          "Задача трёх тел",
+          "Пикник на обочине",
+          "2001 г.",
+          "Космос"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2157.21
+      }
+    },
+    {
+      "query_id": "NEW-F21-V1",
+      "family_id": "NEW-F21",
+      "category": "colloquial",
+      "query": "Мне бы книгу про переезд в другую страну, чтобы были и бытовые трудности, и чувство чужака",
+      "expected_catalog_ids": [
+        203
+      ],
+      "expected_titles": [
+        "Американа"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          780,
+          663,
+          390,
+          370,
+          853
+        ],
+        "titles": [
+          "Среброкрыло",
+          "Сета",
+          "Трое мужчин в лодке (не говоря уже о собаке)",
+          "Остатки дня",
+          "Двенадцать странствующих рассказов"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2377.071
+      }
+    },
+    {
+      "query_id": "NEW-F21-V2",
+      "family_id": "NEW-F21",
+      "category": "colloquial",
+      "query": "Что почитать про эмиграцию без картинки красивой новой жизни?",
+      "expected_catalog_ids": [
+        203
+      ],
+      "expected_titles": [
+        "Американа"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          813,
+          542,
+          834,
+          873,
+          853
+        ],
+        "titles": [
+          "Другие берега",
+          "Исход",
+          "Книгу смеются и вспоминают",
+          "Зоя",
+          "Двенадцать странствующих рассказов"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1977.348
+      }
+    },
+    {
+      "query_id": "NEW-F21-V3",
+      "family_id": "NEW-F21",
+      "category": "colloquial",
+      "query": "Хочу историю человека, который строит жизнь за границей и постоянно чувствует себя не своим",
+      "expected_catalog_ids": [
+        203
+      ],
+      "expected_titles": [
+        "Американа"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          427,
+          567,
+          425,
+          619,
+          321
+        ],
+        "titles": [
+          "Портрет художника в молодости",
+          "Бремя страстей человеческих",
+          "Тропик Рака",
+          "Жажда жизни",
+          "Тошнота"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2253.193
+      }
+    },
+    {
+      "query_id": "NEW-F22-V1",
+      "family_id": "NEW-F22",
+      "category": "colloquial",
+      "query": "Есть что-нибудь про взрослую дочь и мать, которые любят друг друга, но нормально разговаривать не умеют?",
+      "expected_catalog_ids": [
+        92
+      ],
+      "expected_titles": [
+        "Возлюбленная"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          108,
+          46,
+          24,
+          759,
+          766
+        ],
+        "titles": [
+          "Угадай, как сильно я тебя люблю",
+          "Маленькие женщины",
+          "Этим летом я стала красивой",
+          "Неправильное воспитание Кэмерон Пост",
+          "О мальчике"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2445.902
+      }
+    },
+    {
+      "query_id": "NEW-F22-V2",
+      "family_id": "NEW-F22",
+      "category": "colloquial",
+      "query": "Нужен роман про трудные отношения мамы и уже выросшей дочери",
+      "expected_catalog_ids": [
+        92
+      ],
+      "expected_titles": [
+        "Возлюбленная"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          2,
+          804,
+          947,
+          692,
+          466
+        ],
+        "titles": [
+          "Все закончится на нас",
+          "Фанни Хилл",
+          "Блум",
+          "Бегство",
+          "Позор"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1897.58
+      }
+    },
+    {
+      "query_id": "NEW-F22-V3",
+      "family_id": "NEW-F22",
+      "category": "colloquial",
+      "query": "Посоветуй историю, где близость матери и дочери постоянно сталкивается с обидами и недоговорённостью",
+      "expected_catalog_ids": [
+        92
+      ],
+      "expected_titles": [
+        "Возлюбленная"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          692,
+          564,
+          918,
+          720,
+          886
+        ],
+        "titles": [
+          "Бегство",
+          "Идеальный парень",
+          "Мэнсфилд Парк",
+          "Отцы и дети",
+          "Идеально"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2528.629
+      }
+    },
+    {
+      "query_id": "NEW-F29-V1",
+      "family_id": "NEW-F29",
+      "category": "colloquial",
+      "query": "Мне бы историю о человеке с долгами: как это меняет отношения и каждодневные решения",
+      "expected_catalog_ids": [
+        279
+      ],
+      "expected_titles": [
+        "Госпожа Бовари"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          279,
+          567,
+          2,
+          804,
+          60
+        ],
+        "titles": [
+          "Госпожа Бовари",
+          "Бремя страстей человеческих",
+          "Все закончится на нас",
+          "Фанни Хилл",
+          "Камасутра"
+        ],
+        "first_relevant_rank": 1,
+        "processing_ms": 2305.441
+      }
+    },
+    {
+      "query_id": "NEW-F29-V2",
+      "family_id": "NEW-F29",
+      "category": "colloquial",
+      "query": "Хочу роман, где денежные проблемы чувствуются в быту, а не просто упоминаются",
+      "expected_catalog_ids": [
+        279
+      ],
+      "expected_titles": [
+        "Госпожа Бовари"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          279,
+          3,
+          931,
+          930,
+          425
+        ],
+        "titles": [
+          "Госпожа Бовари",
+          "Богатый папа, бедный папа",
+          "Маленькая Доррит",
+          "Тропик Козерога",
+          "Тропик Рака"
+        ],
+        "first_relevant_rank": 1,
+        "processing_ms": 2061.047
+      }
+    },
+    {
+      "query_id": "NEW-F29-V3",
+      "family_id": "NEW-F29",
+      "category": "colloquial",
+      "query": "Посоветуй книгу о жизни в финансовой ловушке и попытках из неё выбраться",
+      "expected_catalog_ids": [
+        279
+      ],
+      "expected_titles": [
+        "Госпожа Бовари"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          703,
+          416,
+          471,
+          3,
+          605
+        ],
+        "titles": [
+          "Богатый папа уходит на пенсию молодым, уходит на пенсию богатым",
+          "Если наступит завтра",
+          "Казино Рояль",
+          "Богатый папа, бедный папа",
+          "Игрокъ"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1877.884
+      }
+    },
+    {
+      "query_id": "NEW-F31-V1",
+      "family_id": "NEW-F31",
+      "category": "negation",
+      "query": "Хочу историю о путешествии по чужой стране, но без военных действий и спасения мира",
+      "expected_catalog_ids": [
+        177
+      ],
+      "expected_titles": [
+        "Путешествия Гулливера"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          909,
+          660,
+          465,
+          431,
+          750
+        ],
+        "titles": [
+          "Тигр Шарпа",
+          "Гарун и море историй",
+          "Последний из Могикан",
+          "Копи царя Соломона",
+          "Земля пребывает вовеки"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2170.155
+      }
+    },
+    {
+      "query_id": "NEW-F31-V2",
+      "family_id": "NEW-F31",
+      "category": "negation",
+      "query": "Нужно приключение с дорогой и знакомством с местами, без войны и великой миссии",
+      "expected_catalog_ids": [
+        177
+      ],
+      "expected_titles": [
+        "Путешествия Гулливера"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          725,
+          566,
+          99,
+          543,
+          104
+        ],
+        "titles": [
+          "Генерал в своем лабиринте",
+          "Интересные времена",
+          "Чудесный волшебник страны Оз",
+          "Звёздные Войны. Траун",
+          "Битва в Лабиринте"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2115.645
+      }
+    },
+    {
+      "query_id": "NEW-F31-V3",
+      "family_id": "NEW-F31",
+      "category": "negation",
+      "query": "Посоветуй книгу, где герой путешествует ради личной цели, а не предотвращает катастрофу",
+      "expected_catalog_ids": [
+        177
+      ],
+      "expected_titles": [
+        "Путешествия Гулливера"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          922,
+          73,
+          57,
+          607,
+          555
+        ],
+        "titles": [
+          "Комета в долине муми-троллей",
+          "Моби Дик",
+          "Автостопом по Галактике",
+          "Дверь в лето",
+          "Приключения Тома Сойера / Приключения Гекльберри Финна"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2068.98
+      }
+    },
+    {
+      "query_id": "NEW-F32-V1",
+      "family_id": "NEW-F32",
+      "category": "negation",
+      "query": "Ищу любовную историю взрослых людей, но без треугольника и соперничества за партнёра",
+      "expected_catalog_ids": [
+        184
+      ],
+      "expected_titles": [
+        "Убеждение"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          611,
+          14,
+          27,
+          901,
+          801
+        ],
+        "titles": [
+          "Маленькие птички",
+          "Пятьдесят оттенков серого",
+          "Маленькая жизнь",
+          "Горячий лед",
+          "Клумба из роз"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2146.725
+      }
+    },
+    {
+      "query_id": "NEW-F32-V2",
+      "family_id": "NEW-F32",
+      "category": "negation",
+      "query": "Хочу роман про отношения двоих, где трудности возникают не из-за третьего человека",
+      "expected_catalog_ids": [
+        184
+      ],
+      "expected_titles": [
+        "Убеждение"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          2,
+          801,
+          27,
+          174,
+          131
+        ],
+        "titles": [
+          "Все закончится на нас",
+          "Клумба из роз",
+          "Маленькая жизнь",
+          "Белые ночи",
+          "Новолуние"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2211.112
+      }
+    },
+    {
+      "query_id": "NEW-F32-V3",
+      "family_id": "NEW-F32",
+      "category": "negation",
+      "query": "Нужна романтика без выбора между двумя возлюбленными",
+      "expected_catalog_ids": [
+        184
+      ],
+      "expected_titles": [
+        "Убеждение"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          801,
+          656,
+          901,
+          781,
+          669
+        ],
+        "titles": [
+          "Клумба из роз",
+          "Один день",
+          "Горячий лед",
+          "Выбор Софи",
+          "Высокая точность"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1670.383
+      }
+    },
+    {
+      "query_id": "NEW-F33-V1",
+      "family_id": "NEW-F33",
+      "category": "negation",
+      "query": "Хочу детектив о финансовом преступлении, без убийства как главной загадки",
+      "expected_catalog_ids": [
+        343
+      ],
+      "expected_titles": [
+        "Создатель дождя"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          125,
+          531,
+          74,
+          41,
+          471
+        ],
+        "titles": [
+          "Убийства",
+          "Обнаженная после смерти",
+          "Американский психопат",
+          "Приключения Шерлока Холмса",
+          "Казино Рояль"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2060.269
+      }
+    },
+    {
+      "query_id": "NEW-F33-V2",
+      "family_id": "NEW-F33",
+      "category": "negation",
+      "query": "Посоветуй расследование мошенничества или кражи денег, а не поиск убийцы",
+      "expected_catalog_ids": [
+        343
+      ],
+      "expected_titles": [
+        "Создатель дождя"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          512,
+          493,
+          41,
+          328,
+          569
+        ],
+        "titles": [
+          "Кошки-мышки",
+          "Скрытые богатства",
+          "Приключения Шерлока Холмса",
+          "История болезни Шерлока Холмса",
+          "Партнер"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1895.214
+      }
+    },
+    {
+      "query_id": "NEW-F33-V3",
+      "family_id": "NEW-F33",
+      "category": "negation",
+      "query": "Нужна детективная книга, где центральное преступление не связано со смертью",
+      "expected_catalog_ids": [
+        343
+      ],
+      "expected_titles": [
+        "Создатель дождя"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          125,
+          512,
+          952,
+          328,
+          681
+        ],
+        "titles": [
+          "Убийства",
+          "Кошки-мышки",
+          "Ночной садовник",
+          "История болезни Шерлока Холмса",
+          "Алиенист"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1900.592
+      }
+    },
+    {
+      "query_id": "NEW-F35-V1",
+      "family_id": "NEW-F35",
+      "category": "negation",
+      "query": "Ищу историю о бедности, но не о ребёнке-сироте и не о викторианском работном доме",
+      "expected_catalog_ids": [
+        707
+      ],
+      "expected_titles": [
+        "Голод"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          143,
+          313,
+          676,
+          930,
+          931
+        ],
+        "titles": [
+          "Оливер Твист",
+          "Прах Анжелы",
+          "Американская трагедия",
+          "Тропик Козерога",
+          "Маленькая Доррит"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2199.285
+      }
+    },
+    {
+      "query_id": "NEW-F35-V2",
+      "family_id": "NEW-F35",
+      "category": "negation",
+      "query": "Хочу социальный роман про финансовые трудности взрослых людей, без сиротского сюжета",
+      "expected_catalog_ids": [
+        707
+      ],
+      "expected_titles": [
+        "Голод"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          931,
+          335,
+          703,
+          3,
+          672
+        ],
+        "titles": [
+          "Маленькая Доррит",
+          "Дэвид Копперфильд",
+          "Богатый папа уходит на пенсию молодым, уходит на пенсию богатым",
+          "Богатый папа, бедный папа",
+          "Исправления"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2105.87
+      }
+    },
+    {
+      "query_id": "NEW-F35-V3",
+      "family_id": "NEW-F35",
+      "category": "negation",
+      "query": "Нужна книга о нужде и неравенстве вне знакомой истории про бедного сироту",
+      "expected_catalog_ids": [
+        707
+      ],
+      "expected_titles": [
+        "Голод"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          3,
+          335,
+          655,
+          143,
+          966
+        ],
+        "titles": [
+          "Богатый папа, бедный папа",
+          "Дэвид Копперфильд",
+          "Счастливый принц и другие сказки",
+          "Оливер Твист",
+          "Богатый человек, бедный человек"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2048.778
+      }
+    },
+    {
+      "query_id": "NEW-F36-V1",
+      "family_id": "NEW-F36",
+      "category": "negation",
+      "query": "Хочу страшную книгу, но без сверхъестественного: пусть опасность исходит от людей",
+      "expected_catalog_ids": [
+        42,
+        193,
+        544
+      ],
+      "expected_titles": [
+        "Страдание",
+        "Молчание ягнят",
+        "Коллекционер"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          207,
+          463,
+          401,
+          815,
+          708
+        ],
+        "titles": [
+          "Скелет экипажа",
+          "Фантомы",
+          "Томминокеры",
+          "Сошествие тьмы",
+          "Регуляторы"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1918.001
+      }
+    },
+    {
+      "query_id": "NEW-F36-V2",
+      "family_id": "NEW-F36",
+      "category": "negation",
+      "query": "Нужен ужас или триллер без призраков, демонов и магии",
+      "expected_catalog_ids": [
+        42,
+        193,
+        544
+      ],
+      "expected_titles": [
+        "Страдание",
+        "Молчание ягнят",
+        "Коллекционер"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          330,
+          311,
+          258,
+          348,
+          737
+        ],
+        "titles": [
+          "Всё возможно. 14 темных историй",
+          "Чудесный нож роман",
+          "Мешок с костями",
+          "После заката",
+          "Эрик"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1740.048
+      }
+    },
+    {
+      "query_id": "NEW-F36-V3",
+      "family_id": "NEW-F36",
+      "category": "negation",
+      "query": "Посоветуй пугающую историю, в которой происходящему не требуется мистическое объяснение",
+      "expected_catalog_ids": [
+        42,
+        193,
+        544
+      ],
+      "expected_titles": [
+        "Страдание",
+        "Молчание ягнят",
+        "Коллекционер"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          609,
+          330,
+          287,
+          295,
+          207
+        ],
+        "titles": [
+          "Тайна Ситтафорда",
+          "Всё возможно. 14 темных историй",
+          "Танец смерти",
+          "Четыре часа ночи",
+          "Скелет экипажа"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2238.233
+      }
+    },
+    {
+      "query_id": "NEW-F38-V1",
+      "family_id": "NEW-F38",
+      "category": "negation",
+      "query": "Хочу книгу о природе, но не справочник и не руководство по выживанию",
+      "expected_catalog_ids": [
+        262
+      ],
+      "expected_titles": [
+        "Уолден"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          603,
+          262,
+          136,
+          332,
+          836
+        ],
+        "titles": [
+          "Путеводитель по науке для умного человека",
+          "Уолден",
+          "Жизнь Пи",
+          "О природе вещей",
+          "Смерть от черной дыры: и другие космические загадки"
+        ],
+        "first_relevant_rank": 2,
+        "processing_ms": 1870.613
+      }
+    },
+    {
+      "query_id": "NEW-F38-V2",
+      "family_id": "NEW-F38",
+      "category": "negation",
+      "query": "Посоветуй наблюдательную прозу о животных или ландшафте, без практических инструкций",
+      "expected_catalog_ids": [
+        262
+      ],
+      "expected_titles": [
+        "Уолден"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          182,
+          523,
+          694,
+          80,
+          631
+        ],
+        "titles": [
+          "Бурый медведь, бурый медведь, что ты видишь?",
+          "Ворчливая божья коровка",
+          "Головоломка с обезьянами",
+          "Съешь эту лягушку! 21 отличный способ перестать откладывать дела на потом и сделать больше за меньшее время",
+          "С головы до пят"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2053.377
+      }
+    },
+    {
+      "query_id": "NEW-F38-V3",
+      "family_id": "NEW-F38",
+      "category": "negation",
+      "query": "Нужно литературное чтение о природном мире, а не энциклопедия видов",
+      "expected_catalog_ids": [
+        262
+      ],
+      "expected_titles": [
+        "Уолден"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          603,
+          266,
+          967,
+          986,
+          262
+        ],
+        "titles": [
+          "Путеводитель по науке для умного человека",
+          "О происхождении видов путем естественного отбора",
+          "Книга вымышленных существ",
+          "Тайная доктрина",
+          "Уолден"
+        ],
+        "first_relevant_rank": 5,
+        "processing_ms": 1825.387
+      }
+    },
+    {
+      "query_id": "NEW-F40-V1",
+      "family_id": "NEW-F40",
+      "category": "negation",
+      "query": "Хочу юмористическую фантастику, но без пародии на волшебников и магические школы",
+      "expected_catalog_ids": [
+        57
+      ],
+      "expected_titles": [
+        "Автостопом по Галактике"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          319,
+          5,
+          23,
+          453,
+          15
+        ],
+        "titles": [
+          "Фантастические звери и где их найти",
+          "Гарри Поттер и философский камень",
+          "Гарри Поттер и Кубок огня",
+          "Равные обряды",
+          "Гарри Поттер и Тайная комната"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 1739.788
+      }
+    },
+    {
+      "query_id": "NEW-F40-V2",
+      "family_id": "NEW-F40",
+      "category": "negation",
+      "query": "Посоветуй смешную научную фантастику, не шутки про колдовство",
+      "expected_catalog_ids": [
+        57
+      ],
+      "expected_titles": [
+        "Автостопом по Галактике"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          319,
+          820,
+          225,
+          524,
+          57
+        ],
+        "titles": [
+          "Фантастические звери и где их найти",
+          "Р.У.Р. и игра с насекомыми",
+          "Гиперион",
+          "Сирены Титана",
+          "Автостопом по Галактике"
+        ],
+        "first_relevant_rank": 5,
+        "processing_ms": 1839.604
+      }
+    },
+    {
+      "query_id": "NEW-F40-V3",
+      "family_id": "NEW-F40",
+      "category": "negation",
+      "query": "Нужно фантастическое чтение с юмором, где основа мира не магия",
+      "expected_catalog_ids": [
+        57
+      ],
+      "expected_titles": [
+        "Автостопом по Галактике"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          194,
+          319,
+          524,
+          57,
+          752
+        ],
+        "titles": [
+          "Хроники Нарнии",
+          "Фантастические звери и где их найти",
+          "Сирены Титана",
+          "Автостопом по Галактике",
+          "Хрупкие вещи"
+        ],
+        "first_relevant_rank": 4,
+        "processing_ms": 1795.699
+      }
+    },
+    {
+      "query_id": "NEW-F41-V1",
+      "family_id": "NEW-F41",
+      "category": "plot",
+      "query": "Помню историю: человек возвращается в родной город и выясняет, что семья годами скрывала важное событие",
+      "expected_catalog_ids": [
+        282,
+        748
+      ],
+      "expected_titles": [
+        "Острые предметы",
+        "Каролина Мун"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          748,
+          70,
+          957,
+          92,
+          350
+        ],
+        "titles": [
+          "Каролина Мун",
+          "Сто лет одиночества",
+          "Дом развлечений",
+          "Возлюбленная",
+          "Лунный камень"
+        ],
+        "first_relevant_rank": 1,
+        "processing_ms": 2741.293
+      }
+    },
+    {
+      "query_id": "NEW-F41-V2",
+      "family_id": "NEW-F41",
+      "category": "plot",
+      "query": "Ищу книгу по памяти: возвращение домой заставляет героя заново понять семейное прошлое",
+      "expected_catalog_ids": [
+        282,
+        748
+      ],
+      "expected_titles": [
+        "Острые предметы",
+        "Каролина Мун"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          217,
+          70,
+          751,
+          979,
+          47
+        ],
+        "titles": [
+          "Милые кости",
+          "Сто лет одиночества",
+          "Семена вчерашнего дня",
+          "Драгоценности Солнца",
+          "Бегущий за ветром"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2318.131
+      }
+    },
+    {
+      "query_id": "NEW-F41-V3",
+      "family_id": "NEW-F41",
+      "category": "plot",
+      "query": "Не помню название романа про приезд в родные места и раскрытие давней семейной тайны",
+      "expected_catalog_ids": [
+        282,
+        748
+      ],
+      "expected_titles": [
+        "Острые предметы",
+        "Каролина Мун"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          880,
+          455,
+          309,
+          574,
+          379
+        ],
+        "titles": [
+          "Паутина грез",
+          "Слепой убийца",
+          "Нортенгерское аббатство",
+          "Рубин",
+          "Чернильное сердце"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2498.304
+      }
+    },
+    {
+      "query_id": "NEW-F43-V1",
+      "family_id": "NEW-F43",
+      "category": "plot",
+      "query": "Помню сюжет про человека, которому приходится выдавать себя за другого, пока обман меняет его самого",
+      "expected_catalog_ids": [
+        464
+      ],
+      "expected_titles": [
+        "Талантливый мистер Рипли"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          659,
+          222,
+          95,
+          271,
+          567
+        ],
+        "titles": [
+          "Я посланник",
+          "Нужные вещи",
+          "Странная история доктора Джекила и мистера Хайда",
+          "Над кукушкиным гнездом",
+          "Бремя страстей человеческих"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2681.871
+      }
+    },
+    {
+      "query_id": "NEW-F43-V2",
+      "family_id": "NEW-F43",
+      "category": "plot",
+      "query": "Ищу роман о присвоенной чужой личности и постепенном запутывании в роли",
+      "expected_catalog_ids": [
+        464
+      ],
+      "expected_titles": [
+        "Талантливый мистер Рипли"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          464,
+          911,
+          662,
+          753,
+          895
+        ],
+        "titles": [
+          "Талантливый мистер Рипли",
+          "Травесурас-де-ла-нинья мала",
+          "Нью-Йоркская трилогия",
+          "Пока ты",
+          "Незнакомец в зеркале"
+        ],
+        "first_relevant_rank": 1,
+        "processing_ms": 1929.609
+      }
+    },
+    {
+      "query_id": "NEW-F43-V3",
+      "family_id": "NEW-F43",
+      "category": "plot",
+      "query": "Не помню название: герой живёт под чужим именем и начинает терять собственную жизнь",
+      "expected_catalog_ids": [
+        464
+      ],
+      "expected_titles": [
+        "Талантливый мистер Рипли"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          308,
+          477,
+          662,
+          682,
+          140
+        ],
+        "titles": [
+          "Нигде",
+          "Человек-Жнец",
+          "Нью-Йоркская трилогия",
+          "Дорожные работы",
+          "Записки изъ подполья"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2497.887
+      }
+    },
+    {
+      "query_id": "NEW-F44-V1",
+      "family_id": "NEW-F44",
+      "category": "plot",
+      "query": "Помню историю, где незнакомцы оказались вместе после аварии и вынуждены распределять обязанности",
+      "expected_catalog_ids": [
+        37
+      ],
+      "expected_titles": [
+        "Повелитель мух"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          854,
+          717,
+          394,
+          62,
+          498
+        ],
+        "titles": [
+          "Дом Грома",
+          "Джек Ричер, или В розыске",
+          "Земля людей",
+          "И их не было",
+          "От Бьюика 8"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2757.846
+      }
+    },
+    {
+      "query_id": "NEW-F44-V2",
+      "family_id": "NEW-F44",
+      "category": "plot",
+      "query": "Ищу книгу про группу людей после катастрофы: совместное выживание и конфликты",
+      "expected_catalog_ids": [
+        37
+      ],
+      "expected_titles": [
+        "Повелитель мух"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          809,
+          750,
+          105,
+          377,
+          994
+        ],
+        "titles": [
+          "Чернобыльская молитва",
+          "Земля пребывает вовеки",
+          "Стенд",
+          "Надвигающаяся красная буря",
+          "Мост Сан-Луис-Рей"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2016.611
+      }
+    },
+    {
+      "query_id": "NEW-F44-V3",
+      "family_id": "NEW-F44",
+      "category": "plot",
+      "query": "Не могу вспомнить роман о случайной компании, которая должна организовать жизнь после аварии",
+      "expected_catalog_ids": [
+        37
+      ],
+      "expected_titles": [
+        "Повелитель мух"
+      ],
+      "standard_cms": {
+        "catalog_ids": [],
+        "titles": [],
+        "first_relevant_rank": null
+      },
+      "ml_system": {
+        "catalog_ids": [
+          762,
+          607,
+          343,
+          394,
+          42
+        ],
+        "titles": [
+          "Король правонарушений",
+          "Дверь в лето",
+          "Создатель дождя",
+          "Земля людей",
+          "Страдание"
+        ],
+        "first_relevant_rank": null,
+        "processing_ms": 2178.902
+      }
+    }
+  ]
+}

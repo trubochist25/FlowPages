@@ -1,0 +1,10045 @@
+{
+  "seed": 20260915,
+  "max_batch_size": 8,
+  "conflicts": [
+    {
+      "books": [
+        1,
+        2
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        1,
+        3
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        1,
+        4
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        1,
+        6
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        1,
+        7
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        1,
+        11
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        1,
+        14
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        1,
+        19
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        1,
+        21
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        1,
+        32
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        1,
+        45
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        1,
+        65
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        1,
+        68
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        1,
+        77
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        1,
+        79
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        1,
+        80
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        1,
+        94
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        1,
+        108
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        1,
+        122
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        1,
+        127
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        1,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        1,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        1,
+        161
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        1,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        1,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        1,
+        167
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        1,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        2,
+        7
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        2,
+        11
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        2,
+        13
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        2,
+        14
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        2,
+        16
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        2,
+        19
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        2,
+        24
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        2,
+        27
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        2,
+        28
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        2,
+        32
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        2,
+        33
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        2,
+        36
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        2,
+        42
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        2,
+        43
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        2,
+        55
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        2,
+        62
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        2,
+        65
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        2,
+        75
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        2,
+        80
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        2,
+        94
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        2,
+        108
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        2,
+        114
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        2,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        2,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        2,
+        166
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        2,
+        167
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        2,
+        173
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        3,
+        4
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        3,
+        6
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        3,
+        11
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        3,
+        68
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        3,
+        80
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        3,
+        141
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        3,
+        151
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        3,
+        156
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        3,
+        167
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        4,
+        6
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        4,
+        11
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        4,
+        13
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        4,
+        14
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        4,
+        19
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        4,
+        27
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        4,
+        28
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        4,
+        36
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        4,
+        42
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        4,
+        62
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        4,
+        80
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        4,
+        126
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        4,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        4,
+        161
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        4,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        4,
+        163
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        4,
+        166
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        4,
+        167
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        6,
+        11
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        6,
+        14
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        6,
+        24
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        6,
+        27
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        6,
+        50
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        6,
+        65
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        6,
+        77
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        6,
+        80
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        6,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        6,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        6,
+        161
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        6,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        6,
+        166
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        6,
+        167
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        7,
+        11
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        7,
+        13
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        14
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        16
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        7,
+        21
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        32
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        42
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        43
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        7,
+        45
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        53
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        62
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        79
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        7,
+        90
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        93
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        7,
+        94
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        7,
+        99
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        7,
+        108
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        7,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        113
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        114
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        122
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        7,
+        127
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        140
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        159
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        171
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        7,
+        173
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        11,
+        14
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        11,
+        32
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        11,
+        43
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        11,
+        65
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        11,
+        68
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        11,
+        79
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        11,
+        80
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        11,
+        108
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        11,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        11,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        11,
+        159
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        11,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        11,
+        166
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        11,
+        167
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        13,
+        14
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        13,
+        16
+      ],
+      "reasons": [
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        13,
+        19
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        13,
+        21
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        13,
+        24
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        13,
+        27
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        13,
+        32
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        13,
+        42
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        13,
+        45
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        13,
+        50
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        13,
+        53
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        13,
+        62
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        13,
+        65
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        13,
+        90
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        13,
+        112
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        13,
+        114
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        13,
+        122
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        13,
+        126
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        13,
+        127
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        13,
+        128
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        13,
+        140
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        13,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        13,
+        159
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        13,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        13,
+        163
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        13,
+        166
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        13,
+        173
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        14,
+        16
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        14,
+        24
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        14,
+        28
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        14,
+        32
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        14,
+        36
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        14,
+        42
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        14,
+        43
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        14,
+        62
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        14,
+        65
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        14,
+        79
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        14,
+        80
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        14,
+        108
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        14,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        14,
+        114
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        14,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        14,
+        159
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        14,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        14,
+        166
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        14,
+        167
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        14,
+        173
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        16,
+        21
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        16,
+        24
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        16,
+        27
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        16,
+        28
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        16,
+        32
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        16,
+        33
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        16,
+        36
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        16,
+        41
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        16,
+        42
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        16,
+        43
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        16,
+        45
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        16,
+        50
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        16,
+        53
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        16,
+        62
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        16,
+        65
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        16,
+        90
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        16,
+        93
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        16,
+        95
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        16,
+        99
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        16,
+        108
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        16,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        16,
+        114
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        16,
+        127
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        16,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        16,
+        140
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        16,
+        159
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        16,
+        162
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        16,
+        163
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        16,
+        173
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        19,
+        27
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        19,
+        42
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        19,
+        45
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        19,
+        55
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        19,
+        62
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        19,
+        75
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        19,
+        77
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        19,
+        79
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        19,
+        94
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        19,
+        122
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        19,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        19,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        19,
+        161
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        19,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        19,
+        166
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        19,
+        167
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        21,
+        32
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        21,
+        42
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        21,
+        45
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        21,
+        53
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        21,
+        62
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        21,
+        74
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        21,
+        77
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        21,
+        79
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        21,
+        90
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        21,
+        93
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        21,
+        94
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        21,
+        95
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        21,
+        108
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        21,
+        112
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        21,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        21,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        21,
+        122
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        21,
+        127
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        21,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        21,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        21,
+        159
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        21,
+        161
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        21,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        21,
+        163
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        21,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        21,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        24,
+        27
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        24,
+        28
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        24,
+        32
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        24,
+        33
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        24,
+        36
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        24,
+        43
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        24,
+        50
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        24,
+        65
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        24,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        24,
+        108
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        24,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        24,
+        128
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        24,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        27,
+        42
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        27,
+        50
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        27,
+        62
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        27,
+        65
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        27,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        27,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        27,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        27,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        27,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        27,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        27,
+        166
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        32
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        33
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        28,
+        36
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        28,
+        43
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        28,
+        53
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        55
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        62
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        74
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        75
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        90
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        97
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        99
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        108
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        122
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        126
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        28,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        163
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        28,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        28,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        32,
+        33
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        32,
+        36
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        32,
+        42
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        32,
+        43
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        32,
+        45
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        32,
+        53
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        32,
+        62
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        32,
+        65
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        32,
+        77
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        32,
+        79
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        32,
+        90
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        32,
+        91
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        32,
+        94
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        32,
+        95
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        32,
+        97
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        32,
+        106
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        32,
+        108
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        32,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        32,
+        114
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        32,
+        116
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        32,
+        127
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        32,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        32,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        32,
+        159
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        32,
+        161
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        32,
+        162
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        32,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        32,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        32,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        36
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        43
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        33,
+        53
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        55
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        62
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        74
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        75
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        77
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        90
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        97
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        99
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        108
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        127
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        33,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        36,
+        43
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        36,
+        45
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        36,
+        53
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        36,
+        55
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        36,
+        62
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        36,
+        74
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        36,
+        75
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        36,
+        77
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        36,
+        90
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        36,
+        95
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        36,
+        97
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        36,
+        99
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        36,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        36,
+        108
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        36,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        36,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        36,
+        116
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        36,
+        126
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        36,
+        127
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        36,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        36,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        36,
+        162
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        36,
+        163
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        36,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        36,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        41,
+        50
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        41,
+        62
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        41,
+        65
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        41,
+        77
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        41,
+        93
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        41,
+        94
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        41,
+        95
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        41,
+        97
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        41,
+        99
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        41,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        41,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        41,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        41,
+        126
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        41,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        41,
+        141
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        41,
+        159
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        41,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        41,
+        173
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        42,
+        45
+      ],
+      "reasons": [
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        42,
+        53
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        42,
+        55
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        42,
+        62
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        42,
+        74
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        42,
+        75
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        42,
+        79
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        42,
+        90
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        42,
+        94
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        42,
+        95
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        42,
+        97
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        42,
+        112
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        42,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        42,
+        127
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        42,
+        140
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        42,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        42,
+        159
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        42,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        42,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        42,
+        166
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        42,
+        173
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        43,
+        53
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        43,
+        55
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        43,
+        62
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        43,
+        74
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        43,
+        75
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        43,
+        79
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        43,
+        90
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        43,
+        97
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        43,
+        99
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        43,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        43,
+        108
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        43,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        43,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        43,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        43,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        43,
+        159
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        43,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        43,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        43,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        43,
+        171
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        45,
+        53
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        45,
+        55
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        45,
+        62
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        45,
+        74
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        45,
+        90
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        45,
+        93
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        45,
+        94
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        45,
+        95
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        45,
+        108
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        45,
+        112
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        45,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        45,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        45,
+        122
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        45,
+        127
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        45,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        45,
+        140
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        45,
+        159
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        45,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        45,
+        163
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        45,
+        167
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        50,
+        65
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        50,
+        77
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        50,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        50,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        50,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        50,
+        159
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        50,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        53,
+        55
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        53,
+        62
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        53,
+        74
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        53,
+        75
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        53,
+        79
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        53,
+        90
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        53,
+        93
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        53,
+        95
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        53,
+        97
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        53,
+        99
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        53,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        53,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        53,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        53,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        53,
+        127
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        53,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        53,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        53,
+        159
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        53,
+        162
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        53,
+        163
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        53,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        53,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        53,
+        171
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        55,
+        62
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        55,
+        68
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        55,
+        74
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        55,
+        75
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        55,
+        90
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        55,
+        94
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        55,
+        95
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        55,
+        97
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        55,
+        99
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        55,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        55,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        55,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        55,
+        116
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        55,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        55,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        55,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        55,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        55,
+        166
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        55,
+        167
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        55,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        62,
+        74
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        62,
+        75
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        62,
+        90
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        62,
+        93
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        62,
+        95
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        62,
+        97
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        62,
+        99
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        62,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        62,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        62,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        62,
+        127
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        62,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        62,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        62,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        62,
+        159
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        62,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        62,
+        163
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        62,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        62,
+        166
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        62,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        62,
+        173
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        65,
+        77
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        65,
+        80
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        65,
+        91
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        65,
+        94
+      ],
+      "reasons": [
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        65,
+        97
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        65,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        65,
+        108
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        65,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        65,
+        128
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        65,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        65,
+        159
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        65,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        65,
+        167
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        68,
+        75
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        68,
+        80
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        68,
+        141
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        68,
+        151
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        68,
+        156
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        68,
+        166
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        68,
+        167
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        74,
+        75
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        74,
+        79
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        74,
+        90
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        74,
+        93
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        74,
+        95
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        74,
+        97
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        74,
+        99
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        74,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        74,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        74,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        74,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        74,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        74,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        74,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        74,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        74,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        75,
+        80
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        75,
+        90
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        75,
+        94
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        75,
+        97
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        75,
+        99
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        75,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        75,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        75,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        75,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        75,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        75,
+        161
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        75,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        75,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        75,
+        166
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        75,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        77,
+        79
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        77,
+        122
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        77,
+        126
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        77,
+        127
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        77,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        77,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        77,
+        159
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        77,
+        161
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        77,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        77,
+        167
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        77,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        79,
+        90
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        79,
+        95
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        79,
+        97
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        79,
+        108
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        79,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        79,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        79,
+        122
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        79,
+        127
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        79,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        79,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        79,
+        159
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        79,
+        161
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        79,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        79,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        79,
+        167
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        79,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        80,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        80,
+        161
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        80,
+        166
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        80,
+        167
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        90,
+        93
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        90,
+        95
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        90,
+        97
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        90,
+        99
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        90,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        90,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        90,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        90,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        90,
+        127
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        90,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        90,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        90,
+        159
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        90,
+        162
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        90,
+        163
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        90,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        90,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        91,
+        94
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        91,
+        97
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        91,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        91,
+        108
+      ],
+      "reasons": [
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        91,
+        116
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        91,
+        163
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        93,
+        94
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        93,
+        95
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        93,
+        97
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        93,
+        99
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        93,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        93,
+        113
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        93,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        93,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        93,
+        126
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        93,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        93,
+        170
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        93,
+        173
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        94,
+        97
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        94,
+        99
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        94,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        94,
+        108
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        94,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        94,
+        122
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        94,
+        126
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        94,
+        127
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        94,
+        159
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        94,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        94,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        94,
+        166
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        94,
+        167
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        94,
+        173
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        95,
+        97
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        95,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        95,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        95,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        95,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        95,
+        159
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        95,
+        162
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        95,
+        173
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        97,
+        99
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        97,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        97,
+        108
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        97,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        97,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        97,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        97,
+        126
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        97,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        97,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        97,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        97,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        97,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        97,
+        171
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        97,
+        173
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        99,
+        106
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        99,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        99,
+        113
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        99,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        99,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        99,
+        126
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        99,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        99,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        99,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        99,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        99,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        99,
+        173
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        106,
+        108
+      ],
+      "reasons": [
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        106,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        106,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        106,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        106,
+        126
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        106,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        106,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        106,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        106,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        106,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        106,
+        173
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        108,
+        112
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        108,
+        116
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        108,
+        122
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        108,
+        127
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        108,
+        159
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        108,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        108,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        112,
+        114
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        112,
+        116
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        112,
+        127
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        112,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        112,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        112,
+        159
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        112,
+        162
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        112,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        112,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        112,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        112,
+        173
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        113,
+        170
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        113,
+        171
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        114,
+        116
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        114,
+        127
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        114,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        114,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        114,
+        159
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        114,
+        162
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        114,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        114,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        114,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        114,
+        173
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        116,
+        126
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        116,
+        128
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        116,
+        162
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        116,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        116,
+        173
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        122,
+        126
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        122,
+        127
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        122,
+        141
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        122,
+        161
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        122,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        122,
+        167
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        126,
+        141
+      ],
+      "reasons": [
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        126,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        126,
+        173
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        127,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        127,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        127,
+        159
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        127,
+        161
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        127,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        127,
+        163
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        127,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        127,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        128,
+        140
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        128,
+        159
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        128,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        128,
+        167
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        128,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        128,
+        173
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        140,
+        151
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        140,
+        159
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        140,
+        161
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        140,
+        162
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        140,
+        163
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        140,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        140,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        141,
+        156
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        151,
+        161
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        151,
+        162
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        151,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        151,
+        166
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        151,
+        167
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        151,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        159,
+        162
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        159,
+        163
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        159,
+        173
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        161,
+        164
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        161,
+        167
+      ],
+      "reasons": [
+        "existing_compatibility_policy",
+        "shared_specific_genre"
+      ]
+    },
+    {
+      "books": [
+        161,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        162,
+        163
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    },
+    {
+      "books": [
+        162,
+        166
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        163,
+        173
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        164,
+        170
+      ],
+      "reasons": [
+        "existing_compatibility_policy"
+      ]
+    },
+    {
+      "books": [
+        167,
+        173
+      ],
+      "reasons": [
+        "shared_profile_tone"
+      ]
+    }
+  ],
+  "epochs": [
+    {
+      "epoch": 1,
+      "batches": [
+        [
+          "TRAIN-B0006-V8",
+          "TRAIN-B0074-V4",
+          "TRAIN-B0002-V1",
+          "TRAIN-B0126-V6",
+          "TRAIN-B0156-V7",
+          "TRAIN-B0113-V8",
+          "TRAIN-B0127-V4",
+          "TRAIN-B0091-V8"
+        ],
+        [
+          "TRAIN-B0024-V3",
+          "TRAIN-B0003-V2",
+          "TRAIN-B0075-V7",
+          "TRAIN-B0122-V6",
+          "TRAIN-B0173-V4",
+          "TRAIN-B0171-V5",
+          "TRAIN-B0091-V6"
+        ],
+        [
+          "TRAIN-B0065-V5",
+          "TRAIN-B0004-V5",
+          "TRAIN-B0055-V1",
+          "TRAIN-B0122-V3",
+          "TRAIN-B0113-V3",
+          "TRAIN-B0156-V5",
+          "TRAIN-B0173-V2"
+        ],
+        [
+          "TRAIN-B0128-V7",
+          "TRAIN-B0108-V3",
+          "TRAIN-B0006-V5",
+          "TRAIN-B0042-V5",
+          "TRAIN-B0068-V6",
+          "TRAIN-B0113-V1",
+          "TRAIN-B0126-V4"
+        ],
+        [
+          "TRAIN-B0019-V3",
+          "TRAIN-B0140-V6",
+          "TRAIN-B0108-V1",
+          "TRAIN-B0041-V6",
+          "TRAIN-B0006-V1",
+          "TRAIN-B0113-V7",
+          "TRAIN-B0068-V7"
+        ],
+        [
+          "TRAIN-B0114-V2",
+          "TRAIN-B0167-V7",
+          "TRAIN-B0050-V8",
+          "TRAIN-B0141-V7",
+          "TRAIN-B0108-V4",
+          "TRAIN-B0113-V4",
+          "TRAIN-B0166-V1"
+        ],
+        [
+          "TRAIN-B0114-V1",
+          "TRAIN-B0161-V3",
+          "TRAIN-B0094-V4",
+          "TRAIN-B0003-V3",
+          "TRAIN-B0024-V1",
+          "TRAIN-B0171-V3"
+        ],
+        [
+          "TRAIN-B0099-V3",
+          "TRAIN-B0167-V4",
+          "TRAIN-B0042-V6",
+          "TRAIN-B0050-V1",
+          "TRAIN-B0156-V1",
+          "TRAIN-B0108-V5",
+          "TRAIN-B0171-V7"
+        ],
+        [
+          "TRAIN-B0033-V7",
+          "TRAIN-B0116-V3",
+          "TRAIN-B0122-V5",
+          "TRAIN-B0151-V5",
+          "TRAIN-B0156-V2",
+          "TRAIN-B0113-V2",
+          "TRAIN-B0159-V2"
+        ],
+        [
+          "TRAIN-B0075-V6",
+          "TRAIN-B0163-V7",
+          "TRAIN-B0122-V8",
+          "TRAIN-B0003-V7",
+          "TRAIN-B0095-V6",
+          "TRAIN-B0171-V6"
+        ],
+        [
+          "TRAIN-B0106-V6",
+          "TRAIN-B0011-V5",
+          "TRAIN-B0021-V5",
+          "TRAIN-B0141-V2",
+          "TRAIN-B0019-V8",
+          "TRAIN-B0171-V4"
+        ],
+        [
+          "TRAIN-B0099-V6",
+          "TRAIN-B0161-V2",
+          "TRAIN-B0042-V8",
+          "TRAIN-B0050-V4",
+          "TRAIN-B0068-V5",
+          "TRAIN-B0108-V6",
+          "TRAIN-B0171-V2"
+        ],
+        [
+          "TRAIN-B0062-V7",
+          "TRAIN-B0079-V7",
+          "TRAIN-B0006-V6",
+          "TRAIN-B0094-V3",
+          "TRAIN-B0141-V8",
+          "TRAIN-B0171-V8"
+        ],
+        [
+          "TRAIN-B0097-V1",
+          "TRAIN-B0162-V4",
+          "TRAIN-B0014-V8",
+          "TRAIN-B0050-V2",
+          "TRAIN-B0156-V4",
+          "TRAIN-B0161-V5",
+          "TRAIN-B0113-V5"
+        ],
+        [
+          "TRAIN-B0028-V1",
+          "TRAIN-B0041-V2",
+          "TRAIN-B0045-V3",
+          "TRAIN-B0079-V4",
+          "TRAIN-B0080-V2",
+          "TRAIN-B0027-V1",
+          "TRAIN-B0091-V1",
+          "TRAIN-B0156-V3"
+        ],
+        [
+          "TRAIN-B0090-V1",
+          "TRAIN-B0041-V3",
+          "TRAIN-B0002-V3",
+          "TRAIN-B0122-V4",
+          "TRAIN-B0004-V7",
+          "TRAIN-B0068-V1",
+          "TRAIN-B0091-V3",
+          "TRAIN-B0171-V1"
+        ],
+        [
+          "TRAIN-B0114-V4",
+          "TRAIN-B0167-V8",
+          "TRAIN-B0041-V7",
+          "TRAIN-B0024-V8",
+          "TRAIN-B0166-V4",
+          "TRAIN-B0091-V4",
+          "TRAIN-B0156-V6",
+          "TRAIN-B0113-V6"
+        ],
+        [
+          "TRAIN-B0128-V3",
+          "TRAIN-B0032-V3",
+          "TRAIN-B0093-V7",
+          "TRAIN-B0080-V4",
+          "TRAIN-B0141-V6"
+        ],
+        [
+          "TRAIN-B0128-V1",
+          "TRAIN-B0162-V2",
+          "TRAIN-B0079-V6",
+          "TRAIN-B0093-V2",
+          "TRAIN-B0006-V3",
+          "TRAIN-B0068-V3",
+          "TRAIN-B0091-V7"
+        ],
+        [
+          "TRAIN-B0043-V8",
+          "TRAIN-B0021-V2",
+          "TRAIN-B0050-V3",
+          "TRAIN-B0173-V8",
+          "TRAIN-B0004-V8",
+          "TRAIN-B0068-V2",
+          "TRAIN-B0091-V5"
+        ],
+        [
+          "TRAIN-B0028-V7",
+          "TRAIN-B0045-V8",
+          "TRAIN-B0079-V8",
+          "TRAIN-B0041-V5",
+          "TRAIN-B0027-V6",
+          "TRAIN-B0003-V4",
+          "TRAIN-B0091-V2"
+        ],
+        [
+          "TRAIN-B0106-V1",
+          "TRAIN-B0077-V1",
+          "TRAIN-B0162-V8",
+          "TRAIN-B0014-V7",
+          "TRAIN-B0003-V6"
+        ],
+        [
+          "TRAIN-B0036-V5",
+          "TRAIN-B0094-V5",
+          "TRAIN-B0013-V6",
+          "TRAIN-B0079-V2",
+          "TRAIN-B0080-V7",
+          "TRAIN-B0141-V4"
+        ],
+        [
+          "TRAIN-B0097-V7",
+          "TRAIN-B0002-V6",
+          "TRAIN-B0045-V2",
+          "TRAIN-B0077-V2",
+          "TRAIN-B0004-V3",
+          "TRAIN-B0068-V4"
+        ],
+        [
+          "TRAIN-B0114-V7",
+          "TRAIN-B0024-V5",
+          "TRAIN-B0041-V8",
+          "TRAIN-B0151-V1",
+          "TRAIN-B0122-V1",
+          "TRAIN-B0156-V8"
+        ],
+        [
+          "TRAIN-B0099-V4",
+          "TRAIN-B0013-V1",
+          "TRAIN-B0095-V3",
+          "TRAIN-B0001-V4",
+          "TRAIN-B0141-V3"
+        ],
+        [
+          "TRAIN-B0140-V4",
+          "TRAIN-B0116-V7",
+          "TRAIN-B0014-V4",
+          "TRAIN-B0019-V4",
+          "TRAIN-B0003-V5"
+        ],
+        [
+          "TRAIN-B0036-V6",
+          "TRAIN-B0021-V7",
+          "TRAIN-B0027-V4",
+          "TRAIN-B0167-V2",
+          "TRAIN-B0041-V1"
+        ],
+        [
+          "TRAIN-B0106-V5",
+          "TRAIN-B0016-V4",
+          "TRAIN-B0001-V6",
+          "TRAIN-B0166-V8",
+          "TRAIN-B0141-V5"
+        ],
+        [
+          "TRAIN-B0106-V8",
+          "TRAIN-B0002-V7",
+          "TRAIN-B0127-V6",
+          "TRAIN-B0095-V1",
+          "TRAIN-B0003-V1"
+        ],
+        [
+          "TRAIN-B0140-V8",
+          "TRAIN-B0024-V7",
+          "TRAIN-B0094-V2",
+          "TRAIN-B0095-V4",
+          "TRAIN-B0011-V4",
+          "TRAIN-B0141-V1"
+        ],
+        [
+          "TRAIN-B0163-V1",
+          "TRAIN-B0074-V3",
+          "TRAIN-B0151-V8",
+          "TRAIN-B0122-V2"
+        ],
+        [
+          "TRAIN-B0140-V7",
+          "TRAIN-B0050-V7",
+          "TRAIN-B0093-V3",
+          "TRAIN-B0019-V1",
+          "TRAIN-B0080-V5",
+          "TRAIN-B0108-V8"
+        ],
+        [
+          "TRAIN-B0062-V5",
+          "TRAIN-B0116-V2",
+          "TRAIN-B0001-V3"
+        ],
+        [
+          "TRAIN-B0053-V5",
+          "TRAIN-B0027-V8",
+          "TRAIN-B0173-V7",
+          "TRAIN-B0161-V7",
+          "TRAIN-B0011-V3"
+        ],
+        [
+          "TRAIN-B0090-V6",
+          "TRAIN-B0065-V7",
+          "TRAIN-B0173-V1",
+          "TRAIN-B0166-V3",
+          "TRAIN-B0161-V8",
+          "TRAIN-B0003-V8"
+        ],
+        [
+          "TRAIN-B0097-V6",
+          "TRAIN-B0045-V5",
+          "TRAIN-B0151-V6",
+          "TRAIN-B0024-V4"
+        ],
+        [
+          "TRAIN-B0163-V5",
+          "TRAIN-B0033-V1",
+          "TRAIN-B0095-V8",
+          "TRAIN-B0001-V7",
+          "TRAIN-B0166-V6"
+        ],
+        [
+          "TRAIN-B0163-V4",
+          "TRAIN-B0170-V7",
+          "TRAIN-B0167-V1",
+          "TRAIN-B0166-V7",
+          "TRAIN-B0095-V2"
+        ],
+        [
+          "TRAIN-B0043-V1",
+          "TRAIN-B0045-V4",
+          "TRAIN-B0027-V5",
+          "TRAIN-B0173-V6",
+          "TRAIN-B0077-V7",
+          "TRAIN-B0080-V6"
+        ],
+        [
+          "TRAIN-B0053-V8",
+          "TRAIN-B0094-V1",
+          "TRAIN-B0027-V3",
+          "TRAIN-B0014-V1",
+          "TRAIN-B0077-V8",
+          "TRAIN-B0068-V8"
+        ],
+        [
+          "TRAIN-B0164-V4",
+          "TRAIN-B0163-V6",
+          "TRAIN-B0167-V5",
+          "TRAIN-B0166-V2",
+          "TRAIN-B0095-V5"
+        ],
+        [
+          "TRAIN-B0140-V3",
+          "TRAIN-B0116-V4",
+          "TRAIN-B0002-V4",
+          "TRAIN-B0122-V7",
+          "TRAIN-B0004-V6"
+        ],
+        [
+          "TRAIN-B0028-V8",
+          "TRAIN-B0021-V3",
+          "TRAIN-B0065-V8",
+          "TRAIN-B0173-V3",
+          "TRAIN-B0019-V7"
+        ],
+        [
+          "TRAIN-B0164-V5",
+          "TRAIN-B0013-V2",
+          "TRAIN-B0093-V5",
+          "TRAIN-B0006-V4",
+          "TRAIN-B0108-V7"
+        ],
+        [
+          "TRAIN-B0028-V3",
+          "TRAIN-B0127-V8",
+          "TRAIN-B0093-V4",
+          "TRAIN-B0065-V2",
+          "TRAIN-B0019-V5"
+        ],
+        [
+          "TRAIN-B0114-V5",
+          "TRAIN-B0006-V2",
+          "TRAIN-B0151-V4",
+          "TRAIN-B0126-V3",
+          "TRAIN-B0108-V2"
+        ],
+        [
+          "TRAIN-B0055-V8",
+          "TRAIN-B0032-V7",
+          "TRAIN-B0027-V2",
+          "TRAIN-B0041-V4",
+          "TRAIN-B0080-V8"
+        ],
+        [
+          "TRAIN-B0033-V2",
+          "TRAIN-B0162-V7",
+          "TRAIN-B0079-V3",
+          "TRAIN-B0050-V5",
+          "TRAIN-B0126-V5",
+          "TRAIN-B0080-V1"
+        ],
+        [
+          "TRAIN-B0055-V7",
+          "TRAIN-B0032-V6",
+          "TRAIN-B0093-V1",
+          "TRAIN-B0050-V6",
+          "TRAIN-B0004-V4"
+        ],
+        [
+          "TRAIN-B0106-V2",
+          "TRAIN-B0007-V7",
+          "TRAIN-B0151-V3",
+          "TRAIN-B0095-V7"
+        ],
+        [
+          "TRAIN-B0036-V3",
+          "TRAIN-B0159-V6",
+          "TRAIN-B0001-V1",
+          "TRAIN-B0093-V6",
+          "TRAIN-B0027-V7"
+        ],
+        [
+          "TRAIN-B0033-V3",
+          "TRAIN-B0021-V8",
+          "TRAIN-B0011-V6",
+          "TRAIN-B0126-V7",
+          "TRAIN-B0019-V6"
+        ],
+        [
+          "TRAIN-B0170-V4",
+          "TRAIN-B0016-V3",
+          "TRAIN-B0116-V5",
+          "TRAIN-B0011-V7",
+          "TRAIN-B0019-V2"
+        ],
+        [
+          "TRAIN-B0033-V4",
+          "TRAIN-B0159-V1",
+          "TRAIN-B0001-V8",
+          "TRAIN-B0116-V8",
+          "TRAIN-B0166-V5"
+        ],
+        [
+          "TRAIN-B0043-V2",
+          "TRAIN-B0042-V1",
+          "TRAIN-B0001-V2",
+          "TRAIN-B0116-V1"
+        ],
+        [
+          "TRAIN-B0170-V5",
+          "TRAIN-B0159-V8",
+          "TRAIN-B0024-V6",
+          "TRAIN-B0167-V6",
+          "TRAIN-B0126-V2"
+        ],
+        [
+          "TRAIN-B0062-V1",
+          "TRAIN-B0094-V7",
+          "TRAIN-B0011-V2",
+          "TRAIN-B0077-V3",
+          "TRAIN-B0024-V2"
+        ],
+        [
+          "TRAIN-B0055-V3",
+          "TRAIN-B0163-V8",
+          "TRAIN-B0001-V5"
+        ],
+        [
+          "TRAIN-B0033-V6",
+          "TRAIN-B0007-V2",
+          "TRAIN-B0065-V4",
+          "TRAIN-B0004-V2"
+        ],
+        [
+          "TRAIN-B0164-V1",
+          "TRAIN-B0016-V8",
+          "TRAIN-B0011-V1",
+          "TRAIN-B0094-V8"
+        ],
+        [
+          "TRAIN-B0114-V3",
+          "TRAIN-B0065-V1",
+          "TRAIN-B0004-V1"
+        ],
+        [
+          "TRAIN-B0090-V4",
+          "TRAIN-B0014-V5",
+          "TRAIN-B0077-V5",
+          "TRAIN-B0094-V6"
+        ],
+        [
+          "TRAIN-B0097-V3",
+          "TRAIN-B0007-V8",
+          "TRAIN-B0006-V7",
+          "TRAIN-B0151-V7"
+        ],
+        [
+          "TRAIN-B0164-V2",
+          "TRAIN-B0159-V5",
+          "TRAIN-B0002-V2",
+          "TRAIN-B0116-V6"
+        ],
+        [
+          "TRAIN-B0170-V8",
+          "TRAIN-B0016-V1",
+          "TRAIN-B0126-V8",
+          "TRAIN-B0080-V3"
+        ],
+        [
+          "TRAIN-B0043-V5",
+          "TRAIN-B0162-V1",
+          "TRAIN-B0161-V1",
+          "TRAIN-B0065-V6",
+          "TRAIN-B0173-V5"
+        ],
+        [
+          "TRAIN-B0128-V6",
+          "TRAIN-B0007-V6",
+          "TRAIN-B0077-V6"
+        ],
+        [
+          "TRAIN-B0028-V4",
+          "TRAIN-B0013-V8",
+          "TRAIN-B0079-V5",
+          "TRAIN-B0093-V8"
+        ],
+        [
+          "TRAIN-B0028-V5",
+          "TRAIN-B0127-V2",
+          "TRAIN-B0065-V3"
+        ],
+        [
+          "TRAIN-B0099-V1",
+          "TRAIN-B0032-V1",
+          "TRAIN-B0167-V3"
+        ],
+        [
+          "TRAIN-B0074-V7",
+          "TRAIN-B0016-V2",
+          "TRAIN-B0077-V4",
+          "TRAIN-B0011-V8"
+        ],
+        [
+          "TRAIN-B0106-V4",
+          "TRAIN-B0042-V3",
+          "TRAIN-B0161-V4"
+        ],
+        [
+          "TRAIN-B0090-V7",
+          "TRAIN-B0014-V6",
+          "TRAIN-B0126-V1",
+          "TRAIN-B0161-V6"
+        ],
+        [
+          "TRAIN-B0164-V6",
+          "TRAIN-B0007-V1"
+        ],
+        [
+          "TRAIN-B0112-V7",
+          "TRAIN-B0002-V5"
+        ],
+        [
+          "TRAIN-B0128-V8",
+          "TRAIN-B0127-V5",
+          "TRAIN-B0014-V3"
+        ],
+        [
+          "TRAIN-B0164-V3",
+          "TRAIN-B0045-V6",
+          "TRAIN-B0002-V8"
+        ],
+        [
+          "TRAIN-B0043-V4",
+          "TRAIN-B0162-V5"
+        ],
+        [
+          "TRAIN-B0043-V3",
+          "TRAIN-B0042-V7"
+        ],
+        [
+          "TRAIN-B0090-V5",
+          "TRAIN-B0014-V2"
+        ],
+        [
+          "TRAIN-B0090-V3",
+          "TRAIN-B0151-V2"
+        ],
+        [
+          "TRAIN-B0075-V2",
+          "TRAIN-B0016-V7",
+          "TRAIN-B0079-V1"
+        ],
+        [
+          "TRAIN-B0036-V4",
+          "TRAIN-B0007-V5"
+        ],
+        [
+          "TRAIN-B0097-V4",
+          "TRAIN-B0016-V6"
+        ],
+        [
+          "TRAIN-B0053-V7",
+          "TRAIN-B0151-V7"
+        ],
+        [
+          "TRAIN-B0170-V6",
+          "TRAIN-B0159-V7"
+        ],
+        [
+          "TRAIN-B0043-V6",
+          "TRAIN-B0127-V3"
+        ],
+        [
+          "TRAIN-B0075-V3",
+          "TRAIN-B0032-V2"
+        ],
+        [
+          "TRAIN-B0164-V8",
+          "TRAIN-B0007-V3"
+        ],
+        [
+          "TRAIN-B0099-V5",
+          "TRAIN-B0159-V4"
+        ],
+        [
+          "TRAIN-B0053-V2",
+          "TRAIN-B0003-V7"
+        ],
+        [
+          "TRAIN-B0053-V4",
+          "TRAIN-B0041-V8"
+        ],
+        [
+          "TRAIN-B0128-V4",
+          "TRAIN-B0162-V3"
+        ],
+        [
+          "TRAIN-B0114-V6",
+          "TRAIN-B0171-V2"
+        ],
+        [
+          "TRAIN-B0140-V2",
+          "TRAIN-B0068-V4"
+        ],
+        [
+          "TRAIN-B0036-V1",
+          "TRAIN-B0013-V3"
+        ],
+        [
+          "TRAIN-B0112-V6",
+          "TRAIN-B0050-V5"
+        ],
+        [
+          "TRAIN-B0062-V6",
+          "TRAIN-B0011-V7"
+        ],
+        [
+          "TRAIN-B0075-V5",
+          "TRAIN-B0045-V1"
+        ],
+        [
+          "TRAIN-B0112-V1",
+          "TRAIN-B0006-V3"
+        ],
+        [
+          "TRAIN-B0128-V5",
+          "TRAIN-B0021-V4"
+        ],
+        [
+          "TRAIN-B0053-V1",
+          "TRAIN-B0003-V6"
+        ],
+        [
+          "TRAIN-B0112-V2",
+          "TRAIN-B0080-V3"
+        ],
+        [
+          "TRAIN-B0028-V6",
+          "TRAIN-B0013-V5"
+        ],
+        [
+          "TRAIN-B0170-V1",
+          "TRAIN-B0016-V5"
+        ],
+        [
+          "TRAIN-B0074-V2",
+          "TRAIN-B0163-V2"
+        ],
+        [
+          "TRAIN-B0062-V2",
+          "TRAIN-B0126-V8"
+        ],
+        [
+          "TRAIN-B0075-V8",
+          "TRAIN-B0045-V7"
+        ],
+        [
+          "TRAIN-B0090-V2",
+          "TRAIN-B0151-V6"
+        ],
+        [
+          "TRAIN-B0062-V4",
+          "TRAIN-B0050-V5"
+        ],
+        [
+          "TRAIN-B0074-V8",
+          "TRAIN-B0127-V1"
+        ],
+        [
+          "TRAIN-B0062-V3",
+          "TRAIN-B0077-V3"
+        ],
+        [
+          "TRAIN-B0112-V4",
+          "TRAIN-B0077-V1"
+        ],
+        [
+          "TRAIN-B0033-V8",
+          "TRAIN-B0162-V6"
+        ],
+        [
+          "TRAIN-B0140-V1",
+          "TRAIN-B0126-V7"
+        ],
+        [
+          "TRAIN-B0099-V8",
+          "TRAIN-B0013-V4"
+        ],
+        [
+          "TRAIN-B0036-V7",
+          "TRAIN-B0013-V7"
+        ],
+        [
+          "TRAIN-B0075-V4",
+          "TRAIN-B0159-V3"
+        ],
+        [
+          "TRAIN-B0106-V3",
+          "TRAIN-B0042-V4"
+        ],
+        [
+          "TRAIN-B0055-V5",
+          "TRAIN-B0163-V3"
+        ],
+        [
+          "TRAIN-B0074-V6",
+          "TRAIN-B0032-V8"
+        ],
+        [
+          "TRAIN-B0055-V6",
+          "TRAIN-B0021-V6"
+        ],
+        [
+          "TRAIN-B0055-V2",
+          "TRAIN-B0021-V1"
+        ],
+        [
+          "TRAIN-B0112-V5",
+          "TRAIN-B0094-V7"
+        ],
+        [
+          "TRAIN-B0112-V8",
+          "TRAIN-B0006-V4"
+        ],
+        [
+          "TRAIN-B0028-V2",
+          "TRAIN-B0042-V2"
+        ],
+        [
+          "TRAIN-B0128-V2",
+          "TRAIN-B0032-V5"
+        ],
+        [
+          "TRAIN-B0036-V8",
+          "TRAIN-B0007-V4"
+        ],
+        [
+          "TRAIN-B0099-V7",
+          "TRAIN-B0127-V7"
+        ],
+        [
+          "TRAIN-B0170-V3",
+          "TRAIN-B0068-V3"
+        ],
+        [
+          "TRAIN-B0114-V8",
+          "TRAIN-B0077-V1"
+        ],
+        [
+          "TRAIN-B0170-V2",
+          "TRAIN-B0013-V5"
+        ],
+        [
+          "TRAIN-B0074-V5",
+          "TRAIN-B0032-V4"
+        ],
+        [
+          "TRAIN-B0097-V8",
+          "TRAIN-B0021-V8"
+        ],
+        [
+          "TRAIN-B0033-V5",
+          "TRAIN-B0027-V7"
+        ],
+        [
+          "TRAIN-B0043-V7",
+          "TRAIN-B0019-V1"
+        ],
+        [
+          "TRAIN-B0053-V3",
+          "TRAIN-B0151-V4"
+        ],
+        [
+          "TRAIN-B0097-V2",
+          "TRAIN-B0016-V4"
+        ],
+        [
+          "TRAIN-B0140-V5",
+          "TRAIN-B0116-V8"
+        ],
+        [
+          "TRAIN-B0164-V7",
+          "TRAIN-B0167-V1"
+        ],
+        [
+          "TRAIN-B0062-V8",
+          "TRAIN-B0077-V4"
+        ],
+        [
+          "TRAIN-B0090-V8",
+          "TRAIN-B0141-V2"
+        ],
+        [
+          "TRAIN-B0075-V1",
+          "TRAIN-B0065-V7"
+        ],
+        [
+          "TRAIN-B0106-V7",
+          "TRAIN-B0151-V8"
+        ],
+        [
+          "TRAIN-B0036-V2",
+          "TRAIN-B0141-V6"
+        ],
+        [
+          "TRAIN-B0099-V2",
+          "TRAIN-B0042-V7"
+        ],
+        [
+          "TRAIN-B0097-V5",
+          "TRAIN-B0166-V1"
+        ],
+        [
+          "TRAIN-B0112-V3",
+          "TRAIN-B0027-V5"
+        ],
+        [
+          "TRAIN-B0074-V1",
+          "TRAIN-B0065-V8"
+        ],
+        [
+          "TRAIN-B0053-V6",
+          "TRAIN-B0151-V5"
+        ],
+        [
+          "TRAIN-B0055-V4",
+          "TRAIN-B0050-V2"
+        ]
+      ],
+      "batch_size_counts": {
+        "8": 4,
+        "7": 12,
+        "6": 13,
+        "5": 25,
+        "4": 13,
+        "3": 10,
+        "2": 75
+      },
+      "unique_examples": 512,
+      "companion_repeats": [
+        "TRAIN-B0151-V7",
+        "TRAIN-B0003-V7",
+        "TRAIN-B0041-V8",
+        "TRAIN-B0171-V2",
+        "TRAIN-B0068-V4",
+        "TRAIN-B0050-V5",
+        "TRAIN-B0011-V7",
+        "TRAIN-B0006-V3",
+        "TRAIN-B0003-V6",
+        "TRAIN-B0080-V3",
+        "TRAIN-B0126-V8",
+        "TRAIN-B0151-V6",
+        "TRAIN-B0050-V5",
+        "TRAIN-B0077-V3",
+        "TRAIN-B0077-V1",
+        "TRAIN-B0126-V7",
+        "TRAIN-B0094-V7",
+        "TRAIN-B0006-V4",
+        "TRAIN-B0068-V3",
+        "TRAIN-B0077-V1",
+        "TRAIN-B0013-V5",
+        "TRAIN-B0021-V8",
+        "TRAIN-B0027-V7",
+        "TRAIN-B0019-V1",
+        "TRAIN-B0151-V4",
+        "TRAIN-B0016-V4",
+        "TRAIN-B0116-V8",
+        "TRAIN-B0167-V1",
+        "TRAIN-B0077-V4",
+        "TRAIN-B0141-V2",
+        "TRAIN-B0065-V7",
+        "TRAIN-B0151-V8",
+        "TRAIN-B0141-V6",
+        "TRAIN-B0042-V7",
+        "TRAIN-B0166-V1",
+        "TRAIN-B0027-V5",
+        "TRAIN-B0065-V8",
+        "TRAIN-B0151-V5",
+        "TRAIN-B0050-V2"
+      ],
+      "presentations": 551
+    },
+    {
+      "epoch": 2,
+      "batches": [
+        [
+          "TRAIN-B0024-V3",
+          "TRAIN-B0079-V8",
+          "TRAIN-B0141-V1",
+          "TRAIN-B0045-V3",
+          "TRAIN-B0173-V4",
+          "TRAIN-B0113-V8",
+          "TRAIN-B0080-V6",
+          "TRAIN-B0091-V6"
+        ],
+        [
+          "TRAIN-B0014-V3",
+          "TRAIN-B0041-V8",
+          "TRAIN-B0068-V1",
+          "TRAIN-B0045-V5",
+          "TRAIN-B0170-V6",
+          "TRAIN-B0027-V5",
+          "TRAIN-B0091-V8",
+          "TRAIN-B0171-V3"
+        ],
+        [
+          "TRAIN-B0024-V5",
+          "TRAIN-B0167-V6",
+          "TRAIN-B0156-V4",
+          "TRAIN-B0097-V6",
+          "TRAIN-B0021-V8",
+          "TRAIN-B0166-V4",
+          "TRAIN-B0113-V2"
+        ],
+        [
+          "TRAIN-B0128-V7",
+          "TRAIN-B0163-V6",
+          "TRAIN-B0151-V2",
+          "TRAIN-B0141-V3",
+          "TRAIN-B0113-V6"
+        ],
+        [
+          "TRAIN-B0043-V8",
+          "TRAIN-B0065-V2",
+          "TRAIN-B0019-V6",
+          "TRAIN-B0126-V3",
+          "TRAIN-B0127-V8",
+          "TRAIN-B0003-V2",
+          "TRAIN-B0095-V8",
+          "TRAIN-B0113-V3"
+        ],
+        [
+          "TRAIN-B0043-V6",
+          "TRAIN-B0151-V8",
+          "TRAIN-B0045-V8",
+          "TRAIN-B0006-V7",
+          "TRAIN-B0173-V3",
+          "TRAIN-B0141-V8",
+          "TRAIN-B0113-V4",
+          "TRAIN-B0091-V5"
+        ],
+        [
+          "TRAIN-B0028-V6",
+          "TRAIN-B0077-V4",
+          "TRAIN-B0011-V6",
+          "TRAIN-B0013-V3",
+          "TRAIN-B0093-V1",
+          "TRAIN-B0156-V8",
+          "TRAIN-B0171-V1",
+          "TRAIN-B0091-V4"
+        ],
+        [
+          "TRAIN-B0140-V2",
+          "TRAIN-B0011-V7",
+          "TRAIN-B0019-V7",
+          "TRAIN-B0050-V6",
+          "TRAIN-B0173-V2",
+          "TRAIN-B0156-V6",
+          "TRAIN-B0113-V1",
+          "TRAIN-B0091-V2"
+        ],
+        [
+          "TRAIN-B0075-V1",
+          "TRAIN-B0007-V8",
+          "TRAIN-B0151-V1",
+          "TRAIN-B0050-V2",
+          "TRAIN-B0126-V6",
+          "TRAIN-B0095-V1",
+          "TRAIN-B0156-V3",
+          "TRAIN-B0091-V3"
+        ],
+        [
+          "TRAIN-B0043-V3",
+          "TRAIN-B0021-V1",
+          "TRAIN-B0080-V7",
+          "TRAIN-B0019-V3",
+          "TRAIN-B0041-V1",
+          "TRAIN-B0156-V5",
+          "TRAIN-B0113-V7",
+          "TRAIN-B0091-V1"
+        ],
+        [
+          "TRAIN-B0028-V2",
+          "TRAIN-B0007-V4",
+          "TRAIN-B0161-V5",
+          "TRAIN-B0166-V1",
+          "TRAIN-B0065-V8",
+          "TRAIN-B0095-V5",
+          "TRAIN-B0003-V1"
+        ],
+        [
+          "TRAIN-B0097-V5",
+          "TRAIN-B0004-V2",
+          "TRAIN-B0159-V2",
+          "TRAIN-B0002-V4",
+          "TRAIN-B0068-V8",
+          "TRAIN-B0122-V4",
+          "TRAIN-B0113-V5"
+        ],
+        [
+          "TRAIN-B0097-V7",
+          "TRAIN-B0127-V1",
+          "TRAIN-B0014-V1",
+          "TRAIN-B0019-V8",
+          "TRAIN-B0068-V5",
+          "TRAIN-B0050-V7"
+        ],
+        [
+          "TRAIN-B0164-V1",
+          "TRAIN-B0116-V4",
+          "TRAIN-B0016-V8",
+          "TRAIN-B0166-V6",
+          "TRAIN-B0122-V8",
+          "TRAIN-B0003-V7",
+          "TRAIN-B0171-V7"
+        ],
+        [
+          "TRAIN-B0033-V2",
+          "TRAIN-B0021-V2",
+          "TRAIN-B0065-V1",
+          "TRAIN-B0004-V6",
+          "TRAIN-B0141-V6",
+          "TRAIN-B0173-V1",
+          "TRAIN-B0171-V8"
+        ],
+        [
+          "TRAIN-B0032-V3",
+          "TRAIN-B0075-V3",
+          "TRAIN-B0126-V5",
+          "TRAIN-B0006-V6",
+          "TRAIN-B0156-V7",
+          "TRAIN-B0171-V6"
+        ],
+        [
+          "TRAIN-B0164-V5",
+          "TRAIN-B0163-V8",
+          "TRAIN-B0002-V6",
+          "TRAIN-B0068-V2",
+          "TRAIN-B0122-V1",
+          "TRAIN-B0095-V3",
+          "TRAIN-B0171-V2"
+        ],
+        [
+          "TRAIN-B0140-V1",
+          "TRAIN-B0014-V8",
+          "TRAIN-B0126-V4",
+          "TRAIN-B0068-V7",
+          "TRAIN-B0050-V3",
+          "TRAIN-B0019-V1",
+          "TRAIN-B0095-V7",
+          "TRAIN-B0091-V7"
+        ],
+        [
+          "TRAIN-B0079-V7",
+          "TRAIN-B0062-V4",
+          "TRAIN-B0094-V5",
+          "TRAIN-B0024-V6",
+          "TRAIN-B0068-V4",
+          "TRAIN-B0171-V4"
+        ],
+        [
+          "TRAIN-B0114-V6",
+          "TRAIN-B0077-V6",
+          "TRAIN-B0166-V8",
+          "TRAIN-B0108-V3",
+          "TRAIN-B0003-V5",
+          "TRAIN-B0171-V5"
+        ],
+        [
+          "TRAIN-B0097-V8",
+          "TRAIN-B0162-V8",
+          "TRAIN-B0014-V2",
+          "TRAIN-B0077-V1",
+          "TRAIN-B0156-V2"
+        ],
+        [
+          "TRAIN-B0097-V4",
+          "TRAIN-B0045-V4",
+          "TRAIN-B0151-V5",
+          "TRAIN-B0024-V2",
+          "TRAIN-B0141-V5"
+        ],
+        [
+          "TRAIN-B0055-V6",
+          "TRAIN-B0163-V5",
+          "TRAIN-B0161-V7",
+          "TRAIN-B0003-V3"
+        ],
+        [
+          "TRAIN-B0053-V1",
+          "TRAIN-B0077-V8",
+          "TRAIN-B0002-V1",
+          "TRAIN-B0004-V1",
+          "TRAIN-B0068-V6"
+        ],
+        [
+          "TRAIN-B0097-V2",
+          "TRAIN-B0007-V3",
+          "TRAIN-B0161-V4",
+          "TRAIN-B0024-V4",
+          "TRAIN-B0166-V3",
+          "TRAIN-B0141-V2"
+        ],
+        [
+          "TRAIN-B0128-V8",
+          "TRAIN-B0042-V2",
+          "TRAIN-B0161-V1",
+          "TRAIN-B0108-V4",
+          "TRAIN-B0093-V6",
+          "TRAIN-B0068-V3"
+        ],
+        [
+          "TRAIN-B0075-V4",
+          "TRAIN-B0016-V7",
+          "TRAIN-B0116-V7",
+          "TRAIN-B0151-V3",
+          "TRAIN-B0122-V2",
+          "TRAIN-B0156-V1"
+        ],
+        [
+          "TRAIN-B0164-V6",
+          "TRAIN-B0162-V4",
+          "TRAIN-B0006-V8",
+          "TRAIN-B0041-V7"
+        ],
+        [
+          "TRAIN-B0170-V4",
+          "TRAIN-B0013-V2",
+          "TRAIN-B0116-V3",
+          "TRAIN-B0011-V1",
+          "TRAIN-B0141-V4"
+        ],
+        [
+          "TRAIN-B0055-V2",
+          "TRAIN-B0021-V5",
+          "TRAIN-B0014-V5",
+          "TRAIN-B0027-V8",
+          "TRAIN-B0041-V2",
+          "TRAIN-B0003-V8"
+        ],
+        [
+          "TRAIN-B0164-V7",
+          "TRAIN-B0163-V3",
+          "TRAIN-B0080-V3",
+          "TRAIN-B0122-V7",
+          "TRAIN-B0095-V2"
+        ],
+        [
+          "TRAIN-B0036-V8",
+          "TRAIN-B0042-V4",
+          "TRAIN-B0001-V5",
+          "TRAIN-B0050-V5",
+          "TRAIN-B0093-V8",
+          "TRAIN-B0141-V7"
+        ],
+        [
+          "TRAIN-B0128-V1",
+          "TRAIN-B0032-V6",
+          "TRAIN-B0006-V1",
+          "TRAIN-B0126-V2"
+        ],
+        [
+          "TRAIN-B0099-V7",
+          "TRAIN-B0045-V2",
+          "TRAIN-B0077-V5",
+          "TRAIN-B0080-V8",
+          "TRAIN-B0027-V2"
+        ],
+        [
+          "TRAIN-B0112-V4",
+          "TRAIN-B0094-V1",
+          "TRAIN-B0161-V8",
+          "TRAIN-B0027-V4",
+          "TRAIN-B0003-V4"
+        ],
+        [
+          "TRAIN-B0112-V3",
+          "TRAIN-B0094-V4",
+          "TRAIN-B0151-V4",
+          "TRAIN-B0006-V2"
+        ],
+        [
+          "TRAIN-B0043-V1",
+          "TRAIN-B0013-V6",
+          "TRAIN-B0116-V5",
+          "TRAIN-B0001-V7"
+        ],
+        [
+          "TRAIN-B0128-V5",
+          "TRAIN-B0007-V7",
+          "TRAIN-B0161-V2",
+          "TRAIN-B0126-V8",
+          "TRAIN-B0166-V2",
+          "TRAIN-B0003-V6"
+        ],
+        [
+          "TRAIN-B0033-V4",
+          "TRAIN-B0045-V6",
+          "TRAIN-B0079-V4",
+          "TRAIN-B0004-V4",
+          "TRAIN-B0065-V3",
+          "TRAIN-B0173-V7"
+        ],
+        [
+          "TRAIN-B0099-V5",
+          "TRAIN-B0013-V7",
+          "TRAIN-B0108-V1",
+          "TRAIN-B0167-V2",
+          "TRAIN-B0095-V4"
+        ],
+        [
+          "TRAIN-B0114-V2",
+          "TRAIN-B0077-V3",
+          "TRAIN-B0108-V7",
+          "TRAIN-B0004-V7"
+        ],
+        [
+          "TRAIN-B0106-V3",
+          "TRAIN-B0127-V5",
+          "TRAIN-B0167-V5",
+          "TRAIN-B0095-V6",
+          "TRAIN-B0166-V5"
+        ],
+        [
+          "TRAIN-B0164-V4",
+          "TRAIN-B0163-V1",
+          "TRAIN-B0167-V4",
+          "TRAIN-B0166-V7"
+        ],
+        [
+          "TRAIN-B0074-V7",
+          "TRAIN-B0032-V5",
+          "TRAIN-B0050-V4",
+          "TRAIN-B0019-V5",
+          "TRAIN-B0080-V5",
+          "TRAIN-B0126-V7"
+        ],
+        [
+          "TRAIN-B0053-V3",
+          "TRAIN-B0001-V6",
+          "TRAIN-B0024-V1",
+          "TRAIN-B0041-V3"
+        ],
+        [
+          "TRAIN-B0043-V4",
+          "TRAIN-B0013-V4",
+          "TRAIN-B0116-V8",
+          "TRAIN-B0001-V2"
+        ],
+        [
+          "TRAIN-B0043-V5",
+          "TRAIN-B0045-V7",
+          "TRAIN-B0065-V4",
+          "TRAIN-B0161-V3",
+          "TRAIN-B0173-V5"
+        ],
+        [
+          "TRAIN-B0099-V3",
+          "TRAIN-B0162-V5",
+          "TRAIN-B0079-V1",
+          "TRAIN-B0050-V8",
+          "TRAIN-B0080-V4"
+        ],
+        [
+          "TRAIN-B0128-V3",
+          "TRAIN-B0127-V3",
+          "TRAIN-B0002-V2",
+          "TRAIN-B0006-V5",
+          "TRAIN-B0093-V4"
+        ],
+        [
+          "TRAIN-B0074-V3",
+          "TRAIN-B0016-V5",
+          "TRAIN-B0011-V2",
+          "TRAIN-B0094-V3",
+          "TRAIN-B0077-V2"
+        ],
+        [
+          "TRAIN-B0099-V4",
+          "TRAIN-B0021-V7",
+          "TRAIN-B0014-V7",
+          "TRAIN-B0019-V2",
+          "TRAIN-B0050-V1"
+        ],
+        [
+          "TRAIN-B0062-V5",
+          "TRAIN-B0116-V1",
+          "TRAIN-B0001-V4"
+        ],
+        [
+          "TRAIN-B0106-V2",
+          "TRAIN-B0021-V6",
+          "TRAIN-B0167-V1"
+        ],
+        [
+          "TRAIN-B0170-V3",
+          "TRAIN-B0042-V8",
+          "TRAIN-B0065-V6",
+          "TRAIN-B0122-V5"
+        ],
+        [
+          "TRAIN-B0140-V4",
+          "TRAIN-B0108-V6",
+          "TRAIN-B0006-V4",
+          "TRAIN-B0041-V5",
+          "TRAIN-B0019-V4"
+        ],
+        [
+          "TRAIN-B0097-V1",
+          "TRAIN-B0007-V6",
+          "TRAIN-B0004-V5",
+          "TRAIN-B0024-V7",
+          "TRAIN-B0077-V7"
+        ],
+        [
+          "TRAIN-B0114-V4",
+          "TRAIN-B0065-V7",
+          "TRAIN-B0004-V3",
+          "TRAIN-B0122-V6"
+        ],
+        [
+          "TRAIN-B0033-V7",
+          "TRAIN-B0163-V2",
+          "TRAIN-B0151-V6",
+          "TRAIN-B0122-V3"
+        ],
+        [
+          "TRAIN-B0112-V7",
+          "TRAIN-B0094-V7",
+          "TRAIN-B0006-V3",
+          "TRAIN-B0151-V7"
+        ],
+        [
+          "TRAIN-B0053-V5",
+          "TRAIN-B0108-V2",
+          "TRAIN-B0041-V4",
+          "TRAIN-B0167-V3",
+          "TRAIN-B0027-V1"
+        ],
+        [
+          "TRAIN-B0062-V7",
+          "TRAIN-B0116-V6",
+          "TRAIN-B0079-V2",
+          "TRAIN-B0080-V1"
+        ],
+        [
+          "TRAIN-B0075-V6",
+          "TRAIN-B0163-V7",
+          "TRAIN-B0001-V8"
+        ],
+        [
+          "TRAIN-B0140-V8",
+          "TRAIN-B0002-V7",
+          "TRAIN-B0093-V3",
+          "TRAIN-B0004-V8"
+        ],
+        [
+          "TRAIN-B0114-V8",
+          "TRAIN-B0167-V8",
+          "TRAIN-B0027-V7",
+          "TRAIN-B0041-V6",
+          "TRAIN-B0108-V5"
+        ],
+        [
+          "TRAIN-B0090-V4",
+          "TRAIN-B0014-V6",
+          "TRAIN-B0094-V6",
+          "TRAIN-B0027-V6",
+          "TRAIN-B0161-V6"
+        ],
+        [
+          "TRAIN-B0033-V5",
+          "TRAIN-B0042-V1",
+          "TRAIN-B0167-V7",
+          "TRAIN-B0116-V2"
+        ],
+        [
+          "TRAIN-B0106-V6",
+          "TRAIN-B0159-V8",
+          "TRAIN-B0002-V8"
+        ],
+        [
+          "TRAIN-B0140-V3",
+          "TRAIN-B0011-V4",
+          "TRAIN-B0093-V7",
+          "TRAIN-B0024-V8"
+        ],
+        [
+          "TRAIN-B0062-V8",
+          "TRAIN-B0079-V3",
+          "TRAIN-B0094-V2",
+          "TRAIN-B0080-V2"
+        ],
+        [
+          "TRAIN-B0075-V5",
+          "TRAIN-B0013-V5",
+          "TRAIN-B0011-V3",
+          "TRAIN-B0093-V2"
+        ],
+        [
+          "TRAIN-B0053-V4",
+          "TRAIN-B0014-V4",
+          "TRAIN-B0094-V8",
+          "TRAIN-B0027-V3"
+        ],
+        [
+          "TRAIN-B0053-V6",
+          "TRAIN-B0011-V5",
+          "TRAIN-B0126-V1"
+        ],
+        [
+          "TRAIN-B0090-V1",
+          "TRAIN-B0011-V8",
+          "TRAIN-B0173-V8"
+        ],
+        [
+          "TRAIN-B0062-V6",
+          "TRAIN-B0079-V5",
+          "TRAIN-B0065-V5"
+        ],
+        [
+          "TRAIN-B0028-V7",
+          "TRAIN-B0007-V5"
+        ],
+        [
+          "TRAIN-B0099-V2",
+          "TRAIN-B0162-V7",
+          "TRAIN-B0079-V6"
+        ],
+        [
+          "TRAIN-B0055-V3",
+          "TRAIN-B0159-V7",
+          "TRAIN-B0001-V1",
+          "TRAIN-B0093-V5"
+        ],
+        [
+          "TRAIN-B0036-V3",
+          "TRAIN-B0021-V3",
+          "TRAIN-B0173-V6"
+        ],
+        [
+          "TRAIN-B0140-V5",
+          "TRAIN-B0002-V5"
+        ],
+        [
+          "TRAIN-B0036-V2",
+          "TRAIN-B0159-V3",
+          "TRAIN-B0001-V3"
+        ],
+        [
+          "TRAIN-B0106-V7",
+          "TRAIN-B0016-V4"
+        ],
+        [
+          "TRAIN-B0106-V1",
+          "TRAIN-B0162-V1"
+        ],
+        [
+          "TRAIN-B0028-V3",
+          "TRAIN-B0127-V6"
+        ],
+        [
+          "TRAIN-B0090-V5",
+          "TRAIN-B0002-V3"
+        ],
+        [
+          "TRAIN-B0028-V8",
+          "TRAIN-B0007-V2"
+        ],
+        [
+          "TRAIN-B0128-V6",
+          "TRAIN-B0032-V7"
+        ],
+        [
+          "TRAIN-B0114-V3",
+          "TRAIN-B0108-V8"
+        ],
+        [
+          "TRAIN-B0106-V5",
+          "TRAIN-B0042-V6"
+        ],
+        [
+          "TRAIN-B0112-V2",
+          "TRAIN-B0002-V8"
+        ],
+        [
+          "TRAIN-B0112-V5",
+          "TRAIN-B0122-V3"
+        ],
+        [
+          "TRAIN-B0062-V2",
+          "TRAIN-B0079-V5"
+        ],
+        [
+          "TRAIN-B0090-V8",
+          "TRAIN-B0002-V4"
+        ],
+        [
+          "TRAIN-B0090-V6",
+          "TRAIN-B0161-V1"
+        ],
+        [
+          "TRAIN-B0028-V4",
+          "TRAIN-B0162-V3"
+        ],
+        [
+          "TRAIN-B0074-V5",
+          "TRAIN-B0032-V1"
+        ],
+        [
+          "TRAIN-B0036-V5",
+          "TRAIN-B0159-V5"
+        ],
+        [
+          "TRAIN-B0114-V5",
+          "TRAIN-B0091-V4"
+        ],
+        [
+          "TRAIN-B0164-V2",
+          "TRAIN-B0016-V3"
+        ],
+        [
+          "TRAIN-B0112-V8",
+          "TRAIN-B0080-V1"
+        ],
+        [
+          "TRAIN-B0075-V2",
+          "TRAIN-B0032-V8"
+        ],
+        [
+          "TRAIN-B0074-V6",
+          "TRAIN-B0016-V1"
+        ],
+        [
+          "TRAIN-B0028-V5",
+          "TRAIN-B0159-V6"
+        ],
+        [
+          "TRAIN-B0097-V3",
+          "TRAIN-B0021-V4"
+        ],
+        [
+          "TRAIN-B0055-V7",
+          "TRAIN-B0007-V1"
+        ],
+        [
+          "TRAIN-B0074-V1",
+          "TRAIN-B0013-V1"
+        ],
+        [
+          "TRAIN-B0106-V4",
+          "TRAIN-B0042-V3"
+        ],
+        [
+          "TRAIN-B0036-V1",
+          "TRAIN-B0042-V5"
+        ],
+        [
+          "TRAIN-B0099-V6",
+          "TRAIN-B0162-V2"
+        ],
+        [
+          "TRAIN-B0106-V8",
+          "TRAIN-B0159-V1"
+        ],
+        [
+          "TRAIN-B0033-V8",
+          "TRAIN-B0013-V8"
+        ],
+        [
+          "TRAIN-B0033-V1",
+          "TRAIN-B0163-V4"
+        ],
+        [
+          "TRAIN-B0114-V7",
+          "TRAIN-B0091-V2"
+        ],
+        [
+          "TRAIN-B0043-V7",
+          "TRAIN-B0127-V7"
+        ],
+        [
+          "TRAIN-B0053-V2",
+          "TRAIN-B0094-V7"
+        ],
+        [
+          "TRAIN-B0170-V2",
+          "TRAIN-B0016-V6"
+        ],
+        [
+          "TRAIN-B0075-V7",
+          "TRAIN-B0032-V4"
+        ],
+        [
+          "TRAIN-B0036-V6",
+          "TRAIN-B0159-V4"
+        ],
+        [
+          "TRAIN-B0055-V8",
+          "TRAIN-B0127-V4"
+        ],
+        [
+          "TRAIN-B0074-V4",
+          "TRAIN-B0016-V2"
+        ],
+        [
+          "TRAIN-B0062-V1",
+          "TRAIN-B0011-V2"
+        ],
+        [
+          "TRAIN-B0170-V8",
+          "TRAIN-B0045-V1"
+        ],
+        [
+          "TRAIN-B0090-V2",
+          "TRAIN-B0166-V1"
+        ],
+        [
+          "TRAIN-B0128-V2",
+          "TRAIN-B0032-V2"
+        ],
+        [
+          "TRAIN-B0074-V8",
+          "TRAIN-B0127-V2"
+        ],
+        [
+          "TRAIN-B0055-V1",
+          "TRAIN-B0122-V4"
+        ],
+        [
+          "TRAIN-B0112-V1",
+          "TRAIN-B0002-V5"
+        ],
+        [
+          "TRAIN-B0170-V1",
+          "TRAIN-B0042-V7"
+        ],
+        [
+          "TRAIN-B0164-V8",
+          "TRAIN-B0162-V6"
+        ],
+        [
+          "TRAIN-B0055-V4",
+          "TRAIN-B0032-V3"
+        ],
+        [
+          "TRAIN-B0114-V1",
+          "TRAIN-B0166-V4"
+        ],
+        [
+          "TRAIN-B0074-V2",
+          "TRAIN-B0032-V8"
+        ],
+        [
+          "TRAIN-B0036-V4",
+          "TRAIN-B0167-V2"
+        ],
+        [
+          "TRAIN-B0036-V7",
+          "TRAIN-B0011-V6"
+        ],
+        [
+          "TRAIN-B0170-V5",
+          "TRAIN-B0141-V4"
+        ],
+        [
+          "TRAIN-B0043-V2",
+          "TRAIN-B0141-V5"
+        ],
+        [
+          "TRAIN-B0055-V5",
+          "TRAIN-B0011-V5"
+        ],
+        [
+          "TRAIN-B0075-V8",
+          "TRAIN-B0093-V3"
+        ],
+        [
+          "TRAIN-B0028-V1",
+          "TRAIN-B0079-V5"
+        ],
+        [
+          "TRAIN-B0033-V3",
+          "TRAIN-B0001-V2"
+        ],
+        [
+          "TRAIN-B0099-V1",
+          "TRAIN-B0167-V7"
+        ],
+        [
+          "TRAIN-B0140-V6",
+          "TRAIN-B0093-V5"
+        ],
+        [
+          "TRAIN-B0090-V7",
+          "TRAIN-B0126-V5"
+        ],
+        [
+          "TRAIN-B0099-V8",
+          "TRAIN-B0003-V7"
+        ],
+        [
+          "TRAIN-B0164-V3",
+          "TRAIN-B0126-V6"
+        ],
+        [
+          "TRAIN-B0170-V7",
+          "TRAIN-B0094-V6"
+        ],
+        [
+          "TRAIN-B0140-V7",
+          "TRAIN-B0166-V6"
+        ],
+        [
+          "TRAIN-B0128-V4",
+          "TRAIN-B0141-V1"
+        ],
+        [
+          "TRAIN-B0053-V8",
+          "TRAIN-B0019-V2"
+        ],
+        [
+          "TRAIN-B0062-V3",
+          "TRAIN-B0171-V6"
+        ],
+        [
+          "TRAIN-B0112-V6",
+          "TRAIN-B0027-V5"
+        ],
+        [
+          "TRAIN-B0090-V3",
+          "TRAIN-B0003-V2"
+        ],
+        [
+          "TRAIN-B0053-V7",
+          "TRAIN-B0024-V8"
+        ],
+        [
+          "TRAIN-B0033-V6",
+          "TRAIN-B0171-V4"
+        ]
+      ],
+      "batch_size_counts": {
+        "8": 9,
+        "7": 6,
+        "5": 20,
+        "6": 12,
+        "4": 21,
+        "3": 10,
+        "2": 75
+      },
+      "unique_examples": 512,
+      "companion_repeats": [
+        "TRAIN-B0002-V8",
+        "TRAIN-B0122-V3",
+        "TRAIN-B0079-V5",
+        "TRAIN-B0002-V4",
+        "TRAIN-B0161-V1",
+        "TRAIN-B0091-V4",
+        "TRAIN-B0080-V1",
+        "TRAIN-B0091-V2",
+        "TRAIN-B0094-V7",
+        "TRAIN-B0011-V2",
+        "TRAIN-B0166-V1",
+        "TRAIN-B0122-V4",
+        "TRAIN-B0002-V5",
+        "TRAIN-B0032-V3",
+        "TRAIN-B0166-V4",
+        "TRAIN-B0032-V8",
+        "TRAIN-B0167-V2",
+        "TRAIN-B0011-V6",
+        "TRAIN-B0141-V4",
+        "TRAIN-B0141-V5",
+        "TRAIN-B0011-V5",
+        "TRAIN-B0093-V3",
+        "TRAIN-B0079-V5",
+        "TRAIN-B0001-V2",
+        "TRAIN-B0167-V7",
+        "TRAIN-B0093-V5",
+        "TRAIN-B0126-V5",
+        "TRAIN-B0003-V7",
+        "TRAIN-B0126-V6",
+        "TRAIN-B0094-V6",
+        "TRAIN-B0166-V6",
+        "TRAIN-B0141-V1",
+        "TRAIN-B0019-V2",
+        "TRAIN-B0171-V6",
+        "TRAIN-B0027-V5",
+        "TRAIN-B0003-V2",
+        "TRAIN-B0024-V8",
+        "TRAIN-B0171-V4"
+      ],
+      "presentations": 550
+    },
+    {
+      "epoch": 3,
+      "batches": [
+        [
+          "TRAIN-B0128-V3",
+          "TRAIN-B0001-V1",
+          "TRAIN-B0171-V3",
+          "TRAIN-B0156-V4",
+          "TRAIN-B0163-V6",
+          "TRAIN-B0166-V7"
+        ],
+        [
+          "TRAIN-B0007-V8",
+          "TRAIN-B0095-V7",
+          "TRAIN-B0019-V7",
+          "TRAIN-B0141-V6",
+          "TRAIN-B0080-V8",
+          "TRAIN-B0106-V6"
+        ],
+        [
+          "TRAIN-B0041-V8",
+          "TRAIN-B0055-V7",
+          "TRAIN-B0122-V4",
+          "TRAIN-B0091-V7",
+          "TRAIN-B0027-V5",
+          "TRAIN-B0113-V2",
+          "TRAIN-B0156-V1",
+          "TRAIN-B0080-V3"
+        ],
+        [
+          "TRAIN-B0128-V7",
+          "TRAIN-B0007-V5",
+          "TRAIN-B0091-V1",
+          "TRAIN-B0004-V3",
+          "TRAIN-B0068-V1",
+          "TRAIN-B0077-V8"
+        ],
+        [
+          "TRAIN-B0116-V8",
+          "TRAIN-B0075-V8",
+          "TRAIN-B0122-V8",
+          "TRAIN-B0016-V5",
+          "TRAIN-B0151-V1",
+          "TRAIN-B0171-V8",
+          "TRAIN-B0156-V3"
+        ],
+        [
+          "TRAIN-B0116-V3",
+          "TRAIN-B0170-V2",
+          "TRAIN-B0042-V6",
+          "TRAIN-B0122-V2",
+          "TRAIN-B0068-V4",
+          "TRAIN-B0171-V1"
+        ],
+        [
+          "TRAIN-B0041-V6",
+          "TRAIN-B0079-V1",
+          "TRAIN-B0002-V5",
+          "TRAIN-B0006-V4",
+          "TRAIN-B0068-V6",
+          "TRAIN-B0045-V3",
+          "TRAIN-B0113-V8",
+          "TRAIN-B0091-V3"
+        ],
+        [
+          "TRAIN-B0062-V5",
+          "TRAIN-B0001-V7",
+          "TRAIN-B0141-V1",
+          "TRAIN-B0050-V1",
+          "TRAIN-B0113-V6",
+          "TRAIN-B0091-V5"
+        ],
+        [
+          "TRAIN-B0099-V1",
+          "TRAIN-B0079-V8",
+          "TRAIN-B0027-V6",
+          "TRAIN-B0003-V3",
+          "TRAIN-B0045-V4",
+          "TRAIN-B0091-V6",
+          "TRAIN-B0171-V7"
+        ],
+        [
+          "TRAIN-B0099-V2",
+          "TRAIN-B0065-V2",
+          "TRAIN-B0162-V7",
+          "TRAIN-B0003-V6",
+          "TRAIN-B0161-V2",
+          "TRAIN-B0171-V4"
+        ],
+        [
+          "TRAIN-B0097-V2",
+          "TRAIN-B0007-V6",
+          "TRAIN-B0027-V3",
+          "TRAIN-B0167-V7",
+          "TRAIN-B0141-V3"
+        ],
+        [
+          "TRAIN-B0173-V5",
+          "TRAIN-B0108-V1",
+          "TRAIN-B0075-V3",
+          "TRAIN-B0027-V1",
+          "TRAIN-B0113-V1",
+          "TRAIN-B0077-V2",
+          "TRAIN-B0003-V2"
+        ],
+        [
+          "TRAIN-B0163-V4",
+          "TRAIN-B0074-V4",
+          "TRAIN-B0001-V3",
+          "TRAIN-B0166-V2",
+          "TRAIN-B0113-V3",
+          "TRAIN-B0156-V5"
+        ],
+        [
+          "TRAIN-B0016-V1",
+          "TRAIN-B0074-V2",
+          "TRAIN-B0122-V7",
+          "TRAIN-B0004-V1",
+          "TRAIN-B0068-V2",
+          "TRAIN-B0113-V4",
+          "TRAIN-B0091-V2"
+        ],
+        [
+          "TRAIN-B0007-V2",
+          "TRAIN-B0055-V5",
+          "TRAIN-B0006-V7",
+          "TRAIN-B0126-V5",
+          "TRAIN-B0151-V2",
+          "TRAIN-B0156-V8",
+          "TRAIN-B0091-V4"
+        ],
+        [
+          "TRAIN-B0013-V4",
+          "TRAIN-B0093-V8",
+          "TRAIN-B0075-V4",
+          "TRAIN-B0108-V4",
+          "TRAIN-B0167-V8",
+          "TRAIN-B0141-V7",
+          "TRAIN-B0171-V6"
+        ],
+        [
+          "TRAIN-B0062-V4",
+          "TRAIN-B0079-V4",
+          "TRAIN-B0024-V8",
+          "TRAIN-B0094-V7",
+          "TRAIN-B0080-V2",
+          "TRAIN-B0156-V6",
+          "TRAIN-B0113-V5"
+        ],
+        [
+          "TRAIN-B0062-V2",
+          "TRAIN-B0079-V2",
+          "TRAIN-B0094-V5",
+          "TRAIN-B0024-V3",
+          "TRAIN-B0080-V5",
+          "TRAIN-B0141-V5",
+          "TRAIN-B0171-V2"
+        ],
+        [
+          "TRAIN-B0007-V3",
+          "TRAIN-B0128-V8",
+          "TRAIN-B0161-V8",
+          "TRAIN-B0126-V2",
+          "TRAIN-B0166-V1",
+          "TRAIN-B0003-V1",
+          "TRAIN-B0091-V8"
+        ],
+        [
+          "TRAIN-B0114-V1",
+          "TRAIN-B0011-V1",
+          "TRAIN-B0161-V4",
+          "TRAIN-B0126-V8",
+          "TRAIN-B0024-V6",
+          "TRAIN-B0156-V2",
+          "TRAIN-B0113-V7"
+        ],
+        [
+          "TRAIN-B0042-V4",
+          "TRAIN-B0043-V6",
+          "TRAIN-B0093-V4",
+          "TRAIN-B0001-V6",
+          "TRAIN-B0050-V4",
+          "TRAIN-B0141-V8"
+        ],
+        [
+          "TRAIN-B0159-V1",
+          "TRAIN-B0028-V4",
+          "TRAIN-B0093-V3",
+          "TRAIN-B0019-V8",
+          "TRAIN-B0080-V7",
+          "TRAIN-B0141-V2",
+          "TRAIN-B0171-V5"
+        ],
+        [
+          "TRAIN-B0114-V5",
+          "TRAIN-B0011-V6",
+          "TRAIN-B0019-V3",
+          "TRAIN-B0126-V1",
+          "TRAIN-B0024-V4",
+          "TRAIN-B0156-V7"
+        ],
+        [
+          "TRAIN-B0127-V7",
+          "TRAIN-B0173-V8",
+          "TRAIN-B0028-V7",
+          "TRAIN-B0011-V5",
+          "TRAIN-B0050-V3",
+          "TRAIN-B0019-V4",
+          "TRAIN-B0141-V4"
+        ],
+        [
+          "TRAIN-B0053-V5",
+          "TRAIN-B0014-V5",
+          "TRAIN-B0077-V6",
+          "TRAIN-B0094-V1",
+          "TRAIN-B0068-V3",
+          "TRAIN-B0027-V7"
+        ],
+        [
+          "TRAIN-B0159-V2",
+          "TRAIN-B0002-V3",
+          "TRAIN-B0097-V1",
+          "TRAIN-B0006-V6",
+          "TRAIN-B0122-V6",
+          "TRAIN-B0068-V8"
+        ],
+        [
+          "TRAIN-B0032-V2",
+          "TRAIN-B0055-V3",
+          "TRAIN-B0173-V4",
+          "TRAIN-B0004-V5",
+          "TRAIN-B0122-V5",
+          "TRAIN-B0050-V6"
+        ],
+        [
+          "TRAIN-B0014-V6",
+          "TRAIN-B0021-V8",
+          "TRAIN-B0075-V5",
+          "TRAIN-B0126-V4",
+          "TRAIN-B0003-V7",
+          "TRAIN-B0050-V7"
+        ],
+        [
+          "TRAIN-B0062-V1",
+          "TRAIN-B0116-V7",
+          "TRAIN-B0167-V6"
+        ],
+        [
+          "TRAIN-B0032-V7",
+          "TRAIN-B0055-V4",
+          "TRAIN-B0041-V4",
+          "TRAIN-B0004-V8",
+          "TRAIN-B0122-V3"
+        ],
+        [
+          "TRAIN-B0016-V8",
+          "TRAIN-B0097-V8",
+          "TRAIN-B0077-V4",
+          "TRAIN-B0011-V4"
+        ],
+        [
+          "TRAIN-B0062-V6",
+          "TRAIN-B0079-V5",
+          "TRAIN-B0065-V1",
+          "TRAIN-B0126-V7",
+          "TRAIN-B0003-V5"
+        ],
+        [
+          "TRAIN-B0043-V8",
+          "TRAIN-B0162-V8",
+          "TRAIN-B0167-V3",
+          "TRAIN-B0041-V3"
+        ],
+        [
+          "TRAIN-B0159-V5",
+          "TRAIN-B0036-V3",
+          "TRAIN-B0001-V4",
+          "TRAIN-B0166-V5",
+          "TRAIN-B0093-V7"
+        ],
+        [
+          "TRAIN-B0013-V7",
+          "TRAIN-B0095-V5",
+          "TRAIN-B0106-V7",
+          "TRAIN-B0077-V5",
+          "TRAIN-B0011-V2"
+        ],
+        [
+          "TRAIN-B0114-V7",
+          "TRAIN-B0108-V7",
+          "TRAIN-B0151-V6",
+          "TRAIN-B0041-V2",
+          "TRAIN-B0006-V1"
+        ],
+        [
+          "TRAIN-B0002-V4",
+          "TRAIN-B0159-V3",
+          "TRAIN-B0074-V1",
+          "TRAIN-B0161-V6",
+          "TRAIN-B0126-V6",
+          "TRAIN-B0068-V7"
+        ],
+        [
+          "TRAIN-B0162-V5",
+          "TRAIN-B0128-V4",
+          "TRAIN-B0014-V8",
+          "TRAIN-B0077-V3",
+          "TRAIN-B0093-V6",
+          "TRAIN-B0003-V4"
+        ],
+        [
+          "TRAIN-B0095-V8",
+          "TRAIN-B0043-V3",
+          "TRAIN-B0167-V4",
+          "TRAIN-B0013-V5"
+        ],
+        [
+          "TRAIN-B0114-V8",
+          "TRAIN-B0065-V4",
+          "TRAIN-B0166-V6",
+          "TRAIN-B0161-V7",
+          "TRAIN-B0003-V8",
+          "TRAIN-B0126-V3"
+        ],
+        [
+          "TRAIN-B0045-V6",
+          "TRAIN-B0170-V8",
+          "TRAIN-B0014-V1",
+          "TRAIN-B0041-V1",
+          "TRAIN-B0027-V4",
+          "TRAIN-B0068-V5"
+        ],
+        [
+          "TRAIN-B0053-V1",
+          "TRAIN-B0167-V2",
+          "TRAIN-B0108-V5",
+          "TRAIN-B0041-V7",
+          "TRAIN-B0166-V4"
+        ],
+        [
+          "TRAIN-B0114-V4",
+          "TRAIN-B0065-V3",
+          "TRAIN-B0004-V4",
+          "TRAIN-B0122-V1"
+        ],
+        [
+          "TRAIN-B0053-V8",
+          "TRAIN-B0014-V2",
+          "TRAIN-B0077-V7",
+          "TRAIN-B0094-V8",
+          "TRAIN-B0027-V2"
+        ],
+        [
+          "TRAIN-B0162-V6",
+          "TRAIN-B0033-V8",
+          "TRAIN-B0173-V6",
+          "TRAIN-B0065-V6",
+          "TRAIN-B0079-V3"
+        ],
+        [
+          "TRAIN-B0036-V2",
+          "TRAIN-B0042-V3",
+          "TRAIN-B0001-V8",
+          "TRAIN-B0050-V2",
+          "TRAIN-B0093-V1"
+        ],
+        [
+          "TRAIN-B0090-V6",
+          "TRAIN-B0077-V1",
+          "TRAIN-B0108-V6",
+          "TRAIN-B0173-V1",
+          "TRAIN-B0080-V1",
+          "TRAIN-B0027-V8"
+        ],
+        [
+          "TRAIN-B0053-V2",
+          "TRAIN-B0002-V6",
+          "TRAIN-B0006-V5",
+          "TRAIN-B0041-V5"
+        ],
+        [
+          "TRAIN-B0112-V4",
+          "TRAIN-B0151-V7",
+          "TRAIN-B0094-V6",
+          "TRAIN-B0006-V8"
+        ],
+        [
+          "TRAIN-B0163-V1",
+          "TRAIN-B0164-V4",
+          "TRAIN-B0095-V3",
+          "TRAIN-B0167-V5",
+          "TRAIN-B0166-V3"
+        ],
+        [
+          "TRAIN-B0042-V2",
+          "TRAIN-B0106-V5",
+          "TRAIN-B0011-V7",
+          "TRAIN-B0161-V3"
+        ],
+        [
+          "TRAIN-B0045-V8",
+          "TRAIN-B0033-V5",
+          "TRAIN-B0011-V8",
+          "TRAIN-B0173-V2",
+          "TRAIN-B0161-V1",
+          "TRAIN-B0050-V8"
+        ],
+        [
+          "TRAIN-B0116-V1",
+          "TRAIN-B0016-V3",
+          "TRAIN-B0170-V4",
+          "TRAIN-B0166-V8",
+          "TRAIN-B0167-V1"
+        ],
+        [
+          "TRAIN-B0114-V3",
+          "TRAIN-B0108-V2",
+          "TRAIN-B0151-V4",
+          "TRAIN-B0006-V3"
+        ],
+        [
+          "TRAIN-B0090-V3",
+          "TRAIN-B0002-V2",
+          "TRAIN-B0004-V6",
+          "TRAIN-B0050-V5"
+        ],
+        [
+          "TRAIN-B0163-V8",
+          "TRAIN-B0033-V2",
+          "TRAIN-B0095-V1",
+          "TRAIN-B0001-V5"
+        ],
+        [
+          "TRAIN-B0021-V1",
+          "TRAIN-B0033-V1",
+          "TRAIN-B0014-V4",
+          "TRAIN-B0019-V6"
+        ],
+        [
+          "TRAIN-B0112-V7",
+          "TRAIN-B0094-V4",
+          "TRAIN-B0024-V1",
+          "TRAIN-B0151-V3"
+        ],
+        [
+          "TRAIN-B0162-V4",
+          "TRAIN-B0043-V5",
+          "TRAIN-B0065-V8",
+          "TRAIN-B0173-V7",
+          "TRAIN-B0161-V5"
+        ],
+        [
+          "TRAIN-B0116-V5",
+          "TRAIN-B0159-V4",
+          "TRAIN-B0170-V6",
+          "TRAIN-B0002-V8",
+          "TRAIN-B0004-V7"
+        ],
+        [
+          "TRAIN-B0045-V2",
+          "TRAIN-B0106-V3",
+          "TRAIN-B0002-V7",
+          "TRAIN-B0079-V6",
+          "TRAIN-B0004-V2"
+        ],
+        [
+          "TRAIN-B0074-V5",
+          "TRAIN-B0016-V4",
+          "TRAIN-B0094-V2",
+          "TRAIN-B0080-V6"
+        ],
+        [
+          "TRAIN-B0055-V6",
+          "TRAIN-B0007-V4",
+          "TRAIN-B0024-V5",
+          "TRAIN-B0080-V4"
+        ],
+        [
+          "TRAIN-B0042-V8",
+          "TRAIN-B0099-V3",
+          "TRAIN-B0108-V8",
+          "TRAIN-B0006-V2"
+        ],
+        [
+          "TRAIN-B0140-V7",
+          "TRAIN-B0095-V4",
+          "TRAIN-B0094-V3",
+          "TRAIN-B0014-V7"
+        ],
+        [
+          "TRAIN-B0021-V3",
+          "TRAIN-B0055-V8",
+          "TRAIN-B0065-V5",
+          "TRAIN-B0173-V3"
+        ],
+        [
+          "TRAIN-B0042-V5",
+          "TRAIN-B0106-V8",
+          "TRAIN-B0001-V2"
+        ],
+        [
+          "TRAIN-B0062-V7",
+          "TRAIN-B0116-V6",
+          "TRAIN-B0079-V7"
+        ],
+        [
+          "TRAIN-B0021-V2",
+          "TRAIN-B0128-V5",
+          "TRAIN-B0002-V1"
+        ],
+        [
+          "TRAIN-B0021-V5",
+          "TRAIN-B0028-V6",
+          "TRAIN-B0019-V5",
+          "TRAIN-B0065-V7"
+        ],
+        [
+          "TRAIN-B0140-V4",
+          "TRAIN-B0095-V2",
+          "TRAIN-B0019-V2",
+          "TRAIN-B0108-V3"
+        ],
+        [
+          "TRAIN-B0140-V3",
+          "TRAIN-B0116-V4",
+          "TRAIN-B0014-V3",
+          "TRAIN-B0019-V1"
+        ],
+        [
+          "TRAIN-B0007-V7",
+          "TRAIN-B0164-V3",
+          "TRAIN-B0116-V2"
+        ],
+        [
+          "TRAIN-B0032-V3",
+          "TRAIN-B0128-V6",
+          "TRAIN-B0093-V5"
+        ],
+        [
+          "TRAIN-B0021-V7",
+          "TRAIN-B0036-V6",
+          "TRAIN-B0011-V3"
+        ],
+        [
+          "TRAIN-B0159-V8",
+          "TRAIN-B0036-V8",
+          "TRAIN-B0093-V2",
+          "TRAIN-B0151-V8"
+        ],
+        [
+          "TRAIN-B0016-V6",
+          "TRAIN-B0164-V8"
+        ],
+        [
+          "TRAIN-B0112-V5",
+          "TRAIN-B0024-V7",
+          "TRAIN-B0151-V5"
+        ],
+        [
+          "TRAIN-B0032-V5",
+          "TRAIN-B0128-V1"
+        ],
+        [
+          "TRAIN-B0090-V4",
+          "TRAIN-B0024-V2"
+        ],
+        [
+          "TRAIN-B0112-V3",
+          "TRAIN-B0093-V5"
+        ],
+        [
+          "TRAIN-B0112-V1",
+          "TRAIN-B0003-V6"
+        ],
+        [
+          "TRAIN-B0097-V4",
+          "TRAIN-B0007-V1"
+        ],
+        [
+          "TRAIN-B0112-V8",
+          "TRAIN-B0171-V8"
+        ],
+        [
+          "TRAIN-B0028-V8",
+          "TRAIN-B0162-V1"
+        ],
+        [
+          "TRAIN-B0090-V2",
+          "TRAIN-B0166-V4"
+        ],
+        [
+          "TRAIN-B0045-V1",
+          "TRAIN-B0033-V3"
+        ],
+        [
+          "TRAIN-B0128-V2",
+          "TRAIN-B0163-V2"
+        ],
+        [
+          "TRAIN-B0090-V7",
+          "TRAIN-B0077-V6"
+        ],
+        [
+          "TRAIN-B0090-V5",
+          "TRAIN-B0113-V4"
+        ],
+        [
+          "TRAIN-B0170-V7",
+          "TRAIN-B0016-V2"
+        ],
+        [
+          "TRAIN-B0036-V1",
+          "TRAIN-B0159-V7"
+        ],
+        [
+          "TRAIN-B0074-V8",
+          "TRAIN-B0127-V1"
+        ],
+        [
+          "TRAIN-B0032-V8",
+          "TRAIN-B0075-V6"
+        ],
+        [
+          "TRAIN-B0163-V7",
+          "TRAIN-B0170-V5",
+          "TRAIN-B0095-V6"
+        ],
+        [
+          "TRAIN-B0140-V2",
+          "TRAIN-B0002-V4"
+        ],
+        [
+          "TRAIN-B0028-V1",
+          "TRAIN-B0127-V6"
+        ],
+        [
+          "TRAIN-B0033-V4",
+          "TRAIN-B0045-V7"
+        ],
+        [
+          "TRAIN-B0140-V6",
+          "TRAIN-B0091-V2"
+        ],
+        [
+          "TRAIN-B0074-V3",
+          "TRAIN-B0127-V8"
+        ],
+        [
+          "TRAIN-B0062-V3",
+          "TRAIN-B0161-V1"
+        ],
+        [
+          "TRAIN-B0164-V7",
+          "TRAIN-B0163-V5"
+        ],
+        [
+          "TRAIN-B0028-V5",
+          "TRAIN-B0127-V4"
+        ],
+        [
+          "TRAIN-B0043-V2",
+          "TRAIN-B0021-V4"
+        ],
+        [
+          "TRAIN-B0114-V2",
+          "TRAIN-B0004-V2"
+        ],
+        [
+          "TRAIN-B0140-V8",
+          "TRAIN-B0068-V2"
+        ],
+        [
+          "TRAIN-B0036-V4",
+          "TRAIN-B0042-V7"
+        ],
+        [
+          "TRAIN-B0097-V6",
+          "TRAIN-B0013-V6"
+        ],
+        [
+          "TRAIN-B0028-V2",
+          "TRAIN-B0042-V1"
+        ],
+        [
+          "TRAIN-B0055-V1",
+          "TRAIN-B0163-V3"
+        ],
+        [
+          "TRAIN-B0075-V2",
+          "TRAIN-B0013-V2"
+        ],
+        [
+          "TRAIN-B0090-V8",
+          "TRAIN-B0166-V8"
+        ],
+        [
+          "TRAIN-B0075-V7",
+          "TRAIN-B0127-V2"
+        ],
+        [
+          "TRAIN-B0053-V7",
+          "TRAIN-B0050-V3"
+        ],
+        [
+          "TRAIN-B0170-V1",
+          "TRAIN-B0162-V2"
+        ],
+        [
+          "TRAIN-B0164-V2",
+          "TRAIN-B0162-V3"
+        ],
+        [
+          "TRAIN-B0099-V7",
+          "TRAIN-B0127-V3"
+        ],
+        [
+          "TRAIN-B0090-V1",
+          "TRAIN-B0050-V2"
+        ],
+        [
+          "TRAIN-B0053-V4",
+          "TRAIN-B0122-V3"
+        ],
+        [
+          "TRAIN-B0170-V3",
+          "TRAIN-B0013-V3"
+        ],
+        [
+          "TRAIN-B0114-V6",
+          "TRAIN-B0161-V6"
+        ],
+        [
+          "TRAIN-B0140-V5",
+          "TRAIN-B0014-V5"
+        ],
+        [
+          "TRAIN-B0053-V3",
+          "TRAIN-B0080-V5"
+        ],
+        [
+          "TRAIN-B0106-V4",
+          "TRAIN-B0127-V5"
+        ],
+        [
+          "TRAIN-B0140-V1",
+          "TRAIN-B0091-V4"
+        ],
+        [
+          "TRAIN-B0062-V8",
+          "TRAIN-B0161-V4"
+        ],
+        [
+          "TRAIN-B0075-V1",
+          "TRAIN-B0032-V4"
+        ],
+        [
+          "TRAIN-B0074-V7",
+          "TRAIN-B0032-V6"
+        ],
+        [
+          "TRAIN-B0043-V1",
+          "TRAIN-B0021-V6"
+        ],
+        [
+          "TRAIN-B0074-V6",
+          "TRAIN-B0032-V1"
+        ],
+        [
+          "TRAIN-B0106-V1",
+          "TRAIN-B0159-V6"
+        ],
+        [
+          "TRAIN-B0043-V4",
+          "TRAIN-B0045-V5"
+        ],
+        [
+          "TRAIN-B0099-V6",
+          "TRAIN-B0013-V8"
+        ],
+        [
+          "TRAIN-B0164-V1",
+          "TRAIN-B0013-V1"
+        ],
+        [
+          "TRAIN-B0099-V8",
+          "TRAIN-B0003-V3"
+        ],
+        [
+          "TRAIN-B0036-V5",
+          "TRAIN-B0001-V6"
+        ],
+        [
+          "TRAIN-B0033-V6",
+          "TRAIN-B0079-V5"
+        ],
+        [
+          "TRAIN-B0033-V7",
+          "TRAIN-B0014-V6"
+        ],
+        [
+          "TRAIN-B0055-V2",
+          "TRAIN-B0016-V7"
+        ],
+        [
+          "TRAIN-B0097-V3",
+          "TRAIN-B0016-V2"
+        ],
+        [
+          "TRAIN-B0164-V6",
+          "TRAIN-B0003-V7"
+        ],
+        [
+          "TRAIN-B0028-V3",
+          "TRAIN-B0021-V8"
+        ],
+        [
+          "TRAIN-B0036-V7",
+          "TRAIN-B0159-V3"
+        ],
+        [
+          "TRAIN-B0097-V5",
+          "TRAIN-B0013-V4"
+        ],
+        [
+          "TRAIN-B0112-V6",
+          "TRAIN-B0001-V2"
+        ],
+        [
+          "TRAIN-B0053-V6",
+          "TRAIN-B0014-V3"
+        ],
+        [
+          "TRAIN-B0112-V2",
+          "TRAIN-B0077-V8"
+        ],
+        [
+          "TRAIN-B0043-V7",
+          "TRAIN-B0041-V8"
+        ],
+        [
+          "TRAIN-B0106-V2",
+          "TRAIN-B0007-V3"
+        ],
+        [
+          "TRAIN-B0164-V5",
+          "TRAIN-B0159-V5"
+        ],
+        [
+          "TRAIN-B0097-V7",
+          "TRAIN-B0159-V8"
+        ],
+        [
+          "TRAIN-B0099-V5",
+          "TRAIN-B0091-V8"
+        ],
+        [
+          "TRAIN-B0099-V4",
+          "TRAIN-B0091-V2"
+        ]
+      ],
+      "batch_size_counts": {
+        "6": 19,
+        "8": 2,
+        "7": 12,
+        "5": 15,
+        "3": 9,
+        "4": 21,
+        "2": 75
+      },
+      "unique_examples": 512,
+      "companion_repeats": [
+        "TRAIN-B0093-V5",
+        "TRAIN-B0003-V6",
+        "TRAIN-B0171-V8",
+        "TRAIN-B0166-V4",
+        "TRAIN-B0077-V6",
+        "TRAIN-B0113-V4",
+        "TRAIN-B0002-V4",
+        "TRAIN-B0091-V2",
+        "TRAIN-B0161-V1",
+        "TRAIN-B0004-V2",
+        "TRAIN-B0068-V2",
+        "TRAIN-B0166-V8",
+        "TRAIN-B0050-V3",
+        "TRAIN-B0050-V2",
+        "TRAIN-B0122-V3",
+        "TRAIN-B0161-V6",
+        "TRAIN-B0014-V5",
+        "TRAIN-B0080-V5",
+        "TRAIN-B0091-V4",
+        "TRAIN-B0161-V4",
+        "TRAIN-B0003-V3",
+        "TRAIN-B0001-V6",
+        "TRAIN-B0079-V5",
+        "TRAIN-B0014-V6",
+        "TRAIN-B0016-V2",
+        "TRAIN-B0003-V7",
+        "TRAIN-B0021-V8",
+        "TRAIN-B0159-V3",
+        "TRAIN-B0013-V4",
+        "TRAIN-B0001-V2",
+        "TRAIN-B0014-V3",
+        "TRAIN-B0077-V8",
+        "TRAIN-B0041-V8",
+        "TRAIN-B0007-V3",
+        "TRAIN-B0159-V5",
+        "TRAIN-B0159-V8",
+        "TRAIN-B0091-V8",
+        "TRAIN-B0091-V2"
+      ],
+      "presentations": 550
+    }
+  ],
+  "basis": "Conservative exclusion of known compatibility, shared themes/series, specific genres and exact profile tones. Assistant editorial review; not exhaustive human qrels."
+}

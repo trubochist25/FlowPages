@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "analysis": {
+    "positive": [
+      [
+        "mood",
+        "загадочная"
+      ],
+      [
+        "theme",
+        "расследование и тайны"
+      ]
+    ],
+    "negative": [
+      [
+        "genre",
+        "Романтика",
+        "avoid"
+      ]
+    ]
+  },
+  "recommendation_count": 6,
+  "all_have_debug": true,
+  "model": "multilingual-e5-small-finetuned-lr1e-5-epoch3"
+}

@@ -1,0 +1,1696 @@
+{
+  "summary": {
+    "model": "intfloat/multilingual-e5-small",
+    "catalog_books": 1000,
+    "load_ms": 24194.293,
+    "meaningful_recipes": 120,
+    "meaningful_top3_count": 119,
+    "meaningful_top3_rate": 0.9917,
+    "strict_exclusion_cases": 33,
+    "strict_exclusion_violations": 0,
+    "strict_filter_cases": 10,
+    "strict_filter_violations": 0,
+    "contradiction_cases": 12,
+    "contradictions_rejected": 12,
+    "unexplained_empty_states": 0,
+    "metadata_grounding_failures": 0,
+    "mean_processing_ms": 43.947,
+    "median_processing_ms": 40.093,
+    "p95_processing_ms": 61.131,
+    "max_processing_ms": 69.06
+  },
+  "checks": {
+    "at_least_100_recipes": true,
+    "meaningful_top3_at_least_90_percent": true,
+    "strict_exclusions_always_hold": true,
+    "strict_filters_always_hold": true,
+    "contradictions_always_rejected": true,
+    "no_unexplained_empty_state": true,
+    "all_outputs_grounded": true,
+    "p95_processing_within_800_ms": true
+  },
+  "meaningful_results": [
+    {
+      "name": "genre:Классическая литература:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        598,
+        62,
+        64
+      ],
+      "processing_ms": 41.632
+    },
+    {
+      "name": "genre:Классическая литература:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        598,
+        117,
+        62
+      ],
+      "processing_ms": 40.064
+    },
+    {
+      "name": "genre:Фэнтези:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        57,
+        59,
+        78
+      ],
+      "processing_ms": 37.915
+    },
+    {
+      "name": "genre:Фэнтези:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        59,
+        67,
+        78
+      ],
+      "processing_ms": 36.367
+    },
+    {
+      "name": "genre:Романтика:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        54,
+        64,
+        76
+      ],
+      "processing_ms": 38.305
+    },
+    {
+      "name": "genre:Романтика:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        54,
+        66,
+        76
+      ],
+      "processing_ms": 35.227
+    },
+    {
+      "name": "genre:Триллеры:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        60,
+        87,
+        128
+      ],
+      "processing_ms": 37.211
+    },
+    {
+      "name": "genre:Триллеры:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        157,
+        87,
+        128
+      ],
+      "processing_ms": 35.12
+    },
+    {
+      "name": "genre:Детская литература:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        57,
+        78,
+        74
+      ],
+      "processing_ms": 38.052
+    },
+    {
+      "name": "genre:Детская литература:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        57,
+        92,
+        244
+      ],
+      "processing_ms": 38.305
+    },
+    {
+      "name": "genre:Детективы:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        90,
+        114,
+        93
+      ],
+      "processing_ms": 37.825
+    },
+    {
+      "name": "genre:Детективы:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        90,
+        93,
+        209
+      ],
+      "processing_ms": 36.305
+    },
+    {
+      "name": "genre:Ужасы:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        60,
+        118,
+        106
+      ],
+      "processing_ms": 37.375
+    },
+    {
+      "name": "genre:Ужасы:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        60,
+        166,
+        245
+      ],
+      "processing_ms": 35.56
+    },
+    {
+      "name": "genre:Приключения:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        598,
+        57,
+        59
+      ],
+      "processing_ms": 37.371
+    },
+    {
+      "name": "genre:Приключения:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        57,
+        598,
+        65
+      ],
+      "processing_ms": 35.48
+    },
+    {
+      "name": "genre:Фантастика:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        598,
+        62,
+        109
+      ],
+      "processing_ms": 36.698
+    },
+    {
+      "name": "genre:Фантастика:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        65,
+        598,
+        62
+      ],
+      "processing_ms": 35.588
+    },
+    {
+      "name": "genre:Современная проза:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        54,
+        83,
+        69
+      ],
+      "processing_ms": 39.569
+    },
+    {
+      "name": "genre:Современная проза:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        54,
+        83,
+        458
+      ],
+      "processing_ms": 36.945
+    },
+    {
+      "name": "genre:Биографии и мемуары:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        107,
+        120,
+        313
+      ],
+      "processing_ms": 39.549
+    },
+    {
+      "name": "genre:Биографии и мемуары:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        197,
+        120,
+        107
+      ],
+      "processing_ms": 37.021
+    },
+    {
+      "name": "genre:Историческая проза:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        99,
+        98,
+        717
+      ],
+      "processing_ms": 38.978
+    },
+    {
+      "name": "genre:Историческая проза:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        201,
+        98,
+        175
+      ],
+      "processing_ms": 40.123
+    },
+    {
+      "name": "genre:Философия:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        71,
+        219,
+        716
+      ],
+      "processing_ms": 39.022
+    },
+    {
+      "name": "genre:Философия:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        716,
+        71,
+        213
+      ],
+      "processing_ms": 37.252
+    },
+    {
+      "name": "genre:История:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        351,
+        71,
+        716
+      ],
+      "processing_ms": 40.507
+    },
+    {
+      "name": "genre:История:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        351,
+        193,
+        71
+      ],
+      "processing_ms": 36.689
+    },
+    {
+      "name": "genre:Подростковая литература:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        70,
+        65,
+        76
+      ],
+      "processing_ms": 38.554
+    },
+    {
+      "name": "genre:Подростковая литература:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        191,
+        75,
+        83
+      ],
+      "processing_ms": 37.163
+    },
+    {
+      "name": "mood:напряжённая:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        598,
+        62,
+        60
+      ],
+      "processing_ms": 39.049
+    },
+    {
+      "name": "mood:напряжённая:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        598,
+        62,
+        60
+      ],
+      "processing_ms": 37.181
+    },
+    {
+      "name": "mood:драматичная:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        85,
+        83,
+        69
+      ],
+      "processing_ms": 37.89
+    },
+    {
+      "name": "mood:драматичная:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        85,
+        83,
+        102
+      ],
+      "processing_ms": 37.099
+    },
+    {
+      "name": "mood:атмосферная:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        598,
+        85,
+        69
+      ],
+      "processing_ms": 38.894
+    },
+    {
+      "name": "mood:атмосферная:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        85,
+        79,
+        598
+      ],
+      "processing_ms": 37.514
+    },
+    {
+      "name": "mood:мрачная:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        62,
+        60,
+        81
+      ],
+      "processing_ms": 36.977
+    },
+    {
+      "name": "mood:мрачная:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        62,
+        119,
+        60
+      ],
+      "processing_ms": 37.669
+    },
+    {
+      "name": "mood:динамичная:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        59,
+        65,
+        109
+      ],
+      "processing_ms": 38.857
+    },
+    {
+      "name": "mood:динамичная:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        70,
+        65,
+        104
+      ],
+      "processing_ms": 36.788
+    },
+    {
+      "name": "mood:вдумчивая:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        53,
+        55,
+        56
+      ],
+      "processing_ms": 38.287
+    },
+    {
+      "name": "mood:вдумчивая:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        53,
+        58,
+        56
+      ],
+      "processing_ms": 36.916
+    },
+    {
+      "name": "mood:познавательная:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        53,
+        56,
+        55
+      ],
+      "processing_ms": 39.656
+    },
+    {
+      "name": "mood:познавательная:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        55,
+        56,
+        53
+      ],
+      "processing_ms": 36.918
+    },
+    {
+      "name": "mood:эмоциональная:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        54,
+        78,
+        83
+      ],
+      "processing_ms": 39.777
+    },
+    {
+      "name": "mood:эмоциональная:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        54,
+        83,
+        66
+      ],
+      "processing_ms": 36.824
+    },
+    {
+      "name": "mood:романтичная:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        54,
+        64,
+        76
+      ],
+      "processing_ms": 38.522
+    },
+    {
+      "name": "mood:романтичная:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        54,
+        76,
+        64
+      ],
+      "processing_ms": 37.34
+    },
+    {
+      "name": "mood:лёгкая:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        67,
+        92,
+        73
+      ],
+      "processing_ms": 38.581
+    },
+    {
+      "name": "mood:лёгкая:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        67,
+        98,
+        746
+      ],
+      "processing_ms": 37.011
+    },
+    {
+      "name": "mood:загадочная:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        57,
+        90,
+        93
+      ],
+      "processing_ms": 38.473
+    },
+    {
+      "name": "mood:загадочная:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        57,
+        141,
+        90
+      ],
+      "processing_ms": 36.331
+    },
+    {
+      "name": "mood:приключенческая:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        57,
+        59,
+        109
+      ],
+      "processing_ms": 38.575
+    },
+    {
+      "name": "mood:приключенческая:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        109,
+        65,
+        57
+      ],
+      "processing_ms": 36.906
+    },
+    {
+      "name": "mood:уютная:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        74,
+        67,
+        92
+      ],
+      "processing_ms": 43.485
+    },
+    {
+      "name": "mood:уютная:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        74,
+        92,
+        160
+      ],
+      "processing_ms": 36.923
+    },
+    {
+      "name": "mood:страшная:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        60,
+        118,
+        106
+      ],
+      "processing_ms": 38.067
+    },
+    {
+      "name": "mood:страшная:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        60,
+        445,
+        106
+      ],
+      "processing_ms": 36.542
+    },
+    {
+      "name": "mood:волшебная:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        57,
+        110,
+        74
+      ],
+      "processing_ms": 38.942
+    },
+    {
+      "name": "mood:волшебная:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        57,
+        74,
+        170
+      ],
+      "processing_ms": 36.856
+    },
+    {
+      "name": "theme:личный выбор:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        60,
+        72,
+        85
+      ],
+      "processing_ms": 52.873
+    },
+    {
+      "name": "theme:личный выбор:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        85,
+        75,
+        121
+      ],
+      "processing_ms": 51.591
+    },
+    {
+      "name": "theme:выживание и испытания:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        60,
+        118,
+        119
+      ],
+      "processing_ms": 54.851
+    },
+    {
+      "name": "theme:выживание и испытания:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        861,
+        119,
+        996
+      ],
+      "processing_ms": 52.291
+    },
+    {
+      "name": "theme:путешествия и приключения:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        110,
+        72,
+        92
+      ],
+      "processing_ms": 55.671
+    },
+    {
+      "name": "theme:путешествия и приключения:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        82,
+        178,
+        145
+      ],
+      "processing_ms": 52.842
+    },
+    {
+      "name": "theme:расследование и тайны:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        82,
+        69,
+        90
+      ],
+      "processing_ms": 54.414
+    },
+    {
+      "name": "theme:расследование и тайны:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        69,
+        201,
+        156
+      ],
+      "processing_ms": 52.377
+    },
+    {
+      "name": "theme:любовь и отношения:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        54,
+        85,
+        76
+      ],
+      "processing_ms": 53.086
+    },
+    {
+      "name": "theme:любовь и отношения:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        54,
+        85,
+        573
+      ],
+      "processing_ms": 51.346
+    },
+    {
+      "name": "theme:смысл жизни и выбор:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        53,
+        203,
+        73
+      ],
+      "processing_ms": 55.271
+    },
+    {
+      "name": "theme:смысл жизни и выбор:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        53,
+        203,
+        322
+      ],
+      "processing_ms": 53.065
+    },
+    {
+      "name": "theme:человеческие отношения:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        85,
+        121,
+        337
+      ],
+      "processing_ms": 54.728
+    },
+    {
+      "name": "theme:человеческие отношения:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        85,
+        1013,
+        435
+      ],
+      "processing_ms": 53.25
+    },
+    {
+      "name": "theme:история и память:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        54,
+        351,
+        71
+      ],
+      "processing_ms": 53.761
+    },
+    {
+      "name": "theme:история и память:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        54,
+        351,
+        71
+      ],
+      "processing_ms": 52.336
+    },
+    {
+      "name": "theme:власть и общество:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        53,
+        59,
+        351
+      ],
+      "processing_ms": 54.3
+    },
+    {
+      "name": "theme:власть и общество:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        53,
+        351,
+        59
+      ],
+      "processing_ms": 55.07
+    },
+    {
+      "name": "theme:страх и неизвестность:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        60,
+        70,
+        113
+      ],
+      "processing_ms": 59.429
+    },
+    {
+      "name": "theme:страх и неизвестность:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        375,
+        70,
+        313
+      ],
+      "processing_ms": 56.267
+    },
+    {
+      "name": "theme:магия и сверхъестественное:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        59,
+        110,
+        70
+      ],
+      "processing_ms": 57.325
+    },
+    {
+      "name": "theme:магия и сверхъестественное:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        70,
+        356,
+        113
+      ],
+      "processing_ms": 53.865
+    },
+    {
+      "name": "theme:семья и поколения:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        59,
+        63,
+        66
+      ],
+      "processing_ms": 55.003
+    },
+    {
+      "name": "theme:семья и поколения:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        63,
+        59,
+        66
+      ],
+      "processing_ms": 52.933
+    },
+    {
+      "name": "theme:война и её последствия:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        71,
+        219,
+        156
+      ],
+      "processing_ms": 56.542
+    },
+    {
+      "name": "theme:война и её последствия:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        219,
+        861,
+        996
+      ],
+      "processing_ms": 53.755
+    },
+    {
+      "name": "theme:искусство и творчество:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        56,
+        104,
+        65
+      ],
+      "processing_ms": 62.255
+    },
+    {
+      "name": "theme:искусство и творчество:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        56,
+        65,
+        103
+      ],
+      "processing_ms": 57.584
+    },
+    {
+      "name": "theme:будущее и технологии:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        65,
+        137,
+        170
+      ],
+      "processing_ms": 54.47
+    },
+    {
+      "name": "theme:будущее и технологии:surprise-0.35",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        478,
+        65,
+        86
+      ],
+      "processing_ms": 53.311
+    },
+    {
+      "name": "pace:средний:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        54,
+        598,
+        53
+      ],
+      "processing_ms": 37.622
+    },
+    {
+      "name": "pace:средний:surprise-0.25",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        56,
+        53,
+        55
+      ],
+      "processing_ms": 36.32
+    },
+    {
+      "name": "pace:средний:surprise-0.45",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        56,
+        55,
+        53
+      ],
+      "processing_ms": 33.754
+    },
+    {
+      "name": "pace:быстрый:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        57,
+        59,
+        60
+      ],
+      "processing_ms": 35.473
+    },
+    {
+      "name": "pace:быстрый:surprise-0.25",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        57,
+        59,
+        74
+      ],
+      "processing_ms": 34.115
+    },
+    {
+      "name": "pace:быстрый:surprise-0.45",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        72,
+        60,
+        59
+      ],
+      "processing_ms": 34.848
+    },
+    {
+      "name": "pace:медленный:surprise-0.05",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        64,
+        71,
+        69
+      ],
+      "processing_ms": 35.802
+    },
+    {
+      "name": "pace:медленный:surprise-0.25",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        71,
+        809,
+        73
+      ],
+      "processing_ms": 33.131
+    },
+    {
+      "name": "pace:медленный:surprise-0.45",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        100,
+        71,
+        809
+      ],
+      "processing_ms": 33.65
+    },
+    {
+      "name": "anchor:53:48 законов власти",
+      "meaningful": true,
+      "supported_top3": 2,
+      "top_product_ids": [
+        63,
+        131,
+        890
+      ],
+      "processing_ms": 43.042
+    },
+    {
+      "name": "anchor:55:Богатый папа, бедный папа",
+      "meaningful": true,
+      "supported_top3": 2,
+      "top_product_ids": [
+        755,
+        152,
+        1018
+      ],
+      "processing_ms": 45.452
+    },
+    {
+      "name": "anchor:54:Все закончится на нас",
+      "meaningful": true,
+      "supported_top3": 2,
+      "top_product_ids": [
+        509,
+        720,
+        901
+      ],
+      "processing_ms": 56.193
+    },
+    {
+      "name": "anchor:57:Гарри Поттер и философский камень",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        67,
+        70,
+        77
+      ],
+      "processing_ms": 61.878
+    },
+    {
+      "name": "anchor:598:Дюна",
+      "meaningful": true,
+      "supported_top3": 2,
+      "top_product_ids": [
+        549,
+        665,
+        855
+      ],
+      "processing_ms": 63.391
+    },
+    {
+      "name": "anchor:59:Игра престолов",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        304,
+        217,
+        341
+      ],
+      "processing_ms": 57.858
+    },
+    {
+      "name": "anchor:56:Тонкое искусство пофигизма",
+      "meaningful": false,
+      "supported_top3": 1,
+      "top_product_ids": [
+        58,
+        948,
+        454
+      ],
+      "processing_ms": 41.937
+    },
+    {
+      "name": "anchor:72:Гарри Поттер и узник Азкабана",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        77,
+        75,
+        70
+      ],
+      "processing_ms": 59.779
+    },
+    {
+      "name": "anchor:73:Скотный двор",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        635,
+        388,
+        951
+      ],
+      "processing_ms": 59.34
+    },
+    {
+      "name": "anchor:65:Голодные игры",
+      "meaningful": true,
+      "supported_top3": 2,
+      "top_product_ids": [
+        119,
+        159,
+        308
+      ],
+      "processing_ms": 57.245
+    },
+    {
+      "name": "anchor:74:Хоббит",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        104,
+        962,
+        77
+      ],
+      "processing_ms": 60.205
+    },
+    {
+      "name": "anchor:60:ОНО",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        484,
+        205,
+        752
+      ],
+      "processing_ms": 58.206
+    },
+    {
+      "name": "anchor:86:О дивный новый мир",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        1040,
+        81,
+        62
+      ],
+      "processing_ms": 57.646
+    },
+    {
+      "name": "anchor:61:Алхимик",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        924,
+        591,
+        196
+      ],
+      "processing_ms": 53.764
+    },
+    {
+      "name": "anchor:67:Гарри Поттер и Тайная комната",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        72,
+        536,
+        77
+      ],
+      "processing_ms": 58.624
+    },
+    {
+      "name": "anchor:81:451° по Фаренгейту",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        86,
+        765,
+        609
+      ],
+      "processing_ms": 64.349
+    },
+    {
+      "name": "anchor:68:Сумерки",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        183,
+        202,
+        221
+      ],
+      "processing_ms": 60.673
+    },
+    {
+      "name": "anchor:58:Как завоевывать друзей и оказывать влияние на людей",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        404,
+        63,
+        56
+      ],
+      "processing_ms": 39.901
+    },
+    {
+      "name": "anchor:137:Игра Эндера",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        579,
+        155,
+        465
+      ],
+      "processing_ms": 50.776
+    },
+    {
+      "name": "anchor:70:Гарри Поттер и Дары Смерти",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        72,
+        75,
+        77
+      ],
+      "processing_ms": 63.162
+    },
+    {
+      "name": "anchor:62:1984",
+      "meaningful": true,
+      "supported_top3": 3,
+      "top_product_ids": [
+        765,
+        862,
+        240
+      ],
+      "processing_ms": 66.809
+    }
+  ],
+  "strict_exclusions": {
+    "cases": [
+      {
+        "kind": "genre",
+        "value": "Классическая литература",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "genre",
+        "value": "Фэнтези",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "genre",
+        "value": "Романтика",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "genre",
+        "value": "Триллеры",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "genre",
+        "value": "Детская литература",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "genre",
+        "value": "Детективы",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "genre",
+        "value": "Ужасы",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "genre",
+        "value": "Приключения",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "genre",
+        "value": "Фантастика",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "genre",
+        "value": "Современная проза",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "mood",
+        "value": "напряжённая",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "mood",
+        "value": "драматичная",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "mood",
+        "value": "атмосферная",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "mood",
+        "value": "мрачная",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "mood",
+        "value": "динамичная",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "mood",
+        "value": "вдумчивая",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "mood",
+        "value": "познавательная",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "mood",
+        "value": "эмоциональная",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "mood",
+        "value": "романтичная",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "mood",
+        "value": "лёгкая",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "theme",
+        "value": "личный выбор",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "theme",
+        "value": "выживание и испытания",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "theme",
+        "value": "путешествия и приключения",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "theme",
+        "value": "расследование и тайны",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "theme",
+        "value": "любовь и отношения",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "theme",
+        "value": "смысл жизни и выбор",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "theme",
+        "value": "человеческие отношения",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "theme",
+        "value": "история и память",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "theme",
+        "value": "власть и общество",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "theme",
+        "value": "страх и неизвестность",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "pace",
+        "value": "средний",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "pace",
+        "value": "быстрый",
+        "results": 12,
+        "violations": []
+      },
+      {
+        "kind": "pace",
+        "value": "медленный",
+        "results": 12,
+        "violations": []
+      }
+    ],
+    "violations": []
+  },
+  "strict_filters": {
+    "cases": [
+      {
+        "genre": "Классическая литература",
+        "pages_max": 260,
+        "results": 12,
+        "violations": []
+      },
+      {
+        "genre": "Фэнтези",
+        "pages_max": 340,
+        "results": 12,
+        "violations": []
+      },
+      {
+        "genre": "Романтика",
+        "pages_max": 420,
+        "results": 12,
+        "violations": []
+      },
+      {
+        "genre": "Триллеры",
+        "pages_max": 500,
+        "results": 12,
+        "violations": []
+      },
+      {
+        "genre": "Детская литература",
+        "pages_max": 580,
+        "results": 12,
+        "violations": []
+      },
+      {
+        "genre": "Детективы",
+        "pages_max": 260,
+        "results": 12,
+        "violations": []
+      },
+      {
+        "genre": "Ужасы",
+        "pages_max": 340,
+        "results": 12,
+        "violations": []
+      },
+      {
+        "genre": "Приключения",
+        "pages_max": 420,
+        "results": 12,
+        "violations": []
+      },
+      {
+        "genre": "Фантастика",
+        "pages_max": 500,
+        "results": 12,
+        "violations": []
+      },
+      {
+        "genre": "Современная проза",
+        "pages_max": 580,
+        "results": 12,
+        "violations": []
+      }
+    ],
+    "violations": []
+  },
+  "contradictions": {
+    "cases": 12,
+    "rejected": [
+      "genre:Фэнтези",
+      "genre:Детективы",
+      "genre:Фантастика",
+      "mood:уютная",
+      "mood:мрачная",
+      "mood:напряжённая",
+      "theme:власть и общество",
+      "theme:личный выбор",
+      "theme:любовь и отношения",
+      "pace:быстрый",
+      "pace:средний",
+      "pace:медленный"
+    ],
+    "accepted": []
+  },
+  "empty_states": {
+    "cases": [
+      {
+        "case": 1,
+        "explained": true,
+        "warnings": [
+          "no_candidates"
+        ],
+        "relaxations": [
+          "Расширить диапазон цены"
+        ]
+      },
+      {
+        "case": 2,
+        "explained": true,
+        "warnings": [
+          "no_candidates"
+        ],
+        "relaxations": [
+          "Расширить допустимый объём книги"
+        ]
+      },
+      {
+        "case": 3,
+        "explained": true,
+        "warnings": [
+          "no_candidates"
+        ],
+        "relaxations": [
+          "Расширить диапазон годов издания"
+        ]
+      },
+      {
+        "case": 4,
+        "explained": true,
+        "warnings": [
+          "no_candidates"
+        ],
+        "relaxations": [
+          "Расширить диапазон цены"
+        ]
+      },
+      {
+        "case": 5,
+        "explained": true,
+        "warnings": [
+          "no_candidates"
+        ],
+        "relaxations": [
+          "Расширить допустимый объём книги"
+        ]
+      }
+    ],
+    "failures": []
+  },
+  "grounding_failures": []
+}

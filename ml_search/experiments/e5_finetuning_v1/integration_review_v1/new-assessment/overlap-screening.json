@@ -1,0 +1,902 @@
+[
+  {
+    "query_id": "NEW-F01-V1",
+    "nearest_prior_query": "Мне бы долгую историю дружбы мужчин, которые пытаются помочь друг другу справляться с психическими травмами",
+    "character_similarity": 0.5167464114832536,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F01-V2",
+    "nearest_prior_query": "Хочу грустное чтение с юмором о любви подростков и жизни рядом со смертельным заболеванием",
+    "character_similarity": 0.43617021276595747,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F01-V3",
+    "nearest_prior_query": "Посоветуй тревожную историю об одиночестве после вечеринки и помощи уроков искусства",
+    "character_similarity": 0.42857142857142855,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F02-V1",
+    "nearest_prior_query": "Хочу тяжёлую исповедальную подростковую историю о травле, слухах и неоказанной помощи",
+    "character_similarity": 0.4659090909090909,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F02-V2",
+    "nearest_prior_query": "Нужен роман, где страх разрушает сотрудничество людей, по очереди погибающих на уединённом острове",
+    "character_similarity": 0.45161290322580644,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F02-V3",
+    "nearest_prior_query": "Хочется неспешного семейного чтения о сёстрах, домашней жизни и разных отношениях к любви",
+    "character_similarity": 0.42696629213483145,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F03-V1",
+    "nearest_prior_query": "Ищу школьное знакомство открытого юноши и спортсмена, который начинает понимать собственную влюблённость",
+    "character_similarity": 0.455026455026455,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F03-V2",
+    "nearest_prior_query": "Посоветуй ироничную историю о разных формах любви на карибском побережье и очень долгой надежде",
+    "character_similarity": 0.47191011235955055,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F03-V3",
+    "nearest_prior_query": "Нужна напряжённая фантастика о воспитании юного командира, а не добрая история школьных друзей",
+    "character_similarity": 0.42857142857142855,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F04-V1",
+    "nearest_prior_query": "Хочу интеллектуальную тревогу вокруг элитного студенческого кружка: преступление известно, интересно почему они это сделали",
+    "character_similarity": 0.42290748898678415,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F04-V2",
+    "nearest_prior_query": "Нужна история молодых влюблённых, в которой честь рода и насилие сильнее их надежды",
+    "character_similarity": 0.48484848484848486,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F04-V3",
+    "nearest_prior_query": "Хочу страшное чтение с замком, вампиром и несколькими рассказчиками через письма и записи",
+    "character_similarity": 0.4720496894409938,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F05-V1",
+    "nearest_prior_query": "Помню подростка в доме семьи друзей, которая пытается разобраться в чувствах к братьям",
+    "character_similarity": 0.449438202247191,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F05-V2",
+    "nearest_prior_query": "Неспешная ироничная комедия о богатой девушке, которая устраивает чужие браки и ошибается в людях",
+    "character_similarity": 0.4065934065934066,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F05-V3",
+    "nearest_prior_query": "Нужна эпическая история о воинской чести и богах вокруг Троянской войны",
+    "character_similarity": 0.5034013605442177,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F06-V1",
+    "nearest_prior_query": "Ищу личные уроки предпринимателя о том, как создавать активы, а не только больше зарабатывать",
+    "character_similarity": 0.45714285714285713,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F06-V2",
+    "nearest_prior_query": "Ищу школьника, который слушает голос погибшей девушки и должен понять свою часть её истории",
+    "character_similarity": 0.4260355029585799,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F06-V3",
+    "nearest_prior_query": "Хочу ободряющий разговор о писательском ремесле, постоянном чтении и регулярной работе",
+    "character_similarity": 0.4713375796178344,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F07-V1",
+    "nearest_prior_query": "Хочу быструю мрачную антиутопию о неравенстве и борьбе девушки за выживание в жестоком шоу",
+    "character_similarity": 0.43523316062176165,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F07-V2",
+    "nearest_prior_query": "Хочу историю двух подростков, чья дружба превращается в любовь и помогает разобраться в чувствах",
+    "character_similarity": 0.5,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F07-V3",
+    "nearest_prior_query": "Посоветуй реальные воспоминания медика о переходе от лечения других к собственной болезни и поиску смысла",
+    "character_similarity": 0.4745762711864407,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F08-V1",
+    "nearest_prior_query": "Посоветуй приключение, где за славой волшебника раскрывается личная история человека",
+    "character_similarity": 0.47674418604651164,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F08-V2",
+    "nearest_prior_query": "Нужна история знакомства студентки и предпринимателя, для которого близость связана с контролем",
+    "character_similarity": 0.49162011173184356,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F08-V3",
+    "nearest_prior_query": "Хочу понять связь жизненного опыта, чтения и ежедневной работы над рассказом",
+    "character_similarity": 0.49079754601226994,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F09-V1",
+    "nearest_prior_query": "Хочу сдержанную трагическую историю Холокоста глазами ребёнка, который не понимает мир взрослых",
+    "character_similarity": 0.4606741573033708,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F09-V2",
+    "nearest_prior_query": "Мне бы книгу о невинности ребёнка рядом с концлагерем, а не военные подвиги",
+    "character_similarity": 0.4225352112676056,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F09-V3",
+    "nearest_prior_query": "Посоветуй роман про доверие и самостоятельность в отношениях с человеком, стремящимся всё контролировать",
+    "character_similarity": 0.4878048780487805,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F10-V1",
+    "nearest_prior_query": "Нужна инженерная книга о проектировании крыла безмоторного планера с формулами и примерами расчёта",
+    "character_similarity": 0.49696969696969695,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F10-V2",
+    "nearest_prior_query": "Хочу понять управление армией через информацию и выбор момента для удара",
+    "character_similarity": 0.4342105263157895,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F10-V3",
+    "nearest_prior_query": "Ищу детскую историю с дырками в страницах, фруктами и превращением насекомого",
+    "character_similarity": 0.4900662251655629,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F11-V1",
+    "nearest_prior_query": "Ищу детскую историю с дырками в страницах, фруктами и превращением насекомого",
+    "character_similarity": 0.5061728395061729,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F11-V2",
+    "nearest_prior_query": "Посоветуй роман о молодой хозяйке старого дома, которую подавляет образ первой жены и преданная ей прислуга",
+    "character_similarity": 0.5054945054945055,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F11-V3",
+    "nearest_prior_query": "Нужна готическая семейная драма с долгим заточением братьев и сестёр после утраты отца",
+    "character_similarity": 0.40540540540540543,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F12-V1",
+    "nearest_prior_query": "Ищу историю о ежегодной жеребьёвке, которая отправляет молодых людей в смертельное телевизионное зрелище",
+    "character_similarity": 0.4365482233502538,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F12-V2",
+    "nearest_prior_query": "Нужен мрачный роман о религиозном подавлении и травле подростка с необычной силой",
+    "character_similarity": 0.4258064516129032,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F12-V3",
+    "nearest_prior_query": "Хочу книгу о страхе прошлого, городском заражении и попытке остановить распространяющееся зло",
+    "character_similarity": 0.4117647058823529,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F13-V1",
+    "nearest_prior_query": "Хочу понять трансакционный анализ общения в семье, дружбе и на работе",
+    "character_similarity": 0.42857142857142855,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F13-V2",
+    "nearest_prior_query": "Нужна история прослушивания последних записей девушки и осмысления неоказанной ей поддержки",
+    "character_similarity": 0.5142857142857142,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F13-V3",
+    "nearest_prior_query": "Ищу ироничную историю науки с портретами исследователей и их ошибками",
+    "character_similarity": 0.4172661870503597,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F14-V1",
+    "nearest_prior_query": "Хочу книгу о страхе прошлого, городском заражении и попытке остановить распространяющееся зло",
+    "character_similarity": 0.4222222222222222,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F14-V2",
+    "nearest_prior_query": "Хочу финансовое чтение о том, что одного хорошего заработка для благополучия недостаточно",
+    "character_similarity": 0.4578313253012048,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F14-V3",
+    "nearest_prior_query": "Посоветуй приключение о столкновении рыцарского идеала с повседневной реальностью",
+    "character_similarity": 0.45751633986928103,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F15-V1",
+    "nearest_prior_query": "Хочу разобраться в сегментации рынка, клиентской ценности и устойчивом привлечении покупателей",
+    "character_similarity": 0.4419889502762431,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F15-V2",
+    "nearest_prior_query": "Книга о том, как общаться мягче и не унижать человека критикой",
+    "character_similarity": 0.44274809160305345,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F15-V3",
+    "nearest_prior_query": "Нужен учебник, где маркетинг начинается с изучения покупателя, а не только с рекламы",
+    "character_similarity": 0.43209876543209874,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F16-V1",
+    "nearest_prior_query": "Хочу медленную мистическую семейную историю о травме рабства и вине матери",
+    "character_similarity": 0.4720496894409938,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F16-V2",
+    "nearest_prior_query": "Хочу меланхоличную подростковую романтику с приморским домом и страхом потерять заболевшую близкую",
+    "character_similarity": 0.49696969696969695,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F16-V3",
+    "nearest_prior_query": "Посоветуй чтение, которое помогает направить внимание на немногие важные вещи",
+    "character_similarity": 0.4444444444444444,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F17-V1",
+    "nearest_prior_query": "Хочу понять стратегии борьбы за положение, включая защиту от манипуляций",
+    "character_similarity": 0.4217687074829932,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F17-V2",
+    "nearest_prior_query": "Хочу книгу о страхе прошлого, городском заражении и попытке остановить распространяющееся зло",
+    "character_similarity": 0.4581005586592179,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F17-V3",
+    "nearest_prior_query": "Посоветуй поэму, в центре которой личная честь героя определяет беды войны",
+    "character_similarity": 0.49673202614379086,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F18-V1",
+    "nearest_prior_query": "Хочу грустное близкое чтение о замкнутости, дружбе и необходимости дать другим помочь",
+    "character_similarity": 0.39080459770114945,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F18-V2",
+    "nearest_prior_query": "Ищу напряжённую любовную историю, где героиня решает, какие отношения готова принять",
+    "character_similarity": 0.49032258064516127,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F18-V3",
+    "nearest_prior_query": "Нужен учебник, где маркетинг начинается с изучения покупателя, а не только с рекламы",
+    "character_similarity": 0.40764331210191085,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F19-V1",
+    "nearest_prior_query": "Ищу детскую историю с дырками в страницах, фруктами и превращением насекомого",
+    "character_similarity": 0.44155844155844154,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F19-V2",
+    "nearest_prior_query": "Хочу историю выживания детей, которых собственная семья скрывает от богатого родственника",
+    "character_similarity": 0.49079754601226994,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F19-V3",
+    "nearest_prior_query": "Посоветуй критику веры с обсуждением церковных институтов и их воздействия на общество",
+    "character_similarity": 0.4772727272727273,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F20-V1",
+    "nearest_prior_query": "Хочу драматический исторический роман между спокойным Лондоном и революционным Парижем",
+    "character_similarity": 0.49101796407185627,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F20-V2",
+    "nearest_prior_query": "Нужна система привычек с проактивностью, приоритетами и восстановлением собственных ресурсов",
+    "character_similarity": 0.4430379746835443,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F20-V3",
+    "nearest_prior_query": "Нужна популярная книга о масштабе неизвестного и ошибках учёных в истории открытий",
+    "character_similarity": 0.43870967741935485,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F21-V1",
+    "nearest_prior_query": "Мне бы подростковую романтику, где один герой боится невзаимности, а другой учится узнавать свои чувства",
+    "character_similarity": 0.4329896907216495,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F21-V2",
+    "nearest_prior_query": "Ищу аналитическое чтение о приобретении власти на примерах придворной и деловой жизни",
+    "character_similarity": 0.4246575342465753,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F21-V3",
+    "nearest_prior_query": "Нужна история континентов, в которой причины превосходства ищут в среде, а не в расе",
+    "character_similarity": 0.49142857142857144,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F22-V1",
+    "nearest_prior_query": "Дайте что-нибудь быстрое и мрачное про изгоев, которые собираются ради почти невыполнимой кражи",
+    "character_similarity": 0.39195979899497485,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F22-V2",
+    "nearest_prior_query": "Нужен роман, где память о плантации и побеге разрушает настоящее женщины и её дочери",
+    "character_similarity": 0.5,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F22-V3",
+    "nearest_prior_query": "Посоветуй мрачную историю, где жажда признания сталкивается с жестокостью одноклассников на празднике",
+    "character_similarity": 0.4975124378109453,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F23-V1",
+    "nearest_prior_query": "Хочу ироничный мрачный роман, где дети сами защищают наследство от назначенного родственника",
+    "character_similarity": 0.4861878453038674,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F23-V2",
+    "nearest_prior_query": "Хочу книгу о попытке отделить добро от собственной жестокости с помощью науки",
+    "character_similarity": 0.4647887323943662,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F23-V3",
+    "nearest_prior_query": "Хочу игровое чтение о родительской близости и соревновании в измерении чувства",
+    "character_similarity": 0.47368421052631576,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F24-V1",
+    "nearest_prior_query": "Хочется сочувственной мистической прозы про надзирателя, который начинает сомневаться в справедливости казни",
+    "character_similarity": 0.4835164835164835,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F24-V2",
+    "nearest_prior_query": "Посоветуй историю врача после долгого заключения и людей, которых революция возвращает во Францию",
+    "character_similarity": 0.4725274725274725,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F24-V3",
+    "nearest_prior_query": "Мне бы книгу, где сопротивление угнетению начинается внутри устроенной властью арены",
+    "character_similarity": 0.49673202614379086,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F25-V1",
+    "nearest_prior_query": "Мне бы знакомство ребёнка с жизненным циклом бабочки в простой истории о еде",
+    "character_similarity": 0.46153846153846156,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F25-V2",
+    "nearest_prior_query": "Нужна детская история о дороге домой через необычную страну с верными спутниками",
+    "character_similarity": 0.4583333333333333,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F25-V3",
+    "nearest_prior_query": "Хочу понять метафору съеденной лягушки в работе с трудными задачами и временем",
+    "character_similarity": 0.4294478527607362,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F26-V1",
+    "nearest_prior_query": "Книга о дружбе одноклассников, один из которых играет в регби, и постепенно возникающей близости",
+    "character_similarity": 0.4745762711864407,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F26-V2",
+    "nearest_prior_query": "Помню детскую книгу с порталом в старом шкафу, зимним королевством и львом, который должен его освободить",
+    "character_similarity": 0.44086021505376344,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F26-V3",
+    "nearest_prior_query": "Хочу мрачную трагическую историю о горе и опасном желании отменить смерть",
+    "character_similarity": 0.5066666666666667,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F27-V1",
+    "nearest_prior_query": "Посоветуй драматическую прозу, где родственные связи определяют положение в организованной преступности",
+    "character_similarity": 0.4648648648648649,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F27-V2",
+    "nearest_prior_query": "Хочу меланхоличную историю марсианской колонии, оставшейся без поддержки родной планеты",
+    "character_similarity": 0.5256410256410257,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F27-V3",
+    "nearest_prior_query": "Мне бы книгу о невинности ребёнка рядом с концлагерем, а не военные подвиги",
+    "character_similarity": 0.5290322580645161,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F28-V1",
+    "nearest_prior_query": "Помню гусеницу, которая каждый день съедает новые продукты и затем устраивает кокон",
+    "character_similarity": 0.4470588235294118,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F28-V2",
+    "nearest_prior_query": "Ищу историю мафиозного рода с предысторией главы семьи от детства до взрослой жизни",
+    "character_similarity": 0.5,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F28-V3",
+    "nearest_prior_query": "Дайте быстрое морское приключение с чёрной меткой и человеком, которому одновременно хочется доверять и страшно",
+    "character_similarity": 0.4,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F29-V1",
+    "nearest_prior_query": "Мне бы объяснение того, что человек получает от повторяющихся конфликтных разговоров",
+    "character_similarity": 0.4642857142857143,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F29-V2",
+    "nearest_prior_query": "Хочу комедию, где бегство от личных проблем приводит героев к проделкам фей",
+    "character_similarity": 0.4605263157894737,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F29-V3",
+    "nearest_prior_query": "Посоветуй поэму о хитрости в морском путешествии и восстановлении порядка после возвращения",
+    "character_similarity": 0.4785276073619632,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F30-V1",
+    "nearest_prior_query": "Дайте что-нибудь быстрое и мрачное про изгоев, которые собираются ради почти невыполнимой кражи",
+    "character_similarity": 0.4245810055865922,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F30-V2",
+    "nearest_prior_query": "Посоветуй драму о неравенстве между подростковыми бандами и переоценке привычных врагов",
+    "character_similarity": 0.5194805194805194,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F30-V3",
+    "nearest_prior_query": "Мне бы историю, где оставшиеся гости острова одновременно ищут убийцу и боятся собственной вины",
+    "character_similarity": 0.48863636363636365,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F31-V1",
+    "nearest_prior_query": "Хочу понять создание ценности для покупателей и построение длительных отношений с ними",
+    "character_similarity": 0.46153846153846156,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F31-V2",
+    "nearest_prior_query": "Хочу эпическое приключение животных с борьбой за свободу и новым сообществом, без беззаботной атмосферы",
+    "character_similarity": 0.4945054945054945,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F31-V3",
+    "nearest_prior_query": "Нужна игровая детская книга, где после множества сладостей гусеница начинает превращение",
+    "character_similarity": 0.4685714285714286,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F32-V1",
+    "nearest_prior_query": "Ищу напряжённую любовную историю, где героиня решает, какие отношения готова принять",
+    "character_similarity": 0.4642857142857143,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F32-V2",
+    "nearest_prior_query": "Хочу ироничный мрачный роман, где дети сами защищают наследство от назначенного родственника",
+    "character_similarity": 0.45977011494252873,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F32-V3",
+    "nearest_prior_query": "Медленная мрачная готика о найденыше, одержимой любви и мести между двумя поколениями семей",
+    "character_similarity": 0.44755244755244755,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F33-V1",
+    "nearest_prior_query": "Хочу замкнутую детективную ловушку с безнаказанными преступлениями прошлого каждого гостя",
+    "character_similarity": 0.49382716049382713,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F33-V2",
+    "nearest_prior_query": "Посоветуй наставническое чтение о самостоятельности и сотрудничестве на основе характера",
+    "character_similarity": 0.45,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F33-V3",
+    "nearest_prior_query": "Нужна семейная историческая драма, где восемнадцать лет тюрьмы отца связаны с событиями революции",
+    "character_similarity": 0.46511627906976744,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F34-V1",
+    "nearest_prior_query": "Хочу философскую прозу о болезненном самолюбии, свободе воли и саморазрушении",
+    "character_similarity": 0.4444444444444444,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F34-V2",
+    "nearest_prior_query": "Нужна эпическая история о воинской чести и богах вокруг Троянской войны",
+    "character_similarity": 0.46808510638297873,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F34-V3",
+    "nearest_prior_query": "Посоветуй драматическую прозу, где родственные связи определяют положение в организованной преступности",
+    "character_similarity": 0.46408839779005523,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F35-V1",
+    "nearest_prior_query": "Ищу напряжённую историю о верности роду, войне и скрытой борьбе за королевское место",
+    "character_similarity": 0.4727272727272727,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F35-V2",
+    "nearest_prior_query": "Хочу эмоциональный роман о мужской дружбе, депрессии и попытках поддержать близкого человека",
+    "character_similarity": 0.4772727272727273,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F35-V3",
+    "nearest_prior_query": "Хочу полемическое чтение о науке, нравственности и последствиях религиозных убеждений",
+    "character_similarity": 0.46835443037974683,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F36-V1",
+    "nearest_prior_query": "Ищу книгу, защищающую научное объяснение мира и мораль без сверхъестественного основания",
+    "character_similarity": 0.48520710059171596,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F36-V2",
+    "nearest_prior_query": "Мне бы исторические примеры того, как человек укрепляет влияние и маскирует свои цели",
+    "character_similarity": 0.42028985507246375,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F36-V3",
+    "nearest_prior_query": "Посоветуй мрачную историю, где жажда признания сталкивается с жестокостью одноклассников на празднике",
+    "character_similarity": 0.48936170212765956,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F37-V1",
+    "nearest_prior_query": "Хочу философскую прозу о болезненном самолюбии, свободе воли и саморазрушении",
+    "character_similarity": 0.5394736842105263,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F37-V2",
+    "nearest_prior_query": "Хочу жёсткий разбор власти через стратегии правителей, дипломатов и военных",
+    "character_similarity": 0.4892086330935252,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F37-V3",
+    "nearest_prior_query": "Ищу напряжённую историю о верности роду, войне и скрытой борьбе за королевское место",
+    "character_similarity": 0.4779874213836478,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F38-V1",
+    "nearest_prior_query": "Хочу сатирическую прозу о пропаганде, памяти и неравенстве после революции животных",
+    "character_similarity": 0.5165562913907285,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F38-V2",
+    "nearest_prior_query": "Посоветуй семейную прозу с близостью сестёр и разными женскими характерами, без спешки",
+    "character_similarity": 0.4823529411764706,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F38-V3",
+    "nearest_prior_query": "Хочу страшное чтение с замком, вампиром и несколькими рассказчиками через письма и записи",
+    "character_similarity": 0.44871794871794873,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F39-V1",
+    "nearest_prior_query": "Хочу быстрый романтический конфликт с тайным браком и насилием между родственниками",
+    "character_similarity": 0.5100671140939598,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F39-V2",
+    "nearest_prior_query": "Хочу историю о собственном бизнесе героини и любви, которая оказывается небезопасной",
+    "character_similarity": 0.4691358024691358,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F39-V3",
+    "nearest_prior_query": "Нужна история от лица убийцы из финансовой среды, а не расследование сыщика",
+    "character_similarity": 0.4305555555555556,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F40-V1",
+    "nearest_prior_query": "Хочу историческую фантастику, где прошлое противится каждому шагу путешественника",
+    "character_similarity": 0.5341614906832298,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F40-V2",
+    "nearest_prior_query": "Посоветуй тревожную историю об одиночестве после вечеринки и помощи уроков искусства",
+    "character_similarity": 0.4689655172413793,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F40-V3",
+    "nearest_prior_query": "Ищу аналитическое чтение о приобретении власти на примерах придворной и деловой жизни",
+    "character_similarity": 0.4897959183673469,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F41-V1",
+    "nearest_prior_query": "Писатель возвращается в родной город, где жители исчезают и возвращаются заражёнными вампиризмом",
+    "character_similarity": 0.4824120603015075,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F41-V2",
+    "nearest_prior_query": "в религиозной диктатуре женщин заставляют рожать детей для правящего класса мужчин",
+    "character_similarity": 0.4166666666666667,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F41-V3",
+    "nearest_prior_query": "Мне бы исповедальный роман о бедной девушке, работе гувернанткой и чувствах к человеку с семейной тайной",
+    "character_similarity": 0.4787234042553192,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F42-V1",
+    "nearest_prior_query": "Помню роман, где погибшая школьница продолжает наблюдать за друзьями и близкими из посмертного мира",
+    "character_similarity": 0.4083769633507853,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F42-V2",
+    "nearest_prior_query": "Ищу историю одержимого мужчины, который выдаёт насилие над девочкой за романтику",
+    "character_similarity": 0.524390243902439,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F42-V3",
+    "nearest_prior_query": "Хочу мрачную эпическую прозу о дворе, нескольких родах и надвигающейся древней угрозе",
+    "character_similarity": 0.42696629213483145,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F43-V1",
+    "nearest_prior_query": "Мне бы книгу об ученике парфюмера, которому становится недостаточно сохранять запахи обычными маслами",
+    "character_similarity": 0.43781094527363185,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F43-V2",
+    "nearest_prior_query": "Помню животных, изгнавших человека с фермы, и постепенное забывание прежних обещаний",
+    "character_similarity": 0.5032258064516129,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F43-V3",
+    "nearest_prior_query": "Помню юношу, который после тайного подарка переезжает в Лондон и начинает стыдиться своего друга-кузнеца",
+    "character_similarity": 0.44919786096256686,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F44-V1",
+    "nearest_prior_query": "Посоветуй мрачную семейную тайну, где визиты матери редеют, а дети вынуждены создавать собственный мир",
+    "character_similarity": 0.46464646464646464,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F44-V2",
+    "nearest_prior_query": "группа школьников после катастрофы пытается создать собственное общество на необитаемом острове",
+    "character_similarity": 0.43023255813953487,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F44-V3",
+    "nearest_prior_query": "Нужен реалистический роман о бедной банде и юноше, который иначе видит противников после насилия",
+    "character_similarity": 0.5,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F45-V1",
+    "nearest_prior_query": "Хочу мрачную сатиру о революции, где обещанное равенство превращается в контроль",
+    "character_similarity": 0.4482758620689655,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F45-V2",
+    "nearest_prior_query": "Ищу первый том экономического труда от обмена товаров к рабочему дню и накоплению капитала",
+    "character_similarity": 0.44559585492227977,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F45-V3",
+    "nearest_prior_query": "Помню спортивного журналиста и профессора, с которым он обсуждает жизнь каждую неделю",
+    "character_similarity": 0.4581005586592179,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F46-V1",
+    "nearest_prior_query": "Практическое руководство по восстановлению повреждённого пула ZFS на FreeBSD с командами и диагностикой",
+    "character_similarity": 0.538860103626943,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F46-V2",
+    "nearest_prior_query": "Нужна популярная книга о масштабе неизвестного и ошибках учёных в истории открытий",
+    "character_similarity": 0.4473684210526316,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F46-V3",
+    "nearest_prior_query": "Учебное пособие по санскритской метрике с разбором размеров и упражнениями",
+    "character_similarity": 0.4276729559748428,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F47-V1",
+    "nearest_prior_query": "Ищу странное завещание доктора и преступления его опасного двойника в Лондоне",
+    "character_similarity": 0.4268292682926829,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F47-V2",
+    "nearest_prior_query": "Аналитическая книга о превращении денег в капитал и прибавочной стоимости наёмного труда",
+    "character_similarity": 0.5194805194805194,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F47-V3",
+    "nearest_prior_query": "Нужна инженерная книга о проектировании крыла безмоторного планера с формулами и примерами расчёта",
+    "character_similarity": 0.4858757062146893,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F48-V1",
+    "nearest_prior_query": "Практическое руководство по восстановлению повреждённого пула ZFS на FreeBSD с командами и диагностикой",
+    "character_similarity": 0.42105263157894735,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F48-V2",
+    "nearest_prior_query": "Ищу профессиональное пособие ветеринару о болезнях поджелудочной железы хорьков",
+    "character_similarity": 0.4827586206896552,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F48-V3",
+    "nearest_prior_query": "Ищу технический справочник по сбоям ZFS именно в FreeBSD, а не общие советы о компьютерах",
+    "character_similarity": 0.47398843930635837,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F49-V1",
+    "nearest_prior_query": "Учебное пособие по санскритской метрике с разбором размеров и упражнениями",
+    "character_similarity": 0.39759036144578314,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F49-V2",
+    "nearest_prior_query": "Нужна система привычек с проактивностью, приоритетами и восстановлением собственных ресурсов",
+    "character_similarity": 0.4823529411764706,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F49-V3",
+    "nearest_prior_query": "Хочу систематическое описание возможностей C вместе с небольшими рабочими примерами",
+    "character_similarity": 0.4779874213836478,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F50-V1",
+    "nearest_prior_query": "Учебное пособие по санскритской метрике с разбором размеров и упражнениями",
+    "character_similarity": 0.4523809523809524,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F50-V2",
+    "nearest_prior_query": "Нужна история континентов, в которой причины превосходства ищут в среде, а не в расе",
+    "character_similarity": 0.4489795918367347,
+    "manual_semantic_overlap_review_required": true
+  },
+  {
+    "query_id": "NEW-F50-V3",
+    "nearest_prior_query": "Практическое руководство по восстановлению повреждённого пула ZFS на FreeBSD с командами и диагностикой",
+    "character_similarity": 0.4406779661016949,
+    "manual_semantic_overlap_review_required": true
+  }
+]

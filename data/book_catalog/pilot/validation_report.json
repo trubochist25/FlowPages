@@ -1,0 +1,302 @@
+{
+  "status": "passed",
+  "books": 20,
+  "errors": [],
+  "summary": {
+    "annotationWordsMin": 70,
+    "annotationWordsMax": 77,
+    "searchTextWordsMin": 83,
+    "searchTextWordsMax": 106,
+    "searchTextTokensMax": 257
+  },
+  "measurements": [
+    {
+      "catalogId": 31,
+      "title": "Чудо",
+      "annotationWords": 74,
+      "searchTextWords": 83,
+      "searchTextTokens": 183,
+      "sourceCount": 2,
+      "changedFields": [
+        "year",
+        "genres",
+        "themes",
+        "mood"
+      ]
+    },
+    {
+      "catalogId": 10,
+      "title": "1984",
+      "annotationWords": 76,
+      "searchTextWords": 95,
+      "searchTextTokens": 218,
+      "sourceCount": 2,
+      "changedFields": [
+        "genres",
+        "themes",
+        "mood",
+        "pace"
+      ]
+    },
+    {
+      "catalogId": 250,
+      "title": "Поджигатель",
+      "annotationWords": 71,
+      "searchTextWords": 88,
+      "searchTextTokens": 203,
+      "sourceCount": 2,
+      "changedFields": [
+        "genres",
+        "themes",
+        "mood"
+      ]
+    },
+    {
+      "catalogId": 5,
+      "title": "Гарри Поттер и философский камень",
+      "annotationWords": 74,
+      "searchTextWords": 97,
+      "searchTextTokens": 227,
+      "sourceCount": 2,
+      "changedFields": [
+        "genres",
+        "themes",
+        "mood",
+        "pace"
+      ]
+    },
+    {
+      "catalogId": 12,
+      "title": "Гордость и предубеждение",
+      "annotationWords": 71,
+      "searchTextWords": 93,
+      "searchTextTokens": 216,
+      "sourceCount": 2,
+      "changedFields": [
+        "title",
+        "genres",
+        "themes",
+        "mood",
+        "ageRating"
+      ]
+    },
+    {
+      "catalogId": 204,
+      "title": "Мастер и Маргарита",
+      "annotationWords": 74,
+      "searchTextWords": 93,
+      "searchTextTokens": 214,
+      "sourceCount": 2,
+      "changedFields": [
+        "author",
+        "authors",
+        "genres",
+        "themes",
+        "mood",
+        "pace"
+      ]
+    },
+    {
+      "catalogId": 26,
+      "title": "Маленький принц",
+      "annotationWords": 77,
+      "searchTextWords": 105,
+      "searchTextTokens": 238,
+      "sourceCount": 2,
+      "changedFields": [
+        "genres",
+        "themes",
+        "mood",
+        "pace"
+      ]
+    },
+    {
+      "catalogId": 84,
+      "title": "Убийство в Восточном экспрессе",
+      "annotationWords": 70,
+      "searchTextWords": 91,
+      "searchTextTokens": 212,
+      "sourceCount": 2,
+      "changedFields": [
+        "year",
+        "genres",
+        "themes",
+        "mood",
+        "pace",
+        "ageRating",
+        "series"
+      ]
+    },
+    {
+      "catalogId": 124,
+      "title": "Цветы для Элджернона",
+      "annotationWords": 74,
+      "searchTextWords": 102,
+      "searchTextTokens": 232,
+      "sourceCount": 2,
+      "changedFields": [
+        "genres",
+        "themes",
+        "mood",
+        "ageRating"
+      ]
+    },
+    {
+      "catalogId": 29,
+      "title": "451° по Фаренгейту",
+      "annotationWords": 72,
+      "searchTextWords": 101,
+      "searchTextTokens": 231,
+      "sourceCount": 2,
+      "changedFields": [
+        "genres",
+        "themes",
+        "mood",
+        "pace"
+      ]
+    },
+    {
+      "catalogId": 22,
+      "title": "Хоббит",
+      "annotationWords": 71,
+      "searchTextWords": 104,
+      "searchTextTokens": 257,
+      "sourceCount": 2,
+      "changedFields": [
+        "author",
+        "authors",
+        "genres",
+        "themes",
+        "mood",
+        "pace",
+        "series"
+      ]
+    },
+    {
+      "catalogId": 230,
+      "title": "Девушка с татуировкой дракона",
+      "annotationWords": 70,
+      "searchTextWords": 99,
+      "searchTextTokens": 233,
+      "sourceCount": 2,
+      "changedFields": [
+        "themes",
+        "mood",
+        "series"
+      ]
+    },
+    {
+      "catalogId": 44,
+      "title": "Над пропастью во ржи",
+      "annotationWords": 75,
+      "searchTextWords": 103,
+      "searchTextTokens": 232,
+      "sourceCount": 2,
+      "changedFields": [
+        "author",
+        "authors",
+        "year",
+        "genres",
+        "themes",
+        "mood",
+        "pace",
+        "ageRating"
+      ]
+    },
+    {
+      "catalogId": 9,
+      "title": "Алхимик",
+      "annotationWords": 72,
+      "searchTextWords": 91,
+      "searchTextTokens": 217,
+      "sourceCount": 2,
+      "changedFields": [
+        "genres",
+        "themes",
+        "mood",
+        "ageRating"
+      ]
+    },
+    {
+      "catalogId": 48,
+      "title": "Краткая история времени",
+      "annotationWords": 77,
+      "searchTextWords": 90,
+      "searchTextTokens": 199,
+      "sourceCount": 2,
+      "changedFields": [
+        "themes",
+        "mood",
+        "pace"
+      ]
+    },
+    {
+      "catalogId": 68,
+      "title": "Стив Джобс",
+      "annotationWords": 75,
+      "searchTextWords": 106,
+      "searchTextTokens": 226,
+      "sourceCount": 2,
+      "changedFields": [
+        "genres",
+        "themes",
+        "mood"
+      ]
+    },
+    {
+      "catalogId": 3,
+      "title": "Богатый папа, бедный папа",
+      "annotationWords": 76,
+      "searchTextWords": 105,
+      "searchTextTokens": 210,
+      "sourceCount": 2,
+      "changedFields": [
+        "author",
+        "authors",
+        "year",
+        "themes"
+      ]
+    },
+    {
+      "catalogId": 156,
+      "title": "Язык программирования C",
+      "annotationWords": 73,
+      "searchTextWords": 95,
+      "searchTextTokens": 198,
+      "sourceCount": 2,
+      "changedFields": [
+        "author",
+        "authors",
+        "themes"
+      ]
+    },
+    {
+      "catalogId": 141,
+      "title": "Оружие, микробы и сталь",
+      "annotationWords": 70,
+      "searchTextWords": 100,
+      "searchTextTokens": 224,
+      "sourceCount": 2,
+      "changedFields": [
+        "genres",
+        "themes",
+        "mood",
+        "pace"
+      ]
+    },
+    {
+      "catalogId": 302,
+      "title": "Я — Малала",
+      "annotationWords": 75,
+      "searchTextWords": 101,
+      "searchTextTokens": 216,
+      "sourceCount": 2,
+      "changedFields": [
+        "title",
+        "year",
+        "themes",
+        "mood"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "all_passed": true,
+  "checks": {
+    "title_top1": true,
+    "fuzzy_title_top1": true,
+    "author_top1": true,
+    "strict_filters": true,
+    "no_matches_after_strict_filter": true,
+    "invalid_query": true,
+    "semantic_uncertainty_returns_candidates": true,
+    "recommendations": true
+  }
+}

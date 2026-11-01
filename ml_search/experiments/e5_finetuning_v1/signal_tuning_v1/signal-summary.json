@@ -1,0 +1,2193 @@
+[
+  {
+    "query_id": "NEW-F02-V1",
+    "family_id": "NEW-F02",
+    "category": "mood",
+    "query": "Хочу злую смешную историю о рабочих буднях и начальстве, в которой узнаёшь собственный офис",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "516": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.3619285523891449,
+      "mean": 0.008610391989350319,
+      "std": 0.09081825613975525,
+      "top10_mean": 0.2854571044445038
+    }
+  },
+  {
+    "query_id": "NEW-F02-V2",
+    "family_id": "NEW-F02",
+    "category": "mood",
+    "query": "Нужна сатира про сотрудников и руководство: смешно, но от несправедливости немного бесит",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "516": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.37213972210884094,
+      "mean": 0.016194870695471764,
+      "std": 0.09772731363773346,
+      "top10_mean": 0.3130750060081482
+    }
+  },
+  {
+    "query_id": "NEW-F02-V3",
+    "family_id": "NEW-F02",
+    "category": "mood",
+    "query": "Что почитать, если хочется посмеяться над корпоративной жизнью и нелепыми распоряжениями?",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "516": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.34498271346092224,
+      "mean": -0.02390531450510025,
+      "std": 0.09227392077445984,
+      "top10_mean": 0.27225732803344727
+    }
+  },
+  {
+    "query_id": "NEW-F06-V1",
+    "family_id": "NEW-F06",
+    "category": "mood",
+    "query": "Ищу грустную, но поддерживающую историю о том, как начать жить после потери работы",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "743": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.3866942226886749,
+      "mean": -0.005792833399027586,
+      "std": 0.10904217511415482,
+      "top10_mean": 0.32481199502944946
+    }
+  },
+  {
+    "query_id": "NEW-F06-V2",
+    "family_id": "NEW-F06",
+    "category": "mood",
+    "query": "Что почитать про человека, который лишился привычного дела и ищет новую опору?",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "743": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.3066840171813965,
+      "mean": -0.003744901157915592,
+      "std": 0.08852263540029526,
+      "top10_mean": 0.26148658990859985
+    }
+  },
+  {
+    "query_id": "NEW-F06-V3",
+    "family_id": "NEW-F06",
+    "category": "mood",
+    "query": "Хочу роман о профессиональном провале и постепенном возвращении к жизни",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "743": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.385082870721817,
+      "mean": 0.03553980216383934,
+      "std": 0.1052619144320488,
+      "top10_mean": 0.33242928981781006
+    }
+  },
+  {
+    "query_id": "NEW-F07-V1",
+    "family_id": "NEW-F07",
+    "category": "mood",
+    "query": "Хочу напряжённую книгу о недоверии между близкими друзьями: вроде никто не враг, а спокойно быть нельзя",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "76": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.35460716485977173,
+      "mean": -0.0004670758207794279,
+      "std": 0.10574834793806076,
+      "top10_mean": 0.3143860399723053
+    }
+  },
+  {
+    "query_id": "NEW-F07-V2",
+    "family_id": "NEW-F07",
+    "category": "mood",
+    "query": "Ищу историю, где дружба постепенно превращается в подозрения и соперничество",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "76": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.35543978214263916,
+      "mean": 0.03606713190674782,
+      "std": 0.11139906942844391,
+      "top10_mean": 0.30065998435020447
+    }
+  },
+  {
+    "query_id": "NEW-F07-V3",
+    "family_id": "NEW-F07",
+    "category": "mood",
+    "query": "Посоветуй роман с тревогой внутри дружеской компании и скрытыми мотивами",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "76": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.3418247699737549,
+      "mean": 0.003925747703760862,
+      "std": 0.10775768756866455,
+      "top10_mean": 0.28138047456741333
+    }
+  },
+  {
+    "query_id": "NEW-F08-V1",
+    "family_id": "NEW-F08",
+    "category": "mood",
+    "query": "Хочу радостное приключение, где герой учится новому ремеслу и радуется маленьким успехам",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "292": 2,
+      "341": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.3778098225593567,
+      "mean": -0.021258948370814323,
+      "std": 0.12387298792600632,
+      "top10_mean": 0.32326239347457886
+    }
+  },
+  {
+    "query_id": "NEW-F08-V2",
+    "family_id": "NEW-F08",
+    "category": "mood",
+    "query": "Нужна история про освоение навыка, в которой приятно наблюдать за постепенным ростом",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "292": 2,
+      "341": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.29751646518707275,
+      "mean": -0.0405406728386879,
+      "std": 0.10755742341279984,
+      "top10_mean": 0.2672175467014313
+    }
+  },
+  {
+    "query_id": "NEW-F08-V3",
+    "family_id": "NEW-F08",
+    "category": "mood",
+    "query": "Что почитать с удовольствием от обучения и маленьких побед, а не от победы над злодеем?",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "292": 2,
+      "341": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.34687644243240356,
+      "mean": -0.015890227630734444,
+      "std": 0.1100393682718277,
+      "top10_mean": 0.30023688077926636
+    }
+  },
+  {
+    "query_id": "NEW-F12-V1",
+    "family_id": "NEW-F12",
+    "category": "atmosphere",
+    "query": "Ищу историю с ощущением жаркого тесного города, где герои задыхаются от людей и обстоятельств",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "38": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.4717644453048706,
+      "mean": 0.033929672092199326,
+      "std": 0.12057142704725266,
+      "top10_mean": 0.36305370926856995
+    }
+  },
+  {
+    "query_id": "NEW-F12-V2",
+    "family_id": "NEW-F12",
+    "category": "atmosphere",
+    "query": "Хочу роман, в котором летняя жара и городская теснота усиливают напряжение",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "38": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.2380697876214981,
+      "mean": -0.011489017866551876,
+      "std": 0.0793859213590622,
+      "top10_mean": 0.21830503642559052
+    }
+  },
+  {
+    "query_id": "NEW-F12-V3",
+    "family_id": "NEW-F12",
+    "category": "atmosphere",
+    "query": "Что почитать с душной городской атмосферой, почти без возможности спрятаться?",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "38": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.3606526851654053,
+      "mean": 0.00024902200675569475,
+      "std": 0.10409480333328247,
+      "top10_mean": 0.29667240381240845
+    }
+  },
+  {
+    "query_id": "NEW-F17-V1",
+    "family_id": "NEW-F17",
+    "category": "atmosphere",
+    "query": "Ищу книгу с тревожной атмосферой больницы, где привычная жизнь остановилась",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "439": 2,
+      "271": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.47434157133102417,
+      "mean": 0.016088947653770447,
+      "std": 0.11103657633066177,
+      "top10_mean": 0.37276801466941833
+    }
+  },
+  {
+    "query_id": "NEW-F17-V2",
+    "family_id": "NEW-F17",
+    "category": "atmosphere",
+    "query": "Хочу историю про ожидание в медицинском учреждении и неопределённость между диагнозами",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "439": 2,
+      "271": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.38763225078582764,
+      "mean": -0.01332408282905817,
+      "std": 0.09626203775405884,
+      "top10_mean": 0.3124757707118988
+    }
+  },
+  {
+    "query_id": "NEW-F17-V3",
+    "family_id": "NEW-F17",
+    "category": "atmosphere",
+    "query": "Посоветуй роман, в котором больничное пространство усиливает страх и уязвимость",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "439": 2,
+      "271": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.4137462079524994,
+      "mean": -0.0030678091570734978,
+      "std": 0.1041235402226448,
+      "top10_mean": 0.3526480793952942
+    }
+  },
+  {
+    "query_id": "NEW-F18-V1",
+    "family_id": "NEW-F18",
+    "category": "atmosphere",
+    "query": "Хочу погрузиться в жизнь небольшой деревни: соседи знают друг друга и помнят старые обиды",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "612": 2,
+      "157": 2,
+      "628": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.47726455330848694,
+      "mean": -0.0012844523880630732,
+      "std": 0.12177452445030212,
+      "top10_mean": 0.32305777072906494
+    }
+  },
+  {
+    "query_id": "NEW-F18-V2",
+    "family_id": "NEW-F18",
+    "category": "atmosphere",
+    "query": "Ищу сельскую историю с близкими отношениями и долгой памятью сообщества",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "612": 2,
+      "157": 2,
+      "628": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.3244513273239136,
+      "mean": 0.015827177092432976,
+      "std": 0.103329136967659,
+      "top10_mean": 0.287855863571167
+    }
+  },
+  {
+    "query_id": "NEW-F18-V3",
+    "family_id": "NEW-F18",
+    "category": "atmosphere",
+    "query": "Нужен роман с атмосферой деревни, где чужие дела невозможно совсем скрыть",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "612": 2,
+      "157": 2,
+      "628": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.35108253359794617,
+      "mean": 0.02913176640868187,
+      "std": 0.09668729454278946,
+      "top10_mean": 0.27671992778778076
+    }
+  },
+  {
+    "query_id": "NEW-F23-V1",
+    "family_id": "NEW-F23",
+    "category": "colloquial",
+    "query": "Хочу про неудачный стартап, где хорошие идеи разбиваются о деньги и человеческие слабости",
+    "expected_empty": true,
+    "has_metadata": false,
+    "grades": {},
+    "raw_semantic_summary": {
+      "max": 0.3699953556060791,
+      "mean": -0.007180060725659132,
+      "std": 0.10693274438381195,
+      "top10_mean": 0.33294492959976196
+    }
+  },
+  {
+    "query_id": "NEW-F23-V2",
+    "family_id": "NEW-F23",
+    "category": "colloquial",
+    "query": "Есть роман о попытке открыть бизнес, который пошёл совсем не так?",
+    "expected_empty": true,
+    "has_metadata": true,
+    "grades": {},
+    "raw_semantic_summary": {
+      "max": 0.32611116766929626,
+      "mean": 0.004122225102037191,
+      "std": 0.0932081937789917,
+      "top10_mean": 0.28293943405151367
+    }
+  },
+  {
+    "query_id": "NEW-F23-V3",
+    "family_id": "NEW-F23",
+    "category": "colloquial",
+    "query": "Нужно чтение про предпринимательский провал, а не очередную историю успеха",
+    "expected_empty": true,
+    "has_metadata": true,
+    "grades": {},
+    "raw_semantic_summary": {
+      "max": 0.40519267320632935,
+      "mean": -0.009318506345152855,
+      "std": 0.09948260337114334,
+      "top10_mean": 0.31510382890701294
+    }
+  },
+  {
+    "query_id": "NEW-F25-V1",
+    "family_id": "NEW-F25",
+    "category": "colloquial",
+    "query": "Мне бы роман о разводе глазами ребёнка, без объяснений взрослых, кто из них прав",
+    "expected_empty": true,
+    "has_metadata": true,
+    "grades": {},
+    "raw_semantic_summary": {
+      "max": 0.43618249893188477,
+      "mean": 0.02077014371752739,
+      "std": 0.14558309316635132,
+      "top10_mean": 0.3916299045085907
+    }
+  },
+  {
+    "query_id": "NEW-F25-V2",
+    "family_id": "NEW-F25",
+    "category": "colloquial",
+    "query": "Есть история, где распад семьи показан через детское восприятие?",
+    "expected_empty": true,
+    "has_metadata": true,
+    "grades": {},
+    "raw_semantic_summary": {
+      "max": 0.45648473501205444,
+      "mean": 0.026984790340065956,
+      "std": 0.12551912665367126,
+      "top10_mean": 0.3562661409378052
+    }
+  },
+  {
+    "query_id": "NEW-F25-V3",
+    "family_id": "NEW-F25",
+    "category": "colloquial",
+    "query": "Хочу понять, как ребёнок переживает расставание родителей, через художественную книгу",
+    "expected_empty": true,
+    "has_metadata": false,
+    "grades": {},
+    "raw_semantic_summary": {
+      "max": 0.35471639037132263,
+      "mean": -0.02272123284637928,
+      "std": 0.11552754044532776,
+      "top10_mean": 0.30938106775283813
+    }
+  },
+  {
+    "query_id": "NEW-F27-V1",
+    "family_id": "NEW-F27",
+    "category": "colloquial",
+    "query": "Посоветуй что-то про спорт, где важнее отношения в команде, чем сам финальный матч",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "615": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.3904557228088379,
+      "mean": -0.02489091083407402,
+      "std": 0.09154870361089706,
+      "top10_mean": 0.2966916561126709
+    }
+  },
+  {
+    "query_id": "NEW-F27-V2",
+    "family_id": "NEW-F27",
+    "category": "colloquial",
+    "query": "Хочу историю спортивной команды с конфликтами и поддержкой внутри неё",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "615": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.3005422055721283,
+      "mean": -0.03214690089225769,
+      "std": 0.08631768822669983,
+      "top10_mean": 0.2342071235179901
+    }
+  },
+  {
+    "query_id": "NEW-F27-V3",
+    "family_id": "NEW-F27",
+    "category": "colloquial",
+    "query": "Мне бы книгу про совместную работу спортсменов, а не только путь одного чемпиона",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "615": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.4081610143184662,
+      "mean": 0.0035933528561145067,
+      "std": 0.09162090718746185,
+      "top10_mean": 0.2803466022014618
+    }
+  },
+  {
+    "query_id": "NEW-F34-V1",
+    "family_id": "NEW-F34",
+    "category": "negation",
+    "query": "Хочу фантастику об искусственном интеллекте, но без восстания машин",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "684": 2,
+      "536": 2,
+      "57": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.5450553297996521,
+      "mean": 0.05037365481257439,
+      "std": 0.1358136385679245,
+      "top10_mean": 0.4487334191799164
+    }
+  },
+  {
+    "query_id": "NEW-F34-V2",
+    "family_id": "NEW-F34",
+    "category": "negation",
+    "query": "Нужна история о взаимодействии человека и ИИ, без войны против роботов",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "684": 2,
+      "536": 2,
+      "57": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.46271592378616333,
+      "mean": 0.027058318257331848,
+      "std": 0.12514705955982208,
+      "top10_mean": 0.41250380873680115
+    }
+  },
+  {
+    "query_id": "NEW-F34-V3",
+    "family_id": "NEW-F34",
+    "category": "negation",
+    "query": "Посоветуй фантастику, где искусственный разум не становится армией захватчиков",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "684": 2,
+      "536": 2,
+      "57": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.5048792362213135,
+      "mean": 0.054996490478515625,
+      "std": 0.14818452298641205,
+      "top10_mean": 0.4256742000579834
+    }
+  },
+  {
+    "query_id": "NEW-F37-V1",
+    "family_id": "NEW-F37",
+    "category": "negation",
+    "query": "Ищу историческую прозу о повседневной жизни, без королей и дворцовых интриг",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "368": 2,
+      "46": 2,
+      "214": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.3436628580093384,
+      "mean": 0.037264663726091385,
+      "std": 0.10267993062734604,
+      "top10_mean": 0.3065171241760254
+    }
+  },
+  {
+    "query_id": "NEW-F37-V2",
+    "family_id": "NEW-F37",
+    "category": "negation",
+    "query": "Хочу прошлое глазами обычных людей, а не правителей и придворных",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "368": 2,
+      "46": 2,
+      "214": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.40793800354003906,
+      "mean": 0.03610355779528618,
+      "std": 0.10095475614070892,
+      "top10_mean": 0.32430118322372437
+    }
+  },
+  {
+    "query_id": "NEW-F37-V3",
+    "family_id": "NEW-F37",
+    "category": "negation",
+    "query": "Нужен исторический роман, где в центре быт и работа, а не борьба за престол",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "368": 2,
+      "46": 2,
+      "214": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.40224677324295044,
+      "mean": 0.023969639092683792,
+      "std": 0.11981002241373062,
+      "top10_mean": 0.32309991121292114
+    }
+  },
+  {
+    "query_id": "NEW-F39-V1",
+    "family_id": "NEW-F39",
+    "category": "negation",
+    "query": "Ищу семейный роман, где основной конфликт не сводится к наследству",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "46": 2,
+      "385": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.42656758427619934,
+      "mean": 0.011049171909689903,
+      "std": 0.12492164969444275,
+      "top10_mean": 0.3409097194671631
+    }
+  },
+  {
+    "query_id": "NEW-F39-V2",
+    "family_id": "NEW-F39",
+    "category": "negation",
+    "query": "Хочу историю родственников с другими причинами разногласий, кроме дележа денег",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "46": 2,
+      "385": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.3531782031059265,
+      "mean": -0.011069618165493011,
+      "std": 0.10507694631814957,
+      "top10_mean": 0.29785630106925964
+    }
+  },
+  {
+    "query_id": "NEW-F39-V3",
+    "family_id": "NEW-F39",
+    "category": "negation",
+    "query": "Нужна книга о семье без центральной борьбы за завещание или имущество",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "46": 2,
+      "385": 1
+    },
+    "raw_semantic_summary": {
+      "max": 0.41512036323547363,
+      "mean": 0.005468613468110561,
+      "std": 0.11904297769069672,
+      "top10_mean": 0.3366428315639496
+    }
+  },
+  {
+    "query_id": "NEW-F42-V1",
+    "family_id": "NEW-F42",
+    "category": "plot",
+    "query": "Помню книгу, где обычный сотрудник случайно узнаёт секрет организации и больше не может уйти",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "329": 2,
+      "989": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.36087968945503235,
+      "mean": 0.03704402968287468,
+      "std": 0.10059969872236252,
+      "top10_mean": 0.318881094455719
+    }
+  },
+  {
+    "query_id": "NEW-F42-V2",
+    "family_id": "NEW-F42",
+    "category": "plot",
+    "query": "Ищу историю о работнике, который стал опасным свидетелем внутри собственной компании",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "329": 2,
+      "989": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.4592657685279846,
+      "mean": 0.037566330283880234,
+      "std": 0.12516345083713531,
+      "top10_mean": 0.38163650035858154
+    }
+  },
+  {
+    "query_id": "NEW-F42-V3",
+    "family_id": "NEW-F42",
+    "category": "plot",
+    "query": "Не могу вспомнить роман: человек узнаёт скрытую правду о работодателе и оказывается в ловушке",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "329": 2,
+      "989": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.45892834663391113,
+      "mean": 0.06438122689723969,
+      "std": 0.12617909908294678,
+      "top10_mean": 0.39917781949043274
+    }
+  },
+  {
+    "query_id": "NEW-F45-V1",
+    "family_id": "NEW-F45",
+    "category": "plot",
+    "query": "Помню книгу о судебном деле, где обвиняемый известен, но спор идёт о мотивах и ответственности",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "515": 2,
+      "355": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.43768203258514404,
+      "mean": 0.07241638749837875,
+      "std": 0.11147600412368774,
+      "top10_mean": 0.3993404507637024
+    }
+  },
+  {
+    "query_id": "NEW-F45-V2",
+    "family_id": "NEW-F45",
+    "category": "plot",
+    "query": "Ищу историю понятного суда над человеком: важно, почему он поступил так, а не кто совершил преступление",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "515": 2,
+      "355": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.4649769365787506,
+      "mean": 0.07131900638341904,
+      "std": 0.12548087537288666,
+      "top10_mean": 0.4157843589782715
+    }
+  },
+  {
+    "query_id": "NEW-F45-V3",
+    "family_id": "NEW-F45",
+    "category": "plot",
+    "query": "Не помню название романа о процессе, в котором моральная оценка сложнее установления виновника",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "515": 2,
+      "355": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.40550169348716736,
+      "mean": 0.05281449854373932,
+      "std": 0.10572732239961624,
+      "top10_mean": 0.36326032876968384
+    }
+  },
+  {
+    "query_id": "NEW-F48-V1",
+    "family_id": "NEW-F48",
+    "category": "specialized",
+    "query": "Нужно пособие по пайке микросхем BGA с температурными профилями и диагностикой дефектов",
+    "expected_empty": true,
+    "has_metadata": false,
+    "grades": {},
+    "raw_semantic_summary": {
+      "max": 0.34447598457336426,
+      "mean": -0.043103545904159546,
+      "std": 0.11400766670703888,
+      "top10_mean": 0.3035235106945038
+    }
+  },
+  {
+    "query_id": "NEW-F48-V2",
+    "family_id": "NEW-F48",
+    "category": "specialized",
+    "query": "Ищу профессиональную книгу по ремонту электроники с перекаткой BGA",
+    "expected_empty": true,
+    "has_metadata": false,
+    "grades": {},
+    "raw_semantic_summary": {
+      "max": 0.36958587169647217,
+      "mean": -0.03648310527205467,
+      "std": 0.10837402194738388,
+      "top10_mean": 0.2979206144809723
+    }
+  },
+  {
+    "query_id": "NEW-F48-V3",
+    "family_id": "NEW-F48",
+    "category": "specialized",
+    "query": "Есть руководство по реболлингу и пайке BGA-корпусов, а не общая история компьютеров?",
+    "expected_empty": true,
+    "has_metadata": true,
+    "grades": {},
+    "raw_semantic_summary": {
+      "max": 0.42451345920562744,
+      "mean": -0.0021656560711562634,
+      "std": 0.12242976576089859,
+      "top10_mean": 0.3679715692996979
+    }
+  },
+  {
+    "query_id": "NEW-F50-V1",
+    "family_id": "NEW-F50",
+    "category": "specialized",
+    "query": "Ищу пособие по разведению пресноводных креветок с параметрами воды и профилактикой заболеваний",
+    "expected_empty": true,
+    "has_metadata": false,
+    "grades": {},
+    "raw_semantic_summary": {
+      "max": 0.27962374687194824,
+      "mean": -0.02055211178958416,
+      "std": 0.09715882688760757,
+      "top10_mean": 0.25554507970809937
+    }
+  },
+  {
+    "query_id": "NEW-F50-V2",
+    "family_id": "NEW-F50",
+    "category": "specialized",
+    "query": "Нужна подробная книга об аквариумных креветках и их размножении",
+    "expected_empty": true,
+    "has_metadata": false,
+    "grades": {},
+    "raw_semantic_summary": {
+      "max": 0.45822519063949585,
+      "mean": -0.011413429863750935,
+      "std": 0.09137946367263794,
+      "top10_mean": 0.2939061224460602
+    }
+  },
+  {
+    "query_id": "NEW-F50-V3",
+    "family_id": "NEW-F50",
+    "category": "specialized",
+    "query": "Есть руководство по содержанию и разведению креветок в домашнем аквариуме?",
+    "expected_empty": true,
+    "has_metadata": false,
+    "grades": {},
+    "raw_semantic_summary": {
+      "max": 0.33226537704467773,
+      "mean": -0.036975614726543427,
+      "std": 0.08964920043945312,
+      "top10_mean": 0.24698099493980408
+    }
+  },
+  {
+    "query_id": "REG-001",
+    "family_id": "REG-001",
+    "category": "semantic",
+    "query": "десятилетний мальчик после множества операций впервые идёт в обычную школу и сталкивается с насмешками",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "31": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.39624255895614624,
+      "mean": -0.036485809832811356,
+      "std": 0.10952974855899811,
+      "top10_mean": 0.3135868012905121
+    }
+  },
+  {
+    "query_id": "REG-002",
+    "family_id": "REG-002",
+    "category": "semantic",
+    "query": "наследник знатного дома скрывается среди жителей пустыни и борется за планету с ценным веществом для космических полётов",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "546": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.5631675720214844,
+      "mean": 0.08620607107877731,
+      "std": 0.12958456575870514,
+      "top10_mean": 0.47283539175987244
+    }
+  },
+  {
+    "query_id": "REG-003",
+    "family_id": "REG-003",
+    "category": "semantic",
+    "query": "служащий переписывает прошлое для государства которое следит за мыслями граждан и контролирует язык",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "10": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.4595004618167877,
+      "mean": 0.03770538792014122,
+      "std": 0.11412794888019562,
+      "top10_mean": 0.3339100480079651
+    }
+  },
+  {
+    "query_id": "REG-004",
+    "family_id": "REG-004",
+    "category": "semantic",
+    "query": "девочка умеет воспламенять предметы силой мысли и вместе с отцом скрывается от секретной организации",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "250": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.38449826836586,
+      "mean": 0.01813868060708046,
+      "std": 0.10924677550792694,
+      "top10_mean": 0.32727986574172974
+    }
+  },
+  {
+    "query_id": "REG-005",
+    "family_id": "REG-005",
+    "category": "semantic",
+    "query": "капитан одержим местью огромному белому киту и превращает плавание китобойного судна в безумную охоту",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "73": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.7202687859535217,
+      "mean": 0.06606347113847733,
+      "std": 0.13536082208156586,
+      "top10_mean": 0.4788927137851715
+    }
+  },
+  {
+    "query_id": "REG-006",
+    "family_id": "REG-006",
+    "category": "semantic",
+    "query": "южный адвокат рискует репутацией защищая темнокожего мужчину которого несправедливо обвинили",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "17": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.5548457503318787,
+      "mean": 0.06922590732574463,
+      "std": 0.11812085658311844,
+      "top10_mean": 0.4404439926147461
+    }
+  },
+  {
+    "query_id": "REG-007",
+    "family_id": "REG-007",
+    "category": "semantic",
+    "query": "пожарный уничтожает запрещённые книги но после знакомства с девушкой начинает читать и восстаёт против системы",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "29": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.47187191247940063,
+      "mean": 0.006417407188564539,
+      "std": 0.08986776322126389,
+      "top10_mean": 0.2895323634147644
+    }
+  },
+  {
+    "query_id": "REG-008",
+    "family_id": "REG-008",
+    "category": "semantic",
+    "query": "группа школьников после катастрофы пытается создать собственное общество на необитаемом острове",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "37": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.5770936012268066,
+      "mean": 0.03399955481290817,
+      "std": 0.1165817528963089,
+      "top10_mean": 0.3496587872505188
+    }
+  },
+  {
+    "query_id": "REG-009",
+    "family_id": "REG-009",
+    "category": "semantic",
+    "query": "молодой красавец сохраняет юность пока его изображение стареет и принимает следы пороков",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "66": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.47799015045166016,
+      "mean": 0.02344132587313652,
+      "std": 0.09450972080230713,
+      "top10_mean": 0.2960362136363983
+    }
+  },
+  {
+    "query_id": "REG-010",
+    "family_id": "REG-010",
+    "category": "semantic",
+    "query": "учёный собирает живое существо из мёртвых тел а затем отвергает своё разумное создание",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "56": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6843526363372803,
+      "mean": 0.0751463770866394,
+      "std": 0.14827291667461395,
+      "top10_mean": 0.473224937915802
+    }
+  },
+  {
+    "query_id": "REG-011",
+    "family_id": "REG-011",
+    "category": "semantic",
+    "query": "девочка следует за белым кроликом и оказывается в абсурдном мире странных существ",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "168": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6624535322189331,
+      "mean": 0.04574521258473396,
+      "std": 0.1487034112215042,
+      "top10_mean": 0.4599008560180664
+    }
+  },
+  {
+    "query_id": "REG-012",
+    "family_id": "REG-012",
+    "category": "semantic",
+    "query": "датский принц узнаёт от призрака об убийстве отца и должен отомстить своему дяде",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "72": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6324734091758728,
+      "mean": 0.07304461300373077,
+      "std": 0.13367648422718048,
+      "top10_mean": 0.4248199462890625
+    }
+  },
+  {
+    "query_id": "REG-013",
+    "family_id": "REG-013",
+    "category": "semantic",
+    "query": "замужняя русская аристократка влюбляется в офицера и бросает вызов лицемерному обществу",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "117": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.5766011476516724,
+      "mean": 0.03438471630215645,
+      "std": 0.1529303789138794,
+      "top10_mean": 0.46267375349998474
+    }
+  },
+  {
+    "query_id": "REG-014",
+    "family_id": "REG-014",
+    "category": "semantic",
+    "query": "бедный петербургский студент убивает старуху ростовщицу и мучается нравственными сомнениями",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "38": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.41876330971717834,
+      "mean": 0.07604406774044037,
+      "std": 0.12378423660993576,
+      "top10_mean": 0.3691350817680359
+    }
+  },
+  {
+    "query_id": "REG-015",
+    "family_id": "REG-015",
+    "category": "semantic",
+    "query": "дьявол со свитой приезжает в советскую москву а женщина пытается спасти любимого писателя",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "204": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.40637993812561035,
+      "mean": 0.08412964642047882,
+      "std": 0.13434725999832153,
+      "top10_mean": 0.37249261140823364
+    }
+  },
+  {
+    "query_id": "REG-016",
+    "family_id": "REG-016",
+    "category": "semantic",
+    "query": "сирота узнаёт что он волшебник поступает в школу магии и вместе с друзьями ищет загадочный камень",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "5": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.7293387651443481,
+      "mean": 0.014047235250473022,
+      "std": 0.15397579967975616,
+      "top10_mean": 0.5326595306396484
+    }
+  },
+  {
+    "query_id": "REG-017",
+    "family_id": "REG-017",
+    "category": "semantic",
+    "query": "маленький герой несёт опасное кольцо через вымышленный мир чтобы уничтожить его во владениях тёмного властелина",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "52": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.562105119228363,
+      "mean": 0.07548099756240845,
+      "std": 0.16729161143302917,
+      "top10_mean": 0.5168229341506958
+    }
+  },
+  {
+    "query_id": "REG-018",
+    "family_id": "REG-018",
+    "category": "semantic",
+    "query": "независимая девушка из семьи с пятью дочерьми сначала презирает богатого молчаливого жениха",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "12": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.4952690005302429,
+      "mean": 0.03359378129243851,
+      "std": 0.17080210149288177,
+      "top10_mean": 0.45526689291000366
+    }
+  },
+  {
+    "query_id": "REG-019",
+    "family_id": "REG-019",
+    "category": "semantic",
+    "query": "исключённый из школы подросток несколько дней бродит по нью-йорку переживая одиночество и страх взросления",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "44": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6265374422073364,
+      "mean": 0.013084079138934612,
+      "std": 0.1253533661365509,
+      "top10_mean": 0.3978661000728607
+    }
+  },
+  {
+    "query_id": "REG-020",
+    "family_id": "REG-020",
+    "category": "semantic",
+    "query": "лётчик терпит аварию в пустыне и встречает мальчика с астероида который рассказывает о розе и лисе",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "26": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.5766223073005676,
+      "mean": 0.06053449213504791,
+      "std": 0.13334408402442932,
+      "top10_mean": 0.42844873666763306
+    }
+  },
+  {
+    "query_id": "REG-021",
+    "family_id": "REG-021",
+    "category": "semantic",
+    "query": "невиновного моряка заключают в островную крепость а после побега и находки сокровища он мстит предателям",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "96": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6032202243804932,
+      "mean": 0.10590983182191849,
+      "std": 0.14701123535633087,
+      "top10_mean": 0.4593968391418457
+    }
+  },
+  {
+    "query_id": "REG-022",
+    "family_id": "REG-022",
+    "category": "semantic",
+    "query": "бывший каторжник воспитывает сироту и пытается жить честно пока его много лет преследует непреклонный инспектор",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "158": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.4473075270652771,
+      "mean": 0.028131434693932533,
+      "std": 0.11729046702384949,
+      "top10_mean": 0.3338826894760132
+    }
+  },
+  {
+    "query_id": "REG-023",
+    "family_id": "REG-023",
+    "category": "semantic",
+    "query": "смерть рассказывает о приёмной девочке под мюнхеном которая крадёт книги во время войны",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "49": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6070061326026917,
+      "mean": 0.06197188422083855,
+      "std": 0.11536204069852829,
+      "top10_mean": 0.38097116351127625
+    }
+  },
+  {
+    "query_id": "REG-024",
+    "family_id": "REG-024",
+    "category": "semantic",
+    "query": "в годовщину свадьбы пропадает жена и общество подозревает мужа в её убийстве",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "115": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.515277087688446,
+      "mean": 0.06223515421152115,
+      "std": 0.15433074533939362,
+      "top10_mean": 0.45221146941185
+    }
+  },
+  {
+    "query_id": "REG-025",
+    "family_id": "REG-025",
+    "category": "semantic",
+    "query": "молодая сотрудница фбр просит помощи у заключённого психиатра каннибала чтобы поймать серийного убийцу",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "193": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6868893504142761,
+      "mean": 0.07275591790676117,
+      "std": 0.14977067708969116,
+      "top10_mean": 0.5234730243682861
+    }
+  },
+  {
+    "query_id": "REG-026",
+    "family_id": "REG-026",
+    "category": "semantic",
+    "query": "символолог и криптолог расследуют убийство в лувре и разгадывают религиозный заговор",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "35": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6609102487564087,
+      "mean": 0.09010101109743118,
+      "std": 0.13552474975585938,
+      "top10_mean": 0.45589137077331543
+    }
+  },
+  {
+    "query_id": "REG-027",
+    "family_id": "REG-027",
+    "category": "semantic",
+    "query": "домосед отправляется с волшебником и гномами возвращать горное королевство и сокровища у дракона",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "22": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6606779098510742,
+      "mean": 0.05010318011045456,
+      "std": 0.15906678140163422,
+      "top10_mean": 0.5337985754013062
+    }
+  },
+  {
+    "query_id": "REG-028",
+    "family_id": "REG-028",
+    "category": "semantic",
+    "query": "землю внезапно уничтожают а обычный англичанин путешествует по космосу с инопланетным другом и депрессивным роботом",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "57": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6951847672462463,
+      "mean": 0.07146991044282913,
+      "std": 0.13993370532989502,
+      "top10_mean": 0.4789840579032898
+    }
+  },
+  {
+    "query_id": "REG-029",
+    "family_id": "REG-029",
+    "category": "semantic",
+    "query": "математик предсказывает падение галактической империи и создаёт сообщество учёных чтобы сократить эпоху варварства",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "78": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6472179889678955,
+      "mean": 0.05505836755037308,
+      "std": 0.14837555587291718,
+      "top10_mean": 0.4804021716117859
+    }
+  },
+  {
+    "query_id": "REG-030",
+    "family_id": "REG-030",
+    "category": "semantic",
+    "query": "умственно отсталому мужчине делают операцию для повышения интеллекта а результаты сравнивают с лабораторной мышью",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "124": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6010114550590515,
+      "mean": 0.004454226698726416,
+      "std": 0.11122613400220871,
+      "top10_mean": 0.3713836967945099
+    }
+  },
+  {
+    "query_id": "REG-031",
+    "family_id": "REG-031",
+    "category": "semantic",
+    "query": "в религиозной диктатуре женщин заставляют рожать детей для правящего класса мужчин",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "39": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.5333988666534424,
+      "mean": 0.03364614397287369,
+      "std": 0.12241976708173752,
+      "top10_mean": 0.38058167695999146
+    }
+  },
+  {
+    "query_id": "REG-032",
+    "family_id": "REG-032",
+    "category": "semantic",
+    "query": "богатый мальчик предаёт сына слуги а спустя годы возвращается в разрушенный афганистан ради искупления",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "47": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.4349268674850464,
+      "mean": 0.04397452622652054,
+      "std": 0.12940719723701477,
+      "top10_mean": 0.3738102912902832
+    }
+  },
+  {
+    "query_id": "REG-033",
+    "family_id": "REG-033",
+    "category": "semantic",
+    "query": "монах расследует череду загадочных смертей в средневековом аббатстве с лабиринтом библиотеки",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "208": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6238501071929932,
+      "mean": 0.07681221514940262,
+      "std": 0.14113283157348633,
+      "top10_mean": 0.4430566728115082
+    }
+  },
+  {
+    "query_id": "REG-034",
+    "family_id": "REG-034",
+    "category": "semantic",
+    "query": "общество будущего выращивает людей по кастам и поддерживает счастье наркотиком и программированием",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "34": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.5014849901199341,
+      "mean": 0.005666092969477177,
+      "std": 0.10768019407987595,
+      "top10_mean": 0.3712310791015625
+    }
+  },
+  {
+    "query_id": "REG-035",
+    "family_id": "REG-035",
+    "category": "semantic",
+    "query": "жестокого подростка из будущего государство пытается исправить экспериментальным подавлением воли",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "132": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.5449880361557007,
+      "mean": 0.032124586403369904,
+      "std": 0.11358555406332016,
+      "top10_mean": 0.3827262818813324
+    }
+  },
+  {
+    "query_id": "REG-036",
+    "family_id": "REG-036",
+    "category": "semantic",
+    "query": "после кораблекрушения подросток оказывается в спасательной шлюпке вместе с бенгальским тигром",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "136": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.40353381633758545,
+      "mean": -0.0036733197048306465,
+      "std": 0.13138949871063232,
+      "top10_mean": 0.33326125144958496
+    }
+  },
+  {
+    "query_id": "REG-037",
+    "family_id": "REG-037",
+    "category": "semantic",
+    "query": "журналист и талантливая хакерша расследуют давнее исчезновение девушки из влиятельной семьи",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "230": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6885274052619934,
+      "mean": 0.06931570172309875,
+      "std": 0.13800285756587982,
+      "top10_mean": 0.46819815039634705
+    }
+  },
+  {
+    "query_id": "REG-038",
+    "family_id": "REG-038",
+    "category": "semantic",
+    "query": "мальчик вспоминает одно лето с новыми кроссовками яблонями пчёлами и сбором жёлтых цветов",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "470": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.5671966671943665,
+      "mean": -0.004627577029168606,
+      "std": 0.11295586824417114,
+      "top10_mean": 0.3871140480041504
+    }
+  },
+  {
+    "query_id": "REG-039",
+    "family_id": "REG-039",
+    "category": "navigational",
+    "query": "Чудо Р Дж Паласио",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "31": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.32054054737091064,
+      "mean": 0.015827162191271782,
+      "std": 0.10177494585514069,
+      "top10_mean": 0.27774786949157715
+    }
+  },
+  {
+    "query_id": "REG-040",
+    "family_id": "REG-040",
+    "category": "navigational",
+    "query": "Дюна Фрэнк Герберт",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "546": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.2915656268596649,
+      "mean": -0.006048061419278383,
+      "std": 0.0816953033208847,
+      "top10_mean": 0.21325595676898956
+    }
+  },
+  {
+    "query_id": "REG-041",
+    "family_id": "REG-041",
+    "category": "navigational",
+    "query": "1984 Джордж Оруэлл",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "10": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.23052851855754852,
+      "mean": 0.0036524480674415827,
+      "std": 0.07055483758449554,
+      "top10_mean": 0.18850108981132507
+    }
+  },
+  {
+    "query_id": "REG-042",
+    "family_id": "REG-042",
+    "category": "navigational",
+    "query": "Мастер и Маргарита Булгаков",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "204": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.28299689292907715,
+      "mean": -0.007880697026848793,
+      "std": 0.07854122668504715,
+      "top10_mean": 0.24595829844474792
+    }
+  },
+  {
+    "query_id": "REG-043",
+    "family_id": "REG-043",
+    "category": "navigational",
+    "query": "Гордость и предубеждение Джейн Остин",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "12": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.23861220479011536,
+      "mean": 0.01865876466035843,
+      "std": 0.08250604569911957,
+      "top10_mean": 0.22538237273693085
+    }
+  },
+  {
+    "query_id": "REG-044",
+    "family_id": "REG-044",
+    "category": "navigational",
+    "query": "Цветы для Элджернона Дэниел Киз",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "124": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.2502865493297577,
+      "mean": -0.027476616203784943,
+      "std": 0.0719638392329216,
+      "top10_mean": 0.180018812417984
+    }
+  },
+  {
+    "query_id": "REG-045",
+    "family_id": "REG-045",
+    "category": "navigational",
+    "query": "prestuplenie i nakazanie dostoevskiy",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "38": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.32539305090904236,
+      "mean": 0.01835244707763195,
+      "std": 0.10076117515563965,
+      "top10_mean": 0.273848295211792
+    }
+  },
+  {
+    "query_id": "REG-046",
+    "family_id": "REG-046",
+    "category": "navigational",
+    "query": "garri potter i filosofskiy kamen",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "5": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.417765349149704,
+      "mean": 0.043355926871299744,
+      "std": 0.10575227439403534,
+      "top10_mean": 0.3359549045562744
+    }
+  },
+  {
+    "query_id": "REG-047",
+    "family_id": "REG-047",
+    "category": "navigational",
+    "query": "malenkiy princ sent ekzuperi",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "26": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.40049439668655396,
+      "mean": 0.00020450401643756777,
+      "std": 0.10229611396789551,
+      "top10_mean": 0.3290504813194275
+    }
+  },
+  {
+    "query_id": "REG-048",
+    "family_id": "REG-048",
+    "category": "navigational",
+    "query": "451 po farengeitu bredberi",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "29": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.2829745411872864,
+      "mean": 0.02055199444293976,
+      "std": 0.09551874548196793,
+      "top10_mean": 0.24040587246418
+    }
+  },
+  {
+    "query_id": "REG-049",
+    "family_id": "REG-049",
+    "category": "navigational",
+    "query": "ufhhb gjnnh",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "5": 2,
+      "15": 2,
+      "20": 2,
+      "23": 2,
+      "25": 2,
+      "30": 2,
+      "18": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.3119100332260132,
+      "mean": 0.011882786639034748,
+      "std": 0.08637215197086334,
+      "top10_mean": 0.26534503698349
+    }
+  },
+  {
+    "query_id": "REG-050",
+    "family_id": "REG-050",
+    "category": "navigational",
+    "query": "vfcnth b vfhufhbnf",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "204": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.29096245765686035,
+      "mean": 0.0029194261878728867,
+      "std": 0.08265034109354019,
+      "top10_mean": 0.25633347034454346
+    }
+  },
+  {
+    "query_id": "REG-051",
+    "family_id": "REG-051",
+    "category": "navigational",
+    "query": "dyuna gerbert",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "546": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.23063960671424866,
+      "mean": -0.008363018743693829,
+      "std": 0.07003413140773773,
+      "top10_mean": 0.18180599808692932
+    }
+  },
+  {
+    "query_id": "REG-052",
+    "family_id": "REG-052",
+    "category": "navigational",
+    "query": "cveti dlya eldzhernona",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "124": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.2424890249967575,
+      "mean": -0.013760899193584919,
+      "std": 0.07256210595369339,
+      "top10_mean": 0.19507631659507751
+    }
+  },
+  {
+    "query_id": "REG-053",
+    "family_id": "REG-053",
+    "category": "navigational",
+    "query": "mobi dik melvill",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "73": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.17226918041706085,
+      "mean": 0.005358361639082432,
+      "std": 0.053918808698654175,
+      "top10_mean": 0.14954939484596252
+    }
+  },
+  {
+    "query_id": "REG-054",
+    "family_id": "REG-054",
+    "category": "navigational",
+    "query": "gordost i predubezhdenie",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "12": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.24743597209453583,
+      "mean": -0.012785015627741814,
+      "std": 0.08444146066904068,
+      "top10_mean": 0.2077629268169403
+    }
+  },
+  {
+    "query_id": "REG-055",
+    "family_id": "REG-055",
+    "category": "theme_mood",
+    "query": "медленная готическая история о старом поместье и распаде аристократической семьи",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "999": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.44191664457321167,
+      "mean": 0.05633491650223732,
+      "std": 0.13021305203437805,
+      "top10_mean": 0.4037449359893799
+    }
+  },
+  {
+    "query_id": "REG-056",
+    "family_id": "REG-056",
+    "category": "theme_mood",
+    "query": "ироничное абсурдное космическое приключение с очень странными попутчиками",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "57": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6236098408699036,
+      "mean": 0.043592628091573715,
+      "std": 0.1504792720079422,
+      "top10_mean": 0.5003489255905151
+    }
+  },
+  {
+    "query_id": "REG-057",
+    "family_id": "REG-057",
+    "category": "theme_mood",
+    "query": "мрачный интеллектуальный детектив в средневековом монастыре",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "208": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.5006155371665955,
+      "mean": 0.08131196349859238,
+      "std": 0.1373305320739746,
+      "top10_mean": 0.4106944501399994
+    }
+  },
+  {
+    "query_id": "REG-058",
+    "family_id": "REG-058",
+    "category": "theme_mood",
+    "query": "добрая смешная детская история о маленьком мышонке который побеждает страх хитростью",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "142": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6021974086761475,
+      "mean": -0.004902150947600603,
+      "std": 0.14825747907161713,
+      "top10_mean": 0.47632771730422974
+    }
+  },
+  {
+    "query_id": "REG-059",
+    "family_id": "REG-059",
+    "category": "theme_mood",
+    "query": "меланхоличная притча о памяти супружестве и старых войнах",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "811": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.4660266041755676,
+      "mean": 0.0307936854660511,
+      "std": 0.1178237721323967,
+      "top10_mean": 0.36825254559516907
+    }
+  },
+  {
+    "query_id": "REG-060",
+    "family_id": "REG-060",
+    "category": "theme_mood",
+    "query": "напряжённая философская история об одиночестве среди заражённых и границе между человеком и чудовищем",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "584": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.4881954789161682,
+      "mean": 0.07318142801523209,
+      "std": 0.12145145982503891,
+      "top10_mean": 0.39665675163269043
+    }
+  },
+  {
+    "query_id": "REG-061",
+    "family_id": "REG-061",
+    "category": "typo",
+    "query": "гарри потр философкий камин",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "5": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.36735329031944275,
+      "mean": 0.02670157328248024,
+      "std": 0.09544884413480759,
+      "top10_mean": 0.2843748927116394
+    }
+  },
+  {
+    "query_id": "REG-062",
+    "family_id": "REG-062",
+    "category": "typo",
+    "query": "преступлние и наказние достаевский",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "38": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.32432806491851807,
+      "mean": 0.030449576675891876,
+      "std": 0.10618271678686142,
+      "top10_mean": 0.2891875207424164
+    }
+  },
+  {
+    "query_id": "REG-063",
+    "family_id": "REG-063",
+    "category": "typo",
+    "query": "маленкий принц сент экзюпери",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "26": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.36942780017852783,
+      "mean": 0.012130755931138992,
+      "std": 0.09805101156234741,
+      "top10_mean": 0.31995853781700134
+    }
+  },
+  {
+    "query_id": "REG-064",
+    "family_id": "REG-064",
+    "category": "one_word_guard",
+    "query": "муж оказывается главным подозреваемым после исчезновения жены в годовщину свадьбы",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "115": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.5063285827636719,
+      "mean": 0.06318575888872147,
+      "std": 0.1440853327512741,
+      "top10_mean": 0.425968736410141
+    }
+  },
+  {
+    "query_id": "REG-065",
+    "family_id": "REG-065",
+    "category": "one_word_guard",
+    "query": "мы живём в государстве которое следит за мыслями граждан и переписывает прошлое",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "10": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.4790933132171631,
+      "mean": 0.053034696727991104,
+      "std": 0.11294540762901306,
+      "top10_mean": 0.3578646779060364
+    }
+  },
+  {
+    "query_id": "REG-066",
+    "family_id": "REG-066",
+    "category": "one_word_guard",
+    "query": "оно сохраняет юность владельца пока изображение стареет и принимает следы его пороков",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "66": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.3612602949142456,
+      "mean": 0.011706868186593056,
+      "std": 0.086159847676754,
+      "top10_mean": 0.26863908767700195
+    }
+  },
+  {
+    "query_id": "REG-067",
+    "family_id": "REG-067",
+    "category": "one_word_guard",
+    "query": "героине нужна помощь заключённого психиатра чтобы поймать другого серийного убийцу",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "193": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6052284240722656,
+      "mean": 0.04852210730314255,
+      "std": 0.15757885575294495,
+      "top10_mean": 0.5026566982269287
+    }
+  },
+  {
+    "query_id": "REG-068",
+    "family_id": "REG-068",
+    "category": "one_word_guard",
+    "query": "начала современной космологии объясняются через большой взрыв чёрные дыры и природу времени",
+    "expected_empty": false,
+    "has_metadata": true,
+    "grades": {
+      "48": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.6137983798980713,
+      "mean": 0.03042440675199032,
+      "std": 0.1259613335132599,
+      "top10_mean": 0.4720946252346039
+    }
+  },
+  {
+    "query_id": "REG-069",
+    "family_id": "REG-069",
+    "category": "one_word_positive",
+    "query": "ОНО Стивен Кинг",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "8": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.25852420926094055,
+      "mean": 0.020171042531728745,
+      "std": 0.08436126261949539,
+      "top10_mean": 0.22023627161979675
+    }
+  },
+  {
+    "query_id": "REG-070",
+    "family_id": "REG-070",
+    "category": "one_word_positive",
+    "query": "Мы Замятин",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "373": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.20181533694267273,
+      "mean": -0.01990777626633644,
+      "std": 0.06916694343090057,
+      "top10_mean": 0.14874954521656036
+    }
+  },
+  {
+    "query_id": "REG-071",
+    "family_id": "REG-071",
+    "category": "one_word_positive",
+    "query": "Муж Дин Кунц",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "525": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.29415085911750793,
+      "mean": 0.009948937222361565,
+      "std": 0.0811387449502945,
+      "top10_mean": 0.24739579856395721
+    }
+  },
+  {
+    "query_id": "REG-072",
+    "family_id": "REG-072",
+    "category": "one_word_positive",
+    "query": "Помощь Кэтрин Стокетт",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "149": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.23231607675552368,
+      "mean": -0.04726145789027214,
+      "std": 0.07652685046195984,
+      "top10_mean": 0.17221982777118683
+    }
+  },
+  {
+    "query_id": "REG-073",
+    "family_id": "REG-073",
+    "category": "one_word_positive",
+    "query": "Начала Евклид",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "299": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.23553746938705444,
+      "mean": -0.02545144595205784,
+      "std": 0.07725444436073303,
+      "top10_mean": 0.18897250294685364
+    }
+  },
+  {
+    "query_id": "REG-074",
+    "family_id": "REG-074",
+    "category": "partial_title",
+    "query": "философский камень",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "5": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.42616403102874756,
+      "mean": 0.022208068519830704,
+      "std": 0.10658945143222809,
+      "top10_mean": 0.32985129952430725
+    }
+  },
+  {
+    "query_id": "REG-075",
+    "family_id": "REG-075",
+    "category": "partial_title",
+    "query": "татуировка дракона",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "230": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.3585377633571625,
+      "mean": -0.0006822643335908651,
+      "std": 0.09710133075714111,
+      "top10_mean": 0.27501922845840454
+    }
+  },
+  {
+    "query_id": "REG-076",
+    "family_id": "REG-076",
+    "category": "author_only",
+    "query": "Ричард Мэтисон",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "584": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.19101352989673615,
+      "mean": -0.005143729038536549,
+      "std": 0.06877312809228897,
+      "top10_mean": 0.15393877029418945
+    }
+  },
+  {
+    "query_id": "REG-077",
+    "family_id": "REG-077",
+    "category": "author_only",
+    "query": "Р Дж Паласио",
+    "expected_empty": false,
+    "has_metadata": false,
+    "grades": {
+      "31": 2
+    },
+    "raw_semantic_summary": {
+      "max": 0.18931187689304352,
+      "mean": 0.0029150270856916904,
+      "std": 0.07387728244066238,
+      "top10_mean": 0.1739843785762787
+    }
+  }
+]

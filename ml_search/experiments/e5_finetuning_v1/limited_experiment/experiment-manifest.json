@@ -1,0 +1,21 @@
+{
+  "selected_files": {
+    "selected-model/config.json": "c5455c1c29ea233a875cac03faf9a468962afdc193fd11caf3e607ca41b315eb",
+    "selected-model/config_sentence_transformers.json": "4298ce560cc93ed3c9a1bd5630469fbec6ce6478536328275f113b2518b73211",
+    "selected-model/model.safetensors": "1c1813ae9a621a9ead0886b161177b746d70e9f9942b88752c3f1ac5ef35721a",
+    "selected-model/modules.json": "5286260f53f0f5d318eb02f1565fd30f7ec7c6d305f41ad29e2bb3ec974046a6",
+    "selected-model/README.md": "1f84e90ca021782ab7ba95ccfee414480ec0e010cd117a43b906f4976c7acf33",
+    "selected-model/sentence_bert_config.json": "5fee3fcdc4a727fad422f0fed0c867b0921eefa9051de221521956ed42eb4c19",
+    "selected-model/tokenizer.json": "fbcc3c7348739d765de2c86fce14c9c5e2dd47696dbb3cfeed294edfc712d8f0",
+    "selected-model/tokenizer_config.json": "7f8e591fccaa155b910473a53702be26990095e8904323a4241f7750ecc0273e",
+    "selected-model/1_Pooling/config.json": "bb80272f7adad76ce93073c25e18113ee66be1e91f60bcdd72aa41d05b28247e"
+  },
+  "selection_sha256": "216821101b16d8596a7fd5fd3386f4bef276348513df7c40e06f076b825a0054",
+  "preregistration_sha256": "2b0def451974bfe5d76d27d4d9bd80ba56ca724ca11070e8186a6fa109a941a9",
+  "batch_plan_sha256": "b6ccf9de77a3985b3a339a93ea5cab3499165dafc94eb709bb51b08961a1c6b7",
+  "code_sha256": "9d29ce351641abcd407b1a921633149687e6efbb8b66475e9556a423936acc8d",
+  "dev_sha256": "b9b95798e84f8465429e3a0fd90b6f560bbb77b53717e7a997370c08298f040e",
+  "catalog_sha256": "115c7e689447db05d2e34bc5d83ab66238305b24b287601b36bd7fa3774bf5ee",
+  "source_model_sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477",
+  "test_untouched": true
+}

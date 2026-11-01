@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "selected": "new_entity",
+  "dev_not_worse_than_new": true,
+  "regression_hit1_improved": true,
+  "real_engine_targets_rank1": true,
+  "fast_resolver_same_decisions": true,
+  "heldout_title_accuracy": 1.0,
+  "heldout_thematic_false_activation_rate": 0.0,
+  "fresh_test_model_results_opened": false,
+  "production_modified": false,
+  "baseline_sources_unchanged": 72
+}

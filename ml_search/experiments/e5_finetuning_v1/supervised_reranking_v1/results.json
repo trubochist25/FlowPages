@@ -1,0 +1,1516 @@
+{
+  "protocol": "Pairwise logistic reranker trained only on 34 reviewed training triplets; hyperparameters selected on dev with regression guardrails; 99-query closed test unopened.",
+  "training_pairs": 34,
+  "feature_weights": {
+    "base": 2.514057229320725,
+    "whole_profile": 1.9472373600053898,
+    "plot": 2.240344040925407,
+    "annotation": 1.3410677124857502,
+    "structured": 1.8999948224463121,
+    "taxonomy": 0.5754900969598172,
+    "lexical": 0.8359471672473983,
+    "metadata": 0.1650205498470677,
+    "plot_overlap": 1.0887382172565312,
+    "structured_overlap": 2.1826081901562273
+  },
+  "baseline": {
+    "dev": {
+      "ndcg10": 0.23622583359522997,
+      "hit3": 0.2564102564102564,
+      "hit10": 0.4358974358974359
+    },
+    "regression77": {
+      "ndcg10": 0.9417260048371283,
+      "hit3": 0.948051948051948,
+      "hit10": 0.987012987012987
+    }
+  },
+  "selected": {
+    "config": {
+      "candidate_k": 50,
+      "alpha": 0.7
+    },
+    "dev": {
+      "ndcg10": 0.25733018466366336,
+      "hit3": 0.2564102564102564,
+      "hit10": 0.5128205128205129
+    },
+    "regression77": {
+      "ndcg10": 0.9427823684229052,
+      "hit3": 0.961038961038961,
+      "hit10": 0.987012987012987
+    }
+  },
+  "selected_delta": {
+    "ndcg10": 0.02110435106843339,
+    "hit3": 0.0,
+    "hit10": 0.07692307692307698
+  },
+  "leave_one_family_out": {
+    "adaptive": {
+      "ndcg10": 0.23210939635632163,
+      "hit3": 0.2564102564102564,
+      "hit10": 0.4358974358974359
+    },
+    "baseline": {
+      "ndcg10": 0.23622583359522997,
+      "hit3": 0.2564102564102564,
+      "hit10": 0.4358974358974359
+    },
+    "delta": {
+      "ndcg10": -0.004116437238908338,
+      "hit3": 0.0,
+      "hit10": 0.0
+    }
+  },
+  "selected_rows": [
+    {
+      "query_id": "NEW-F02-V1",
+      "family_id": "NEW-F02",
+      "category": "mood",
+      "expected_empty": false,
+      "ndcg10": 1.0,
+      "hit3": true,
+      "hit10": true,
+      "rank": 1,
+      "top_ids": [
+        516,
+        167,
+        679,
+        370,
+        598,
+        166,
+        292,
+        651,
+        676,
+        718
+      ]
+    },
+    {
+      "query_id": "NEW-F02-V2",
+      "family_id": "NEW-F02",
+      "category": "mood",
+      "expected_empty": false,
+      "ndcg10": 0.3154648767857287,
+      "hit3": false,
+      "hit10": true,
+      "rank": 8,
+      "top_ids": [
+        710,
+        21,
+        950,
+        891,
+        541,
+        88,
+        40,
+        516,
+        478,
+        17
+      ]
+    },
+    {
+      "query_id": "NEW-F02-V3",
+      "family_id": "NEW-F02",
+      "category": "mood",
+      "expected_empty": false,
+      "ndcg10": 0.3562071871080222,
+      "hit3": false,
+      "hit10": true,
+      "rank": 6,
+      "top_ids": [
+        950,
+        329,
+        762,
+        650,
+        710,
+        516,
+        343,
+        4,
+        74,
+        838
+      ]
+    },
+    {
+      "query_id": "NEW-F06-V1",
+      "family_id": "NEW-F06",
+      "category": "mood",
+      "expected_empty": false,
+      "ndcg10": 0.0,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        28,
+        343,
+        53,
+        402,
+        830,
+        619,
+        738,
+        254,
+        368,
+        921
+      ]
+    },
+    {
+      "query_id": "NEW-F06-V2",
+      "family_id": "NEW-F06",
+      "category": "mood",
+      "expected_empty": false,
+      "ndcg10": 0.0,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        476,
+        567,
+        4,
+        659,
+        80,
+        703,
+        537,
+        254,
+        166,
+        536
+      ]
+    },
+    {
+      "query_id": "NEW-F06-V3",
+      "family_id": "NEW-F06",
+      "category": "mood",
+      "expected_empty": false,
+      "ndcg10": 0.0,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        166,
+        343,
+        145,
+        762,
+        76,
+        292,
+        363,
+        74,
+        75,
+        541
+      ]
+    },
+    {
+      "query_id": "NEW-F07-V1",
+      "family_id": "NEW-F07",
+      "category": "mood",
+      "expected_empty": false,
+      "ndcg10": 0.2890648263178878,
+      "hit3": false,
+      "hit10": true,
+      "rank": 10,
+      "top_ids": [
+        169,
+        922,
+        540,
+        879,
+        249,
+        698,
+        776,
+        550,
+        734,
+        76
+      ]
+    },
+    {
+      "query_id": "NEW-F07-V2",
+      "family_id": "NEW-F07",
+      "category": "mood",
+      "expected_empty": false,
+      "ndcg10": 0.3562071871080222,
+      "hit3": false,
+      "hit10": true,
+      "rank": 6,
+      "top_ids": [
+        416,
+        289,
+        980,
+        15,
+        706,
+        76,
+        269,
+        222,
+        109,
+        86
+      ]
+    },
+    {
+      "query_id": "NEW-F07-V3",
+      "family_id": "NEW-F07",
+      "category": "mood",
+      "expected_empty": false,
+      "ndcg10": 0.0,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        710,
+        801,
+        2,
+        493,
+        357,
+        564,
+        285,
+        861,
+        689,
+        287
+      ]
+    },
+    {
+      "query_id": "NEW-F08-V1",
+      "family_id": "NEW-F08",
+      "category": "mood",
+      "expected_empty": false,
+      "ndcg10": 0.52129602861432,
+      "hit3": true,
+      "hit10": true,
+      "rank": 2,
+      "top_ids": [
+        513,
+        292,
+        527,
+        947,
+        470,
+        743,
+        577,
+        120,
+        508,
+        26
+      ]
+    },
+    {
+      "query_id": "NEW-F08-V2",
+      "family_id": "NEW-F08",
+      "category": "mood",
+      "expected_empty": false,
+      "ndcg10": 0.41311732856427996,
+      "hit3": true,
+      "hit10": true,
+      "rank": 3,
+      "top_ids": [
+        527,
+        124,
+        292,
+        676,
+        50,
+        4,
+        71,
+        756,
+        932,
+        536
+      ]
+    },
+    {
+      "query_id": "NEW-F08-V3",
+      "family_id": "NEW-F08",
+      "category": "mood",
+      "expected_empty": false,
+      "ndcg10": 0.0,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        577,
+        527,
+        25,
+        379,
+        31,
+        120,
+        142,
+        23,
+        20,
+        40
+      ]
+    },
+    {
+      "query_id": "NEW-F12-V1",
+      "family_id": "NEW-F12",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "ndcg10": 0.0,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        463,
+        207,
+        330,
+        853,
+        278,
+        321,
+        461,
+        815,
+        438,
+        779
+      ]
+    },
+    {
+      "query_id": "NEW-F12-V2",
+      "family_id": "NEW-F12",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "ndcg10": 0.0,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        704,
+        214,
+        601,
+        815,
+        467,
+        930,
+        575,
+        90,
+        788,
+        526
+      ]
+    },
+    {
+      "query_id": "NEW-F12-V3",
+      "family_id": "NEW-F12",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "ndcg10": 0.0,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        601,
+        832,
+        214,
+        815,
+        9,
+        940,
+        575,
+        468,
+        181,
+        546
+      ]
+    },
+    {
+      "query_id": "NEW-F17-V1",
+      "family_id": "NEW-F17",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "ndcg10": 0.10654373218155079,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        760,
+        472,
+        854,
+        995,
+        271,
+        330,
+        876,
+        348,
+        454,
+        224
+      ]
+    },
+    {
+      "query_id": "NEW-F17-V2",
+      "family_id": "NEW-F17",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "ndcg10": 0.44272256972879825,
+      "hit3": false,
+      "hit10": true,
+      "rank": 4,
+      "top_ids": [
+        145,
+        472,
+        201,
+        439,
+        798,
+        990,
+        876,
+        271,
+        587,
+        733
+      ]
+    },
+    {
+      "query_id": "NEW-F17-V3",
+      "family_id": "NEW-F17",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "ndcg10": 0.08688267143572001,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        708,
+        854,
+        224,
+        472,
+        153,
+        219,
+        995,
+        271,
+        454,
+        207
+      ]
+    },
+    {
+      "query_id": "NEW-F18-V1",
+      "family_id": "NEW-F18",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "ndcg10": 0.23958467719708867,
+      "hit3": false,
+      "hit10": true,
+      "rank": 4,
+      "top_ids": [
+        685,
+        638,
+        381,
+        612,
+        32,
+        241,
+        445,
+        877,
+        121,
+        222
+      ]
+    },
+    {
+      "query_id": "NEW-F18-V2",
+      "family_id": "NEW-F18",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "ndcg10": 0.0,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        130,
+        217,
+        979,
+        55,
+        331,
+        169,
+        556,
+        241,
+        749,
+        366
+      ]
+    },
+    {
+      "query_id": "NEW-F18-V3",
+      "family_id": "NEW-F18",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "ndcg10": 0.45364180057596337,
+      "hit3": true,
+      "hit10": true,
+      "rank": 3,
+      "top_ids": [
+        242,
+        779,
+        612,
+        839,
+        638,
+        609,
+        32,
+        157,
+        468,
+        794
+      ]
+    },
+    {
+      "query_id": "NEW-F23-V1",
+      "family_id": "NEW-F23",
+      "category": "colloquial",
+      "expected_empty": true,
+      "ndcg10": null,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        950,
+        948,
+        476,
+        4,
+        731,
+        711,
+        997,
+        304,
+        154,
+        619
+      ]
+    },
+    {
+      "query_id": "NEW-F23-V2",
+      "family_id": "NEW-F23",
+      "category": "colloquial",
+      "expected_empty": true,
+      "ndcg10": null,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        710,
+        787,
+        801,
+        2,
+        743,
+        982,
+        677,
+        673,
+        947,
+        405
+      ]
+    },
+    {
+      "query_id": "NEW-F23-V3",
+      "family_id": "NEW-F23",
+      "category": "colloquial",
+      "expected_empty": true,
+      "ndcg10": null,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        3,
+        167,
+        100,
+        78,
+        68,
+        485,
+        743,
+        337,
+        777,
+        141
+      ]
+    },
+    {
+      "query_id": "NEW-F25-V1",
+      "family_id": "NEW-F25",
+      "category": "colloquial",
+      "expected_empty": true,
+      "ndcg10": null,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        483,
+        754,
+        743,
+        969,
+        44,
+        649,
+        24,
+        27,
+        335,
+        951
+      ]
+    },
+    {
+      "query_id": "NEW-F25-V2",
+      "family_id": "NEW-F25",
+      "category": "colloquial",
+      "expected_empty": true,
+      "ndcg10": null,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        474,
+        217,
+        999,
+        7,
+        562,
+        44,
+        422,
+        361,
+        475,
+        32
+      ]
+    },
+    {
+      "query_id": "NEW-F25-V3",
+      "family_id": "NEW-F25",
+      "category": "colloquial",
+      "expected_empty": true,
+      "ndcg10": null,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        483,
+        383,
+        830,
+        435,
+        888,
+        821,
+        751,
+        381,
+        562,
+        564
+      ]
+    },
+    {
+      "query_id": "NEW-F27-V1",
+      "family_id": "NEW-F27",
+      "category": "colloquial",
+      "expected_empty": false,
+      "ndcg10": 0.5,
+      "hit3": true,
+      "hit10": true,
+      "rank": 3,
+      "top_ids": [
+        33,
+        838,
+        615,
+        960,
+        337,
+        758,
+        60,
+        950,
+        254,
+        712
+      ]
+    },
+    {
+      "query_id": "NEW-F27-V2",
+      "family_id": "NEW-F27",
+      "category": "colloquial",
+      "expected_empty": false,
+      "ndcg10": 1.0,
+      "hit3": true,
+      "hit10": true,
+      "rank": 1,
+      "top_ids": [
+        615,
+        838,
+        33,
+        677,
+        85,
+        517,
+        950,
+        740,
+        435,
+        343
+      ]
+    },
+    {
+      "query_id": "NEW-F27-V3",
+      "family_id": "NEW-F27",
+      "category": "colloquial",
+      "expected_empty": false,
+      "ndcg10": 0.4306765580733931,
+      "hit3": false,
+      "hit10": true,
+      "rank": 4,
+      "top_ids": [
+        631,
+        11,
+        23,
+        615,
+        677,
+        241,
+        180,
+        801,
+        405,
+        838
+      ]
+    },
+    {
+      "query_id": "NEW-F34-V1",
+      "family_id": "NEW-F34",
+      "category": "negation",
+      "expected_empty": false,
+      "ndcg10": 0.649014791936513,
+      "hit3": true,
+      "hit10": true,
+      "rank": 1,
+      "top_ids": [
+        684,
+        213,
+        57,
+        537,
+        154,
+        820,
+        652,
+        225,
+        731,
+        81
+      ]
+    },
+    {
+      "query_id": "NEW-F34-V2",
+      "family_id": "NEW-F34",
+      "category": "negation",
+      "expected_empty": false,
+      "ndcg10": 0.8344475896326595,
+      "hit3": true,
+      "hit10": true,
+      "rank": 1,
+      "top_ids": [
+        536,
+        570,
+        684,
+        98,
+        213,
+        141,
+        154,
+        820,
+        657,
+        797
+      ]
+    },
+    {
+      "query_id": "NEW-F34-V3",
+      "family_id": "NEW-F34",
+      "category": "negation",
+      "expected_empty": false,
+      "ndcg10": 0.2313134383181744,
+      "hit3": false,
+      "hit10": true,
+      "rank": 8,
+      "top_ids": [
+        225,
+        213,
+        652,
+        851,
+        154,
+        342,
+        820,
+        684,
+        57,
+        401
+      ]
+    },
+    {
+      "query_id": "NEW-F37-V1",
+      "family_id": "NEW-F37",
+      "category": "negation",
+      "expected_empty": false,
+      "ndcg10": 0.061810932565382185,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        728,
+        648,
+        170,
+        936,
+        461,
+        883,
+        214,
+        666,
+        516,
+        197
+      ]
+    },
+    {
+      "query_id": "NEW-F37-V2",
+      "family_id": "NEW-F37",
+      "category": "negation",
+      "expected_empty": false,
+      "ndcg10": 0.0,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        576,
+        728,
+        1,
+        79,
+        371,
+        170,
+        197,
+        240,
+        885,
+        1000
+      ]
+    },
+    {
+      "query_id": "NEW-F37-V3",
+      "family_id": "NEW-F37",
+      "category": "negation",
+      "expected_empty": false,
+      "ndcg10": 0.0,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        7,
+        648,
+        252,
+        885,
+        197,
+        722,
+        289,
+        728,
+        936,
+        596
+      ]
+    },
+    {
+      "query_id": "NEW-F39-V1",
+      "family_id": "NEW-F39",
+      "category": "negation",
+      "expected_empty": false,
+      "ndcg10": 0.0,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        43,
+        751,
+        881,
+        147,
+        86,
+        630,
+        808,
+        807,
+        970,
+        899
+      ]
+    },
+    {
+      "query_id": "NEW-F39-V2",
+      "family_id": "NEW-F39",
+      "category": "negation",
+      "expected_empty": false,
+      "ndcg10": 0.0,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        545,
+        381,
+        980,
+        673,
+        159,
+        918,
+        565,
+        163,
+        814,
+        167
+      ]
+    },
+    {
+      "query_id": "NEW-F39-V3",
+      "family_id": "NEW-F39",
+      "category": "negation",
+      "expected_empty": false,
+      "ndcg10": 0.0,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        971,
+        630,
+        521,
+        673,
+        12,
+        931,
+        140,
+        245,
+        159,
+        884
+      ]
+    },
+    {
+      "query_id": "NEW-F42-V1",
+      "family_id": "NEW-F42",
+      "category": "plot",
+      "expected_empty": false,
+      "ndcg10": 0.3065735963827292,
+      "hit3": true,
+      "hit10": true,
+      "rank": 3,
+      "top_ids": [
+        710,
+        471,
+        989,
+        762,
+        958,
+        73,
+        585,
+        529,
+        679,
+        739
+      ]
+    },
+    {
+      "query_id": "NEW-F42-V2",
+      "family_id": "NEW-F42",
+      "category": "plot",
+      "expected_empty": false,
+      "ndcg10": 0.0,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        710,
+        762,
+        295,
+        330,
+        343,
+        405,
+        207,
+        848,
+        598,
+        506
+      ]
+    },
+    {
+      "query_id": "NEW-F42-V3",
+      "family_id": "NEW-F42",
+      "category": "plot",
+      "expected_empty": false,
+      "ndcg10": 1.0,
+      "hit3": true,
+      "hit10": true,
+      "rank": 1,
+      "top_ids": [
+        989,
+        329,
+        157,
+        328,
+        436,
+        840,
+        525,
+        416,
+        610,
+        432
+      ]
+    },
+    {
+      "query_id": "NEW-F45-V1",
+      "family_id": "NEW-F45",
+      "category": "plot",
+      "expected_empty": false,
+      "ndcg10": 0.26406812257259094,
+      "hit3": false,
+      "hit10": true,
+      "rank": 4,
+      "top_ids": [
+        152,
+        505,
+        848,
+        515,
+        96,
+        891,
+        494,
+        506,
+        456,
+        843
+      ]
+    },
+    {
+      "query_id": "NEW-F45-V2",
+      "family_id": "NEW-F45",
+      "category": "plot",
+      "expected_empty": false,
+      "ndcg10": 0.17723928678404774,
+      "hit3": false,
+      "hit10": true,
+      "rank": 10,
+      "top_ids": [
+        152,
+        38,
+        125,
+        505,
+        95,
+        459,
+        434,
+        681,
+        41,
+        355
+      ]
+    },
+    {
+      "query_id": "NEW-F45-V3",
+      "family_id": "NEW-F45",
+      "category": "plot",
+      "expected_empty": false,
+      "ndcg10": 0.0,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        152,
+        843,
+        898,
+        891,
+        861,
+        767,
+        95,
+        76,
+        506,
+        127
+      ]
+    },
+    {
+      "query_id": "NEW-F48-V1",
+      "family_id": "NEW-F48",
+      "category": "specialized",
+      "expected_empty": true,
+      "ndcg10": null,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        514,
+        709,
+        511,
+        961,
+        156,
+        897,
+        69,
+        950,
+        426,
+        299
+      ]
+    },
+    {
+      "query_id": "NEW-F48-V2",
+      "family_id": "NEW-F48",
+      "category": "specialized",
+      "expected_empty": true,
+      "ndcg10": null,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        948,
+        166,
+        894,
+        903,
+        443,
+        634,
+        709,
+        897,
+        329,
+        304
+      ]
+    },
+    {
+      "query_id": "NEW-F48-V3",
+      "family_id": "NEW-F48",
+      "category": "specialized",
+      "expected_empty": true,
+      "ndcg10": null,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        709,
+        897,
+        961,
+        426,
+        621,
+        156,
+        684,
+        213,
+        799,
+        950
+      ]
+    },
+    {
+      "query_id": "NEW-F50-V1",
+      "family_id": "NEW-F50",
+      "category": "specialized",
+      "expected_empty": true,
+      "ndcg10": null,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        347,
+        876,
+        797,
+        679,
+        747,
+        532,
+        650,
+        938,
+        19,
+        770
+      ]
+    },
+    {
+      "query_id": "NEW-F50-V2",
+      "family_id": "NEW-F50",
+      "category": "specialized",
+      "expected_empty": true,
+      "ndcg10": null,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        266,
+        747,
+        218,
+        426,
+        253,
+        603,
+        736,
+        758,
+        593,
+        319
+      ]
+    },
+    {
+      "query_id": "NEW-F50-V3",
+      "family_id": "NEW-F50",
+      "category": "specialized",
+      "expected_empty": true,
+      "ndcg10": null,
+      "hit3": false,
+      "hit10": false,
+      "rank": null,
+      "top_ids": [
+        666,
+        106,
+        736,
+        709,
+        961,
+        195,
+        897,
+        568,
+        91,
+        21
+      ]
+    }
+  ],
+  "top_variants": [
+    {
+      "config": {
+        "candidate_k": 50,
+        "alpha": 0.7
+      },
+      "dev": {
+        "ndcg10": 0.25733018466366336,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.5128205128205129
+      },
+      "regression77": {
+        "ndcg10": 0.9427823684229052,
+        "hit3": 0.961038961038961,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 30,
+        "alpha": 0.7
+      },
+      "dev": {
+        "ndcg10": 0.2557870413644037,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.5128205128205129
+      },
+      "regression77": {
+        "ndcg10": 0.9379892483394177,
+        "hit3": 0.961038961038961,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 50,
+        "alpha": 0.8
+      },
+      "dev": {
+        "ndcg10": 0.25188316067817185,
+        "hit3": 0.282051282051282,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9348194178675097,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 30,
+        "alpha": 0.8
+      },
+      "dev": {
+        "ndcg10": 0.2514632516188595,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9353885574887935,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 50,
+        "alpha": 0.6
+      },
+      "dev": {
+        "ndcg10": 0.250599653061553,
+        "hit3": 0.28205128205128205,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9381767143280118,
+        "hit3": 0.961038961038961,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 30,
+        "alpha": 0.5
+      },
+      "dev": {
+        "ndcg10": 0.2496897525905551,
+        "hit3": 0.28205128205128205,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9384087722052534,
+        "hit3": 0.961038961038961,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 50,
+        "alpha": 0.5
+      },
+      "dev": {
+        "ndcg10": 0.249563568504495,
+        "hit3": 0.28205128205128205,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9384087722052534,
+        "hit3": 0.961038961038961,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 50,
+        "alpha": 0.4
+      },
+      "dev": {
+        "ndcg10": 0.249005594309097,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9381767143280118,
+        "hit3": 0.961038961038961,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 30,
+        "alpha": 0.6
+      },
+      "dev": {
+        "ndcg10": 0.24837457645168814,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9381767143280118,
+        "hit3": 0.961038961038961,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 50,
+        "alpha": 0.3
+      },
+      "dev": {
+        "ndcg10": 0.2459785272744318,
+        "hit3": 0.30769230769230765,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9415404090576178,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 30,
+        "alpha": 0.3
+      },
+      "dev": {
+        "ndcg10": 0.24287592520172446,
+        "hit3": 0.30769230769230765,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9411654770804294,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 30,
+        "alpha": 0.4
+      },
+      "dev": {
+        "ndcg10": 0.2408078905541122,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9381767143280118,
+        "hit3": 0.961038961038961,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 20,
+        "alpha": 0.2
+      },
+      "dev": {
+        "ndcg10": 0.2392931641358107,
+        "hit3": 0.30769230769230765,
+        "hit10": 0.4358974358974359
+      },
+      "regression77": {
+        "ndcg10": 0.94101008527074,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 30,
+        "alpha": 0.2
+      },
+      "dev": {
+        "ndcg10": 0.2392931641358107,
+        "hit3": 0.30769230769230765,
+        "hit10": 0.4358974358974359
+      },
+      "regression77": {
+        "ndcg10": 0.9411654770804294,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 50,
+        "alpha": 0.2
+      },
+      "dev": {
+        "ndcg10": 0.2392931641358107,
+        "hit3": 0.30769230769230765,
+        "hit10": 0.4358974358974359
+      },
+      "regression77": {
+        "ndcg10": 0.9411654770804294,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 20,
+        "alpha": 0.6
+      },
+      "dev": {
+        "ndcg10": 0.23920725685843852,
+        "hit3": 0.28205128205128205,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9384087722052534,
+        "hit3": 0.961038961038961,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 10,
+        "alpha": 0.3
+      },
+      "dev": {
+        "ndcg10": 0.2388211797466878,
+        "hit3": 0.30769230769230765,
+        "hit10": 0.4358974358974359
+      },
+      "regression77": {
+        "ndcg10": 0.9420657815210348,
+        "hit3": 0.961038961038961,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 20,
+        "alpha": 0.3
+      },
+      "dev": {
+        "ndcg10": 0.2388211797466878,
+        "hit3": 0.30769230769230765,
+        "hit10": 0.4358974358974359
+      },
+      "regression77": {
+        "ndcg10": 0.9411654770804294,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 20,
+        "alpha": 0.5
+      },
+      "dev": {
+        "ndcg10": 0.23855438181104166,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9381767143280118,
+        "hit3": 0.961038961038961,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 10,
+        "alpha": 0.2
+      },
+      "dev": {
+        "ndcg10": 0.23820328019196102,
+        "hit3": 0.28205128205128205,
+        "hit10": 0.4358974358974359
+      },
+      "regression77": {
+        "ndcg10": 0.94101008527074,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    }
+  ],
+  "limitations": [
+    "Only 34 reviewed pairwise examples are available.",
+    "This is a supervised feature reranker, not a transformer cross-encoder."
+  ]
+}

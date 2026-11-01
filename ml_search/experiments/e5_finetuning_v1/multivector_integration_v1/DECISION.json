@@ -1,0 +1,30 @@
+{
+  "decision": "keep_as_experimental_best_variant",
+  "production_default_changed": false,
+  "configuration": {
+    "model": "multilingual-e5-small-finetuned-lr1e-5-epoch3",
+    "primary_index": "comparison/index/book-index.npz",
+    "field_index": "reranking_v1/field-vectors.npz",
+    "fields": ["plot", "annotation", "structured", "taxonomy"],
+    "field_score": "max",
+    "alpha": 0.6,
+    "catalog_candidates": 1000,
+    "navigation_bypass": true
+  },
+  "dev51_delta": {
+    "ndcg_at_10": 0.048752199282596165,
+    "hit_at_3": 0.051282051282051266,
+    "hit_at_10": 0.05128205128205132
+  },
+  "regression77_delta": {
+    "ndcg_at_10": -0.0031791729779538924,
+    "hit_at_3": 0.012987012987012991,
+    "hit_at_10": 0.0
+  },
+  "closed_test": {
+    "queries": 99,
+    "judgments": 0,
+    "status": "not_ready_for_scoring"
+  },
+  "next_gate": "independent annotation and one-time evaluation of the frozen 99-query set"
+}

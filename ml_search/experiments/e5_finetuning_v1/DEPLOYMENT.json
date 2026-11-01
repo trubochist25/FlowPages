@@ -1,0 +1,34 @@
+{
+  "deployed_on": "2026-09-16",
+  "status": "active",
+  "endpoint": "http://127.0.0.1:8765",
+  "default_profile": "selected",
+  "model": "multilingual-e5-small-finetuned-lr1e-5-epoch3",
+  "books": 1000,
+  "fuzzy_title_resolver": true,
+  "multi_vector_reranker": true,
+  "launch": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\\ml_search\\run.ps1",
+  "rollback": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\\ml_search\\run_legacy.ps1",
+  "verification": {
+    "automated_tests_passed": 98,
+    "live_health": "ok",
+    "live_routes": [
+      "search_by_title",
+      "search_by_author",
+      "search_with_typo",
+      "search_with_negation",
+      "strict_filters",
+      "empty_query",
+      "alchemy_analyze",
+      "alchemy_recommend",
+      "recommend"
+    ],
+    "legacy_rollback_health": "ok"
+  },
+  "known_limitations": [
+    "Closed-test labels are synthetic and were reviewed by one agent.",
+    "Absolute Hit@3 remains low.",
+    "Negation Hit@3 regressed in the closed test.",
+    "Automatic semantic no-match detection is not enabled."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "decision": "deployed_as_default_with_legacy_rollback",
+  "production_default_changed": true,
+  "closed_test_opened": true,
+  "closed_test_must_not_be_used_for_further_tuning": true,
+  "selected_model": "multilingual-e5-small-finetuned-lr1e-5-epoch3",
+  "quality": {
+    "ndcg_at_10": 0.22787806460453655,
+    "hit_at_3": 0.10144927536231883,
+    "hit_at_10": 0.31884057971014496,
+    "ndcg_at_10_delta": 0.1493781675283712,
+    "hit_at_3_delta": 0.05797101449275362,
+    "hit_at_10_delta": 0.1739130434782609
+  },
+  "latency": {
+    "p95_ms": 2271.052179997787,
+    "p95_ratio_to_production": 1.027356681039324
+  },
+  "outside_training": {
+    "queries": 75,
+    "ndcg_at_10": 0.225191071154222,
+    "hit_at_3": 0.08333333333333333,
+    "hit_at_10": 0.2833333333333333
+  },
+  "remaining_problems": [
+    "Low absolute Hit@3 and Hit@10",
+    "Negation Hit@3 regression",
+    "No reliable automatic no-match detection",
+    "Sparse single-agent synthetic judgments rather than independent human labels"
+  ],
+  "deployment": {
+    "date": "2026-09-16",
+    "default_launcher": "ml_search/run.ps1",
+    "default_profile": "selected",
+    "rollback_launcher": "ml_search/run_legacy.ps1",
+    "live_health_verified": true,
+    "tests_passed": 98
+  },
+  "next_action": "monitor real searches and collect independent judgments; use run_legacy.ps1 for immediate rollback if a material regression appears"
+}

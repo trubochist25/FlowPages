@@ -1,0 +1,4053 @@
+{
+  "numFound": 971769,
+  "start": 3000,
+  "numFoundExact": true,
+  "num_found": 971769,
+  "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+  "q": "language:rus",
+  "offset": null,
+  "docs": [
+    {
+      "edition_count": 1,
+      "first_publish_year": 1976,
+      "key": "/works/OL20037476M",
+      "number_of_pages_median": 340,
+      "title": "Atlas arealov i resursov lekarstvennykh rasteniĭ SSSR",
+      "subject": [
+        "Botany, Medical -- Russia",
+        "Botany -- Russia -- Atlases",
+        "Russia -- Maps"
+      ],
+      "ratings_average": 4,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20037476M",
+            "title": "Atlas arealov i resursov lekarstvennykh rasteniĭ SSSR",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1976"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1998,
+      "key": "/works/OL19727440M",
+      "number_of_pages_median": 630,
+      "title": "Azerbaĭdzhanskai︠a︡ Demokraticheskai︠a︡ Respublika (1918-1920 gg.)  Vneshni︠a︡i︠a︡ politika",
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19727440M",
+            "title": "Azerbaĭdzhanskai︠a︡ Demokraticheskai︠a︡ Respublika (1918-1920 gg.)  Vneshni︠a︡i︠a︡ politika",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1998"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1978,
+      "key": "/works/OL20010345M",
+      "title": "Vse dlya fronta, vse dlya pobedy",
+      "subject": [
+        "Kommunisticheskaya Partiya Sovetskogo Soyuza. -- Krasnoyarskaya organizatsiya."
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20010345M",
+            "title": "Vse dlya fronta, vse dlya pobedy",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1978"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1972,
+      "key": "/works/OL20026645M",
+      "title": "Poety 1840-1850-kh godov",
+      "subject": [
+        "Poets, Russian.",
+        "Russian poetry -- 19th century.",
+        "Authors, Russian."
+      ],
+      "ratings_average": 3,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20026645M",
+            "title": "Poety 1840-1850-kh godov",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1972"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1925,
+      "key": "/works/OL19925436M",
+      "title": "Ekonomicheskoe razvitie Rossii so vtoroi poloviny XIX veka do Fevral'skoi revolyutsii 1917 goda",
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19925436M",
+            "title": "Ekonomicheskoe razvitie Rossii so vtoroi poloviny XIX veka do Fevral'skoi revolyutsii 1917 goda",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1925"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1979,
+      "key": "/works/OL20145794M",
+      "number_of_pages_median": 323,
+      "title": "L.V. Nikolaev",
+      "subject": [
+        "Nikolaev, Leonid Vladimirovich, -- 1878-1942",
+        "Composers -- Russian S.F.S.R. -- Biography"
+      ],
+      "ratings_average": 3,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20145794M",
+            "title": "L.V. Nikolaev",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1979"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "A. E. Hotchner"
+      ],
+      "cover_i": 4279467,
+      "edition_count": 13,
+      "first_publish_year": 1966,
+      "key": "/works/OL3262036W",
+      "number_of_pages_median": 304,
+      "title": "Papa Hemingway",
+      "subject": [
+        "Friends and associates",
+        "Journalists",
+        "Biographies",
+        "Écrivains américains",
+        "American Authors",
+        "Hemingway, Ernest, 1899-1961",
+        "Biography",
+        "American Novelists",
+        "Friendship",
+        "Authors, american",
+        "American fiction, history and criticism, 20th century"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23067228M",
+            "title": "Papa Kheminguėĭ",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2002"
+            ],
+            "isbn": [
+              "5751602900",
+              "9785751602901"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1975,
+      "key": "/works/OL19964919M",
+      "title": "Sotsial'naya aktivnost molodezhi i kommunisty",
+      "subject": [
+        "Komsomol."
+      ],
+      "ratings_average": 4,
+      "ratings_count": 4,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19964919M",
+            "title": "Sotsial'naya aktivnost molodezhi i kommunisty",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1975"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1970,
+      "key": "/works/OL21214117M",
+      "title": "Planirovka i zastroika gorodov.",
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL21214117M",
+            "title": "Planirovka i zastroika gorodov.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1970"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1997,
+      "key": "/works/OL19324785M",
+      "number_of_pages_median": 64,
+      "title": "Dirizhablʹ",
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19324785M",
+            "title": "Dirizhablʹ",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1997"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1973,
+      "key": "/works/OL20836998M",
+      "title": "Opredelenie transportnykh zatrat pri raznykh usloviyakh perevozok",
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20836998M",
+            "title": "Opredelenie transportnykh zatrat pri raznykh usloviyakh perevozok",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1973"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1958,
+      "key": "/works/OL19925268M",
+      "title": "Po Moskve",
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19925268M",
+            "title": "Po Moskve",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1958"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Kat Martin"
+      ],
+      "cover_i": 3792434,
+      "edition_count": 3,
+      "first_publish_year": 1998,
+      "key": "/works/OL2645251W",
+      "number_of_pages_median": 349,
+      "title": "Midnight rider",
+      "subject": [
+        "Fiction",
+        "Spaniards",
+        "Brigands and robbers"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23075280M",
+            "title": "Polnochnyĭ vsadnik",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2004"
+            ],
+            "isbn": [
+              "5170245521",
+              "5957809616",
+              "9785170245529",
+              "9785957809616"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1939,
+      "key": "/works/OL20376780M",
+      "title": "Tretii pyatiletnii plan razvitiya narodnogo khozyaistva soyuza SSR (1938-1942gg).",
+      "ratings_average": 3,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20376780M",
+            "title": "Tretii pyatiletnii plan razvitiya narodnogo khozyaistva soyuza SSR (1938-1942gg).",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1939"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Alekseĭ Dmitrievich Speranskiĭ"
+      ],
+      "cover_i": 14879331,
+      "edition_count": 2,
+      "first_publish_year": 1935,
+      "key": "/works/OL7659045W",
+      "number_of_pages_median": 452,
+      "title": "A basis for the theory of medicine",
+      "subject": [
+        "Diseases",
+        "Experimental Pathology",
+        "Medicine",
+        "Nervous System Diseases",
+        "Nervous system",
+        "Pathology",
+        "War",
+        "Peace",
+        "Disease",
+        "Etiology"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL6426900M",
+            "title": "A basis for the theory of medicine",
+            "cover_i": 14879331,
+            "language": [
+              "eng",
+              "rus"
+            ],
+            "publish_date": [
+              "1935"
+            ],
+            "isbn": [
+              "1299787525",
+              "9781299787520"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Isaac Asimov"
+      ],
+      "cover_i": 9302247,
+      "edition_count": 9,
+      "first_publish_year": 1964,
+      "key": "/works/OL46319W",
+      "number_of_pages_median": 204,
+      "title": "Adding a dimension",
+      "subject": [
+        "Science",
+        "History",
+        "American Science fiction",
+        "Translations into Russian",
+        "Science, history",
+        "Popular works"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL26330917M",
+            "title": "Четвертое измерение",
+            "cover_i": 9302124,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2006"
+            ],
+            "isbn": [
+              "9785952422629",
+              "5952422624"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Mihai Eminescu"
+      ],
+      "cover_i": 3986607,
+      "edition_count": 53,
+      "first_publish_year": 1897,
+      "key": "/works/OL144849W",
+      "number_of_pages_median": 305,
+      "title": "Poems",
+      "subject": [
+        "Romanian poetry",
+        "Translations into English",
+        "Translations into Spanish",
+        "French Translations",
+        "Translations into French"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23157218M",
+            "title": "Poezii.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1965"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Антон Павлович Чехов"
+      ],
+      "cover_i": 12768930,
+      "edition_count": 56,
+      "first_publish_year": 1918,
+      "key": "/works/OL55511W",
+      "number_of_pages_median": 256,
+      "title": "The witch and other stories [15 stories]",
+      "subject": [
+        "Russia in fiction",
+        "Social life and customs",
+        "Translations into English",
+        "Fiction",
+        "Continental european fiction (fictional works by one author)",
+        "Dictionaries",
+        "English language",
+        "Spanish",
+        "German",
+        "French",
+        "Russian Short stories"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL2851330M",
+            "title": "The witch and other stories",
+            "language": [
+              "eng",
+              "rus"
+            ],
+            "publish_date": [
+              "1985"
+            ],
+            "isbn": [
+              "0880010533",
+              "9780880010535"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "B. A. Kordemskiĭ"
+      ],
+      "cover_i": 311077,
+      "edition_count": 16,
+      "first_publish_year": 1959,
+      "key": "/works/OL8251640W",
+      "number_of_pages_median": 320,
+      "title": "The Moscow Puzzles",
+      "subject": [
+        "Mathematical recreations",
+        "Puzzles"
+      ],
+      "ratings_average": 4.5,
+      "ratings_count": 2,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 2,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL18859231M",
+            "title": "Matematicheskaia smekalka.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1959"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Henry Miller"
+      ],
+      "cover_i": 7290665,
+      "edition_count": 6,
+      "first_publish_year": 1957,
+      "key": "/works/OL488270W",
+      "number_of_pages_median": 410,
+      "title": "Big Sur and the oranges of Hieronymus Bosch",
+      "subject": [
+        "Biography",
+        "American Authors",
+        "Miller, henry, 1891-1980"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23014472M",
+            "title": "Tropik Li︠u︡bvi",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2004"
+            ],
+            "isbn": [
+              "5475000743",
+              "9785475000748"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1981,
+      "key": "/works/OL16473866M",
+      "number_of_pages_median": 223,
+      "title": "Slavi︠a︡no-russkie rukopici XV-XVI vikov",
+      "subject": [
+        "Nauchnai︠a︡ biblioteka im. A.M. Gorʹkogo (Moskovskiĭ gosudarstvennyĭ universitet im. M.V. Lomonosova) -- Catalogs and collections.",
+        "Manuscripts, Russian (Old) -- Bibliography."
+      ],
+      "ratings_average": 4,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL16473866M",
+            "title": "Slavi︠a︡no-russkie rukopici XV-XVI vikov",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1981"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Jackie Collins"
+      ],
+      "cover_i": 471906,
+      "edition_count": 4,
+      "first_publish_year": 2003,
+      "key": "/works/OL33790W",
+      "number_of_pages_median": 455,
+      "title": "Hollywood divorces",
+      "subject": [
+        "Divorce",
+        "Domestic fiction",
+        "Fiction",
+        "Motion picture industry",
+        "Women",
+        "Married women",
+        "Adultery",
+        "Motion picture actors and actresses",
+        "Divorced people, fiction",
+        "Motion picture industry, fiction",
+        "Hollywood (los angeles, calif.), fiction",
+        "Fiction, general"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23000967M",
+            "title": "Sezon razvodov",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2004"
+            ],
+            "isbn": [
+              "5699081321",
+              "9785699081325"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1957,
+      "key": "/works/OL15441837M",
+      "number_of_pages_median": 33,
+      "title": "Pami︠a︡tniki arkhitektury vtoroĭ poloviny XIX nachala XX veka",
+      "ratings_average": 3,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL15441837M",
+            "title": "Pami︠a︡tniki arkhitektury vtoroĭ poloviny XIX nachala XX veka",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1957"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1978,
+      "key": "/works/OL20660564M",
+      "title": "ASUP na baze paketov prikladnykh progrgamm",
+      "ratings_average": 4.6666665,
+      "ratings_count": 3,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20660564M",
+            "title": "ASUP na baze paketov prikladnykh progrgamm",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1978"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1966,
+      "key": "/works/OL14848609M",
+      "title": "Armeniya",
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL14848609M",
+            "title": "Armeniya",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1966"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1991,
+      "key": "/works/OL20180064M",
+      "number_of_pages_median": 191,
+      "title": "Net khoda nam nazad",
+      "subject": [
+        "Popular music -- Russia (Federation) -- Moscow -- History and criticism.",
+        "Popular music -- Russia (Federation) -- Moscow -- Texts."
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20180064M",
+            "title": "Net khoda nam nazad",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1991"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Iris Johansen"
+      ],
+      "cover_i": 227214,
+      "edition_count": 8,
+      "first_publish_year": 2003,
+      "key": "/works/OL115408W",
+      "number_of_pages_median": 338,
+      "title": "Fatal tide",
+      "subject": [
+        "Treasure-trove in fiction",
+        "Treasure troves in fiction",
+        "Treasure-trove",
+        "Women in fiction",
+        "Caribbean Area in fiction",
+        "Fiction",
+        "Dolphins",
+        "Treasure troves",
+        "Suspense fiction",
+        "Oceanographers",
+        "Dolphins in fiction",
+        "Islands",
+        "Oceanographers in fiction",
+        "Islands in fiction",
+        "Suspense",
+        "Women",
+        "Women -- Caribbean Area -- Fiction",
+        "Treasure-trove -- Fiction",
+        "Oceanographers -- Fiction",
+        "Dolphins -- Fiction",
+        "Islands -- Fiction",
+        "Caribbean Area -- Fiction",
+        "Fiction, suspense",
+        "Fiction, thrillers, general",
+        "Large type books",
+        "Buried treasure",
+        "Mystery fiction",
+        "Treasure-troves"
+      ],
+      "ratings_average": 3.5,
+      "ratings_count": 2,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23082049M",
+            "title": "Zhenshchina na zakaz",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2005"
+            ],
+            "isbn": [
+              "9785699127849",
+              "5699127844"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1976,
+      "key": "/works/OL21337164M",
+      "number_of_pages_median": 167,
+      "title": "Mezhdunarodno-pravovye problemy Mirovogo okeana na sovremennom ėtape",
+      "subject": [
+        "Maritime law -- Congresses",
+        "Oceanographic research -- Law and legislation -- Congresses"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL21337164M",
+            "title": "Mezhdunarodno-pravovye problemy Mirovogo okeana na sovremennom ėtape",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1976"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "George MacDonald Fraser"
+      ],
+      "cover_i": 871,
+      "edition_count": 19,
+      "first_publish_year": 1982,
+      "key": "/works/OL1823774W",
+      "number_of_pages_median": 512,
+      "title": "Flashman and the redskins",
+      "subject": [
+        "Fiction",
+        "Indians of North America",
+        "Harry Paget Flashman (Fictitious character)",
+        "Soldiers",
+        "History",
+        "Large type books",
+        "Flashman, harry paget (fictitious character), fiction",
+        "Indians of north america, fiction",
+        "West (u.s.), fiction",
+        "Fiction, historical, general",
+        "Fiction, action & adventure",
+        "Little Bighorn, Battle of the, Mont., 1876",
+        "Harry Flashman (Fictitious character)",
+        "British"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL50550169M",
+            "title": "Флэшмен и Краснокожие",
+            "cover_i": 14568167,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2016"
+            ],
+            "isbn": [
+              "9785444453407",
+              "5444453401"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Christopher Priest"
+      ],
+      "cover_i": 425566,
+      "edition_count": 11,
+      "first_publish_year": 1984,
+      "key": "/works/OL166495W",
+      "number_of_pages_median": 326,
+      "title": "The glamour",
+      "subject": [
+        "Large type books",
+        "Fiction, science fiction, general",
+        "Paranormal fiction",
+        "Amnesia",
+        "Fiction"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL40231287M",
+            "title": "Glamur",
+            "cover_i": 12986113,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2007"
+            ],
+            "isbn": [
+              "9785699205332",
+              "5699205330"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Linwood Barclay"
+      ],
+      "cover_i": 12664880,
+      "edition_count": 16,
+      "first_publish_year": 2011,
+      "key": "/works/OL18159141W",
+      "number_of_pages_median": 464,
+      "title": "No safe house",
+      "subject": [
+        "Murder",
+        "Investigation",
+        "Murderers",
+        "Older people",
+        "Crimes against",
+        "Fiction",
+        "Fiction, thrillers, general",
+        "FICTION / Suspense",
+        "Large type books",
+        "Fiction, thrillers, suspense",
+        "Fiction, mystery & detective, general",
+        "Crime, fiction",
+        "Criminals, fiction"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL26940229M",
+            "title": "Opasnyĭ dom",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2017"
+            ],
+            "isbn": [
+              "9785170955435",
+              "517095543X"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1968,
+      "key": "/works/OL19093407M",
+      "number_of_pages_median": 358,
+      "title": "Belaia griva.",
+      "subject": [
+        "Kazakh literature (Collections)"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19093407M",
+            "title": "Belaia griva.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1968"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Bertrice Small"
+      ],
+      "cover_i": 541000,
+      "edition_count": 3,
+      "first_publish_year": 2002,
+      "key": "/works/OL1692379W",
+      "number_of_pages_median": 375,
+      "title": "Rosamund",
+      "subject": [
+        "Fiction",
+        "History",
+        "Women landowners",
+        "Land tenure",
+        "Large type books",
+        "Fiction, historical, general",
+        "Great britain, fiction"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23098122M",
+            "title": "Rozamunda, líùbovnit́s̀a korolíà",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2003"
+            ],
+            "isbn": [
+              "5170167040",
+              "9785170167043"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Patricia Gaffney"
+      ],
+      "cover_i": 4763965,
+      "edition_count": 7,
+      "first_publish_year": 1990,
+      "key": "/works/OL56567W",
+      "number_of_pages_median": 448,
+      "title": "Thief of Hearts",
+      "subject": [
+        "Fiction, romance, general",
+        "historical romance",
+        "collectionID:Abodice_ripper",
+        "bodice ripper",
+        "Fiction, romance, Dark Romance, alpha male",
+        "Romance fiction"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL37752617M",
+            "title": "Роковое сходство",
+            "cover_i": 12666902,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1999"
+            ],
+            "isbn": [
+              "9785040035663",
+              "5040035667"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Brendan Lehane",
+        "Time-Life Books"
+      ],
+      "cover_i": 6959083,
+      "edition_count": 3,
+      "first_publish_year": 1986,
+      "key": "/works/OL3507339W",
+      "number_of_pages_median": 141,
+      "title": "Book of Christmas (Enchanted World)",
+      "subject": [
+        "Christmas",
+        "Juvenile literature"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22942186M",
+            "title": "Kniga Rozhdestva",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1996"
+            ],
+            "isbn": [
+              "5300006254",
+              "9785300006259"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Nicholas II Emperor of Russia",
+        "Sergei Mironenko",
+        "Andrei Maylunas"
+      ],
+      "cover_i": 241284,
+      "edition_count": 4,
+      "first_publish_year": 1820,
+      "key": "/works/OL2149537W",
+      "number_of_pages_median": 667,
+      "title": "A lifelong passion",
+      "subject": [
+        "Correspondence",
+        "Sources",
+        "Kings and rulers",
+        "History",
+        "Family"
+      ],
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL18891315M",
+            "title": "Nikolaĭ i Aleksandra",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1998"
+            ],
+            "isbn": [
+              "5930060010",
+              "9785930060010"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Edward Klein"
+      ],
+      "cover_i": 1469629,
+      "edition_count": 8,
+      "first_publish_year": 1996,
+      "key": "/works/OL121343W",
+      "number_of_pages_median": 406,
+      "title": "All too human",
+      "subject": [
+        "Biography",
+        "Presidents",
+        "Presidents' spouses",
+        "Married people",
+        "Artists",
+        "English Art"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23049628M",
+            "title": "Dzhon i Dzheki",
+            "cover_i": 8055860,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2000"
+            ],
+            "isbn": [
+              "5237045820",
+              "9785237045826"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1956,
+      "key": "/works/OL17400840M",
+      "title": "Marksizm-leninizm o voĭne i armii",
+      "ratings_average": 3,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL17400840M",
+            "title": "Marksizm-leninizm o voĭne i armii",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1956"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1976,
+      "key": "/works/OL20854618M",
+      "title": "Sistema znanii o narodonaselenii",
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20854618M",
+            "title": "Sistema znanii o narodonaselenii",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1976"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1992,
+      "key": "/works/OL16253267M",
+      "number_of_pages_median": 269,
+      "title": "God posle avgusta",
+      "ratings_average": 4,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL16253267M",
+            "title": "God posle avgusta",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1992"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "William Somerset Maugham"
+      ],
+      "cover_i": 229510,
+      "edition_count": 37,
+      "first_publish_year": 1937,
+      "key": "/works/OL505794W",
+      "number_of_pages_median": 292,
+      "title": "Theatre",
+      "subject": [
+        "Actresses",
+        "Married women",
+        "Translations into Russian",
+        "Middle-aged women",
+        "Rejection (Psychology)",
+        "Fiction",
+        "English fiction",
+        "Young men",
+        "Fiction in English",
+        "Fiction, romance, general",
+        "Actresses, fiction",
+        "Fiction, psychological",
+        "British and irish fiction (fictional works by one author)",
+        "Theater"
+      ],
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22993171M",
+            "title": "Teatr",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1999"
+            ],
+            "isbn": [
+              "5040023685",
+              "9785040023684"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Erle Stanley Gardner"
+      ],
+      "cover_i": 8132932,
+      "edition_count": 10,
+      "first_publish_year": 1954,
+      "key": "/works/OL16703W",
+      "number_of_pages_median": 274,
+      "title": "The case of the runaway corpse",
+      "subject": [
+        "Fiction",
+        "Perry Mason (Fictitious character)",
+        "Trials (Murder)",
+        "Translations into Russian",
+        "Detective and mystery stories, American",
+        "American Detective and mystery stories",
+        "Detective and mystery stories",
+        "California, fiction",
+        "Lawyers, fiction",
+        "Los angeles (calif.), fiction",
+        "Mason, perry (fictitious character), fiction",
+        "Fiction, legal",
+        "Fiction, mystery & detective, general",
+        "Church and state",
+        "Crime",
+        "Spanish Patriotic literature",
+        "Spanish Catechisms",
+        "Politics and government",
+        "Civilization",
+        "History"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22987151M",
+            "title": "Delo o sbezhavshem trupe",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2000"
+            ],
+            "isbn": [
+              "5227004684",
+              "5227009554",
+              "9785227004680",
+              "9785227009555"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Bryan Lee O'Malley",
+        "Leslie Hung",
+        "Cohen rachael"
+      ],
+      "cover_i": 9247146,
+      "edition_count": 3,
+      "first_publish_year": 2018,
+      "key": "/works/OL19742042W",
+      "number_of_pages_median": 136,
+      "title": "Snotgirl, Volume 2",
+      "subject": [
+        "Young women",
+        "Allergy",
+        "Bloggers",
+        "Comic books, strips",
+        "Fashion"
+      ],
+      "ratings_average": 4.5,
+      "ratings_count": 2,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL51153424M",
+            "title": "Соплячка. Том 2",
+            "cover_i": 14587468,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2020"
+            ],
+            "isbn": [
+              "9785913397072",
+              "591339707X"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Phyllis Vega"
+      ],
+      "cover_i": 1467581,
+      "edition_count": 5,
+      "first_publish_year": 2005,
+      "key": "/works/OL2258551W",
+      "number_of_pages_median": 655,
+      "title": "What Your Birthday Reveals About You",
+      "subject": [
+        "Miscellanea",
+        "Birthdays",
+        "Astrology"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23115544M",
+            "title": "Chto rasskazhet o Vas data rozhdenii︠a︡",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2007"
+            ],
+            "isbn": [
+              "9785790551826",
+              "5790551823"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Astrid Lindgren"
+      ],
+      "cover_i": 6829923,
+      "edition_count": 15,
+      "first_publish_year": 1968,
+      "key": "/works/OL13685642W",
+      "number_of_pages_median": 286,
+      "title": "Vi på Saltkråkan",
+      "subject": [
+        "Juvenile fiction",
+        "Family life",
+        "Fiction",
+        "Islands",
+        "Family",
+        "Families",
+        "Children's fiction",
+        "Family life, fiction",
+        "Sweden, fiction",
+        "Islands, fiction"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL12586291M",
+            "title": "My - na ostrove Saltkroka. Astrid Lindgren",
+            "cover_i": 13535814,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1999"
+            ],
+            "isbn": [
+              "5768403752",
+              "9785768403751"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Robert Asprin"
+      ],
+      "cover_i": 7995862,
+      "edition_count": 7,
+      "first_publish_year": 1986,
+      "key": "/works/OL2485589W",
+      "number_of_pages_median": 374,
+      "title": "Myth alliances",
+      "subject": [
+        "Fiction",
+        "Skeeve (Fictitious character)",
+        "Magicians",
+        "Fantasy",
+        "Graphic novels",
+        "Fiction - Fantasy",
+        "Fantasy - General",
+        "Fiction / Fantasy / General",
+        "Fiction, fantasy, general",
+        "Skeeve (fictitious character), fiction",
+        "American Fantasy fiction"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL27074945M",
+            "title": "Mifal'i͡ansy",
+            "cover_i": 8695017,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2006"
+            ],
+            "isbn": [
+              "9785170306565",
+              "5170306563"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Anthony Burgess"
+      ],
+      "cover_i": 8261193,
+      "edition_count": 26,
+      "first_publish_year": 1964,
+      "key": "/works/OL1386746W",
+      "number_of_pages_median": 234,
+      "title": "Nothing like the sun",
+      "subject": [
+        "Dramatists",
+        "English Dramatists",
+        "Fiction",
+        "History",
+        "In literature",
+        "Shakesprare in fiction, drama, poetry",
+        "Great britain, fiction",
+        "British and irish fiction (fictional works by one author)",
+        "Fiction, historical",
+        "Shakespeare, william, 1564-1616, fiction",
+        "Fiction, biographical",
+        "London (england), fiction",
+        "Fiction, historical, general",
+        "Fiction, romance, historical, general",
+        "Authors, fiction",
+        "Artists, fiction",
+        "Relations with women"
+      ],
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22997201M",
+            "title": "Влюблённый Шекспир",
+            "cover_i": 14541081,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2001"
+            ],
+            "isbn": [
+              "5227011613",
+              "9785227011619"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1975,
+      "key": "/works/OL19965005M",
+      "title": "Sovetsko-mongol'skie otnosheniya 1921-1974",
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19965005M",
+            "title": "Sovetsko-mongol'skie otnosheniya 1921-1974",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1975"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Erle Stanley Gardner"
+      ],
+      "cover_i": 11706909,
+      "edition_count": 24,
+      "first_publish_year": 1949,
+      "key": "/works/OL24849240W",
+      "number_of_pages_median": 212,
+      "title": "The Case of the Cautious Coquette",
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22958683M",
+            "title": "Delo o razvedennoĭ koketke",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1996"
+            ],
+            "isbn": [
+              "5218000612",
+              "5218001082",
+              "9785218000615",
+              "9785218001087"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Erle Stanley Gardner"
+      ],
+      "cover_i": 206997,
+      "edition_count": 19,
+      "first_publish_year": 1949,
+      "key": "/works/OL16735W",
+      "number_of_pages_median": 213,
+      "title": "The Case of the Dubious Bridegroom",
+      "subject": [
+        "Fiction",
+        "American Detective and mystery stories",
+        "Perry Mason (Fictitious character)",
+        "Translations into Russian",
+        "Large type books",
+        "Detective and mystery stories"
+      ],
+      "ratings_average": 3,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22958753M",
+            "title": "Delo nezadachlivogo zhenikha",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1996"
+            ],
+            "isbn": [
+              "5218001678",
+              "5218000612",
+              "9785218001674",
+              "9785218000615"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Erle Stanley Gardner"
+      ],
+      "cover_i": 208282,
+      "edition_count": 13,
+      "first_publish_year": 1973,
+      "key": "/works/OL16723W",
+      "number_of_pages_median": 232,
+      "title": "The case of the postponed murder",
+      "subject": [
+        "Fiction",
+        "American Detective and mystery stories",
+        "Perry Mason (Fictitious character)",
+        "Translations into Russian",
+        "Large type books",
+        "Mason, perry (fictitious character), fiction",
+        "Fiction, mystery & detective, general",
+        "Fiction, legal",
+        "Lawyers, fiction",
+        "Los angeles (calif.), fiction",
+        "California, fiction"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22984285M",
+            "title": "Delo ob otsrochennom ubiĭstve",
+            "cover_i": 7933014,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2001"
+            ],
+            "isbn": [
+              "5227004684",
+              "5227010803",
+              "9785227004680",
+              "9785227010803"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Daphne du Maurier"
+      ],
+      "cover_i": 7961266,
+      "edition_count": 42,
+      "first_publish_year": 1949,
+      "key": "/works/OL36629W",
+      "number_of_pages_median": 336,
+      "title": "The parasites",
+      "subject": [
+        "Fiction",
+        "Gifted children",
+        "Man-woman relationships",
+        "Cousins",
+        "Suspicion",
+        "Large type books",
+        "Fiction, general",
+        "Siblings, fiction"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 2,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23049549M",
+            "title": "Паразиты",
+            "cover_i": 14543862,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1999"
+            ],
+            "isbn": [
+              "5300020664",
+              "9785300020668"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Hilary Mantel"
+      ],
+      "cover_i": 8223186,
+      "edition_count": 20,
+      "first_publish_year": 1989,
+      "key": "/works/OL464521W",
+      "number_of_pages_median": 208,
+      "title": "Fludd",
+      "subject": [
+        "Alchemists",
+        "Catholics",
+        "Clergy",
+        "Fiction",
+        "Reincarnation",
+        "Catholic Church",
+        "Translations into Russian",
+        "English fiction",
+        "Large type books",
+        "Catholic church, clergy, fiction",
+        "England, fiction",
+        "Fiction, historical",
+        "Fiction, historical, general"
+      ],
+      "ratings_average": 3,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL27177807M",
+            "title": "Fladd",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2014"
+            ],
+            "isbn": [
+              "9785170829224",
+              "5170829221"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Sergi︠e︡ĭ Nilus"
+      ],
+      "cover_i": 8142546,
+      "edition_count": 2,
+      "first_publish_year": 1920,
+      "key": "/works/OL17845544W",
+      "number_of_pages_median": 96,
+      "title": "The Jewish peril",
+      "subject": [
+        "Communism",
+        "Antisemitism",
+        "Protocols of the wise men of Zion"
+      ],
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL61600340M",
+            "title": "The Jewish peril",
+            "language": [
+              "eng",
+              "rus"
+            ],
+            "publish_date": [
+              "1920"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "George Soros"
+      ],
+      "cover_i": 852853,
+      "edition_count": 8,
+      "first_publish_year": 2003,
+      "key": "/works/OL1993775W",
+      "number_of_pages_median": 207,
+      "title": "The Bubble of American Supremacy",
+      "subject": [
+        "Preemptive attack (Military science)",
+        "September 11 Terrorist Attacks, 2001",
+        "International relations",
+        "Balance of power",
+        "Presidents",
+        "Equilibrio internacional",
+        "Ataque preventivo (Ciencia militar)",
+        "Relaciones exteriores",
+        "Unilateralisme",
+        "Machtsevenwicht",
+        "Foreign relations",
+        "Recours à la force",
+        "Internationality",
+        "Interventions étrangères",
+        "UNITED STATES",
+        "Politique étrangère",
+        "WORLD POLITICS",
+        "Diplomatic relations",
+        "Machtpolitik",
+        "Außenpolitik",
+        "Iraq War, 2003-2011",
+        "Lutte contre le terrorisme",
+        "Umschulungswerkstätten für Siedler und Auswanderer",
+        "COUNTER-TERRORISM",
+        "Légitimité",
+        "UN",
+        "Souveraineté",
+        "INTERGOVERNMENTAL ORGANIZATIONS",
+        "FOREIGN POLICY",
+        "Politics",
+        "Grandes puissances",
+        "Buitenlandse politiek",
+        "Weltordnung",
+        "Präventivkrieg",
+        "Doktrin",
+        "Hegemonie",
+        "United states, foreign relations, 2001-2009",
+        "Bush, george w. (george walker), 1946-"
+      ],
+      "ratings_average": 5,
+      "ratings_count": 2,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23035391M",
+            "title": "Mylʹnyĭ puzyrʹ amerikanskogo prevoskhodstva",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2004"
+            ],
+            "isbn": [
+              "5961400425",
+              "9785961400427"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Robert Schneider"
+      ],
+      "cover_i": 675126,
+      "edition_count": 19,
+      "first_publish_year": 1992,
+      "key": "/works/OL2147336W",
+      "number_of_pages_median": 204,
+      "title": "Schlafes Bruder",
+      "subject": [
+        "Genius and mental illness",
+        "New York Times reviewed",
+        "Musicians, fiction",
+        "Fiction, historical",
+        "Fiction, historical, general",
+        "Psychological fiction, German",
+        "[series:Rheintalische_Trilogie]",
+        "Fiction",
+        "Musicians"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 2,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL12589383M",
+            "title": "Сестра сна",
+            "cover_i": 12995993,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1994"
+            ],
+            "isbn": [
+              "9785859760442",
+              "5859760442"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Georges Simenon"
+      ],
+      "cover_i": 9151312,
+      "edition_count": 20,
+      "first_publish_year": 1948,
+      "key": "/works/OL1242924W",
+      "number_of_pages_median": 189,
+      "title": "Maigret et son mort",
+      "subject": [
+        "Detective and mystery stories, French",
+        "French Detective and mystery stories",
+        "Translations into Russian",
+        "Jules Maigret (Fictitious character)",
+        "Police",
+        "Fiction",
+        "Maigret, jules (fictitious character), fiction",
+        "Fiction, mystery & detective, police procedural",
+        "Paris (france), fiction",
+        "Murder",
+        "Investigation",
+        "Meurtre",
+        "Romans, nouvelles",
+        "Enquêtes",
+        "Kriminalfall"
+      ],
+      "ratings_average": 4,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22944404M",
+            "title": "Megrė i mertvet︠s︡",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1988"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Clive Cussler",
+        "Paul Kemprecos",
+        "Russell Blake"
+      ],
+      "cover_i": 10129454,
+      "edition_count": 35,
+      "first_publish_year": 2004,
+      "key": "/works/OL20825630W",
+      "number_of_pages_median": 432,
+      "title": "Lost City",
+      "subject": [
+        "Fiction",
+        "Underwater exploration",
+        "Marine scientists",
+        "Immortalism"
+      ],
+      "ratings_average": 3,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL26294282M",
+            "title": "Zateri Łannyi gorod",
+            "cover_i": 14325893,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2006"
+            ],
+            "isbn": [
+              "9785170376551",
+              "5170376553"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Ruth Rendell"
+      ],
+      "cover_i": 1006532,
+      "edition_count": 27,
+      "first_publish_year": 1967,
+      "key": "/works/OL12094W",
+      "number_of_pages_median": 249,
+      "title": "A New Lease of Death",
+      "subject": [
+        "Fiction",
+        "Police",
+        "Inspector Wexford (Fictitious character)",
+        "Large type books",
+        "Translations into Russian",
+        "Detective and mystery stories, American",
+        "American Detective and mystery stories",
+        "Kingsmarkham (England : Imaginary place)",
+        "Detective and mystery stories",
+        "Literature & Fiction",
+        "Mystery & Thrillers -- Authors, A-Z -- ( R ) -- Rendell, Ruth",
+        "Mystery & Thrillers -- Mystery",
+        "England, fiction",
+        "Wexford, inspector (fictitious character), fiction",
+        "Fiction, mystery & detective, police procedural",
+        "Spanish fiction",
+        "Translations from English",
+        "Novela",
+        "Fiction, mystery & detective, general",
+        "Fiction, mystery & detective, traditional",
+        "Wexford, Inspector (Fictitious character) -- Fiction",
+        "Detective and mystery stories, American -- Translations into Russian"
+      ],
+      "ratings_average": 4,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22998646M",
+            "title": "Зловещее наследство",
+            "cover_i": 14537855,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2002"
+            ],
+            "isbn": [
+              "5952400078",
+              "9785952400078"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Barbara Cartland"
+      ],
+      "cover_i": 6671976,
+      "edition_count": 8,
+      "first_publish_year": 1979,
+      "key": "/works/OL137184W",
+      "number_of_pages_median": 158,
+      "title": "Love Climbs In",
+      "subject": [
+        "1970s",
+        "Child labor",
+        "Chimney sweeps",
+        "Fiction",
+        "Fiction in English",
+        "Historical Fiction",
+        "Large type books",
+        "Romance Fiction",
+        "Fiction, romance, historical, general",
+        "England, fiction"
+      ],
+      "ratings_average": 4,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23013168M",
+            "title": "Nezhdannai︠a︡ li︠u︡bovʹ",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2004"
+            ],
+            "isbn": [
+              "5170212623",
+              "9785170212620"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Arturo Pérez-Reverte"
+      ],
+      "cover_i": 1046744,
+      "edition_count": 20,
+      "first_publish_year": 1993,
+      "key": "/works/OL992498W",
+      "number_of_pages_median": 152,
+      "title": "La sombra del águila",
+      "subject": [
+        "Campaigns",
+        "Fiction",
+        "Napoleonic Wars, 1800-1815",
+        "Campañas",
+        "Guerras napoleónicas, 1800-1815",
+        "Ficción",
+        "Napoleonic Wars (1800-1815) fast (OCoLC)fst01032683",
+        "Military campaigns"
+      ],
+      "ratings_average": 4.5,
+      "ratings_count": 2,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 2,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL26645377M",
+            "title": "Tenʹ orla",
+            "cover_i": 11773243,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2004"
+            ],
+            "isbn": [
+              "9785699063529",
+              "5699063528"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Barbara Cartland"
+      ],
+      "cover_i": 10767304,
+      "edition_count": 13,
+      "first_publish_year": 1966,
+      "key": "/works/OL137210W",
+      "number_of_pages_median": 204,
+      "title": "A Virgin in Paris; An Innocent In Paris",
+      "subject": [
+        "Fiction, Romance, Historical",
+        "Suspense fiction"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 2,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22982363M",
+            "title": "Akh, Parizh!",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2003"
+            ],
+            "isbn": [
+              "5699020632",
+              "9785699020638"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Mixeil Javaxišvili"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 1970,
+      "key": "/works/OL12159418W",
+      "number_of_pages_median": 475,
+      "title": "Givi Shaduri",
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL17473046M",
+            "title": "Givi Shaduri",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1970"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Marcel Proust"
+      ],
+      "cover_i": 417795,
+      "edition_count": 6,
+      "first_publish_year": 1993,
+      "key": "/works/OL1190278W",
+      "number_of_pages_median": 886,
+      "title": "THE CAPTIVE; THE FUGITIVE",
+      "subject": [
+        "Social life and customs",
+        "Fiction",
+        "Continental european fiction (fictional works by one author)",
+        "France, fiction",
+        "Fiction, general"
+      ],
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22939640M",
+            "title": "Plennit︠s︡a",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1993"
+            ],
+            "isbn": [
+              "5250023215",
+              "9785250023214"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1975,
+      "key": "/works/OL19965029M",
+      "title": "Ekonomika grazhdanskoi aviatsii",
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19965029M",
+            "title": "Ekonomika grazhdanskoi aviatsii",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1975"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Eleanor Burford"
+      ],
+      "cover_i": 747160,
+      "edition_count": 23,
+      "first_publish_year": 1817,
+      "key": "/works/OL3453483W",
+      "number_of_pages_median": 448,
+      "title": "The Captive Queen of Scots",
+      "subject": [
+        "Fiction",
+        "History",
+        "Mary, in fiction",
+        "Queens in fiction",
+        "Queens",
+        "Great Britain in fiction",
+        "Scotland in fiction",
+        "Historical Fiction",
+        "Great britain, fiction",
+        "Scotland, fiction",
+        "Fiction, historical, general",
+        "Large type books",
+        "Fiction, romance, historical, general",
+        "Bolivian fiction",
+        "Fiction, historical"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22925346M",
+            "title": "Marii︠a︡ Sti︠u︡art -- plenënnai︠a︡ koroleva",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1997"
+            ],
+            "isbn": [
+              "5889700871",
+              "9785889700876"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Ebenezer Howard"
+      ],
+      "cover_i": 6505423,
+      "edition_count": 4,
+      "first_publish_year": 1902,
+      "key": "/works/OL16102282W",
+      "number_of_pages_median": 173,
+      "title": "Garden cities of to-morrow",
+      "subject": [
+        "Utopias",
+        "Garden cities"
+      ],
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL61232638M",
+            "title": "Города будущаго",
+            "cover_i": 15166960,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1911"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Bonnie Gabriel"
+      ],
+      "cover_i": 369593,
+      "edition_count": 2,
+      "first_publish_year": 1996,
+      "key": "/works/OL2954166W",
+      "number_of_pages_median": 302,
+      "title": "The fine art of erotic talk",
+      "subject": [
+        "Sex (Psychology)",
+        "Verbal behavior",
+        "Erotica",
+        "Sex",
+        "Sex (psychology)"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23066921M",
+            "title": "Iskusstvo ėroticheskoĭ besedy, kotorym dolzhna ovladetʹ kazhdaíà zhenshchina",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1996"
+            ],
+            "isbn": [
+              "5815302651",
+              "9785815302655"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1975,
+      "key": "/works/OL19965080M",
+      "title": "Regional'nye problemy ekonomicheskoi integratsii SSSR v sisteme stran SEV",
+      "subject": [
+        "Sovet ekonomicheskoǐ Vzaimopomoshchi."
+      ],
+      "ratings_average": 2.5,
+      "ratings_count": 2,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19965080M",
+            "title": "Regional'nye problemy ekonomicheskoi integratsii SSSR v sisteme stran SEV",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1975"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Clifford D. Simak"
+      ],
+      "cover_i": 6794549,
+      "edition_count": 18,
+      "first_publish_year": 1975,
+      "key": "/works/OL4088395W",
+      "number_of_pages_median": 224,
+      "title": "Enchanted pilgrimage",
+      "subject": [
+        "Fiction in English",
+        "American Science fiction",
+        "Fiction, science fiction, general"
+      ],
+      "ratings_average": 1,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23050938M",
+            "title": "Palomnichestvo v volshebstvo",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2002"
+            ],
+            "isbn": [
+              "5040088779",
+              "9785040088775"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Ray Bradbury"
+      ],
+      "cover_i": 12617998,
+      "edition_count": 7,
+      "first_publish_year": 1984,
+      "key": "/works/OL103137W",
+      "number_of_pages_median": 307,
+      "title": "A Memory of Murder",
+      "subject": [
+        "American Science fiction",
+        "Science fiction, American",
+        "Translations into Russian",
+        "American Detective and mystery stories"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 2,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL26252133M",
+            "title": "Vospominanii Ła ob ubii stve",
+            "cover_i": 9223645,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2004"
+            ],
+            "isbn": [
+              "9785699084838",
+              "5699084835"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1980,
+      "key": "/works/OL20250396M",
+      "title": "Kritika sovremennykh burzhuaznykh i reformistskikh fal'sifikatorov marksizma-leninizma.",
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20250396M",
+            "title": "Kritika sovremennykh burzhuaznykh i reformistskikh fal'sifikatorov marksizma-leninizma.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1980"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Mikhail Aleksandrovich Bakunin"
+      ],
+      "cover_i": 335341,
+      "edition_count": 13,
+      "first_publish_year": 1929,
+      "key": "/works/OL8321818W",
+      "number_of_pages_median": 414,
+      "title": "Gosudarstvennost’ i anarkhiia",
+      "subject": [
+        "The State",
+        "Anarchism",
+        "Anarchism and anarchists",
+        "State, the",
+        "Anarchists"
+      ],
+      "ratings_average": 4,
+      "ratings_count": 2,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 4,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL16320181M",
+            "title": "Gosudarstvennostʹ i anarkhii︠a︡.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1967"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Roger Zelazny"
+      ],
+      "cover_i": 10295751,
+      "edition_count": 5,
+      "first_publish_year": 1990,
+      "key": "/works/OL15346071W",
+      "number_of_pages_median": 384,
+      "title": "The Mask of Loki",
+      "subject": [
+        "American Science fiction",
+        "Fiction, science fiction, general",
+        "Fiction, fantasy, general",
+        "American Fantasy fiction"
+      ],
+      "ratings_average": 2.5,
+      "ratings_count": 2,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 2,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23021529M",
+            "title": "Maska Loki",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1999"
+            ],
+            "isbn": [
+              "5040020813",
+              "9785040020812"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Фёдор Михайлович Достоевский"
+      ],
+      "cover_i": 6872093,
+      "edition_count": 36,
+      "first_publish_year": 1920,
+      "key": "/works/OL11465755W",
+      "number_of_pages_median": 357,
+      "title": "Село Степанчиково и его обитатели",
+      "subject": [
+        "Continental european fiction (fictional works by one author)",
+        "Financial crises",
+        "United states, history, 21st century",
+        "Working class, united states",
+        "United states, economic conditions, 21st century",
+        "Working class",
+        "Global Financial Crisis, 2008-2009",
+        "Economic conditions",
+        "History",
+        "Despotism",
+        "Fiction",
+        "Translations into English",
+        "Impostors and imposture",
+        "Families",
+        "Familles",
+        "Romans, nouvelles",
+        "Russian fiction"
+      ],
+      "ratings_average": 3,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 7,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL24874434M",
+            "title": "The friend of the family",
+            "cover_i": 6866957,
+            "language": [
+              "eng",
+              "rus"
+            ],
+            "publish_date": [
+              "1951"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Niccolò Machiavelli",
+        "Félix Fernández Murga",
+        "Félix Gilbert",
+        "Peter Whithorne",
+        "Giovanni Battista Niccolini"
+      ],
+      "cover_i": 6996265,
+      "edition_count": 112,
+      "first_publish_year": 1577,
+      "key": "/works/OL15942W",
+      "number_of_pages_median": 417,
+      "title": "Istorie Fiorentine",
+      "subject": [
+        "Early works to 1800",
+        "History",
+        "Italy, history",
+        "Political ethics",
+        "Political science",
+        "War",
+        "Florence (italy), history",
+        "Historiography",
+        "Translations into English",
+        "Military art and science",
+        "Renaissance",
+        "Italy",
+        "Papal States",
+        "politics and government",
+        "Histoire",
+        "Fiction, general"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL47965730M",
+            "title": "Istori͡ia Floren͡tsii",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1987"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "James Hadley Chase"
+      ],
+      "cover_i": 12694925,
+      "edition_count": 10,
+      "first_publish_year": 1962,
+      "key": "/works/OL2838727W",
+      "number_of_pages_median": 192,
+      "title": "I would rather stay poor",
+      "subject": [
+        "Detective and mystery stories, English",
+        "English Detective and mystery stories",
+        "Fiction in English",
+        "Translations into Russian",
+        "Fiction, crime",
+        "Fiction, mystery & detective, general"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23063445M",
+            "title": "Luchshe by i︠a︡ ostalsi︠a︡ bednym",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1991"
+            ],
+            "isbn": [
+              "5110011036",
+              "9785110011030"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Anthony Burgess"
+      ],
+      "cover_i": 6652216,
+      "edition_count": 15,
+      "first_publish_year": 1961,
+      "key": "/works/OL1386738W",
+      "number_of_pages_median": 215,
+      "title": "One Hand Clapping",
+      "subject": [
+        "television",
+        "satire",
+        "photographis memory",
+        "supermarket",
+        "Fiction, general",
+        "British and irish fiction (fictional works by one author)",
+        "English fiction"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23049805M",
+            "title": "Odnorukiǐ aplodisment",
+            "cover_i": 13514492,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2002"
+            ],
+            "isbn": [
+              "5227016429",
+              "9785227016423"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Aleksandr Herzen"
+      ],
+      "cover_i": 4495980,
+      "edition_count": 26,
+      "first_publish_year": 1921,
+      "key": "/works/OL1256661W",
+      "number_of_pages_median": 561,
+      "title": "Byloe i dumy",
+      "subject": [
+        "Biography",
+        "History",
+        "Revolutionaries",
+        "Russian Authors",
+        "Socialists",
+        "Revolutionaries, soviet union",
+        "Authors, russian"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 14,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL4903304M",
+            "title": "The memoirs of Alexander Herzen, parts I and II",
+            "cover_i": 1582649,
+            "language": [
+              "eng",
+              "rus"
+            ],
+            "publish_date": [
+              "1976"
+            ],
+            "isbn": [
+              "0837193192",
+              "9780837193199"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Лев Толстой"
+      ],
+      "cover_i": 3812916,
+      "edition_count": 11,
+      "first_publish_year": 1912,
+      "key": "/works/OL267106W",
+      "number_of_pages_median": 236,
+      "title": "Hadji Murad",
+      "subject": [
+        "Continental european fiction (fictional works by one author)",
+        "Russian literature",
+        "Translations into English"
+      ],
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL6540279M",
+            "title": "Hadji Murʹad",
+            "language": [
+              "eng",
+              "rus"
+            ],
+            "publish_date": [
+              "1912"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Александр Солженицын"
+      ],
+      "cover_i": 9567942,
+      "edition_count": 27,
+      "first_publish_year": 1975,
+      "key": "/works/OL258363W",
+      "number_of_pages_median": 256,
+      "title": "Lenin in Zurich",
+      "subject": [
+        "Fiction",
+        "Russian fiction",
+        "Political fiction",
+        "Historical fiction",
+        "Communists",
+        "Heads of state",
+        "Soviet union, fiction",
+        "Soviet union, history, revolution, 1917-1921, influence",
+        "Powieści"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 7,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL4589503M",
+            "title": "Lenin in Zürich",
+            "cover_i": 4423875,
+            "language": [
+              "eng",
+              "rus"
+            ],
+            "publish_date": [
+              "1976"
+            ],
+            "isbn": [
+              "0370106075",
+              "9780370106076"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Julian Barnes"
+      ],
+      "cover_i": 10618899,
+      "edition_count": 30,
+      "first_publish_year": 1998,
+      "key": "/works/OL11129743W",
+      "number_of_pages_median": 287,
+      "title": "England, England",
+      "subject": [
+        "Fiction",
+        "Literature",
+        "England, fiction",
+        "Fiction, action & adventure",
+        "Heritage tourism",
+        "English National characteristics",
+        "Amusement parks",
+        "National characteristics, English",
+        "Politics and government",
+        "Human behavior",
+        "Civilization",
+        "History",
+        "Tourism",
+        "English fiction",
+        "Engeland",
+        "Satiren",
+        "Romans en novellen ; vertaald"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 2,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL25879512M",
+            "title": "Anglii Ła, Anglii Ła",
+            "cover_i": 7385732,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2000"
+            ],
+            "isbn": [
+              "9785170041602",
+              "5170041608"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Lope de Vega"
+      ],
+      "cover_i": 119095,
+      "edition_count": 52,
+      "first_publish_year": 1604,
+      "key": "/works/OL914869W",
+      "number_of_pages_median": 297,
+      "title": "Comedias",
+      "subject": [
+        "Spanish drama",
+        "Textual Criticism",
+        "Continental european drama (dramatic works by one author)",
+        "British and irish drama (dramatic works by one author)",
+        "18.32 Spanish literature"
+      ],
+      "ratings_average": 4,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL6206014M",
+            "title": "Izbrannye dramaticheskie proizvedenii͡a︡.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1954"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Avvakum Petrovich Protopope"
+      ],
+      "cover_i": 5724984,
+      "edition_count": 13,
+      "first_publish_year": 1924,
+      "key": "/works/OL1653818W",
+      "number_of_pages_median": 218,
+      "title": "Zhitie protopopa Avvakuma",
+      "subject": [
+        "Old Believers",
+        "Biography",
+        "Clergy",
+        "Raskolniks",
+        "Apologetic works",
+        "Early works to 1800",
+        "Correspondence"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 7,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL44565077M",
+            "title": "Zhitie protopopa Avvakuma",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2016"
+            ],
+            "isbn": [
+              "9785914760714",
+              "9785914760721",
+              "9785914760738",
+              "5914760712",
+              "5914760720",
+              "5914760739"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Anne Golon",
+        "Serge Golon"
+      ],
+      "cover_i": 984141,
+      "edition_count": 10,
+      "first_publish_year": 1976,
+      "key": "/works/OL2927492W",
+      "number_of_pages_median": 341,
+      "title": "Angélique et le Complot des Ombres",
+      "subject": [
+        "Criminals",
+        "Mothers and sons",
+        "Man-woman relationships",
+        "Gangs",
+        "History",
+        "Nobility",
+        "Fiction",
+        "Fiction, general"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL27126040M",
+            "title": "Teni i svet Parizha",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2009"
+            ],
+            "isbn": [
+              "9789661404709",
+              "9785991009065",
+              "9661404704",
+              "5991009066"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Thornton Wilder"
+      ],
+      "cover_i": 526702,
+      "edition_count": 22,
+      "first_publish_year": 1926,
+      "key": "/works/OL482891W",
+      "number_of_pages_median": 203,
+      "title": "The cabala",
+      "subject": [
+        "American Authors",
+        "Fiction",
+        "American fiction (fictional works by one author)",
+        "Sophistication",
+        "Upper class",
+        "Italy, fiction",
+        "Fiction, general",
+        "Manners and customs",
+        "Biography"
+      ],
+      "ratings_average": 3,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22988690M",
+            "title": "Kabbala",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1999"
+            ],
+            "isbn": [
+              "5890910736",
+              "9785890910738"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Willard Huntington Wright"
+      ],
+      "cover_i": 6472495,
+      "edition_count": 86,
+      "first_publish_year": 1900,
+      "key": "/works/OL15134397W",
+      "number_of_pages_median": 349,
+      "title": "The Bishop murder case",
+      "subject": [
+        "Philo Vance (Fictitious character)",
+        "Private investigators",
+        "Fiction",
+        "Large type books",
+        "Fiction, mystery & detective, general"
+      ],
+      "ratings_average": 4,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22897142M",
+            "title": "Zloi genii Niu-Iorka",
+            "cover_i": 9793468,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1900"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Danielle Steel"
+      ],
+      "cover_i": 7941407,
+      "edition_count": 24,
+      "first_publish_year": 2011,
+      "key": "/works/OL15884214W",
+      "number_of_pages_median": 384,
+      "title": "Hotel Vendome",
+      "subject": [
+        "Fathers and daughters",
+        "Fiction",
+        "Hotels",
+        "New York Times bestseller",
+        "nyt:hardcover_fiction=2011-11-26",
+        "nyt:mass-market-paperback=2012-11-18",
+        "Father-daughter relationship",
+        "Hotels and motels",
+        "Hotelkeepers",
+        "Fathers and daughters, fiction",
+        "Fiction, family life",
+        "New york (n.y.), fiction",
+        "Fiction, family life, general",
+        "Pères et filles",
+        "Romans, nouvelles",
+        "Hôtels",
+        "Gestion",
+        "Littérature américaine",
+        "Roman sentimental"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL35324703M",
+            "title": "Otelʹ \"Vandom\"",
+            "cover_i": 12139663,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2013"
+            ],
+            "isbn": [
+              "9785170775767",
+              "9785170802692",
+              "5170775768",
+              "5170802692"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Irving Stone"
+      ],
+      "cover_i": 5412259,
+      "edition_count": 33,
+      "first_publish_year": 1957,
+      "key": "/works/OL111995W",
+      "number_of_pages_median": 490,
+      "title": "The Greek Treasure",
+      "subject": [
+        "Fiction",
+        "Excavations (Archaeology)",
+        "Married people",
+        "Archaeologists",
+        "Fiction in English",
+        "Fiction inEnglish",
+        "Biographical fiction",
+        "Fiction, historical, general",
+        "Fiction, general",
+        "Schliemann, Heinrich, 1822-1890",
+        "Archéologues",
+        "Biographies",
+        "Antiquités"
+      ],
+      "ratings_average": 3.5,
+      "ratings_count": 2,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL27118980M",
+            "title": "Grecheskoe sokrovishche",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2009"
+            ],
+            "isbn": [
+              "9785170574445",
+              "9785403007061",
+              "5170574444",
+              "5403007067"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Assimil Staff"
+      ],
+      "cover_i": 13191905,
+      "edition_count": 39,
+      "first_publish_year": 1985,
+      "key": "/works/OL8586720W",
+      "number_of_pages_median": 582,
+      "title": "Assimil Language Courses",
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL11460356M",
+            "title": "Assimil Language Courses ",
+            "language": [
+              "fre",
+              "rus"
+            ],
+            "publish_date": [
+              "January 11, 1987"
+            ],
+            "isbn": [
+              "9780828843614",
+              "0828843619"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Danielle Steel"
+      ],
+      "cover_i": 6602644,
+      "edition_count": 48,
+      "first_publish_year": 1987,
+      "key": "/works/OL33697487W",
+      "number_of_pages_median": 390,
+      "title": "KALEIDSCOPE",
+      "subject": [
+        "Sisters",
+        "Fiction"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 2,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL35739160M",
+            "title": "Kaleĭdoskop",
+            "cover_i": 12486185,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1995"
+            ],
+            "isbn": [
+              "9785232001650",
+              "9785881964641",
+              "5232001655",
+              "5881964640"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Лев Толстой"
+      ],
+      "cover_i": 5757850,
+      "edition_count": 89,
+      "first_publish_year": 1882,
+      "key": "/works/OL10413840W",
+      "number_of_pages_median": 52,
+      "title": "Sobranie sochinenii v dvadtsati dvukh tomakh",
+      "subject": [
+        "Russian literature",
+        "History and criticism",
+        "Christianity",
+        "Civil disobedience",
+        "Death",
+        "Nonviolence",
+        "Immortality",
+        "Spiritual life",
+        "Religious aspects of Death",
+        "Diaries",
+        "Idealism",
+        "Russian Fables",
+        "Religion",
+        "Russian language",
+        "Readers",
+        "Philosophy",
+        "Fairy tales",
+        "Russian Novelists",
+        "Christianity.",
+        "Christian life",
+        "Christian ethics",
+        "Tolstoy, leo, graf, 1828-1910",
+        "Russian language materials",
+        "Correspondence",
+        "Religious aspects",
+        "Translations",
+        "Social life and customs",
+        "Literary collections"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 75,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23326502M",
+            "title": "Posmertnyia khudozhestvennyia proizvedeniia.",
+            "cover_i": 5757850,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1911"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Milovan Đilas",
+        "Molovan Dilas"
+      ],
+      "cover_i": 6622717,
+      "edition_count": 14,
+      "first_publish_year": 1962,
+      "key": "/works/OL2071944W",
+      "number_of_pages_median": 211,
+      "title": "Susreti sa Staljinom",
+      "subject": [
+        "Politics and government",
+        "Interviews",
+        "Politics",
+        "Communist countries",
+        "Foreign relations",
+        "Socialism",
+        "Pays socialistes",
+        "Politique et gouvernement",
+        "Biography",
+        "Heads of state",
+        "Statesmen",
+        "Psychology"
+      ],
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 3,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23093647M",
+            "title": "Besedy so Stalinym",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2002"
+            ],
+            "isbn": [
+              "5227018944",
+              "9785227018946"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Alistair MacLean"
+      ],
+      "cover_i": 4487849,
+      "edition_count": 6,
+      "first_publish_year": 1976,
+      "key": "/works/OL5034417W",
+      "number_of_pages_median": 246,
+      "title": "The Golden Gate",
+      "subject": [
+        "Fiction",
+        "Presidents",
+        "Terrorism",
+        "Kidnapping",
+        "Crime",
+        "Large type books",
+        "Fiction, general"
+      ],
+      "ratings_average": 0,
+      "ratings_count": 0,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23077201M",
+            "title": "Zolotye Vorota",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2006"
+            ],
+            "isbn": [
+              "9785699160723",
+              "5699160728"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Sofʹi︠a︡ Kazimirovna Ostrovskai︠a︡"
+      ],
+      "cover_i": 13063634,
+      "edition_count": 1,
+      "first_publish_year": 2013,
+      "key": "/works/OL19973560W",
+      "number_of_pages_median": 752,
+      "title": "Dnevnik",
+      "subject": [
+        "Friends and associates",
+        "World War, 1939-1945",
+        "Diaries",
+        "Russian Personal narratives",
+        "Translators",
+        "Litterateurs",
+        "Biography",
+        "History",
+        "Intellectuals"
+      ],
+      "ratings_average": 4.142857,
+      "ratings_count": 7,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL27153742M",
+            "title": "Dnevnik",
+            "cover_i": 13063634,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2013"
+            ],
+            "isbn": [
+              "9785444800669",
+              "5444800667"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Joyce Carol Oates"
+      ],
+      "cover_i": 655916,
+      "edition_count": 16,
+      "first_publish_year": 1968,
+      "key": "/works/OL14958462W",
+      "number_of_pages_median": 256,
+      "title": "Expensive people",
+      "subject": [
+        "Death",
+        "Parricide",
+        "Mothers",
+        "Literature",
+        "Fiction",
+        "Suburban life",
+        "Mother and child",
+        "Mother and child, fiction",
+        "Fiction, psychological",
+        "Fiction, horror",
+        "Serial murders, fiction"
+      ],
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23045587M",
+            "title": "Dorogostoi︠a︡shchai︠a︡ publika",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2001"
+            ],
+            "isbn": [
+              "580260106X",
+              "9785802601068"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Julio Cortázar"
+      ],
+      "cover_i": 1047773,
+      "edition_count": 26,
+      "first_publish_year": 1973,
+      "key": "/works/OL276961W",
+      "number_of_pages_median": 385,
+      "title": "Libro de Manuel",
+      "subject": [
+        "Kidnapping",
+        "Political refugees",
+        "Argentine Political fiction",
+        "Fiction",
+        "Romance literature",
+        "Spanish language books"
+      ],
+      "ratings_average": 3,
+      "ratings_count": 1,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22971818M",
+            "title": "Kniga Manuėli︠a︡",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1998"
+            ],
+            "isbn": [
+              "5768406530",
+              "9785768406530"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Amélie Nothomb"
+      ],
+      "cover_i": 7255146,
+      "edition_count": 10,
+      "first_publish_year": 2007,
+      "key": "/works/OL1724588W",
+      "number_of_pages_median": 176,
+      "title": "Ni d'Ève ni d'Adam",
+      "subject": [
+        "Man-woman relationships",
+        "Fiction",
+        "Belgians",
+        "Language teachers",
+        "Tokyo (japan), fiction",
+        "Young women, fiction",
+        "Teachers, fiction",
+        "Fiction, romance, general",
+        "Translations into Vietnamese",
+        "French fiction",
+        "Fiction, general"
+      ],
+      "ratings_average": 4,
+      "ratings_count": 4,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL26421291M",
+            "title": "Токийская невеста",
+            "cover_i": 15206184,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2010"
+            ],
+            "isbn": [
+              "9785389007178",
+              "5389007174"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "al-Idrisi"
+      ],
+      "cover_i": 6128815,
+      "edition_count": 11,
+      "first_publish_year": 1796,
+      "key": "/works/OL2472974W",
+      "number_of_pages_median": 358,
+      "title": "Nuzhat al-mushtāq fī ikhtirāq al-āfāq",
+      "subject": [
+        "Medieval Geography",
+        "Arab Geography",
+        "Knowledge",
+        "Historical geography",
+        "Eastern Europe",
+        "Maps",
+        "Early works to 1800",
+        "Geography",
+        "History",
+        "Description and travel",
+        "Travel"
+      ],
+      "ratings_average": 0,
+      "ratings_count": 0,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22512396M",
+            "title": "Al-Idrisi o stranakh i narodakh Vostochnoĭ Evropy",
+            "cover_i": 8667538,
+            "language": [
+              "rus",
+              "ara"
+            ],
+            "publish_date": [
+              "2006"
+            ],
+            "isbn": [
+              "9785020185340",
+              "5020185345"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Leon Trotsky"
+      ],
+      "cover_i": 663970,
+      "edition_count": 23,
+      "first_publish_year": 1969,
+      "key": "/works/OL539185W",
+      "number_of_pages_median": 416,
+      "title": "Selected works",
+      "subject": [
+        "Social conditions",
+        "Families",
+        "Family",
+        "Women",
+        "History",
+        "Femmes",
+        "Conditions sociales",
+        "Familles",
+        "Social history",
+        "Communism",
+        "Politics and government"
+      ],
+      "ratings_average": 0,
+      "ratings_count": 0,
+      "readinglog_count": 10,
+      "editions": {
+        "numFound": 2,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL5308823M",
+            "title": "Women and the family",
+            "cover_i": 12980314,
+            "language": [
+              "eng",
+              "rus"
+            ],
+            "publish_date": [
+              "1973"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

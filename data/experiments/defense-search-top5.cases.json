@@ -1,0 +1,848 @@
+[
+  {
+    "query_id": "NEW-F01-V1",
+    "family_id": "NEW-F01",
+    "category": "mood",
+    "query": "После тяжёлой недели хочу добрую книгу, где люди помогают друг другу справляться с обычными проблемами",
+    "expected_catalog_ids": [
+      659
+    ],
+    "expected_titles": [
+      "Я посланник"
+    ]
+  },
+  {
+    "query_id": "NEW-F01-V2",
+    "family_id": "NEW-F01",
+    "category": "mood",
+    "query": "Нужно чтение для отдыха: повседневные трудности, поддержка и ощущение, что рядом есть хорошие люди",
+    "expected_catalog_ids": [
+      659
+    ],
+    "expected_titles": [
+      "Я посланник"
+    ]
+  },
+  {
+    "query_id": "NEW-F01-V3",
+    "family_id": "NEW-F01",
+    "category": "mood",
+    "query": "Посоветуй что-нибудь успокаивающее про взаимную помощь, когда жизнь идёт не по плану",
+    "expected_catalog_ids": [
+      659
+    ],
+    "expected_titles": [
+      "Я посланник"
+    ]
+  },
+  {
+    "query_id": "NEW-F03-V1",
+    "family_id": "NEW-F03",
+    "category": "mood",
+    "query": "Ищу роман, после которого хочется позвонить старому другу, а не обязательно влюбиться",
+    "expected_catalog_ids": [
+      622
+    ],
+    "expected_titles": [
+      "Бесцветный Цкуру Тадзаки и годы его странствий"
+    ]
+  },
+  {
+    "query_id": "NEW-F03-V2",
+    "family_id": "NEW-F03",
+    "category": "mood",
+    "query": "Хочу трогательную историю о дружбе взрослых людей и связях, которые переживают годы",
+    "expected_catalog_ids": [
+      622
+    ],
+    "expected_titles": [
+      "Бесцветный Цкуру Тадзаки и годы его странствий"
+    ]
+  },
+  {
+    "query_id": "NEW-F03-V3",
+    "family_id": "NEW-F03",
+    "category": "mood",
+    "query": "Нужна книга, напоминающая, почему стоит беречь давних друзей",
+    "expected_catalog_ids": [
+      622
+    ],
+    "expected_titles": [
+      "Бесцветный Цкуру Тадзаки и годы его странствий"
+    ]
+  },
+  {
+    "query_id": "NEW-F04-V1",
+    "family_id": "NEW-F04",
+    "category": "mood",
+    "query": "Хочу почувствовать азарт открытия: человек исследует неизвестное и постепенно понимает, как оно устроено",
+    "expected_catalog_ids": [
+      326
+    ],
+    "expected_titles": [
+      "Солярис"
+    ]
+  },
+  {
+    "query_id": "NEW-F04-V2",
+    "family_id": "NEW-F04",
+    "category": "mood",
+    "query": "Посоветуй историю, в которой любопытство и исследования захватывают сильнее погонь",
+    "expected_catalog_ids": [
+      326
+    ],
+    "expected_titles": [
+      "Солярис"
+    ]
+  },
+  {
+    "query_id": "NEW-F04-V3",
+    "family_id": "NEW-F04",
+    "category": "mood",
+    "query": "Нужно чтение с ощущением открытия нового мира через наблюдения и догадки",
+    "expected_catalog_ids": [
+      326
+    ],
+    "expected_titles": [
+      "Солярис"
+    ]
+  },
+  {
+    "query_id": "NEW-F05-V1",
+    "family_id": "NEW-F05",
+    "category": "mood",
+    "query": "Хочу книгу о раздражении и зависти к чужому успеху, которая не пытается сразу меня исправить",
+    "expected_catalog_ids": [
+      464
+    ],
+    "expected_titles": [
+      "Талантливый мистер Рипли"
+    ]
+  },
+  {
+    "query_id": "NEW-F05-V2",
+    "family_id": "NEW-F05",
+    "category": "mood",
+    "query": "Интересен герой с некрасивыми чувствами: сравнивает себя с другими, завидует и злится",
+    "expected_catalog_ids": [
+      464
+    ],
+    "expected_titles": [
+      "Талантливый мистер Рипли"
+    ]
+  },
+  {
+    "query_id": "NEW-F05-V3",
+    "family_id": "NEW-F05",
+    "category": "mood",
+    "query": "Нужна честная история про зависть и уязвлённое самолюбие, без бодрых советов",
+    "expected_catalog_ids": [
+      464
+    ],
+    "expected_titles": [
+      "Талантливый мистер Рипли"
+    ]
+  },
+  {
+    "query_id": "NEW-F09-V1",
+    "family_id": "NEW-F09",
+    "category": "mood",
+    "query": "Ищу горькую историю о человеке, который добился славы, но потерял близость с людьми",
+    "expected_catalog_ids": [
+      592
+    ],
+    "expected_titles": [
+      "Мартин Иден"
+    ]
+  },
+  {
+    "query_id": "NEW-F09-V2",
+    "family_id": "NEW-F09",
+    "category": "mood",
+    "query": "Хочу книгу про цену известности: внешне успех, а внутри одиночество",
+    "expected_catalog_ids": [
+      592
+    ],
+    "expected_titles": [
+      "Мартин Иден"
+    ]
+  },
+  {
+    "query_id": "NEW-F09-V3",
+    "family_id": "NEW-F09",
+    "category": "mood",
+    "query": "Посоветуй роман, где популярность не делает героя счастливее",
+    "expected_catalog_ids": [
+      592
+    ],
+    "expected_titles": [
+      "Мартин Иден"
+    ]
+  },
+  {
+    "query_id": "NEW-F10-V1",
+    "family_id": "NEW-F10",
+    "category": "mood",
+    "query": "Нужна спокойная книга о старении, в которой есть юмор и достоинство",
+    "expected_catalog_ids": [
+      178
+    ],
+    "expected_titles": [
+      "Любовь во время чумы"
+    ]
+  },
+  {
+    "query_id": "NEW-F10-V2",
+    "family_id": "NEW-F10",
+    "category": "mood",
+    "query": "Хочу прочитать про пожилого человека без жалости к нему и без обязательного чуда",
+    "expected_catalog_ids": [
+      178
+    ],
+    "expected_titles": [
+      "Любовь во время чумы"
+    ]
+  },
+  {
+    "query_id": "NEW-F10-V3",
+    "family_id": "NEW-F10",
+    "category": "mood",
+    "query": "Ищу человеческую историю о поздних годах жизни, смешную и немного грустную",
+    "expected_catalog_ids": [
+      178
+    ],
+    "expected_titles": [
+      "Любовь во время чумы"
+    ]
+  },
+  {
+    "query_id": "NEW-F11-V1",
+    "family_id": "NEW-F11",
+    "category": "atmosphere",
+    "query": "Хочу городскую историю с ночными улицами, дождём и ощущением, что все что-то скрывают",
+    "expected_catalog_ids": [
+      575
+    ],
+    "expected_titles": [
+      "Послемрак"
+    ]
+  },
+  {
+    "query_id": "NEW-F11-V2",
+    "family_id": "NEW-F11",
+    "category": "atmosphere",
+    "query": "Посоветуй роман с атмосферой мокрого ночного города и постоянного недоверия",
+    "expected_catalog_ids": [
+      575
+    ],
+    "expected_titles": [
+      "Послемрак"
+    ]
+  },
+  {
+    "query_id": "NEW-F11-V3",
+    "family_id": "NEW-F11",
+    "category": "atmosphere",
+    "query": "Нужно чтение с нуарным настроением: огни, дождь, чужие секреты",
+    "expected_catalog_ids": [
+      575
+    ],
+    "expected_titles": [
+      "Послемрак"
+    ]
+  },
+  {
+    "query_id": "NEW-F13-V1",
+    "family_id": "NEW-F13",
+    "category": "atmosphere",
+    "query": "Хочу книгу про полярную экспедицию: холод, изоляция и зависимость людей друг от друга",
+    "expected_catalog_ids": [
+      228
+    ],
+    "expected_titles": [
+      "Точка обмана"
+    ]
+  },
+  {
+    "query_id": "NEW-F13-V2",
+    "family_id": "NEW-F13",
+    "category": "atmosphere",
+    "query": "Нужна история выживания среди льда, где опасны и природа, и отношения внутри команды",
+    "expected_catalog_ids": [
+      228
+    ],
+    "expected_titles": [
+      "Точка обмана"
+    ]
+  },
+  {
+    "query_id": "NEW-F13-V3",
+    "family_id": "NEW-F13",
+    "category": "atmosphere",
+    "query": "Ищу чтение с ощущением белой пустоты и замкнутой группы исследователей",
+    "expected_catalog_ids": [
+      228
+    ],
+    "expected_titles": [
+      "Точка обмана"
+    ]
+  },
+  {
+    "query_id": "NEW-F16-V1",
+    "family_id": "NEW-F16",
+    "category": "atmosphere",
+    "query": "Хочу неспешную историю у моря в межсезонье, когда туристы уехали и осталось одиночество",
+    "expected_catalog_ids": [
+      872
+    ],
+    "expected_titles": [
+      "Море-океан"
+    ]
+  },
+  {
+    "query_id": "NEW-F16-V2",
+    "family_id": "NEW-F16",
+    "category": "atmosphere",
+    "query": "Посоветуй роман с пустым приморским городком, ветром и тихой жизнью",
+    "expected_catalog_ids": [
+      872
+    ],
+    "expected_titles": [
+      "Море-океан"
+    ]
+  },
+  {
+    "query_id": "NEW-F16-V3",
+    "family_id": "NEW-F16",
+    "category": "atmosphere",
+    "query": "Нужно чтение с атмосферой побережья вне сезона, без курортной суеты",
+    "expected_catalog_ids": [
+      872
+    ],
+    "expected_titles": [
+      "Море-океан"
+    ]
+  },
+  {
+    "query_id": "NEW-F19-V1",
+    "family_id": "NEW-F19",
+    "category": "atmosphere",
+    "query": "Ищу фантастику с огромными пустыми сооружениями и ощущением чужой цивилизации",
+    "expected_catalog_ids": [
+      613
+    ],
+    "expected_titles": [
+      "Пространство Откровения"
+    ]
+  },
+  {
+    "query_id": "NEW-F19-V2",
+    "family_id": "NEW-F19",
+    "category": "atmosphere",
+    "query": "Хочу историю исследования необычного места, которое явно построили не люди",
+    "expected_catalog_ids": [
+      613
+    ],
+    "expected_titles": [
+      "Пространство Откровения"
+    ]
+  },
+  {
+    "query_id": "NEW-F19-V3",
+    "family_id": "NEW-F19",
+    "category": "atmosphere",
+    "query": "Посоветуй книгу с масштабом загадочных инопланетных построек и одиночеством исследователей",
+    "expected_catalog_ids": [
+      613
+    ],
+    "expected_titles": [
+      "Пространство Откровения"
+    ]
+  },
+  {
+    "query_id": "NEW-F21-V1",
+    "family_id": "NEW-F21",
+    "category": "colloquial",
+    "query": "Мне бы книгу про переезд в другую страну, чтобы были и бытовые трудности, и чувство чужака",
+    "expected_catalog_ids": [
+      203
+    ],
+    "expected_titles": [
+      "Американа"
+    ]
+  },
+  {
+    "query_id": "NEW-F21-V2",
+    "family_id": "NEW-F21",
+    "category": "colloquial",
+    "query": "Что почитать про эмиграцию без картинки красивой новой жизни?",
+    "expected_catalog_ids": [
+      203
+    ],
+    "expected_titles": [
+      "Американа"
+    ]
+  },
+  {
+    "query_id": "NEW-F21-V3",
+    "family_id": "NEW-F21",
+    "category": "colloquial",
+    "query": "Хочу историю человека, который строит жизнь за границей и постоянно чувствует себя не своим",
+    "expected_catalog_ids": [
+      203
+    ],
+    "expected_titles": [
+      "Американа"
+    ]
+  },
+  {
+    "query_id": "NEW-F22-V1",
+    "family_id": "NEW-F22",
+    "category": "colloquial",
+    "query": "Есть что-нибудь про взрослую дочь и мать, которые любят друг друга, но нормально разговаривать не умеют?",
+    "expected_catalog_ids": [
+      92
+    ],
+    "expected_titles": [
+      "Возлюбленная"
+    ]
+  },
+  {
+    "query_id": "NEW-F22-V2",
+    "family_id": "NEW-F22",
+    "category": "colloquial",
+    "query": "Нужен роман про трудные отношения мамы и уже выросшей дочери",
+    "expected_catalog_ids": [
+      92
+    ],
+    "expected_titles": [
+      "Возлюбленная"
+    ]
+  },
+  {
+    "query_id": "NEW-F22-V3",
+    "family_id": "NEW-F22",
+    "category": "colloquial",
+    "query": "Посоветуй историю, где близость матери и дочери постоянно сталкивается с обидами и недоговорённостью",
+    "expected_catalog_ids": [
+      92
+    ],
+    "expected_titles": [
+      "Возлюбленная"
+    ]
+  },
+  {
+    "query_id": "NEW-F29-V1",
+    "family_id": "NEW-F29",
+    "category": "colloquial",
+    "query": "Мне бы историю о человеке с долгами: как это меняет отношения и каждодневные решения",
+    "expected_catalog_ids": [
+      279
+    ],
+    "expected_titles": [
+      "Госпожа Бовари"
+    ]
+  },
+  {
+    "query_id": "NEW-F29-V2",
+    "family_id": "NEW-F29",
+    "category": "colloquial",
+    "query": "Хочу роман, где денежные проблемы чувствуются в быту, а не просто упоминаются",
+    "expected_catalog_ids": [
+      279
+    ],
+    "expected_titles": [
+      "Госпожа Бовари"
+    ]
+  },
+  {
+    "query_id": "NEW-F29-V3",
+    "family_id": "NEW-F29",
+    "category": "colloquial",
+    "query": "Посоветуй книгу о жизни в финансовой ловушке и попытках из неё выбраться",
+    "expected_catalog_ids": [
+      279
+    ],
+    "expected_titles": [
+      "Госпожа Бовари"
+    ]
+  },
+  {
+    "query_id": "NEW-F31-V1",
+    "family_id": "NEW-F31",
+    "category": "negation",
+    "query": "Хочу историю о путешествии по чужой стране, но без военных действий и спасения мира",
+    "expected_catalog_ids": [
+      177
+    ],
+    "expected_titles": [
+      "Путешествия Гулливера"
+    ]
+  },
+  {
+    "query_id": "NEW-F31-V2",
+    "family_id": "NEW-F31",
+    "category": "negation",
+    "query": "Нужно приключение с дорогой и знакомством с местами, без войны и великой миссии",
+    "expected_catalog_ids": [
+      177
+    ],
+    "expected_titles": [
+      "Путешествия Гулливера"
+    ]
+  },
+  {
+    "query_id": "NEW-F31-V3",
+    "family_id": "NEW-F31",
+    "category": "negation",
+    "query": "Посоветуй книгу, где герой путешествует ради личной цели, а не предотвращает катастрофу",
+    "expected_catalog_ids": [
+      177
+    ],
+    "expected_titles": [
+      "Путешествия Гулливера"
+    ]
+  },
+  {
+    "query_id": "NEW-F32-V1",
+    "family_id": "NEW-F32",
+    "category": "negation",
+    "query": "Ищу любовную историю взрослых людей, но без треугольника и соперничества за партнёра",
+    "expected_catalog_ids": [
+      184
+    ],
+    "expected_titles": [
+      "Убеждение"
+    ]
+  },
+  {
+    "query_id": "NEW-F32-V2",
+    "family_id": "NEW-F32",
+    "category": "negation",
+    "query": "Хочу роман про отношения двоих, где трудности возникают не из-за третьего человека",
+    "expected_catalog_ids": [
+      184
+    ],
+    "expected_titles": [
+      "Убеждение"
+    ]
+  },
+  {
+    "query_id": "NEW-F32-V3",
+    "family_id": "NEW-F32",
+    "category": "negation",
+    "query": "Нужна романтика без выбора между двумя возлюбленными",
+    "expected_catalog_ids": [
+      184
+    ],
+    "expected_titles": [
+      "Убеждение"
+    ]
+  },
+  {
+    "query_id": "NEW-F33-V1",
+    "family_id": "NEW-F33",
+    "category": "negation",
+    "query": "Хочу детектив о финансовом преступлении, без убийства как главной загадки",
+    "expected_catalog_ids": [
+      343
+    ],
+    "expected_titles": [
+      "Создатель дождя"
+    ]
+  },
+  {
+    "query_id": "NEW-F33-V2",
+    "family_id": "NEW-F33",
+    "category": "negation",
+    "query": "Посоветуй расследование мошенничества или кражи денег, а не поиск убийцы",
+    "expected_catalog_ids": [
+      343
+    ],
+    "expected_titles": [
+      "Создатель дождя"
+    ]
+  },
+  {
+    "query_id": "NEW-F33-V3",
+    "family_id": "NEW-F33",
+    "category": "negation",
+    "query": "Нужна детективная книга, где центральное преступление не связано со смертью",
+    "expected_catalog_ids": [
+      343
+    ],
+    "expected_titles": [
+      "Создатель дождя"
+    ]
+  },
+  {
+    "query_id": "NEW-F35-V1",
+    "family_id": "NEW-F35",
+    "category": "negation",
+    "query": "Ищу историю о бедности, но не о ребёнке-сироте и не о викторианском работном доме",
+    "expected_catalog_ids": [
+      707
+    ],
+    "expected_titles": [
+      "Голод"
+    ]
+  },
+  {
+    "query_id": "NEW-F35-V2",
+    "family_id": "NEW-F35",
+    "category": "negation",
+    "query": "Хочу социальный роман про финансовые трудности взрослых людей, без сиротского сюжета",
+    "expected_catalog_ids": [
+      707
+    ],
+    "expected_titles": [
+      "Голод"
+    ]
+  },
+  {
+    "query_id": "NEW-F35-V3",
+    "family_id": "NEW-F35",
+    "category": "negation",
+    "query": "Нужна книга о нужде и неравенстве вне знакомой истории про бедного сироту",
+    "expected_catalog_ids": [
+      707
+    ],
+    "expected_titles": [
+      "Голод"
+    ]
+  },
+  {
+    "query_id": "NEW-F36-V1",
+    "family_id": "NEW-F36",
+    "category": "negation",
+    "query": "Хочу страшную книгу, но без сверхъестественного: пусть опасность исходит от людей",
+    "expected_catalog_ids": [
+      42,
+      193,
+      544
+    ],
+    "expected_titles": [
+      "Страдание",
+      "Молчание ягнят",
+      "Коллекционер"
+    ]
+  },
+  {
+    "query_id": "NEW-F36-V2",
+    "family_id": "NEW-F36",
+    "category": "negation",
+    "query": "Нужен ужас или триллер без призраков, демонов и магии",
+    "expected_catalog_ids": [
+      42,
+      193,
+      544
+    ],
+    "expected_titles": [
+      "Страдание",
+      "Молчание ягнят",
+      "Коллекционер"
+    ]
+  },
+  {
+    "query_id": "NEW-F36-V3",
+    "family_id": "NEW-F36",
+    "category": "negation",
+    "query": "Посоветуй пугающую историю, в которой происходящему не требуется мистическое объяснение",
+    "expected_catalog_ids": [
+      42,
+      193,
+      544
+    ],
+    "expected_titles": [
+      "Страдание",
+      "Молчание ягнят",
+      "Коллекционер"
+    ]
+  },
+  {
+    "query_id": "NEW-F38-V1",
+    "family_id": "NEW-F38",
+    "category": "negation",
+    "query": "Хочу книгу о природе, но не справочник и не руководство по выживанию",
+    "expected_catalog_ids": [
+      262
+    ],
+    "expected_titles": [
+      "Уолден"
+    ]
+  },
+  {
+    "query_id": "NEW-F38-V2",
+    "family_id": "NEW-F38",
+    "category": "negation",
+    "query": "Посоветуй наблюдательную прозу о животных или ландшафте, без практических инструкций",
+    "expected_catalog_ids": [
+      262
+    ],
+    "expected_titles": [
+      "Уолден"
+    ]
+  },
+  {
+    "query_id": "NEW-F38-V3",
+    "family_id": "NEW-F38",
+    "category": "negation",
+    "query": "Нужно литературное чтение о природном мире, а не энциклопедия видов",
+    "expected_catalog_ids": [
+      262
+    ],
+    "expected_titles": [
+      "Уолден"
+    ]
+  },
+  {
+    "query_id": "NEW-F40-V1",
+    "family_id": "NEW-F40",
+    "category": "negation",
+    "query": "Хочу юмористическую фантастику, но без пародии на волшебников и магические школы",
+    "expected_catalog_ids": [
+      57
+    ],
+    "expected_titles": [
+      "Автостопом по Галактике"
+    ]
+  },
+  {
+    "query_id": "NEW-F40-V2",
+    "family_id": "NEW-F40",
+    "category": "negation",
+    "query": "Посоветуй смешную научную фантастику, не шутки про колдовство",
+    "expected_catalog_ids": [
+      57
+    ],
+    "expected_titles": [
+      "Автостопом по Галактике"
+    ]
+  },
+  {
+    "query_id": "NEW-F40-V3",
+    "family_id": "NEW-F40",
+    "category": "negation",
+    "query": "Нужно фантастическое чтение с юмором, где основа мира не магия",
+    "expected_catalog_ids": [
+      57
+    ],
+    "expected_titles": [
+      "Автостопом по Галактике"
+    ]
+  },
+  {
+    "query_id": "NEW-F41-V1",
+    "family_id": "NEW-F41",
+    "category": "plot",
+    "query": "Помню историю: человек возвращается в родной город и выясняет, что семья годами скрывала важное событие",
+    "expected_catalog_ids": [
+      282,
+      748
+    ],
+    "expected_titles": [
+      "Острые предметы",
+      "Каролина Мун"
+    ]
+  },
+  {
+    "query_id": "NEW-F41-V2",
+    "family_id": "NEW-F41",
+    "category": "plot",
+    "query": "Ищу книгу по памяти: возвращение домой заставляет героя заново понять семейное прошлое",
+    "expected_catalog_ids": [
+      282,
+      748
+    ],
+    "expected_titles": [
+      "Острые предметы",
+      "Каролина Мун"
+    ]
+  },
+  {
+    "query_id": "NEW-F41-V3",
+    "family_id": "NEW-F41",
+    "category": "plot",
+    "query": "Не помню название романа про приезд в родные места и раскрытие давней семейной тайны",
+    "expected_catalog_ids": [
+      282,
+      748
+    ],
+    "expected_titles": [
+      "Острые предметы",
+      "Каролина Мун"
+    ]
+  },
+  {
+    "query_id": "NEW-F43-V1",
+    "family_id": "NEW-F43",
+    "category": "plot",
+    "query": "Помню сюжет про человека, которому приходится выдавать себя за другого, пока обман меняет его самого",
+    "expected_catalog_ids": [
+      464
+    ],
+    "expected_titles": [
+      "Талантливый мистер Рипли"
+    ]
+  },
+  {
+    "query_id": "NEW-F43-V2",
+    "family_id": "NEW-F43",
+    "category": "plot",
+    "query": "Ищу роман о присвоенной чужой личности и постепенном запутывании в роли",
+    "expected_catalog_ids": [
+      464
+    ],
+    "expected_titles": [
+      "Талантливый мистер Рипли"
+    ]
+  },
+  {
+    "query_id": "NEW-F43-V3",
+    "family_id": "NEW-F43",
+    "category": "plot",
+    "query": "Не помню название: герой живёт под чужим именем и начинает терять собственную жизнь",
+    "expected_catalog_ids": [
+      464
+    ],
+    "expected_titles": [
+      "Талантливый мистер Рипли"
+    ]
+  },
+  {
+    "query_id": "NEW-F44-V1",
+    "family_id": "NEW-F44",
+    "category": "plot",
+    "query": "Помню историю, где незнакомцы оказались вместе после аварии и вынуждены распределять обязанности",
+    "expected_catalog_ids": [
+      37
+    ],
+    "expected_titles": [
+      "Повелитель мух"
+    ]
+  },
+  {
+    "query_id": "NEW-F44-V2",
+    "family_id": "NEW-F44",
+    "category": "plot",
+    "query": "Ищу книгу про группу людей после катастрофы: совместное выживание и конфликты",
+    "expected_catalog_ids": [
+      37
+    ],
+    "expected_titles": [
+      "Повелитель мух"
+    ]
+  },
+  {
+    "query_id": "NEW-F44-V3",
+    "family_id": "NEW-F44",
+    "category": "plot",
+    "query": "Не могу вспомнить роман о случайной компании, которая должна организовать жизнь после аварии",
+    "expected_catalog_ids": [
+      37
+    ],
+    "expected_titles": [
+      "Повелитель мух"
+    ]
+  }
+]

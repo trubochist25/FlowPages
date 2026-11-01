@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-09-21T13:23:42.986670+00:00",
+  "model_name": "multilingual-e5-small-finetuned-lr1e-5-epoch3",
+  "dimension": 384,
+  "books": 1000,
+  "catalog_sha256": "837003aa617e6036ef059f8bf2dfbc9c943f19a1cc7ed36e287a9f6c71db1a4f",
+  "index": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\experiments\\e5_finetuning_v1\\comparison\\index\\book-index.npz"
+}

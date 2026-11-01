@@ -1,0 +1,14 @@
+{
+  "criteria_sha256": "886822a1a2a0d788a6ad49c9485f80720390e5ddfc4097036584a9db07a9ad02",
+  "selected_manifest_sha256": "56b9145d78f4a33d52f8d3137d75db7a88340c0b4db253fb18b9fec0a0909b76",
+  "frozen_files": {
+    "test_queries.frozen.json": "7ef2174f9d56aa54b8a9f1ecd11f7386d95c14b2fb7b448da20bdbdc0597be94",
+    "dev_queries.json": "b9b95798e84f8465429e3a0fd90b6f560bbb77b53717e7a997370c08298f040e",
+    "split-policy.json": "5c019711f6e22c647badde2ccb330af7bf8bc1d37c4faa08ee11d08285422e4f",
+    "no-match-evidence.json": "685a3054d03325943b3e7c42395d1b1baa748ed7a5c983a479a733b10275f9d5",
+    "assessment-validation.json": "e603c857476c38b06f5fa0747ade7c162fcd01086c68fe48590e70e4371d930f"
+  },
+  "code_sha256": "8ae4b7daa1b60ef68921cff4b84a8e5e540212114b111c7fb5219a9baf2b368e",
+  "hardware": "CPU both models, four torch threads",
+  "no_settings_changes": true
+}

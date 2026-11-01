@@ -1,0 +1,63 @@
+{
+  "all_resolved_targets_rank1": true,
+  "all_use_fuzzy_title_branch": false,
+  "cases": [
+    {
+      "query": "Мастер и Маргарита Булгаков",
+      "expected_catalog_id": 204,
+      "rank": 1,
+      "engine_ms": 1266.8464000016684,
+      "entity_match": "title",
+      "total": 0.96
+    },
+    {
+      "query": "Гордость и предубеждение Джейн Остин",
+      "expected_catalog_id": 12,
+      "rank": 1,
+      "engine_ms": 973.6852000060026,
+      "entity_match": "title",
+      "total": 0.96
+    },
+    {
+      "query": "Цветы для Элджернона Дэниел Киз",
+      "expected_catalog_id": 124,
+      "rank": 1,
+      "engine_ms": 946.3535000104457,
+      "entity_match": "title",
+      "total": 0.96
+    },
+    {
+      "query": "гарри потр философкий камин",
+      "expected_catalog_id": 5,
+      "rank": 1,
+      "engine_ms": 1409.779499997967,
+      "entity_match": "fuzzy_title",
+      "total": 0.94
+    },
+    {
+      "query": "преступлние и наказние достаевский",
+      "expected_catalog_id": 38,
+      "rank": 1,
+      "engine_ms": 1548.965900001349,
+      "entity_match": "fuzzy_title",
+      "total": 0.94
+    },
+    {
+      "query": "философский камень",
+      "expected_catalog_id": 5,
+      "rank": 1,
+      "engine_ms": 851.6774999879999,
+      "entity_match": "fuzzy_title",
+      "total": 0.94
+    },
+    {
+      "query": "татуировка дракона",
+      "expected_catalog_id": 230,
+      "rank": 1,
+      "engine_ms": 1310.1942999928724,
+      "entity_match": "fuzzy_title",
+      "total": 0.94
+    }
+  ],
+  "implementation": "Experimental per-query resolver decision injected into the existing fuzzy_title score branch; production source unchanged."
+}

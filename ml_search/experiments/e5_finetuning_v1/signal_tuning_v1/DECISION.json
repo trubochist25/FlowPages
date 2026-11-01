@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-09-16",
+  "decision": "keep_current_weights",
+  "weights": {
+    "ordinary": {
+      "semantic": 0.7,
+      "lexical": 0.25,
+      "popularity": 0.03,
+      "rating": 0.02
+    },
+    "structured": {
+      "semantic": 0.7,
+      "lexical": 0.23,
+      "preferences": 0.02,
+      "popularity": 0.03,
+      "rating": 0.02
+    }
+  },
+  "empty_result_policy": {
+    "no_matches": "only_when_strict_filters_leave_zero_eligible_books",
+    "invalid_query": "invalid_or_empty_request",
+    "semantic_low_confidence": "return_ranked_results_without_claiming_catalogue_absence"
+  },
+  "evidence": {
+    "grid_candidates": 45,
+    "dev_default_ndcg_at_10": 0.2362258,
+    "best_grid_ndcg_at_10": 0.2534325,
+    "best_grid_hit3_delta": -0.025641,
+    "best_grid_regression_hit10_delta": -0.012987,
+    "leave_one_family_out_delta_ndcg_at_10": -0.003703,
+    "empty_classifier_balanced_recall": 0.567308
+  },
+  "next_action": "do_not_repeat_e5_finetuning_for_empty_detection; collect independent no-match cases and evaluate a pointwise or cross-encoder relevance stage"
+}

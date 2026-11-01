@@ -1,0 +1,39 @@
+{
+  "test_queries": 120,
+  "dev_queries": 60,
+  "families": {
+    "test": 40,
+    "dev": 20
+  },
+  "category_counts": {
+    "test": {
+      "plot": 33,
+      "mood": 27,
+      "atmosphere": 18,
+      "colloquial": 15,
+      "negation": 15,
+      "no_match": 12
+    },
+    "dev": {
+      "plot": 18,
+      "mood": 15,
+      "atmosphere": 9,
+      "negation": 3,
+      "colloquial": 3,
+      "no_match": 12
+    }
+  },
+  "test_judged_books": 37,
+  "dev_judged_books": 17,
+  "cross_split_judged_books": 0,
+  "exact_query_duplicates": 0,
+  "regression_book_overlap": 0,
+  "empty_queries": {
+    "test": 12,
+    "dev": 12
+  },
+  "catalog_sha256": "115c7e689447db05d2e34bc5d83ab66238305b24b287601b36bd7fa3774bf5ee",
+  "search_evaluated_on_new_dev_test": false,
+  "labels": "Editorial judgments based on catalog. Not human user behavior or exhaustive qrels.",
+  "future_training_leakage_check": "Required after training data construction."
+}

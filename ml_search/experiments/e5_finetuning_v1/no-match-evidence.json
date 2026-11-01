@@ -1,0 +1,58 @@
+[
+  {
+    "group_id": "TEST-G37",
+    "pattern": "\\bzfs\\b|freebsd",
+    "matching_catalog_ids": [],
+    "scope": "All 1000 catalog titles, annotations, search profiles; not full books.",
+    "interpretation": "No confirmed catalog answer. Lexical absence alone is not proof about full book contents."
+  },
+  {
+    "group_id": "TEST-G38",
+    "pattern": "тибет.*(?:граммат|язык)|(?:граммат|язык).*тибет",
+    "matching_catalog_ids": [],
+    "scope": "All 1000 catalog titles, annotations, search profiles; not full books.",
+    "interpretation": "No confirmed catalog answer. Lexical absence alone is not proof about full book contents."
+  },
+  {
+    "group_id": "TEST-G39",
+    "pattern": "анкерн.*спуск|спуск.*анкерн",
+    "matching_catalog_ids": [],
+    "scope": "All 1000 catalog titles, annotations, search profiles; not full books.",
+    "interpretation": "No confirmed catalog answer. Lexical absence alone is not proof about full book contents."
+  },
+  {
+    "group_id": "TEST-G40",
+    "pattern": "аэродинам|профил.*крыл|безмоторн.*планер",
+    "matching_catalog_ids": [],
+    "scope": "All 1000 catalog titles, annotations, search profiles; not full books.",
+    "interpretation": "No confirmed catalog answer. Lexical absence alone is not proof about full book contents."
+  },
+  {
+    "group_id": "DEV-G17",
+    "pattern": "инсулином|хорк|хорьк",
+    "matching_catalog_ids": [],
+    "scope": "All 1000 catalog titles, annotations, search profiles; not full books.",
+    "interpretation": "No confirmed catalog answer. Lexical absence alone is not proof about full book contents."
+  },
+  {
+    "group_id": "DEV-G18",
+    "pattern": "sinumerik|синумерик",
+    "matching_catalog_ids": [],
+    "scope": "All 1000 catalog titles, annotations, search profiles; not full books.",
+    "interpretation": "No confirmed catalog answer. Lexical absence alone is not proof about full book contents."
+  },
+  {
+    "group_id": "DEV-G19",
+    "pattern": "санскрит.*(?:метрик|стихослож|размер)|(?:метрик|стихослож|размер).*санскрит",
+    "matching_catalog_ids": [],
+    "scope": "All 1000 catalog titles, annotations, search profiles; not full books.",
+    "interpretation": "No confirmed catalog answer. Lexical absence alone is not proof about full book contents."
+  },
+  {
+    "group_id": "DEV-G20",
+    "pattern": "adaptec|адаптек",
+    "matching_catalog_ids": [],
+    "scope": "All 1000 catalog titles, annotations, search profiles; not full books.",
+    "interpretation": "No confirmed catalog answer. Lexical absence alone is not proof about full book contents."
+  }
+]

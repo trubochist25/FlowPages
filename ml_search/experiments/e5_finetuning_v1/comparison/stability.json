@@ -1,0 +1,32 @@
+{
+  "semantic": {
+    "families": 36,
+    "ndcg10_gain": 0.2938009036681573,
+    "paired_family_bootstrap_95_percent": [
+      0.18866810303772147,
+      0.39675054225430645
+    ],
+    "leave_one_family_out_range": [
+      0.27662821402806403,
+      0.31398702941921974
+    ],
+    "improved_families": 27,
+    "unchanged_families": 2,
+    "worsened_families": 7
+  },
+  "full": {
+    "families": 36,
+    "ndcg10_gain": 0.1407738296206896,
+    "paired_family_bootstrap_95_percent": [
+      0.07150758255578134,
+      0.2123163316125379
+    ],
+    "leave_one_family_out_range": [
+      0.12875274738876386,
+      0.15182584849420536
+    ],
+    "improved_families": 20,
+    "unchanged_families": 11,
+    "worsened_families": 5
+  }
+}

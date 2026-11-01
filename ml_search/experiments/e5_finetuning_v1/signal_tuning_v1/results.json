@@ -1,0 +1,3299 @@
+{
+  "protocol": "Grid selected on 51-query family-macro dev NDCG; 77-query Hit@3 and Hit@10 may each lose at most one query; entity floors unchanged; 99-query test unopened",
+  "grid_candidates": 45,
+  "default": {
+    "weights": {
+      "plain_semantic": 0.7,
+      "plain_lexical": 0.25,
+      "metadata_semantic": 0.7,
+      "metadata_lexical": 0.23,
+      "metadata_preference": 0.02,
+      "popularity": 0.03,
+      "rating": 0.02
+    },
+    "dev": {
+      "ndcg10": 0.23622583359522997,
+      "hit3": 0.2564102564102564,
+      "hit10": 0.4358974358974359
+    },
+    "regression77": {
+      "ndcg10": 0.9417260048371283,
+      "hit3": 0.948051948051948,
+      "hit10": 0.987012987012987
+    }
+  },
+  "selected": {
+    "weights": {
+      "plain_semantic": 0.85,
+      "plain_lexical": 0.1,
+      "metadata_semantic": 0.8,
+      "metadata_lexical": 0.1,
+      "metadata_preference": 0.05,
+      "popularity": 0.03,
+      "rating": 0.02
+    },
+    "dev": {
+      "ndcg10": 0.2534325040340674,
+      "hit3": 0.23076923076923078,
+      "hit10": 0.5128205128205129
+    },
+    "regression77": {
+      "ndcg10": 0.9263355763582326,
+      "hit3": 0.948051948051948,
+      "hit10": 0.974025974025974
+    }
+  },
+  "delta": {
+    "ndcg10": 0.017206670438837446,
+    "hit3": -0.025641025641025605,
+    "hit10": 0.07692307692307698
+  },
+  "selected_rows": {
+    "dev": [
+      {
+        "family_id": "NEW-F02",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.6992500424385071,
+        "score_gap": 0.06672924757003784,
+        "top_ids": [
+          516,
+          292,
+          370,
+          353,
+          167,
+          74,
+          679,
+          598,
+          676,
+          710
+        ]
+      },
+      {
+        "family_id": "NEW-F02",
+        "expected_empty": false,
+        "ndcg10": 0.5,
+        "hit3": true,
+        "hit10": true,
+        "rank": 3,
+        "top_score": 0.6592752933502197,
+        "score_gap": 0.030514836311340332,
+        "top_ids": [
+          21,
+          710,
+          516,
+          950,
+          891,
+          40,
+          451,
+          88,
+          292,
+          74
+        ]
+      },
+      {
+        "family_id": "NEW-F02",
+        "expected_empty": false,
+        "ndcg10": 0.3154648767857287,
+        "hit3": false,
+        "hit10": true,
+        "rank": 8,
+        "top_score": 0.632111132144928,
+        "score_gap": 0.011677920818328857,
+        "top_ids": [
+          329,
+          950,
+          74,
+          762,
+          4,
+          89,
+          710,
+          516,
+          254,
+          650
+        ]
+      },
+      {
+        "family_id": "NEW-F06",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6161510348320007,
+        "score_gap": 0.007290482521057129,
+        "top_ids": [
+          28,
+          343,
+          53,
+          760,
+          477,
+          830,
+          402,
+          619,
+          130,
+          254
+        ]
+      },
+      {
+        "family_id": "NEW-F06",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6682313084602356,
+        "score_gap": 0.004793643951416016,
+        "top_ids": [
+          4,
+          476,
+          80,
+          659,
+          567,
+          703,
+          160,
+          254,
+          537,
+          71
+        ]
+      },
+      {
+        "family_id": "NEW-F06",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6671061515808105,
+        "score_gap": 0.0021027326583862305,
+        "top_ids": [
+          292,
+          343,
+          762,
+          145,
+          166,
+          76,
+          42,
+          363,
+          336,
+          75
+        ]
+      },
+      {
+        "family_id": "NEW-F07",
+        "expected_empty": false,
+        "ndcg10": 0.38685280723454163,
+        "hit3": false,
+        "hit10": true,
+        "rank": 5,
+        "top_score": 0.6509366631507874,
+        "score_gap": 0.012696504592895508,
+        "top_ids": [
+          169,
+          8,
+          922,
+          879,
+          76,
+          354,
+          550,
+          249,
+          540,
+          844
+        ]
+      },
+      {
+        "family_id": "NEW-F07",
+        "expected_empty": false,
+        "ndcg10": 0.6309297535714574,
+        "hit3": true,
+        "hit10": true,
+        "rank": 2,
+        "top_score": 0.650865912437439,
+        "score_gap": 0.006791472434997559,
+        "top_ids": [
+          416,
+          76,
+          980,
+          222,
+          706,
+          15,
+          289,
+          131,
+          241,
+          269
+        ]
+      },
+      {
+        "family_id": "NEW-F07",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6765508651733398,
+        "score_gap": 0.011815369129180908,
+        "top_ids": [
+          710,
+          2,
+          801,
+          493,
+          357,
+          861,
+          564,
+          287,
+          689,
+          285
+        ]
+      },
+      {
+        "family_id": "NEW-F08",
+        "expected_empty": false,
+        "ndcg10": 0.52129602861432,
+        "hit3": true,
+        "hit10": true,
+        "rank": 2,
+        "top_score": 0.655907392501831,
+        "score_gap": 0.015392780303955078,
+        "top_ids": [
+          513,
+          292,
+          470,
+          5,
+          947,
+          527,
+          372,
+          743,
+          26,
+          577
+        ]
+      },
+      {
+        "family_id": "NEW-F08",
+        "expected_empty": false,
+        "ndcg10": 0.35583989829307827,
+        "hit3": false,
+        "hit10": true,
+        "rank": 4,
+        "top_score": 0.6105818748474121,
+        "score_gap": 0.015374064445495605,
+        "top_ids": [
+          124,
+          527,
+          4,
+          292,
+          11,
+          85,
+          19,
+          676,
+          71,
+          100
+        ]
+      },
+      {
+        "family_id": "NEW-F08",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6503794193267822,
+        "score_gap": 0.004632234573364258,
+        "top_ids": [
+          577,
+          527,
+          25,
+          40,
+          23,
+          31,
+          379,
+          120,
+          146,
+          85
+        ]
+      },
+      {
+        "family_id": "NEW-F12",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.666695237159729,
+        "score_gap": 0.005922377109527588,
+        "top_ids": [
+          463,
+          815,
+          330,
+          207,
+          779,
+          853,
+          321,
+          718,
+          90,
+          708
+        ]
+      },
+      {
+        "family_id": "NEW-F12",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6336828470230103,
+        "score_gap": 0.005991041660308838,
+        "top_ids": [
+          214,
+          601,
+          704,
+          815,
+          930,
+          788,
+          467,
+          90,
+          575,
+          526
+        ]
+      },
+      {
+        "family_id": "NEW-F12",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6812866926193237,
+        "score_gap": 0.030171692371368408,
+        "top_ids": [
+          832,
+          9,
+          601,
+          214,
+          546,
+          815,
+          440,
+          174,
+          425,
+          48
+        ]
+      },
+      {
+        "family_id": "NEW-F17",
+        "expected_empty": false,
+        "ndcg10": 0.09810357436897517,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.718360960483551,
+        "score_gap": 0.010564029216766357,
+        "top_ids": [
+          760,
+          472,
+          854,
+          330,
+          224,
+          271,
+          348,
+          876,
+          995,
+          207
+        ]
+      },
+      {
+        "family_id": "NEW-F17",
+        "expected_empty": false,
+        "ndcg10": 0.43545169084664054,
+        "hit3": false,
+        "hit10": true,
+        "rank": 4,
+        "top_score": 0.7190045118331909,
+        "score_gap": 0.06651908159255981,
+        "top_ids": [
+          145,
+          472,
+          201,
+          439,
+          876,
+          798,
+          178,
+          990,
+          172,
+          271
+        ]
+      },
+      {
+        "family_id": "NEW-F17",
+        "expected_empty": false,
+        "ndcg10": 0.07961179255356228,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.672247588634491,
+        "score_gap": 0.009693264961242676,
+        "top_ids": [
+          854,
+          219,
+          224,
+          472,
+          760,
+          207,
+          454,
+          708,
+          153,
+          271
+        ]
+      },
+      {
+        "family_id": "NEW-F18",
+        "expected_empty": false,
+        "ndcg10": 0.23958467719708867,
+        "hit3": false,
+        "hit10": true,
+        "rank": 4,
+        "top_score": 0.6862382292747498,
+        "score_gap": 0.020422041416168213,
+        "top_ids": [
+          32,
+          685,
+          638,
+          612,
+          381,
+          445,
+          241,
+          317,
+          904,
+          90
+        ]
+      },
+      {
+        "family_id": "NEW-F18",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6569696664810181,
+        "score_gap": 0.0034198760986328125,
+        "top_ids": [
+          130,
+          979,
+          8,
+          217,
+          55,
+          169,
+          388,
+          366,
+          331,
+          556
+        ]
+      },
+      {
+        "family_id": "NEW-F18",
+        "expected_empty": false,
+        "ndcg10": 0.2152055950263274,
+        "hit3": false,
+        "hit10": true,
+        "rank": 5,
+        "top_score": 0.6805320978164673,
+        "score_gap": 0.031322360038757324,
+        "top_ids": [
+          242,
+          779,
+          904,
+          400,
+          612,
+          839,
+          685,
+          32,
+          546,
+          665
+        ]
+      },
+      {
+        "family_id": "NEW-F23",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.677567720413208,
+        "score_gap": 0.0016013383865356445,
+        "top_ids": [
+          950,
+          948,
+          476,
+          4,
+          731,
+          3,
+          537,
+          68,
+          304,
+          997
+        ]
+      },
+      {
+        "family_id": "NEW-F23",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6282951235771179,
+        "score_gap": 0.006054699420928955,
+        "top_ids": [
+          68,
+          787,
+          2,
+          982,
+          710,
+          801,
+          743,
+          673,
+          405,
+          3
+        ]
+      },
+      {
+        "family_id": "NEW-F23",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.7034103274345398,
+        "score_gap": 0.027442097663879395,
+        "top_ids": [
+          3,
+          167,
+          100,
+          68,
+          816,
+          703,
+          476,
+          948,
+          78,
+          1
+        ]
+      },
+      {
+        "family_id": "NEW-F25",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.7001346349716187,
+        "score_gap": 0.014704465866088867,
+        "top_ids": [
+          754,
+          27,
+          97,
+          24,
+          46,
+          40,
+          361,
+          172,
+          483,
+          969
+        ]
+      },
+      {
+        "family_id": "NEW-F25",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.7013680338859558,
+        "score_gap": 0.053182125091552734,
+        "top_ids": [
+          474,
+          217,
+          32,
+          7,
+          562,
+          999,
+          44,
+          361,
+          92,
+          381
+        ]
+      },
+      {
+        "family_id": "NEW-F25",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6601329445838928,
+        "score_gap": 0.0022014975547790527,
+        "top_ids": [
+          483,
+          888,
+          830,
+          751,
+          435,
+          383,
+          562,
+          813,
+          564,
+          743
+        ]
+      },
+      {
+        "family_id": "NEW-F27",
+        "expected_empty": false,
+        "ndcg10": 0.4306765580733931,
+        "hit3": false,
+        "hit10": true,
+        "rank": 4,
+        "top_score": 0.7062168717384338,
+        "score_gap": 0.04993319511413574,
+        "top_ids": [
+          33,
+          838,
+          337,
+          615,
+          960,
+          254,
+          60,
+          758,
+          950,
+          6
+        ]
+      },
+      {
+        "family_id": "NEW-F27",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.655249297618866,
+        "score_gap": 0.017197608947753906,
+        "top_ids": [
+          615,
+          33,
+          85,
+          677,
+          517,
+          838,
+          271,
+          343,
+          527,
+          435
+        ]
+      },
+      {
+        "family_id": "NEW-F27",
+        "expected_empty": false,
+        "ndcg10": 0.5,
+        "hit3": true,
+        "hit10": true,
+        "rank": 3,
+        "top_score": 0.6542972326278687,
+        "score_gap": 0.002374410629272461,
+        "top_ids": [
+          631,
+          11,
+          615,
+          23,
+          677,
+          241,
+          180,
+          801,
+          405,
+          838
+        ]
+      },
+      {
+        "family_id": "NEW-F34",
+        "expected_empty": false,
+        "ndcg10": 0.649014791936513,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7510512471199036,
+        "score_gap": 0.0198403000831604,
+        "top_ids": [
+          684,
+          213,
+          57,
+          537,
+          154,
+          820,
+          652,
+          225,
+          524,
+          731
+        ]
+      },
+      {
+        "family_id": "NEW-F34",
+        "expected_empty": false,
+        "ndcg10": 0.4635819942403664,
+        "hit3": true,
+        "hit10": true,
+        "rank": 3,
+        "top_score": 0.7074915766716003,
+        "score_gap": 0.010657668113708496,
+        "top_ids": [
+          141,
+          570,
+          536,
+          98,
+          213,
+          154,
+          684,
+          820,
+          777,
+          354
+        ]
+      },
+      {
+        "family_id": "NEW-F34",
+        "expected_empty": false,
+        "ndcg10": 0.29506715409202366,
+        "hit3": false,
+        "hit10": true,
+        "rank": 5,
+        "top_score": 0.7168552875518799,
+        "score_gap": 0.018684327602386475,
+        "top_ids": [
+          225,
+          213,
+          652,
+          57,
+          684,
+          154,
+          820,
+          342,
+          524,
+          247
+        ]
+      },
+      {
+        "family_id": "NEW-F37",
+        "expected_empty": false,
+        "ndcg10": 0.061810932565382185,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6703951954841614,
+        "score_gap": 0.02472531795501709,
+        "top_ids": [
+          728,
+          648,
+          170,
+          777,
+          461,
+          883,
+          214,
+          428,
+          321,
+          975
+        ]
+      },
+      {
+        "family_id": "NEW-F37",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.7020723819732666,
+        "score_gap": 0.00906682014465332,
+        "top_ids": [
+          576,
+          728,
+          1,
+          79,
+          170,
+          371,
+          197,
+          240,
+          596,
+          1000
+        ]
+      },
+      {
+        "family_id": "NEW-F37",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6793951392173767,
+        "score_gap": 0.026524007320404053,
+        "top_ids": [
+          7,
+          648,
+          197,
+          252,
+          885,
+          596,
+          289,
+          936,
+          777,
+          728
+        ]
+      },
+      {
+        "family_id": "NEW-F39",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.7191998958587646,
+        "score_gap": 0.03070533275604248,
+        "top_ids": [
+          43,
+          751,
+          881,
+          86,
+          147,
+          949,
+          807,
+          808,
+          630,
+          683
+        ]
+      },
+      {
+        "family_id": "NEW-F39",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6490593552589417,
+        "score_gap": 0.002379894256591797,
+        "top_ids": [
+          381,
+          545,
+          980,
+          159,
+          673,
+          565,
+          918,
+          163,
+          474,
+          814
+        ]
+      },
+      {
+        "family_id": "NEW-F39",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6610208749771118,
+        "score_gap": 0.02580636739730835,
+        "top_ids": [
+          971,
+          673,
+          630,
+          521,
+          12,
+          931,
+          884,
+          140,
+          245,
+          159
+        ]
+      },
+      {
+        "family_id": "NEW-F42",
+        "expected_empty": false,
+        "ndcg10": 0.26406812257259094,
+        "hit3": false,
+        "hit10": true,
+        "rank": 4,
+        "top_score": 0.6857933402061462,
+        "score_gap": 0.020256876945495605,
+        "top_ids": [
+          710,
+          471,
+          762,
+          989,
+          958,
+          585,
+          73,
+          932,
+          739,
+          935
+        ]
+      },
+      {
+        "family_id": "NEW-F42",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.7264633178710938,
+        "score_gap": 0.022435367107391357,
+        "top_ids": [
+          710,
+          295,
+          762,
+          330,
+          405,
+          553,
+          207,
+          343,
+          598,
+          848
+        ]
+      },
+      {
+        "family_id": "NEW-F42",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7010328769683838,
+        "score_gap": 0.003614664077758789,
+        "top_ids": [
+          989,
+          329,
+          328,
+          157,
+          710,
+          840,
+          41,
+          980,
+          436,
+          416
+        ]
+      },
+      {
+        "family_id": "NEW-F45",
+        "expected_empty": false,
+        "ndcg10": 0.26406812257259094,
+        "hit3": false,
+        "hit10": true,
+        "rank": 4,
+        "top_score": 0.7233363389968872,
+        "score_gap": 0.0030725598335266113,
+        "top_ids": [
+          152,
+          505,
+          96,
+          515,
+          891,
+          456,
+          506,
+          848,
+          494,
+          843
+        ]
+      },
+      {
+        "family_id": "NEW-F45",
+        "expected_empty": false,
+        "ndcg10": 0.17723928678404774,
+        "hit3": false,
+        "hit10": true,
+        "rank": 10,
+        "top_score": 0.7228415012359619,
+        "score_gap": 0.008524775505065918,
+        "top_ids": [
+          152,
+          125,
+          38,
+          95,
+          505,
+          434,
+          459,
+          41,
+          681,
+          355
+        ]
+      },
+      {
+        "family_id": "NEW-F45",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.7222113609313965,
+        "score_gap": 0.06804502010345459,
+        "top_ids": [
+          152,
+          891,
+          843,
+          898,
+          767,
+          95,
+          455,
+          127,
+          861,
+          76
+        ]
+      },
+      {
+        "family_id": "NEW-F48",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.620050847530365,
+        "score_gap": 0.01139301061630249,
+        "top_ids": [
+          961,
+          709,
+          514,
+          156,
+          511,
+          426,
+          299,
+          69,
+          897,
+          950
+        ]
+      },
+      {
+        "family_id": "NEW-F48",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6568986177444458,
+        "score_gap": 0.013011038303375244,
+        "top_ids": [
+          948,
+          166,
+          903,
+          894,
+          634,
+          443,
+          709,
+          897,
+          537,
+          80
+        ]
+      },
+      {
+        "family_id": "NEW-F48",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6947440505027771,
+        "score_gap": 0.013873457908630371,
+        "top_ids": [
+          897,
+          961,
+          709,
+          426,
+          156,
+          621,
+          950,
+          213,
+          799,
+          684
+        ]
+      },
+      {
+        "family_id": "NEW-F50",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6200974583625793,
+        "score_gap": 0.014866113662719727,
+        "top_ids": [
+          347,
+          876,
+          532,
+          679,
+          91,
+          266,
+          797,
+          390,
+          253,
+          747
+        ]
+      },
+      {
+        "family_id": "NEW-F50",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6688284277915955,
+        "score_gap": 0.06312912702560425,
+        "top_ids": [
+          266,
+          736,
+          621,
+          253,
+          747,
+          603,
+          91,
+          218,
+          56,
+          631
+        ]
+      },
+      {
+        "family_id": "NEW-F50",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6314249038696289,
+        "score_gap": 0.0010598301887512207,
+        "top_ids": [
+          106,
+          736,
+          961,
+          91,
+          666,
+          709,
+          195,
+          266,
+          21,
+          568
+        ]
+      }
+    ],
+    "regression77": [
+      {
+        "family_id": "REG-001",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.6768389940261841,
+        "score_gap": 0.03039461374282837,
+        "top_ids": [
+          31,
+          50,
+          316,
+          499,
+          527,
+          680,
+          91,
+          85,
+          120,
+          97
+        ]
+      },
+      {
+        "family_id": "REG-002",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7863497138023376,
+        "score_gap": 0.04535716772079468,
+        "top_ids": [
+          546,
+          968,
+          859,
+          296,
+          367,
+          291,
+          57,
+          202,
+          570,
+          661
+        ]
+      },
+      {
+        "family_id": "REG-003",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7389152646064758,
+        "score_gap": 0.06417226791381836,
+        "top_ids": [
+          10,
+          373,
+          767,
+          79,
+          303,
+          406,
+          664,
+          834,
+          407,
+          645
+        ]
+      },
+      {
+        "family_id": "REG-004",
+        "expected_empty": false,
+        "ndcg10": 0.6309297535714574,
+        "hit3": true,
+        "hit10": true,
+        "rank": 2,
+        "top_score": 0.6944741606712341,
+        "score_gap": 0.0036287903785705566,
+        "top_ids": [
+          379,
+          250,
+          45,
+          839,
+          276,
+          40,
+          192,
+          498,
+          36,
+          724
+        ]
+      },
+      {
+        "family_id": "REG-005",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.8455067276954651,
+        "score_gap": 0.09791815280914307,
+        "top_ids": [
+          73,
+          253,
+          858,
+          347,
+          58,
+          136,
+          168,
+          296,
+          937,
+          64
+        ]
+      },
+      {
+        "family_id": "REG-006",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7794960141181946,
+        "score_gap": 0.052042484283447266,
+        "top_ids": [
+          17,
+          152,
+          355,
+          541,
+          908,
+          441,
+          528,
+          742,
+          843,
+          646
+        ]
+      },
+      {
+        "family_id": "REG-007",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7420966625213623,
+        "score_gap": 0.08987069129943848,
+        "top_ids": [
+          29,
+          334,
+          49,
+          244,
+          375,
+          802,
+          860,
+          40,
+          327,
+          544
+        ]
+      },
+      {
+        "family_id": "REG-008",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7853531837463379,
+        "score_gap": 0.08025872707366943,
+        "top_ids": [
+          37,
+          221,
+          146,
+          62,
+          555,
+          61,
+          750,
+          382,
+          922,
+          235
+        ]
+      },
+      {
+        "family_id": "REG-009",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7448431253433228,
+        "score_gap": 0.05947929620742798,
+        "top_ids": [
+          66,
+          365,
+          563,
+          143,
+          427,
+          496,
+          662,
+          50,
+          921,
+          178
+        ]
+      },
+      {
+        "family_id": "REG-010",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.8343322277069092,
+        "score_gap": 0.09577184915542603,
+        "top_ids": [
+          56,
+          621,
+          71,
+          236,
+          985,
+          154,
+          967,
+          257,
+          266,
+          382
+        ]
+      },
+      {
+        "family_id": "REG-011",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.8212190866470337,
+        "score_gap": 0.01771014928817749,
+        "top_ids": [
+          168,
+          64,
+          509,
+          415,
+          376,
+          578,
+          237,
+          319,
+          296,
+          580
+        ]
+      },
+      {
+        "family_id": "REG-012",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.8105130791664124,
+        "score_gap": 0.10606932640075684,
+        "top_ids": [
+          72,
+          983,
+          289,
+          819,
+          496,
+          782,
+          917,
+          861,
+          512,
+          885
+        ]
+      },
+      {
+        "family_id": "REG-013",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7875661849975586,
+        "score_gap": 0.0574987530708313,
+        "top_ids": [
+          117,
+          705,
+          410,
+          371,
+          216,
+          215,
+          565,
+          911,
+          12,
+          423
+        ]
+      },
+      {
+        "family_id": "REG-014",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7211957573890686,
+        "score_gap": 0.008659541606903076,
+        "top_ids": [
+          38,
+          76,
+          343,
+          140,
+          828,
+          395,
+          147,
+          216,
+          510,
+          528
+        ]
+      },
+      {
+        "family_id": "REG-015",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.6975248456001282,
+        "score_gap": 0.002039968967437744,
+        "top_ids": [
+          204,
+          359,
+          962,
+          739,
+          469,
+          438,
+          702,
+          357,
+          572,
+          295
+        ]
+      },
+      {
+        "family_id": "REG-016",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.866436243057251,
+        "score_gap": 0.11707228422164917,
+        "top_ids": [
+          5,
+          15,
+          146,
+          453,
+          538,
+          23,
+          93,
+          22,
+          175,
+          319
+        ]
+      },
+      {
+        "family_id": "REG-017",
+        "expected_empty": false,
+        "ndcg10": 0.4306765580733931,
+        "hit3": false,
+        "hit10": true,
+        "rank": 4,
+        "top_score": 0.7616060376167297,
+        "score_gap": 0.03133028745651245,
+        "top_ids": [
+          708,
+          110,
+          59,
+          52,
+          376,
+          90,
+          342,
+          591,
+          73,
+          401
+        ]
+      },
+      {
+        "family_id": "REG-018",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7491791844367981,
+        "score_gap": 0.02523595094680786,
+        "top_ids": [
+          12,
+          905,
+          155,
+          579,
+          928,
+          344,
+          233,
+          46,
+          488,
+          746
+        ]
+      },
+      {
+        "family_id": "REG-019",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.8038474917411804,
+        "score_gap": 0.09064292907714844,
+        "top_ids": [
+          44,
+          50,
+          946,
+          45,
+          780,
+          759,
+          143,
+          65,
+          128,
+          33
+        ]
+      },
+      {
+        "family_id": "REG-020",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7928271293640137,
+        "score_gap": 0.07025301456451416,
+        "top_ids": [
+          26,
+          922,
+          57,
+          111,
+          968,
+          394,
+          378,
+          22,
+          280,
+          120
+        ]
+      },
+      {
+        "family_id": "REG-021",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7963380813598633,
+        "score_gap": 0.06198018789291382,
+        "top_ids": [
+          96,
+          290,
+          431,
+          58,
+          858,
+          129,
+          448,
+          496,
+          956,
+          253
+        ]
+      },
+      {
+        "family_id": "REG-022",
+        "expected_empty": false,
+        "ndcg10": 0.5,
+        "hit3": true,
+        "hit10": true,
+        "rank": 3,
+        "top_score": 0.7248203158378601,
+        "score_gap": 0.046913325786590576,
+        "top_ids": [
+          143,
+          931,
+          158,
+          563,
+          316,
+          905,
+          771,
+          561,
+          682,
+          448
+        ]
+      },
+      {
+        "family_id": "REG-023",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.8011764883995056,
+        "score_gap": 0.1261923909187317,
+        "top_ids": [
+          49,
+          334,
+          738,
+          721,
+          781,
+          103,
+          862,
+          223,
+          547,
+          331
+        ]
+      },
+      {
+        "family_id": "REG-024",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.7483530044555664,
+        "score_gap": 0.025600016117095947,
+        "top_ids": [
+          432,
+          388,
+          850,
+          819,
+          812,
+          987,
+          861,
+          618,
+          612,
+          858
+        ]
+      },
+      {
+        "family_id": "REG-025",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.8318397402763367,
+        "score_gap": 0.06313925981521606,
+        "top_ids": [
+          193,
+          588,
+          945,
+          512,
+          472,
+          990,
+          88,
+          232,
+          459,
+          723
+        ]
+      },
+      {
+        "family_id": "REG-026",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.78455650806427,
+        "score_gap": 0.06564521789550781,
+        "top_ids": [
+          35,
+          774,
+          208,
+          82,
+          757,
+          122,
+          181,
+          987,
+          956,
+          234
+        ]
+      },
+      {
+        "family_id": "REG-027",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.8359242677688599,
+        "score_gap": 0.05691373348236084,
+        "top_ids": [
+          22,
+          176,
+          59,
+          376,
+          99,
+          175,
+          538,
+          520,
+          5,
+          719
+        ]
+      },
+      {
+        "family_id": "REG-028",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.8433623313903809,
+        "score_gap": 0.11072748899459839,
+        "top_ids": [
+          57,
+          511,
+          73,
+          98,
+          570,
+          536,
+          401,
+          296,
+          607,
+          524
+        ]
+      },
+      {
+        "family_id": "REG-029",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.8227983117103577,
+        "score_gap": 0.06446331739425659,
+        "top_ids": [
+          78,
+          571,
+          98,
+          570,
+          247,
+          135,
+          454,
+          57,
+          661,
+          536
+        ]
+      },
+      {
+        "family_id": "REG-030",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.794719934463501,
+        "score_gap": 0.06685411930084229,
+        "top_ids": [
+          124,
+          201,
+          286,
+          213,
+          34,
+          514,
+          903,
+          193,
+          439,
+          990
+        ]
+      },
+      {
+        "family_id": "REG-031",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7302267551422119,
+        "score_gap": 0.06832128763198853,
+        "top_ids": [
+          39,
+          587,
+          699,
+          127,
+          971,
+          939,
+          51,
+          302,
+          714,
+          122
+        ]
+      },
+      {
+        "family_id": "REG-032",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7269849181175232,
+        "score_gap": 0.024918556213378906,
+        "top_ids": [
+          47,
+          381,
+          823,
+          966,
+          555,
+          464,
+          893,
+          683,
+          891,
+          158
+        ]
+      },
+      {
+        "family_id": "REG-033",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.769854724407196,
+        "score_gap": 0.06049567461013794,
+        "top_ids": [
+          208,
+          157,
+          397,
+          789,
+          290,
+          328,
+          148,
+          504,
+          449,
+          41
+        ]
+      },
+      {
+        "family_id": "REG-034",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7154704332351685,
+        "score_gap": 0.0614321231842041,
+        "top_ids": [
+          34,
+          412,
+          68,
+          731,
+          940,
+          132,
+          426,
+          141,
+          156,
+          607
+        ]
+      },
+      {
+        "family_id": "REG-035",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7481645345687866,
+        "score_gap": 0.06274914741516113,
+        "top_ids": [
+          132,
+          196,
+          759,
+          250,
+          13,
+          680,
+          45,
+          681,
+          44,
+          56
+        ]
+      },
+      {
+        "family_id": "REG-036",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7126595377922058,
+        "score_gap": 0.015448987483978271,
+        "top_ids": [
+          136,
+          433,
+          61,
+          50,
+          218,
+          138,
+          973,
+          974,
+          498,
+          44
+        ]
+      },
+      {
+        "family_id": "REG-037",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.83548903465271,
+        "score_gap": 0.09539186954498291,
+        "top_ids": [
+          230,
+          531,
+          980,
+          723,
+          744,
+          436,
+          115,
+          794,
+          840,
+          282
+        ]
+      },
+      {
+        "family_id": "REG-038",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7729836106300354,
+        "score_gap": 0.12792938947677612,
+        "top_ids": [
+          470,
+          589,
+          182,
+          316,
+          805,
+          120,
+          137,
+          632,
+          736,
+          415
+        ]
+      },
+      {
+        "family_id": "REG-039",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.35138916969299316,
+        "top_ids": [
+          31,
+          805,
+          632,
+          59,
+          376,
+          110,
+          35,
+          22,
+          9,
+          251
+        ]
+      },
+      {
+        "family_id": "REG-040",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.009999990463256836,
+        "top_ids": [
+          546,
+          495,
+          511,
+          497,
+          81,
+          71,
+          313,
+          593,
+          99,
+          73
+        ]
+      },
+      {
+        "family_id": "REG-041",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.009999990463256836,
+        "top_ids": [
+          10,
+          952,
+          385,
+          399,
+          782,
+          750,
+          187,
+          240,
+          7,
+          252
+        ]
+      },
+      {
+        "family_id": "REG-042",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.009999990463256836,
+        "top_ids": [
+          204,
+          596,
+          985,
+          729,
+          637,
+          185,
+          175,
+          993,
+          304,
+          967
+        ]
+      },
+      {
+        "family_id": "REG-043",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.009999990463256836,
+        "top_ids": [
+          12,
+          309,
+          134,
+          121,
+          918,
+          184,
+          503,
+          488,
+          646,
+          247
+        ]
+      },
+      {
+        "family_id": "REG-044",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.009999990463256836,
+        "top_ids": [
+          124,
+          505,
+          615,
+          462,
+          470,
+          655,
+          632,
+          546,
+          552,
+          206
+        ]
+      },
+      {
+        "family_id": "REG-045",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.009999990463256836,
+        "top_ids": [
+          38,
+          409,
+          887,
+          140,
+          771,
+          147,
+          216,
+          174,
+          605,
+          284
+        ]
+      },
+      {
+        "family_id": "REG-046",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9900000095367432,
+        "score_gap": 0.27697062492370605,
+        "top_ids": [
+          5,
+          757,
+          332,
+          298,
+          769,
+          777,
+          882,
+          551,
+          986,
+          66
+        ]
+      },
+      {
+        "family_id": "REG-047",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.009999990463256836,
+        "top_ids": [
+          26,
+          394,
+          632,
+          356,
+          470,
+          580,
+          289,
+          168,
+          142,
+          694
+        ]
+      },
+      {
+        "family_id": "REG-048",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.009999990463256836,
+        "top_ids": [
+          29,
+          779,
+          202,
+          470,
+          35,
+          59,
+          57,
+          777,
+          546,
+          110
+        ]
+      },
+      {
+        "family_id": "REG-049",
+        "expected_empty": false,
+        "ndcg10": 0.8118374955798289,
+        "hit3": true,
+        "hit10": true,
+        "rank": 2,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.0,
+        "top_ids": [
+          86,
+          20,
+          18,
+          23,
+          5,
+          25,
+          15,
+          30,
+          319,
+          301
+        ]
+      },
+      {
+        "family_id": "REG-050",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9900000095367432,
+        "score_gap": 0.04000002145767212,
+        "top_ids": [
+          204,
+          596,
+          993,
+          729,
+          175,
+          637,
+          185,
+          104,
+          324,
+          967
+        ]
+      },
+      {
+        "family_id": "REG-051",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.009999990463256836,
+        "top_ids": [
+          546,
+          71,
+          497,
+          81,
+          511,
+          882,
+          236,
+          73,
+          580,
+          933
+        ]
+      },
+      {
+        "family_id": "REG-052",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9900000095367432,
+        "score_gap": 0.40757274627685547,
+        "top_ids": [
+          124,
+          470,
+          462,
+          655,
+          632,
+          182,
+          552,
+          346,
+          415,
+          719
+        ]
+      },
+      {
+        "family_id": "REG-053",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.42152804136276245,
+        "top_ids": [
+          73,
+          349,
+          372,
+          470,
+          812,
+          479,
+          433,
+          405,
+          553,
+          183
+        ]
+      },
+      {
+        "family_id": "REG-054",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9900000095367432,
+        "score_gap": 0.36878901720046997,
+        "top_ids": [
+          12,
+          503,
+          4,
+          210,
+          488,
+          6,
+          640,
+          15,
+          605,
+          646
+        ]
+      },
+      {
+        "family_id": "REG-055",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_score": 0.6992312669754028,
+        "score_gap": 0.0064896345138549805,
+        "top_ids": [
+          474,
+          7,
+          32,
+          658,
+          197,
+          496,
+          899,
+          852,
+          881,
+          594
+        ]
+      },
+      {
+        "family_id": "REG-056",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.8068102598190308,
+        "score_gap": 0.050389647483825684,
+        "top_ids": [
+          57,
+          296,
+          168,
+          376,
+          64,
+          922,
+          933,
+          937,
+          61,
+          213
+        ]
+      },
+      {
+        "family_id": "REG-057",
+        "expected_empty": false,
+        "ndcg10": 0.6309297535714574,
+        "hit3": true,
+        "hit10": true,
+        "rank": 2,
+        "top_score": 0.7413326501846313,
+        "score_gap": 0.05016529560089111,
+        "top_ids": [
+          328,
+          208,
+          729,
+          397,
+          990,
+          193,
+          290,
+          251,
+          84,
+          181
+        ]
+      },
+      {
+        "family_id": "REG-058",
+        "expected_empty": false,
+        "ndcg10": 0.6309297535714574,
+        "hit3": true,
+        "hit10": true,
+        "rank": 2,
+        "top_score": 0.7745233774185181,
+        "score_gap": 0.013773083686828613,
+        "top_ids": [
+          580,
+          142,
+          780,
+          694,
+          372,
+          64,
+          235,
+          716,
+          589,
+          168
+        ]
+      },
+      {
+        "family_id": "REG-059",
+        "expected_empty": false,
+        "ndcg10": 0.4306765580733931,
+        "hit3": false,
+        "hit10": true,
+        "rank": 4,
+        "top_score": 0.6533533334732056,
+        "score_gap": 0.005002379417419434,
+        "top_ids": [
+          665,
+          70,
+          178,
+          811,
+          772,
+          596,
+          171,
+          197,
+          944,
+          43
+        ]
+      },
+      {
+        "family_id": "REG-060",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7131003737449646,
+        "score_gap": 0.03645336627960205,
+        "top_ids": [
+          584,
+          207,
+          502,
+          779,
+          138,
+          822,
+          90,
+          246,
+          835,
+          354
+        ]
+      },
+      {
+        "family_id": "REG-061",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9399999976158142,
+        "score_gap": 0.2467290759086609,
+        "top_ids": [
+          5,
+          757,
+          821,
+          769,
+          66,
+          986,
+          301,
+          822,
+          502,
+          882
+        ]
+      },
+      {
+        "family_id": "REG-062",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9399999976158142,
+        "score_gap": 0.3278520107269287,
+        "top_ids": [
+          38,
+          416,
+          434,
+          84,
+          328,
+          41,
+          891,
+          125,
+          468,
+          771
+        ]
+      },
+      {
+        "family_id": "REG-063",
+        "expected_empty": false,
+        "ndcg10": 0.6309297535714574,
+        "hit3": true,
+        "hit10": true,
+        "rank": 2,
+        "top_score": 0.949999988079071,
+        "score_gap": 0.0,
+        "top_ids": [
+          394,
+          26,
+          356,
+          289,
+          168,
+          632,
+          30,
+          183,
+          655,
+          917
+        ]
+      },
+      {
+        "family_id": "REG-064",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7498449683189392,
+        "score_gap": 0.031893014907836914,
+        "top_ids": [
+          115,
+          980,
+          493,
+          496,
+          850,
+          436,
+          328,
+          173,
+          388,
+          432
+        ]
+      },
+      {
+        "family_id": "REG-065",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7452977895736694,
+        "score_gap": 0.0446699857711792,
+        "top_ids": [
+          10,
+          373,
+          834,
+          868,
+          407,
+          767,
+          406,
+          34,
+          576,
+          847
+        ]
+      },
+      {
+        "family_id": "REG-066",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.6935662627220154,
+        "score_gap": 0.051274120807647705,
+        "top_ids": [
+          66,
+          143,
+          350,
+          93,
+          365,
+          41,
+          244,
+          857,
+          201,
+          163
+        ]
+      },
+      {
+        "family_id": "REG-067",
+        "expected_empty": false,
+        "ndcg10": 0.6309297535714574,
+        "hit3": true,
+        "hit10": true,
+        "rank": 2,
+        "top_score": 0.7892453074455261,
+        "score_gap": 0.0016971230506896973,
+        "top_ids": [
+          588,
+          193,
+          512,
+          945,
+          125,
+          438,
+          459,
+          88,
+          472,
+          232
+        ]
+      },
+      {
+        "family_id": "REG-068",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.7991399765014648,
+        "score_gap": 0.04630213975906372,
+        "top_ids": [
+          48,
+          643,
+          914,
+          836,
+          126,
+          894,
+          613,
+          443,
+          267,
+          986
+        ]
+      },
+      {
+        "family_id": "REG-069",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.009999990463256836,
+        "top_ids": [
+          8,
+          395,
+          386,
+          432,
+          53,
+          378,
+          440,
+          401,
+          90,
+          88
+        ]
+      },
+      {
+        "family_id": "REG-070",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.4122547507286072,
+        "top_ids": [
+          373,
+          430,
+          570,
+          401,
+          56,
+          820,
+          80,
+          297,
+          103,
+          73
+        ]
+      },
+      {
+        "family_id": "REG-071",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.009999990463256836,
+        "top_ids": [
+          525,
+          973,
+          854,
+          957,
+          778,
+          794,
+          482,
+          815,
+          438,
+          654
+        ]
+      },
+      {
+        "family_id": "REG-072",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.009999990463256836,
+        "top_ids": [
+          149,
+          235,
+          588,
+          386,
+          181,
+          765,
+          513,
+          659,
+          199,
+          472
+        ]
+      },
+      {
+        "family_id": "REG-073",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.37278831005096436,
+        "top_ids": [
+          299,
+          827,
+          135,
+          385,
+          986,
+          51,
+          323,
+          426,
+          210,
+          750
+        ]
+      },
+      {
+        "family_id": "REG-074",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9599999785423279,
+        "score_gap": 0.23840117454528809,
+        "top_ids": [
+          5,
+          757,
+          551,
+          332,
+          769,
+          986,
+          298,
+          777,
+          478,
+          452
+        ]
+      },
+      {
+        "family_id": "REG-075",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9399999976158142,
+        "score_gap": 0.25238490104675293,
+        "top_ids": [
+          230,
+          998,
+          322,
+          176,
+          22,
+          307,
+          289,
+          380,
+          981,
+          912
+        ]
+      },
+      {
+        "family_id": "REG-076",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9800000190734863,
+        "score_gap": 0.030000030994415283,
+        "top_ids": [
+          584,
+          286,
+          122,
+          621,
+          221,
+          136,
+          476,
+          886,
+          173,
+          9
+        ]
+      },
+      {
+        "family_id": "REG-077",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_score": 0.9800000190734863,
+        "score_gap": 0.40895724296569824,
+        "top_ids": [
+          31,
+          110,
+          59,
+          910,
+          52,
+          35,
+          135,
+          82,
+          236,
+          144
+        ]
+      }
+    ]
+  },
+  "top20": [
+    {
+      "weights": {
+        "plain_semantic": 0.85,
+        "plain_lexical": 0.1,
+        "metadata_semantic": 0.8,
+        "metadata_lexical": 0.1,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.2534325040340674,
+        "hit3": 0.23076923076923078,
+        "hit10": 0.5128205128205129
+      },
+      "regression77": {
+        "ndcg10": 0.9263355763582326,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.85,
+        "plain_lexical": 0.1,
+        "metadata_semantic": 0.75,
+        "metadata_lexical": 0.15,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.252655212646949,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.5128205128205129
+      },
+      "regression77": {
+        "ndcg10": 0.9253684416703706,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.8,
+        "plain_lexical": 0.15,
+        "metadata_semantic": 0.8,
+        "metadata_lexical": 0.1,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.2471734808575294,
+        "hit3": 0.20512820512820512,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.932446211713487,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.8,
+        "plain_lexical": 0.15,
+        "metadata_semantic": 0.75,
+        "metadata_lexical": 0.15,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.24639618947041103,
+        "hit3": 0.23076923076923078,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9314790770256249,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.85,
+        "plain_lexical": 0.1,
+        "metadata_semantic": 0.7,
+        "metadata_lexical": 0.2,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.24621533952837593,
+        "hit3": 0.28205128205128205,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9244964629588103,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.85,
+        "plain_lexical": 0.1,
+        "metadata_semantic": 0.7,
+        "metadata_lexical": 0.15,
+        "metadata_preference": 0.1,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.24472653509976386,
+        "hit3": 0.23076923076923078,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9196429108971699,
+        "hit3": 0.935064935064935,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.8,
+        "plain_lexical": 0.15,
+        "metadata_semantic": 0.7,
+        "metadata_lexical": 0.2,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.23995631635183792,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.930607098314065,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.8,
+        "plain_lexical": 0.15,
+        "metadata_semantic": 0.7,
+        "metadata_lexical": 0.15,
+        "metadata_preference": 0.1,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.23846751192322585,
+        "hit3": 0.20512820512820515,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9257535462524242,
+        "hit3": 0.935064935064935,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.5,
+        "plain_lexical": 0.45,
+        "metadata_semantic": 0.8,
+        "metadata_lexical": 0.1,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.23762078683179297,
+        "hit3": 0.20512820512820512,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9389397182069934,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.65,
+        "plain_lexical": 0.3,
+        "metadata_semantic": 0.8,
+        "metadata_lexical": 0.1,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.23744229118473395,
+        "hit3": 0.20512820512820512,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9424153230187142,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.7,
+        "plain_lexical": 0.25,
+        "metadata_semantic": 0.8,
+        "metadata_lexical": 0.1,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.23744229118473395,
+        "hit3": 0.20512820512820512,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9398110295830716,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.75,
+        "plain_lexical": 0.2,
+        "metadata_semantic": 0.8,
+        "metadata_lexical": 0.1,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.23744229118473395,
+        "hit3": 0.20512820512820512,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9396545865710568,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.55,
+        "plain_lexical": 0.4,
+        "metadata_semantic": 0.8,
+        "metadata_lexical": 0.1,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.2372611704412884,
+        "hit3": 0.20512820512820512,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9396545865710568,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.6,
+        "plain_lexical": 0.35,
+        "metadata_semantic": 0.8,
+        "metadata_lexical": 0.1,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.2372611704412884,
+        "hit3": 0.20512820512820512,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9396545865710568,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.5,
+        "plain_lexical": 0.45,
+        "metadata_semantic": 0.75,
+        "metadata_lexical": 0.15,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.2368434954446746,
+        "hit3": 0.23076923076923078,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9379725835191314,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.65,
+        "plain_lexical": 0.3,
+        "metadata_semantic": 0.75,
+        "metadata_lexical": 0.15,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.23666499979761557,
+        "hit3": 0.23076923076923078,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9414481883308523,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.7,
+        "plain_lexical": 0.25,
+        "metadata_semantic": 0.75,
+        "metadata_lexical": 0.15,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.23666499979761557,
+        "hit3": 0.23076923076923078,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9388438948952096,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.75,
+        "plain_lexical": 0.2,
+        "metadata_semantic": 0.75,
+        "metadata_lexical": 0.15,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.23666499979761557,
+        "hit3": 0.23076923076923078,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9386874518831948,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.55,
+        "plain_lexical": 0.4,
+        "metadata_semantic": 0.75,
+        "metadata_lexical": 0.15,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.23648387905417,
+        "hit3": 0.23076923076923078,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9386874518831948,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "weights": {
+        "plain_semantic": 0.6,
+        "plain_lexical": 0.35,
+        "metadata_semantic": 0.75,
+        "metadata_lexical": 0.15,
+        "metadata_preference": 0.05,
+        "popularity": 0.03,
+        "rating": 0.02
+      },
+      "dev": {
+        "ndcg10": 0.23648387905417,
+        "hit3": 0.23076923076923078,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9386874518831948,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    }
+  ],
+  "limitations": [
+    "Dev qrels are agent-authored and sparse; unjudged books are unknown, not negative.",
+    "The grid tunes relative ranking only and cannot by itself identify no-match queries."
+  ]
+}

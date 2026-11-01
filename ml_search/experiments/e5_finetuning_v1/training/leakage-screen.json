@@ -1,0 +1,190 @@
+{
+  "train_examples": 512,
+  "books": 64,
+  "excluded_positive_books": 0,
+  "exact_duplicates_with_reserved_queries": 0,
+  "max_character_similarity": 0.5914,
+  "top_30_overlap_pairs": [
+    {
+      "query_id": "TRAIN-B0171-V7",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G06-V3",
+      "character_similarity": 0.5914
+    },
+    {
+      "query_id": "TRAIN-B0128-V2",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G12-V2",
+      "character_similarity": 0.5443
+    },
+    {
+      "query_id": "TRAIN-B0033-V7",
+      "reserved_source": "audit_cases.json",
+      "reserved_id": 31,
+      "character_similarity": 0.5217
+    },
+    {
+      "query_id": "TRAIN-B0166-V1",
+      "reserved_source": "dev_queries.json",
+      "reserved_id": "DEV-G19-V2",
+      "character_similarity": 0.5185
+    },
+    {
+      "query_id": "TRAIN-B0053-V2",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G12-V2",
+      "character_similarity": 0.517
+    },
+    {
+      "query_id": "TRAIN-B0065-V8",
+      "reserved_source": "dev_queries.json",
+      "reserved_id": "DEV-G10-V3",
+      "character_similarity": 0.5167
+    },
+    {
+      "query_id": "TRAIN-B0097-V2",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G12-V2",
+      "character_similarity": 0.5119
+    },
+    {
+      "query_id": "TRAIN-B0021-V2",
+      "reserved_source": "audit_cases.json",
+      "reserved_id": 37,
+      "character_similarity": 0.5106
+    },
+    {
+      "query_id": "TRAIN-B0097-V7",
+      "reserved_source": "dev_queries.json",
+      "reserved_id": "DEV-G15-V1",
+      "character_similarity": 0.5106
+    },
+    {
+      "query_id": "TRAIN-B0090-V2",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G29-V3",
+      "character_similarity": 0.5089
+    },
+    {
+      "query_id": "TRAIN-B0011-V5",
+      "reserved_source": "dev_queries.json",
+      "reserved_id": "DEV-G11-V3",
+      "character_similarity": 0.5
+    },
+    {
+      "query_id": "TRAIN-B0033-V4",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G33-V3",
+      "character_similarity": 0.4974
+    },
+    {
+      "query_id": "TRAIN-B0074-V1",
+      "reserved_source": "audit_cases.json",
+      "reserved_id": 142,
+      "character_similarity": 0.4974
+    },
+    {
+      "query_id": "TRAIN-B0173-V7",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G14-V2",
+      "character_similarity": 0.4974
+    },
+    {
+      "query_id": "TRAIN-B0167-V7",
+      "reserved_source": "audit_cases.json",
+      "reserved_id": 49,
+      "character_similarity": 0.4972
+    },
+    {
+      "query_id": "TRAIN-B0108-V2",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G12-V2",
+      "character_similarity": 0.4967
+    },
+    {
+      "query_id": "TRAIN-B0079-V1",
+      "reserved_source": "audit_cases.json",
+      "reserved_id": 49,
+      "character_similarity": 0.495
+    },
+    {
+      "query_id": "TRAIN-B0106-V5",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G02-V3",
+      "character_similarity": 0.495
+    },
+    {
+      "query_id": "TRAIN-B0055-V7",
+      "reserved_source": "dev_queries.json",
+      "reserved_id": "DEV-G04-V2",
+      "character_similarity": 0.4946
+    },
+    {
+      "query_id": "TRAIN-B0163-V2",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G26-V2",
+      "character_similarity": 0.4946
+    },
+    {
+      "query_id": "TRAIN-B0128-V5",
+      "reserved_source": "dev_queries.json",
+      "reserved_id": "DEV-G06-V3",
+      "character_similarity": 0.4928
+    },
+    {
+      "query_id": "TRAIN-B0090-V4",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G28-V2",
+      "character_similarity": 0.4921
+    },
+    {
+      "query_id": "TRAIN-B0091-V4",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G22-V3",
+      "character_similarity": 0.492
+    },
+    {
+      "query_id": "TRAIN-B0106-V7",
+      "reserved_source": "dev_queries.json",
+      "reserved_id": "DEV-G06-V1",
+      "character_similarity": 0.492
+    },
+    {
+      "query_id": "TRAIN-B0099-V8",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G28-V3",
+      "character_similarity": 0.4896
+    },
+    {
+      "query_id": "TRAIN-B0140-V4",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G17-V3",
+      "character_similarity": 0.4891
+    },
+    {
+      "query_id": "TRAIN-B0050-V7",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G03-V2",
+      "character_similarity": 0.4884
+    },
+    {
+      "query_id": "TRAIN-B0171-V2",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G39-V2",
+      "character_similarity": 0.4884
+    },
+    {
+      "query_id": "TRAIN-B0006-V2",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G38-V2",
+      "character_similarity": 0.4881
+    },
+    {
+      "query_id": "TRAIN-B0161-V2",
+      "reserved_source": "test_queries.frozen.json",
+      "reserved_id": "TEST-G03-V2",
+      "character_similarity": 0.4881
+    }
+  ],
+  "manual_review_required": "Review closest pairs by intent before finalizing; string similarity is not semantic proof."
+}

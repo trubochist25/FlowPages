@@ -1,0 +1,10 @@
+{
+  "data/book_catalog/catalog.json": true,
+  "data/ml_search/indexes/multilingual-e5-small/book-index.npz": true,
+  "data/ml_search/indexes/multilingual-e5-small/manifest.json": true,
+  "data/ml_search/local-model/model.safetensors": true,
+  "ml_search/search.py": true,
+  "ml_search/embeddings.py": true,
+  "ml_search/intent.py": true,
+  "ml_search/evaluation_queries.json": true
+}

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "catalog_sha256": "115c7e689447db05d2e34bc5d83ab66238305b24b287601b36bd7fa3774bf5ee",
+  "original_index_sha256": "4242c6dc413af9d63fa20f2402fb9a05fc2bef767539707f04a7f70ecc81de0f",
+  "assessment_freeze_sha256": "0726c8a5a92fa9cb1a9b089b9d34d71a99cc256f8be8a781c909fab49cbd51b4",
+  "files": {
+    "train.jsonl": "1895161a1aeb072b01211d6b83f3947ebfc969e5a919ce2ba7ee5f9983769133",
+    "train_pairs.jsonl": "c548a7034be3807f51429cc7819d8f527d2ef69f17d5593562996c1acd6c8ca4",
+    "train_triplets.jsonl": "6ce608d45bb4ebe2692aba9f016ba29607feaedc150364a707382362e3a105ef",
+    "candidate-review-log.json": "8d0d91f853d564ec04f072702029a02676c9b8dedb9f4031d5692e5e5291db98",
+    "batch-policy.json": "8253d74a9b0fa66cdb8b01be2ef7419e004e14504e6ca635fca9e9a02cb7940e",
+    "hard-negative-candidates.json": "b8b5ff1f74f17c86136e43adad504931397008bdfd3840b9ee6c316f591b742e",
+    "training-summary.json": "de4501c38fd24ce77bcaea8efe6596dded933d8d9f1e3ea495d1a51c9c3e47f1",
+    "leakage-screen.json": "a14e5030787424f448f13dbbb0868c7a576e2d69737f4e7ed12bb43837ba70da",
+    "REVIEWED_EXAMPLES.md": "3122c31ad1b633e748aa5f1065e2f72b682e3caa3cd5407bb44d0419c4dcfacc",
+    "README.md": "ad458ddef2e12760516b5382e01b840a402e95d57fb37619433e0ebbddc66c38",
+    "validation-results.json": "be1f2c4aaf18d49484def61a6f9d3b90384a3ac0516afa5baeeffd24a855db0f"
+  },
+  "model_training_started": false
+}

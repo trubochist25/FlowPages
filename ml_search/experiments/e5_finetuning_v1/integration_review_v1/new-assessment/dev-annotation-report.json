@@ -1,0 +1,39 @@
+{
+  "status": "agent_editorial_annotation_frozen_before_model_retrieval",
+  "queries": 51,
+  "families": 17,
+  "positive_families": [
+    "NEW-F02",
+    "NEW-F06",
+    "NEW-F07",
+    "NEW-F08",
+    "NEW-F12",
+    "NEW-F17",
+    "NEW-F18",
+    "NEW-F27",
+    "NEW-F34",
+    "NEW-F37",
+    "NEW-F39",
+    "NEW-F42",
+    "NEW-F45"
+  ],
+  "expected_empty_families": [
+    "NEW-F23",
+    "NEW-F25",
+    "NEW-F48",
+    "NEW-F50"
+  ],
+  "grade2_judgments": 54,
+  "grade1_judgments": 18,
+  "semantic_overlap_audit": {
+    "status": "passed_manual_family_review",
+    "finding": "No dev family duplicates the intent of the prior evaluation queries; character matches were wording coincidences."
+  },
+  "limitations": [
+    "Queries and judgments were authored by the same agent, so this is a development set, not an independent test.",
+    "Unjudged catalogue books remain unknown rather than negative.",
+    "No real visitor queries were available."
+  ],
+  "annotated_sha256": "6789e5343f75b8487423fecb2964e221b2ad80d3eff3acd91a18c0967b289cf6",
+  "model_results_seen_during_annotation": false
+}

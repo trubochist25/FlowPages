@@ -1,0 +1,81 @@
+{
+  "reviewer_type": "agent",
+  "independent_human_assessment_verified": false,
+  "complete_queries": 1,
+  "complete_families": 0,
+  "incomplete_queries": 119,
+  "all_120_queries_fully_reviewed": false,
+  "full_quality_conclusion_ready": false,
+  "family_macro_summaries_complete_families_only": {
+    "original": {
+      "semantic": {
+        "ndcg10": null,
+        "hit3": null,
+        "hit10": null
+      },
+      "full": {
+        "ndcg10": null,
+        "hit3": null,
+        "hit10": null
+      }
+    },
+    "selected": {
+      "semantic": {
+        "ndcg10": null,
+        "hit3": null,
+        "hit10": null
+      },
+      "full": {
+        "ndcg10": null,
+        "hit3": null,
+        "hit10": null
+      }
+    }
+  },
+  "rows": [
+    {
+      "query_id": "Q005",
+      "source_query_id": "TEST-G02-V2",
+      "family": "TEST-G02",
+      "category": "mood",
+      "pool_contains_grade2": true,
+      "pool_contains_any_relevant": true,
+      "scores": {
+        "original": {
+          "semantic": {
+            "ndcg10": 0.4323723033867266,
+            "hit3": 1,
+            "hit10": 1,
+            "rank": 2
+          },
+          "full": {
+            "ndcg10": 0.5330063567254165,
+            "hit3": 1,
+            "hit10": 1,
+            "rank": 1
+          }
+        },
+        "selected": {
+          "semantic": {
+            "ndcg10": 0.27908691824012777,
+            "hit3": 0,
+            "hit10": 1,
+            "rank": 6
+          },
+          "full": {
+            "ndcg10": 0.4732326711930694,
+            "hit3": 0,
+            "hit10": 1,
+            "rank": 4
+          }
+        }
+      }
+    }
+  ],
+  "prior_label_changes": [],
+  "limitations": [
+    "Pool judges top-10 only, not the entire catalog.",
+    "No positive in pool does not prove no matching book exists.",
+    "Partial reviews cannot establish full-test model superiority."
+  ]
+}

@@ -1,0 +1,42 @@
+<footer class="fp-footer">
+  <div class="container">
+    <div class="fp-footer__top">
+      <div class="fp-footer__brand">
+        <a class="fp-brand fp-brand--footer" href="{{ home }}">
+          <span class="fp-brand__mark">F</span>
+          <span class="fp-brand__name">FlowPages</span>
+        </a>
+        <p>Книжная витрина для неспешного выбора и долгого чтения.</p>
+      </div>
+      <div class="fp-footer__column">
+        <h5>Каталог</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.php?route=product/search">Все книги</a></li>
+          <li><a href="index.php?route=product/alchemy">Алхимия книг</a></li>
+          <li><a href="{{ special }}">Специальные предложения</a></li>
+          <li><a href="{{ manufacturer }}">Авторы и издательства</a></li>
+        </ul>
+      </div>
+      <div class="fp-footer__column">
+        <h5>Читателю</h5>
+        <ul class="list-unstyled">
+          <li><a href="{{ account }}">Личный кабинет</a></li>
+          <li><a href="{{ wishlist }}">Закладки</a></li>
+          <li><a href="{{ sitemap }}">Карта сайта</a></li>
+        </ul>
+      </div>
+      <div class="fp-footer__note">
+        <span class="fp-kicker">FlowPages note</span>
+        <p>Выбирайте не спеша. Хорошая книга всегда находит своего читателя.</p>
+      </div>
+    </div>
+    <div class="fp-footer__bottom">
+      <span>© 2026 FlowPages</span>
+      <span>Некоммерческий прототип книжного магазина</span>
+    </div>
+  </div>
+</footer>
+{% for style in styles %}<link href="{{ style.href }}" type="text/css" rel="{{ style.rel }}" media="{{ style.media }}" />{% endfor %}
+{% for script in scripts %}<script src="{{ script }}" type="text/javascript"></script>{% endfor %}
+</body>
+</html>

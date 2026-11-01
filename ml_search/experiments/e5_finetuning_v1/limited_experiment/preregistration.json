@@ -1,0 +1,45 @@
+{
+  "method": "MultipleNegativesRankingLoss",
+  "learning_rates": [
+    1e-05,
+    2e-05
+  ],
+  "epochs": 3,
+  "max_batch_size": 8,
+  "precision": "BF16 autocast",
+  "max_sequence_length": 512,
+  "seed": 20260915,
+  "weight_decay": 0.01,
+  "gradient_clip": 1.0,
+  "warmup_fraction": 0.1,
+  "lr_schedule": "linear warmup then linear decay over 3 epochs",
+  "selection_primary": "family_macro_MRR_known_grade2_nonempty_dev",
+  "selection_ties": [
+    "family_macro_hit10",
+    "provisional_known_qrel_ndcg10",
+    "earlier_epoch",
+    "lower_learning_rate"
+  ],
+  "baseline_in_selection": false,
+  "baseline_role": "Reference; best trained checkpoint selected even if no gain, with explicit warning.",
+  "known_qrel_limitation": "Incomplete qrels. Unknown gains treated as zero ONLY for provisional NDCG; unknown is not an annotation of irrelevance.",
+  "scope": "Step 6 only; no test, no regression model selection, no production weights/profile/rules changes",
+  "train_sha256": "1895161a1aeb072b01211d6b83f3947ebfc969e5a919ce2ba7ee5f9983769133",
+  "dev_sha256": "b9b95798e84f8465429e3a0fd90b6f560bbb77b53717e7a997370c08298f040e",
+  "catalog_sha256": "115c7e689447db05d2e34bc5d83ab66238305b24b287601b36bd7fa3774bf5ee",
+  "source_model_sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477",
+  "frozen_files_sha256": {
+    "test_queries.frozen.json": "7ef2174f9d56aa54b8a9f1ecd11f7386d95c14b2fb7b448da20bdbdc0597be94",
+    "dev_queries.json": "b9b95798e84f8465429e3a0fd90b6f560bbb77b53717e7a997370c08298f040e",
+    "split-policy.json": "5c019711f6e22c647badde2ccb330af7bf8bc1d37c4faa08ee11d08285422e4f",
+    "no-match-evidence.json": "685a3054d03325943b3e7c42395d1b1baa748ed7a5c983a479a733b10275f9d5",
+    "assessment-validation.json": "e603c857476c38b06f5fa0747ade7c162fcd01086c68fe48590e70e4371d930f"
+  },
+  "steps_per_epoch": [
+    186,
+    188,
+    188
+  ],
+  "hard_negative_policy": "34 reviewed triplets, batch size 1, interleaved once per epoch; no cross-query negative use",
+  "manual_batch_review": "Additional reflective-topic compatibility exclusions after preliminary batch review; frozen before final comparison."
+}

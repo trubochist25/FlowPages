@@ -1,0 +1,82 @@
+{
+  "baseline": {
+    "mrr": 0.5576815274610207,
+    "hit3": 0.625,
+    "hit10": 0.7083333333333333,
+    "known_qrel_ndcg10_provisional": 0.5863478199493773
+  },
+  "checkpoints": [
+    {
+      "run": "lr-1e-05",
+      "lr": 1e-05,
+      "epoch": 1,
+      "checkpoint": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\experiments\\e5_finetuning_v1\\limited_experiment\\lr-1e-05\\epoch-1",
+      "metrics": {
+        "mrr": 0.8785403050108933,
+        "hit3": 0.8958333333333333,
+        "hit10": 0.9791666666666666,
+        "known_qrel_ndcg10_provisional": 0.9011789520242776
+      }
+    },
+    {
+      "run": "lr-1e-05",
+      "lr": 1e-05,
+      "epoch": 2,
+      "checkpoint": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\experiments\\e5_finetuning_v1\\limited_experiment\\lr-1e-05\\epoch-2",
+      "metrics": {
+        "mrr": 0.9052164968652038,
+        "hit3": 0.9166666666666666,
+        "hit10": 0.9583333333333333,
+        "known_qrel_ndcg10_provisional": 0.915920358149233
+      }
+    },
+    {
+      "run": "lr-1e-05",
+      "lr": 1e-05,
+      "epoch": 3,
+      "checkpoint": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\experiments\\e5_finetuning_v1\\limited_experiment\\lr-1e-05\\epoch-3",
+      "metrics": {
+        "mrr": 0.9098290598290598,
+        "hit3": 0.9375,
+        "hit10": 0.9791666666666666,
+        "known_qrel_ndcg10_provisional": 0.9257870237644863
+      }
+    },
+    {
+      "run": "lr-2e-05",
+      "lr": 2e-05,
+      "epoch": 1,
+      "checkpoint": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\experiments\\e5_finetuning_v1\\limited_experiment\\lr-2e-05\\epoch-1",
+      "metrics": {
+        "mrr": 0.8771017092835045,
+        "hit3": 0.9166666666666666,
+        "hit10": 0.9375,
+        "known_qrel_ndcg10_provisional": 0.8894278346920065
+      }
+    },
+    {
+      "run": "lr-2e-05",
+      "lr": 2e-05,
+      "epoch": 2,
+      "checkpoint": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\experiments\\e5_finetuning_v1\\limited_experiment\\lr-2e-05\\epoch-2",
+      "metrics": {
+        "mrr": 0.8994925213675213,
+        "hit3": 0.9166666666666666,
+        "hit10": 0.9791666666666666,
+        "known_qrel_ndcg10_provisional": 0.9186910715261843
+      }
+    },
+    {
+      "run": "lr-2e-05",
+      "lr": 2e-05,
+      "epoch": 3,
+      "checkpoint": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\experiments\\e5_finetuning_v1\\limited_experiment\\lr-2e-05\\epoch-3",
+      "metrics": {
+        "mrr": 0.8910218253968254,
+        "hit3": 0.9375,
+        "hit10": 0.9791666666666666,
+        "known_qrel_ndcg10_provisional": 0.912446346432394
+      }
+    }
+  ]
+}

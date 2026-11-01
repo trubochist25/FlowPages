@@ -1,0 +1,22 @@
+{
+  "baseline": {
+    "mrr": 0.5576815274610207,
+    "hit3": 0.625,
+    "hit10": 0.7083333333333333,
+    "known_qrel_ndcg10_provisional": 0.5863478199493773
+  },
+  "checkpoints": [
+    {
+      "run": "lr-1e-05",
+      "lr": 1e-05,
+      "epoch": 1,
+      "checkpoint": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\experiments\\e5_finetuning_v1\\limited_experiment\\lr-1e-05\\epoch-1",
+      "metrics": {
+        "mrr": 0.9002515135327636,
+        "hit3": 0.9166666666666666,
+        "hit10": 0.9583333333333333,
+        "known_qrel_ndcg10_provisional": 0.9122534778404887
+      }
+    }
+  ]
+}

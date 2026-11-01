@@ -1,0 +1,4106 @@
+{
+  "label": "lr-2e-05-epoch-3",
+  "summary": {
+    "mrr": 0.8910218253968254,
+    "hit3": 0.9375,
+    "hit10": 0.9791666666666666,
+    "known_qrel_ndcg10_provisional": 0.912446346432394
+  },
+  "by_category": {
+    "atmosphere": {
+      "mrr": 0.837037037037037,
+      "hit3": 0.8888888888888888,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 0.8763169785816157
+    },
+    "colloquial": {
+      "mrr": 1.0,
+      "hit3": 1.0,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 1.0
+    },
+    "mood": {
+      "mrr": 0.9133333333333333,
+      "hit3": 0.9333333333333333,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 0.9345188373870666
+    },
+    "negation": {
+      "mrr": 0.8333333333333334,
+      "hit3": 1.0,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 0.8769765845238191
+    },
+    "plot": {
+      "mrr": 0.8908730158730159,
+      "hit3": 0.9444444444444445,
+      "hit10": 0.9444444444444445,
+      "known_qrel_ndcg10_provisional": 0.9034366392857175
+    }
+  },
+  "by_family": {
+    "DEV-G01": {
+      "mrr": 1.0,
+      "hit3": 1.0,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 1.0
+    },
+    "DEV-G02": {
+      "mrr": 1.0,
+      "hit3": 1.0,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 1.0
+    },
+    "DEV-G03": {
+      "mrr": 1.0,
+      "hit3": 1.0,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 1.0
+    },
+    "DEV-G04": {
+      "mrr": 0.8333333333333334,
+      "hit3": 1.0,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 0.8769765845238191
+    },
+    "DEV-G05": {
+      "mrr": 1.0,
+      "hit3": 1.0,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 1.0
+    },
+    "DEV-G06": {
+      "mrr": 1.0,
+      "hit3": 1.0,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 1.0
+    },
+    "DEV-G07": {
+      "mrr": 1.0,
+      "hit3": 1.0,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 1.0
+    },
+    "DEV-G08": {
+      "mrr": 0.8333333333333334,
+      "hit3": 1.0,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 0.8769765845238191
+    },
+    "DEV-G09": {
+      "mrr": 1.0,
+      "hit3": 1.0,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 1.0
+    },
+    "DEV-G10": {
+      "mrr": 1.0,
+      "hit3": 1.0,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 1.0
+    },
+    "DEV-G11": {
+      "mrr": 0.7333333333333334,
+      "hit3": 0.6666666666666666,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 0.7956176024115139
+    },
+    "DEV-G12": {
+      "mrr": 0.511904761904762,
+      "hit3": 0.6666666666666666,
+      "hit10": 0.6666666666666666,
+      "known_qrel_ndcg10_provisional": 0.5436432511904857
+    },
+    "DEV-G13": {
+      "mrr": 1.0,
+      "hit3": 1.0,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 1.0
+    },
+    "DEV-G14": {
+      "mrr": 0.8333333333333334,
+      "hit3": 1.0,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 0.8769765845238191
+    },
+    "DEV-G15": {
+      "mrr": 0.5111111111111111,
+      "hit3": 0.6666666666666666,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 0.6289509357448472
+    },
+    "DEV-G16": {
+      "mrr": 1.0,
+      "hit3": 1.0,
+      "hit10": 1.0,
+      "known_qrel_ndcg10_provisional": 1.0
+    }
+  },
+  "queries": [
+    {
+      "query_id": "DEV-G01-V1",
+      "group_id": "DEV-G01",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 71,
+          "score": 0.6713156700134277,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 56,
+          "score": 0.4983866512775421,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 876,
+          "score": 0.48949944972991943,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 584,
+          "score": 0.4365011155605316,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 502,
+          "score": 0.4210028052330017,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 504,
+          "score": 0.39603275060653687,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 295,
+          "score": 0.3914678990840912,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 326,
+          "score": 0.3859702944755554,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 330,
+          "score": 0.3824290633201599,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 154,
+          "score": 0.3796156644821167,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.6713156700134277
+    },
+    {
+      "query_id": "DEV-G01-V2",
+      "group_id": "DEV-G01",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 71,
+          "score": 0.642666220664978,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 376,
+          "score": 0.4779127538204193,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 876,
+          "score": 0.44978517293930054,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 326,
+          "score": 0.43265464901924133,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 213,
+          "score": 0.4150455892086029,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 57,
+          "score": 0.40933579206466675,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 504,
+          "score": 0.40864598751068115,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 894,
+          "score": 0.4064720571041107,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 48,
+          "score": 0.4056602120399475,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 272,
+          "score": 0.38775306940078735,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.642666220664978
+    },
+    {
+      "query_id": "DEV-G01-V3",
+      "group_id": "DEV-G01",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 71,
+          "score": 0.6778882145881653,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 56,
+          "score": 0.43665528297424316,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 295,
+          "score": 0.4282015562057495,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 498,
+          "score": 0.40687134861946106,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 504,
+          "score": 0.4059410095214844,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 73,
+          "score": 0.40003079175949097,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 420,
+          "score": 0.39986637234687805,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 213,
+          "score": 0.3992708623409271,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 257,
+          "score": 0.3900226950645447,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 405,
+          "score": 0.387534499168396,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.6778882145881653
+    },
+    {
+      "query_id": "DEV-G02-V1",
+      "group_id": "DEV-G02",
+      "category": "mood",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 88,
+          "score": 0.6212573647499084,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 990,
+          "score": 0.4359603822231293,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 891,
+          "score": 0.42410942912101746,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 472,
+          "score": 0.4144279658794403,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 256,
+          "score": 0.4133123457431793,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 53,
+          "score": 0.4055497348308563,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 459,
+          "score": 0.4022202491760254,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 843,
+          "score": 0.3971474766731262,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 507,
+          "score": 0.39277446269989014,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 271,
+          "score": 0.3891267776489258,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.6212573647499084
+    },
+    {
+      "query_id": "DEV-G02-V2",
+      "group_id": "DEV-G02",
+      "category": "mood",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 88,
+          "score": 0.6331825852394104,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 843,
+          "score": 0.5776380300521851,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 152,
+          "score": 0.4989718794822693,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 891,
+          "score": 0.48867323994636536,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 767,
+          "score": 0.46503281593322754,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 935,
+          "score": 0.4646390974521637,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 987,
+          "score": 0.4608211815357208,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 459,
+          "score": 0.457529753446579,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 512,
+          "score": 0.45430928468704224,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 284,
+          "score": 0.4530954957008362,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.6331825852394104
+    },
+    {
+      "query_id": "DEV-G02-V3",
+      "group_id": "DEV-G02",
+      "category": "mood",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 88,
+          "score": 0.5427782535552979,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 891,
+          "score": 0.5276738405227661,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 152,
+          "score": 0.504650354385376,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 271,
+          "score": 0.4867243766784668,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 38,
+          "score": 0.48030903935432434,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 767,
+          "score": 0.47615930438041687,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 822,
+          "score": 0.427722692489624,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 140,
+          "score": 0.40855613350868225,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 771,
+          "score": 0.4039561450481415,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 927,
+          "score": 0.391065776348114,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.5427782535552979
+    },
+    {
+      "query_id": "DEV-G03-V1",
+      "group_id": "DEV-G03",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 98,
+          "score": 0.625701367855072,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 613,
+          "score": 0.5279017090797424,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 257,
+          "score": 0.5203847289085388,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 382,
+          "score": 0.49177321791648865,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 401,
+          "score": 0.48914727568626404,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 57,
+          "score": 0.4791843593120575,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 536,
+          "score": 0.47339776158332825,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 213,
+          "score": 0.47044041752815247,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 535,
+          "score": 0.468537837266922,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 851,
+          "score": 0.4573195278644562,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.625701367855072
+    },
+    {
+      "query_id": "DEV-G03-V2",
+      "group_id": "DEV-G03",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 98,
+          "score": 0.6225264668464661,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 213,
+          "score": 0.5277730226516724,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 225,
+          "score": 0.5063867568969727,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 613,
+          "score": 0.49736523628234863,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 57,
+          "score": 0.48515158891677856,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 267,
+          "score": 0.4724242091178894,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 268,
+          "score": 0.4694342613220215,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 511,
+          "score": 0.4647231698036194,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 524,
+          "score": 0.4628274738788605,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 684,
+          "score": 0.4340938925743103,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.6225264668464661
+    },
+    {
+      "query_id": "DEV-G03-V3",
+      "group_id": "DEV-G03",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 98,
+          "score": 0.6692252159118652,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 535,
+          "score": 0.5864673256874084,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 613,
+          "score": 0.5824134349822998,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 413,
+          "score": 0.5760418176651001,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 570,
+          "score": 0.5063045620918274,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 988,
+          "score": 0.5032548308372498,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 236,
+          "score": 0.5023759007453918,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 268,
+          "score": 0.4956887364387512,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 382,
+          "score": 0.4951152801513672,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 267,
+          "score": 0.49155882000923157,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.6692252159118652
+    },
+    {
+      "query_id": "DEV-G04-V1",
+      "group_id": "DEV-G04",
+      "category": "mood",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 145,
+          "score": 0.5763801336288452,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 945,
+          "score": 0.48197242617607117,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 423,
+          "score": 0.44559088349342346,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 588,
+          "score": 0.4402856230735779,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 854,
+          "score": 0.42892807722091675,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 472,
+          "score": 0.4286031723022461,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 512,
+          "score": 0.4217686355113983,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 363,
+          "score": 0.41054731607437134,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 271,
+          "score": 0.4086300730705261,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 459,
+          "score": 0.4026704728603363,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.5763801336288452
+    },
+    {
+      "query_id": "DEV-G04-V2",
+      "group_id": "DEV-G04",
+      "category": "mood",
+      "expected_empty": false,
+      "best_known_good_rank": 2,
+      "mrr": 0.5,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 0.6309297535714574,
+      "top10": [
+        {
+          "catalog_id": 760,
+          "score": 0.4853110611438751,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 145,
+          "score": 0.4811711013317108,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 439,
+          "score": 0.43340378999710083,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 423,
+          "score": 0.3418954908847809,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 363,
+          "score": 0.3372710645198822,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 75,
+          "score": 0.32977885007858276,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 140,
+          "score": 0.32632964849472046,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 551,
+          "score": 0.3215193748474121,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 124,
+          "score": 0.3179434835910797,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 765,
+          "score": 0.31117919087409973,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.4853110611438751
+    },
+    {
+      "query_id": "DEV-G04-V3",
+      "group_id": "DEV-G04",
+      "category": "mood",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 145,
+          "score": 0.4712149202823639,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 765,
+          "score": 0.43923500180244446,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 760,
+          "score": 0.4043598473072052,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 854,
+          "score": 0.3889845609664917,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 271,
+          "score": 0.3511362671852112,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 439,
+          "score": 0.33770552277565,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 733,
+          "score": 0.32530197501182556,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 472,
+          "score": 0.3241654932498932,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 363,
+          "score": 0.323138952255249,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 201,
+          "score": 0.3226654529571533,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.4712149202823639
+    },
+    {
+      "query_id": "DEV-G05-V1",
+      "group_id": "DEV-G05",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 154,
+          "score": 0.6348594427108765,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 815,
+          "score": 0.409271776676178,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 56,
+          "score": 0.401032954454422,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 940,
+          "score": 0.40100985765457153,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 58,
+          "score": 0.37974321842193604,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 670,
+          "score": 0.3663419485092163,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 639,
+          "score": 0.36479753255844116,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 162,
+          "score": 0.36333656311035156,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 578,
+          "score": 0.3515682816505432,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 73,
+          "score": 0.35120150446891785,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.6348594427108765
+    },
+    {
+      "query_id": "DEV-G05-V2",
+      "group_id": "DEV-G05",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 154,
+          "score": 0.5950149893760681,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 405,
+          "score": 0.4742759168148041,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 940,
+          "score": 0.4503355026245117,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 200,
+          "score": 0.43807101249694824,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 463,
+          "score": 0.399833619594574,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 295,
+          "score": 0.3977608382701874,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 815,
+          "score": 0.39733564853668213,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 401,
+          "score": 0.3935006558895111,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 670,
+          "score": 0.3923182785511017,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 639,
+          "score": 0.3914875388145447,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.5950149893760681
+    },
+    {
+      "query_id": "DEV-G05-V3",
+      "group_id": "DEV-G05",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 154,
+          "score": 0.5263447165489197,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 263,
+          "score": 0.37753576040267944,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 768,
+          "score": 0.36306232213974,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 73,
+          "score": 0.35222071409225464,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 141,
+          "score": 0.33295515179634094,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 378,
+          "score": 0.329001784324646,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 177,
+          "score": 0.32164132595062256,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 255,
+          "score": 0.316937655210495,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 535,
+          "score": 0.3152163028717041,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 226,
+          "score": 0.3107602894306183,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.5263447165489197
+    },
+    {
+      "query_id": "DEV-G06-V1",
+      "group_id": "DEV-G06",
+      "category": "mood",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 172,
+          "score": 0.5797961354255676,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 15,
+          "score": 0.432044118642807,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 55,
+          "score": 0.4277985095977783,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 235,
+          "score": 0.4276842474937439,
+          "known_grade": 0
+        },
+        {
+          "catalog_id": 586,
+          "score": 0.4254314601421356,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 44,
+          "score": 0.42452698945999146,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 865,
+          "score": 0.42448335886001587,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 8,
+          "score": 0.40764984488487244,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 435,
+          "score": 0.40398508310317993,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 114,
+          "score": 0.40321996808052063,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 1,
+      "unknown_in_top10": 8,
+      "max_cosine": 0.5797961354255676
+    },
+    {
+      "query_id": "DEV-G06-V2",
+      "group_id": "DEV-G06",
+      "category": "mood",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 172,
+          "score": 0.60297030210495,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 31,
+          "score": 0.3831983804702759,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 40,
+          "score": 0.37756145000457764,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 50,
+          "score": 0.3769335448741913,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 946,
+          "score": 0.3742544651031494,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 28,
+          "score": 0.37407639622688293,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 33,
+          "score": 0.3566814064979553,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 586,
+          "score": 0.34080827236175537,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 235,
+          "score": 0.33580300211906433,
+          "known_grade": 0
+        },
+        {
+          "catalog_id": 335,
+          "score": 0.30362454056739807,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 1,
+      "unknown_in_top10": 8,
+      "max_cosine": 0.60297030210495
+    },
+    {
+      "query_id": "DEV-G06-V3",
+      "group_id": "DEV-G06",
+      "category": "mood",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 172,
+          "score": 0.4253867566585541,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 45,
+          "score": 0.3876773416996002,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 40,
+          "score": 0.3502435088157654,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 680,
+          "score": 0.3179416060447693,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 375,
+          "score": 0.3129788339138031,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 76,
+          "score": 0.31287881731987,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 116,
+          "score": 0.3121510148048401,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 575,
+          "score": 0.3094741702079773,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 577,
+          "score": 0.30923885107040405,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 292,
+          "score": 0.3044608235359192,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.4253867566585541
+    },
+    {
+      "query_id": "DEV-G07-V1",
+      "group_id": "DEV-G07",
+      "category": "mood",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 174,
+          "score": 0.6444190740585327,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 457,
+          "score": 0.43527111411094666,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 260,
+          "score": 0.4301311671733856,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 2,
+          "score": 0.42447230219841003,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 63,
+          "score": 0.37413567304611206,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 656,
+          "score": 0.3736899793148041,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 633,
+          "score": 0.3705725073814392,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 801,
+          "score": 0.3619319200515747,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 704,
+          "score": 0.35898563265800476,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 674,
+          "score": 0.3570815324783325,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.6444190740585327
+    },
+    {
+      "query_id": "DEV-G07-V2",
+      "group_id": "DEV-G07",
+      "category": "mood",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 174,
+          "score": 0.5453207492828369,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 560,
+          "score": 0.4167690873146057,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 951,
+          "score": 0.4115230143070221,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 148,
+          "score": 0.39022937417030334,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 281,
+          "score": 0.38710346817970276,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 63,
+          "score": 0.3587195575237274,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 706,
+          "score": 0.3443901240825653,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 457,
+          "score": 0.34223178029060364,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 130,
+          "score": 0.33570221066474915,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 781,
+          "score": 0.33194565773010254,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.5453207492828369
+    },
+    {
+      "query_id": "DEV-G07-V3",
+      "group_id": "DEV-G07",
+      "category": "mood",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 174,
+          "score": 0.6295463442802429,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 946,
+          "score": 0.44959595799446106,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 63,
+          "score": 0.44644415378570557,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 633,
+          "score": 0.41085293889045715,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 911,
+          "score": 0.4069756865501404,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 314,
+          "score": 0.3965456187725067,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 656,
+          "score": 0.3947720527648926,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 674,
+          "score": 0.3850398659706116,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 16,
+          "score": 0.38473400473594666,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 424,
+          "score": 0.38420265913009644,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.6295463442802429
+    },
+    {
+      "query_id": "DEV-G08-V1",
+      "group_id": "DEV-G08",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 177,
+          "score": 0.4823426306247711,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 768,
+          "score": 0.42590704560279846,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 835,
+          "score": 0.37163177132606506,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 981,
+          "score": 0.3626279830932617,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 864,
+          "score": 0.3573022484779358,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 593,
+          "score": 0.35570773482322693,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 280,
+          "score": 0.3517279326915741,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 236,
+          "score": 0.3327721953392029,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 523,
+          "score": 0.32021209597587585,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 168,
+          "score": 0.3201427161693573,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.4823426306247711
+    },
+    {
+      "query_id": "DEV-G08-V2",
+      "group_id": "DEV-G08",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 177,
+          "score": 0.5220006704330444,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 714,
+          "score": 0.3603114187717438,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 853,
+          "score": 0.3455325961112976,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 916,
+          "score": 0.3426884710788727,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 599,
+          "score": 0.3357071280479431,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 263,
+          "score": 0.3289531171321869,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 593,
+          "score": 0.3239176869392395,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 226,
+          "score": 0.3199555277824402,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 750,
+          "score": 0.3115164339542389,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 768,
+          "score": 0.3094826936721802,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.5220006704330444
+    },
+    {
+      "query_id": "DEV-G08-V3",
+      "group_id": "DEV-G08",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 2,
+      "mrr": 0.5,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 0.6309297535714574,
+      "top10": [
+        {
+          "catalog_id": 535,
+          "score": 0.5380656123161316,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 177,
+          "score": 0.5346176028251648,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 319,
+          "score": 0.46713992953300476,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 820,
+          "score": 0.4539121985435486,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 194,
+          "score": 0.4304320216178894,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 822,
+          "score": 0.4222775399684906,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 967,
+          "score": 0.4208984971046448,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 752,
+          "score": 0.4181399643421173,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 176,
+          "score": 0.41808021068573,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 573,
+          "score": 0.40533435344696045,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.5380656123161316
+    },
+    {
+      "query_id": "DEV-G09-V1",
+      "group_id": "DEV-G09",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 197,
+          "score": 0.7560034990310669,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 790,
+          "score": 0.5671507120132446,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 648,
+          "score": 0.546796441078186,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 7,
+          "score": 0.5396341681480408,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 873,
+          "score": 0.5066925883293152,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 94,
+          "score": 0.502916157245636,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 917,
+          "score": 0.4935051202774048,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 474,
+          "score": 0.46650850772857666,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 847,
+          "score": 0.4606955051422119,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 965,
+          "score": 0.45753777027130127,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.7560034990310669
+    },
+    {
+      "query_id": "DEV-G09-V2",
+      "group_id": "DEV-G09",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 197,
+          "score": 0.6986918449401855,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 94,
+          "score": 0.543903112411499,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 658,
+          "score": 0.5218175649642944,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 685,
+          "score": 0.48478832840919495,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 245,
+          "score": 0.46064552664756775,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 452,
+          "score": 0.45829862356185913,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 7,
+          "score": 0.44261565804481506,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 158,
+          "score": 0.4402385950088501,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 70,
+          "score": 0.4275054931640625,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 248,
+          "score": 0.42413803935050964,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.6986918449401855
+    },
+    {
+      "query_id": "DEV-G09-V3",
+      "group_id": "DEV-G09",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 197,
+          "score": 0.626305341720581,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 873,
+          "score": 0.5297059416770935,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 600,
+          "score": 0.4289930760860443,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 772,
+          "score": 0.42883560061454773,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 94,
+          "score": 0.4252839982509613,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 813,
+          "score": 0.4239477515220642,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 790,
+          "score": 0.41489753127098083,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 117,
+          "score": 0.4077063500881195,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 1000,
+          "score": 0.4044988453388214,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 868,
+          "score": 0.39905431866645813,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.626305341720581
+    },
+    {
+      "query_id": "DEV-G10-V1",
+      "group_id": "DEV-G10",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 202,
+          "score": 0.6295433044433594,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 401,
+          "score": 0.5528913736343384,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 367,
+          "score": 0.520526111125946,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 413,
+          "score": 0.5024473667144775,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 268,
+          "score": 0.495500385761261,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 57,
+          "score": 0.48559218645095825,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 103,
+          "score": 0.4641056954860687,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 535,
+          "score": 0.458170622587204,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 225,
+          "score": 0.4560142457485199,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 98,
+          "score": 0.4463285207748413,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.6295433044433594
+    },
+    {
+      "query_id": "DEV-G10-V2",
+      "group_id": "DEV-G10",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 202,
+          "score": 0.5789867639541626,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 367,
+          "score": 0.4801190495491028,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 546,
+          "score": 0.43686312437057495,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 448,
+          "score": 0.40885812044143677,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 413,
+          "score": 0.4067785143852234,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 535,
+          "score": 0.39156031608581543,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 899,
+          "score": 0.36968234181404114,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 661,
+          "score": 0.3579075038433075,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 768,
+          "score": 0.35412323474884033,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 665,
+          "score": 0.3337848484516144,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.5789867639541626
+    },
+    {
+      "query_id": "DEV-G10-V3",
+      "group_id": "DEV-G10",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 202,
+          "score": 0.6854826211929321,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 268,
+          "score": 0.5235426425933838,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 535,
+          "score": 0.4809264838695526,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 81,
+          "score": 0.4800705313682556,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 236,
+          "score": 0.4786677360534668,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 511,
+          "score": 0.4674610495567322,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 367,
+          "score": 0.46590888500213623,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 524,
+          "score": 0.4641875922679901,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 98,
+          "score": 0.46086886525154114,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 570,
+          "score": 0.4473167061805725,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.6854826211929321
+    },
+    {
+      "query_id": "DEV-G11-V1",
+      "group_id": "DEV-G11",
+      "category": "mood",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 215,
+          "score": 0.6745111346244812,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 340,
+          "score": 0.4517976641654968,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 788,
+          "score": 0.4132276773452759,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 993,
+          "score": 0.39955124258995056,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 363,
+          "score": 0.3773517608642578,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 375,
+          "score": 0.3761400580406189,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 575,
+          "score": 0.37315091490745544,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 866,
+          "score": 0.36940568685531616,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 359,
+          "score": 0.36891376972198486,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 2,
+          "score": 0.35658565163612366,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.6745111346244812
+    },
+    {
+      "query_id": "DEV-G11-V2",
+      "group_id": "DEV-G11",
+      "category": "mood",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 215,
+          "score": 0.5163399577140808,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 121,
+          "score": 0.4889514446258545,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 2,
+          "score": 0.4573095738887787,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 807,
+          "score": 0.44844090938568115,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 174,
+          "score": 0.4275427758693695,
+          "known_grade": 0
+        },
+        {
+          "catalog_id": 375,
+          "score": 0.4205132722854614,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 205,
+          "score": 0.4166963994503021,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 674,
+          "score": 0.41194531321525574,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 982,
+          "score": 0.41098901629447937,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 260,
+          "score": 0.40693771839141846,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 1,
+      "unknown_in_top10": 8,
+      "max_cosine": 0.5163399577140808
+    },
+    {
+      "query_id": "DEV-G11-V3",
+      "group_id": "DEV-G11",
+      "category": "mood",
+      "expected_empty": false,
+      "best_known_good_rank": 5,
+      "mrr": 0.2,
+      "hit3": 0,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 0.38685280723454163,
+      "top10": [
+        {
+          "catalog_id": 179,
+          "score": 0.45800378918647766,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 564,
+          "score": 0.3876383602619171,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 14,
+          "score": 0.38222023844718933,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 467,
+          "score": 0.3786051869392395,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 215,
+          "score": 0.37422558665275574,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 77,
+          "score": 0.3418891429901123,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 209,
+          "score": 0.3369518518447876,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 727,
+          "score": 0.3358590304851532,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 6,
+          "score": 0.32927221059799194,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 69,
+          "score": 0.3246499300003052,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.45800378918647766
+    },
+    {
+      "query_id": "DEV-G12-V1",
+      "group_id": "DEV-G12",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 216,
+          "score": 0.6882772445678711,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 418,
+          "score": 0.45931896567344666,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 873,
+          "score": 0.3859986662864685,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 490,
+          "score": 0.37741944193840027,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 363,
+          "score": 0.36418914794921875,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 781,
+          "score": 0.3637089729309082,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 259,
+          "score": 0.3494909405708313,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 364,
+          "score": 0.33622032403945923,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 668,
+          "score": 0.33432736992836,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 734,
+          "score": 0.3328024446964264,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.6882772445678711
+    },
+    {
+      "query_id": "DEV-G12-V2",
+      "group_id": "DEV-G12",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 28,
+      "mrr": 0.03571428571428571,
+      "hit3": 0,
+      "hit10": 0,
+      "known_qrel_ndcg10_provisional": 0.0,
+      "top10": [
+        {
+          "catalog_id": 269,
+          "score": 0.46764352917671204,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 491,
+          "score": 0.41978076100349426,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 866,
+          "score": 0.4153810441493988,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 174,
+          "score": 0.4085842967033386,
+          "known_grade": 0
+        },
+        {
+          "catalog_id": 850,
+          "score": 0.39079758524894714,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 215,
+          "score": 0.38512101769447327,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 951,
+          "score": 0.38402262330055237,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 901,
+          "score": 0.3822203278541565,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 359,
+          "score": 0.38099828362464905,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 886,
+          "score": 0.3775237500667572,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 1,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.46764352917671204
+    },
+    {
+      "query_id": "DEV-G12-V3",
+      "group_id": "DEV-G12",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 2,
+      "mrr": 0.5,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 0.6309297535714574,
+      "top10": [
+        {
+          "catalog_id": 140,
+          "score": 0.5087378025054932,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 216,
+          "score": 0.4908972382545471,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 478,
+          "score": 0.4536397159099579,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 891,
+          "score": 0.43674206733703613,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 822,
+          "score": 0.4334045350551605,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 695,
+          "score": 0.4017948508262634,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 896,
+          "score": 0.39962857961654663,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 204,
+          "score": 0.39960846304893494,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 492,
+          "score": 0.38773536682128906,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 325,
+          "score": 0.3820122182369232,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.5087378025054932
+    },
+    {
+      "query_id": "DEV-G13-V1",
+      "group_id": "DEV-G13",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 217,
+          "score": 0.7266017198562622,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 953,
+          "score": 0.4887607991695404,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 829,
+          "score": 0.48722827434539795,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 438,
+          "score": 0.48282086849212646,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 794,
+          "score": 0.48157694935798645,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 627,
+          "score": 0.47159066796302795,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 902,
+          "score": 0.4707801342010498,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 723,
+          "score": 0.46114838123321533,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 282,
+          "score": 0.4573119282722473,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 748,
+          "score": 0.4521770775318146,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.7266017198562622
+    },
+    {
+      "query_id": "DEV-G13-V2",
+      "group_id": "DEV-G13",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 217,
+          "score": 0.5680564045906067,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 28,
+          "score": 0.4368792474269867,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 18,
+          "score": 0.42964962124824524,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 63,
+          "score": 0.416119784116745,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 61,
+          "score": 0.3990386724472046,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 8,
+          "score": 0.39825692772865295,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 203,
+          "score": 0.3955508768558502,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 794,
+          "score": 0.383771687746048,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 902,
+          "score": 0.3764501214027405,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 922,
+          "score": 0.3710860013961792,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.5680564045906067
+    },
+    {
+      "query_id": "DEV-G13-V3",
+      "group_id": "DEV-G13",
+      "category": "plot",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 217,
+          "score": 0.7236423492431641,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 258,
+          "score": 0.5554291009902954,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 965,
+          "score": 0.4848005175590515,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 627,
+          "score": 0.45124733448028564,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 612,
+          "score": 0.4501485526561737,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 819,
+          "score": 0.4486863315105438,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 339,
+          "score": 0.44301551580429077,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 53,
+          "score": 0.44288673996925354,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 357,
+          "score": 0.4420951306819916,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 957,
+          "score": 0.43154841661453247,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.7236423492431641
+    },
+    {
+      "query_id": "DEV-G14-V1",
+      "group_id": "DEV-G14",
+      "category": "negation",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 221,
+          "score": 0.5749405026435852,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 255,
+          "score": 0.4612109661102295,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 195,
+          "score": 0.4514465928077698,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 780,
+          "score": 0.4435320794582367,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 53,
+          "score": 0.442118763923645,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 736,
+          "score": 0.4138517379760742,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 864,
+          "score": 0.3993939459323883,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 606,
+          "score": 0.39518144726753235,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 333,
+          "score": 0.3916821777820587,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 487,
+          "score": 0.38713088631629944,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.5749405026435852
+    },
+    {
+      "query_id": "DEV-G14-V2",
+      "group_id": "DEV-G14",
+      "category": "negation",
+      "expected_empty": false,
+      "best_known_good_rank": 2,
+      "mrr": 0.5,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 0.6309297535714574,
+      "top10": [
+        {
+          "catalog_id": 21,
+          "score": 0.5006841421127319,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 221,
+          "score": 0.4650292694568634,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 37,
+          "score": 0.4213663935661316,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 255,
+          "score": 0.3851452171802521,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 454,
+          "score": 0.3684464693069458,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 263,
+          "score": 0.353055864572525,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 856,
+          "score": 0.3456815779209137,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 535,
+          "score": 0.3351370394229889,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 810,
+          "score": 0.3261755406856537,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 280,
+          "score": 0.3255414068698883,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.5006841421127319
+    },
+    {
+      "query_id": "DEV-G14-V3",
+      "group_id": "DEV-G14",
+      "category": "negation",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 221,
+          "score": 0.6229831576347351,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 484,
+          "score": 0.5512023568153381,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 864,
+          "score": 0.5192135572433472,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 195,
+          "score": 0.5095210671424866,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 255,
+          "score": 0.4296354055404663,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 53,
+          "score": 0.4294084906578064,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 280,
+          "score": 0.4226001799106598,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 736,
+          "score": 0.4153004586696625,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 780,
+          "score": 0.397284597158432,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 37,
+          "score": 0.3946664333343506,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.6229831576347351
+    },
+    {
+      "query_id": "DEV-G15-V1",
+      "group_id": "DEV-G15",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "best_known_good_rank": 5,
+      "mrr": 0.2,
+      "hit3": 0,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 0.38685280723454163,
+      "top10": [
+        {
+          "catalog_id": 44,
+          "score": 0.45885151624679565,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 723,
+          "score": 0.4536803066730499,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 586,
+          "score": 0.43411603569984436,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 927,
+          "score": 0.4253690540790558,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 223,
+          "score": 0.41961827874183655,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 36,
+          "score": 0.4176029562950134,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 40,
+          "score": 0.4173644483089447,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 438,
+          "score": 0.40434974431991577,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 45,
+          "score": 0.39693504571914673,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 627,
+          "score": 0.3930542469024658,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.45885151624679565
+    },
+    {
+      "query_id": "DEV-G15-V2",
+      "group_id": "DEV-G15",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 223,
+          "score": 0.5545950531959534,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 103,
+          "score": 0.368449330329895,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 49,
+          "score": 0.33505427837371826,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 515,
+          "score": 0.3287152647972107,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 697,
+          "score": 0.32315269112586975,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 862,
+          "score": 0.31413063406944275,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 803,
+          "score": 0.3102675676345825,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 362,
+          "score": 0.3057001233100891,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 958,
+          "score": 0.30564039945602417,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 944,
+          "score": 0.3054327666759491,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.5545950531959534
+    },
+    {
+      "query_id": "DEV-G15-V3",
+      "group_id": "DEV-G15",
+      "category": "atmosphere",
+      "expected_empty": false,
+      "best_known_good_rank": 3,
+      "mrr": 0.3333333333333333,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 0.5,
+      "top10": [
+        {
+          "catalog_id": 36,
+          "score": 0.45731908082962036,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 951,
+          "score": 0.37725889682769775,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 223,
+          "score": 0.3677939176559448,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 754,
+          "score": 0.3612500727176666,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 863,
+          "score": 0.360394150018692,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 753,
+          "score": 0.3346410393714905,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 116,
+          "score": 0.3240257501602173,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 969,
+          "score": 0.31585538387298584,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 127,
+          "score": 0.29754629731178284,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 316,
+          "score": 0.2935001254081726,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.45731908082962036
+    },
+    {
+      "query_id": "DEV-G16-V1",
+      "group_id": "DEV-G16",
+      "category": "colloquial",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 235,
+          "score": 0.6223706603050232,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 946,
+          "score": 0.4886820912361145,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 5,
+          "score": 0.41877126693725586,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 586,
+          "score": 0.40849873423576355,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 655,
+          "score": 0.3968377411365509,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 499,
+          "score": 0.3814360797405243,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 31,
+          "score": 0.36753618717193604,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 23,
+          "score": 0.3607613742351532,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 25,
+          "score": 0.3582279086112976,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 384,
+          "score": 0.35698428750038147,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.6223706603050232
+    },
+    {
+      "query_id": "DEV-G16-V2",
+      "group_id": "DEV-G16",
+      "category": "colloquial",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 235,
+          "score": 0.42298123240470886,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 8,
+          "score": 0.40904122591018677,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 475,
+          "score": 0.4082253575325012,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 276,
+          "score": 0.39712050557136536,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 120,
+          "score": 0.3853590190410614,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 294,
+          "score": 0.3794831335544586,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 383,
+          "score": 0.3783239424228668,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 700,
+          "score": 0.36681821942329407,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 580,
+          "score": 0.36572790145874023,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 90,
+          "score": 0.3566252589225769,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.42298123240470886
+    },
+    {
+      "query_id": "DEV-G16-V3",
+      "group_id": "DEV-G16",
+      "category": "colloquial",
+      "expected_empty": false,
+      "best_known_good_rank": 1,
+      "mrr": 1.0,
+      "hit3": 1,
+      "hit10": 1,
+      "known_qrel_ndcg10_provisional": 1.0,
+      "top10": [
+        {
+          "catalog_id": 235,
+          "score": 0.6220370531082153,
+          "known_grade": 2
+        },
+        {
+          "catalog_id": 47,
+          "score": 0.4396408200263977,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 495,
+          "score": 0.4249579906463623,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 5,
+          "score": 0.42102280259132385,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 715,
+          "score": 0.390488862991333,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 83,
+          "score": 0.376344233751297,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 203,
+          "score": 0.3721037209033966,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 280,
+          "score": 0.36353418231010437,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 334,
+          "score": 0.36220699548721313,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 241,
+          "score": 0.35391417145729065,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 9,
+      "max_cosine": 0.6220370531082153
+    },
+    {
+      "query_id": "DEV-G17-V1",
+      "group_id": "DEV-G17",
+      "category": "no_match",
+      "expected_empty": true,
+      "best_known_good_rank": null,
+      "mrr": null,
+      "hit3": null,
+      "hit10": null,
+      "known_qrel_ndcg10_provisional": null,
+      "top10": [
+        {
+          "catalog_id": 91,
+          "score": 0.33868131041526794,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 195,
+          "score": 0.2936064302921295,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 182,
+          "score": 0.29203036427497864,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 694,
+          "score": 0.284343421459198,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 631,
+          "score": 0.26329609751701355,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 589,
+          "score": 0.2513650953769684,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 874,
+          "score": 0.2400236278772354,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 985,
+          "score": 0.2306702733039856,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 620,
+          "score": 0.22292080521583557,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 266,
+          "score": 0.21969851851463318,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 10,
+      "max_cosine": 0.33868131041526794
+    },
+    {
+      "query_id": "DEV-G17-V2",
+      "group_id": "DEV-G17",
+      "category": "no_match",
+      "expected_empty": true,
+      "best_known_good_rank": null,
+      "mrr": null,
+      "hit3": null,
+      "hit10": null,
+      "known_qrel_ndcg10_provisional": null,
+      "top10": [
+        {
+          "catalog_id": 985,
+          "score": 0.2567022740840912,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 284,
+          "score": 0.25538477301597595,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 91,
+          "score": 0.23872990906238556,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 390,
+          "score": 0.22171896696090698,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 876,
+          "score": 0.21820232272148132,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 798,
+          "score": 0.20225676894187927,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 343,
+          "score": 0.20164772868156433,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 874,
+          "score": 0.1998269408941269,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 765,
+          "score": 0.19852867722511292,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 182,
+          "score": 0.19756624102592468,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 10,
+      "max_cosine": 0.2567022740840912
+    },
+    {
+      "query_id": "DEV-G17-V3",
+      "group_id": "DEV-G17",
+      "category": "no_match",
+      "expected_empty": true,
+      "best_known_good_rank": null,
+      "mrr": null,
+      "hit3": null,
+      "hit10": null,
+      "known_qrel_ndcg10_provisional": null,
+      "top10": [
+        {
+          "catalog_id": 765,
+          "score": 0.3140163719654083,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 768,
+          "score": 0.27476179599761963,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 145,
+          "score": 0.26652461290359497,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 876,
+          "score": 0.2593229115009308,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 603,
+          "score": 0.24080407619476318,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 91,
+          "score": 0.23928511142730713,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 707,
+          "score": 0.2391204684972763,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 584,
+          "score": 0.237881600856781,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 985,
+          "score": 0.2341306209564209,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 439,
+          "score": 0.23333442211151123,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 10,
+      "max_cosine": 0.3140163719654083
+    },
+    {
+      "query_id": "DEV-G18-V1",
+      "group_id": "DEV-G18",
+      "category": "no_match",
+      "expected_empty": true,
+      "best_known_good_rank": null,
+      "mrr": null,
+      "hit3": null,
+      "hit10": null,
+      "known_qrel_ndcg10_provisional": null,
+      "top10": [
+        {
+          "catalog_id": 156,
+          "score": 0.5742122530937195,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 426,
+          "score": 0.5035244226455688,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 961,
+          "score": 0.3838151693344116,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 299,
+          "score": 0.3831499516963959,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 950,
+          "score": 0.3603060245513916,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 80,
+          "score": 0.35285601019859314,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 709,
+          "score": 0.3489323854446411,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 621,
+          "score": 0.33674854040145874,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 634,
+          "score": 0.3271939754486084,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 897,
+          "score": 0.2934434115886688,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 10,
+      "max_cosine": 0.5742122530937195
+    },
+    {
+      "query_id": "DEV-G18-V2",
+      "group_id": "DEV-G18",
+      "category": "no_match",
+      "expected_empty": true,
+      "best_known_good_rank": null,
+      "mrr": null,
+      "hit3": null,
+      "hit10": null,
+      "known_qrel_ndcg10_provisional": null,
+      "top10": [
+        {
+          "catalog_id": 156,
+          "score": 0.5315314531326294,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 426,
+          "score": 0.5065638422966003,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 709,
+          "score": 0.4240454137325287,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 897,
+          "score": 0.4205615818500519,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 299,
+          "score": 0.3757306933403015,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 961,
+          "score": 0.3732105791568756,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 634,
+          "score": 0.3690589964389801,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 894,
+          "score": 0.34104856848716736,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 948,
+          "score": 0.33796897530555725,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 537,
+          "score": 0.33657270669937134,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 10,
+      "max_cosine": 0.5315314531326294
+    },
+    {
+      "query_id": "DEV-G18-V3",
+      "group_id": "DEV-G18",
+      "category": "no_match",
+      "expected_empty": true,
+      "best_known_good_rank": null,
+      "mrr": null,
+      "hit3": null,
+      "hit10": null,
+      "known_qrel_ndcg10_provisional": null,
+      "top10": [
+        {
+          "catalog_id": 156,
+          "score": 0.4945465624332428,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 426,
+          "score": 0.45926591753959656,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 950,
+          "score": 0.4287835657596588,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 709,
+          "score": 0.3858067989349365,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 961,
+          "score": 0.36918532848358154,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 621,
+          "score": 0.35461878776550293,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 537,
+          "score": 0.34589460492134094,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 80,
+          "score": 0.3404855728149414,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 897,
+          "score": 0.3330468237400055,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 903,
+          "score": 0.32336360216140747,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 10,
+      "max_cosine": 0.4945465624332428
+    },
+    {
+      "query_id": "DEV-G19-V1",
+      "group_id": "DEV-G19",
+      "category": "no_match",
+      "expected_empty": true,
+      "best_known_good_rank": null,
+      "mrr": null,
+      "hit3": null,
+      "hit10": null,
+      "known_qrel_ndcg10_provisional": null,
+      "top10": [
+        {
+          "catalog_id": 299,
+          "score": 0.576836347579956,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 959,
+          "score": 0.4150269329547882,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 637,
+          "score": 0.39646559953689575,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 961,
+          "score": 0.3943546712398529,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 631,
+          "score": 0.3812543749809265,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 634,
+          "score": 0.355228453874588,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 156,
+          "score": 0.34695208072662354,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 643,
+          "score": 0.3449195325374603,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 551,
+          "score": 0.3432248532772064,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 426,
+          "score": 0.3333378732204437,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 10,
+      "max_cosine": 0.576836347579956
+    },
+    {
+      "query_id": "DEV-G19-V2",
+      "group_id": "DEV-G19",
+      "category": "no_match",
+      "expected_empty": true,
+      "best_known_good_rank": null,
+      "mrr": null,
+      "hit3": null,
+      "hit10": null,
+      "known_qrel_ndcg10_provisional": null,
+      "top10": [
+        {
+          "catalog_id": 352,
+          "score": 0.3764663636684418,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 961,
+          "score": 0.373209148645401,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 166,
+          "score": 0.3492909073829651,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 637,
+          "score": 0.34512022137641907,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 80,
+          "score": 0.34322574734687805,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 299,
+          "score": 0.32740649580955505,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 948,
+          "score": 0.3187263607978821,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 161,
+          "score": 0.3098756670951843,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 254,
+          "score": 0.30459490418434143,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 959,
+          "score": 0.30068260431289673,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 10,
+      "max_cosine": 0.3764663636684418
+    },
+    {
+      "query_id": "DEV-G19-V3",
+      "group_id": "DEV-G19",
+      "category": "no_match",
+      "expected_empty": true,
+      "best_known_good_rank": null,
+      "mrr": null,
+      "hit3": null,
+      "hit10": null,
+      "known_qrel_ndcg10_provisional": null,
+      "top10": [
+        {
+          "catalog_id": 773,
+          "score": 0.39142125844955444,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 320,
+          "score": 0.38858646154403687,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 365,
+          "score": 0.3445899188518524,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 299,
+          "score": 0.33809831738471985,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 959,
+          "score": 0.3377170264720917,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 462,
+          "score": 0.3235727846622467,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 641,
+          "score": 0.3231666386127472,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 923,
+          "score": 0.3203059732913971,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 637,
+          "score": 0.3187837302684784,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 769,
+          "score": 0.30836641788482666,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 10,
+      "max_cosine": 0.39142125844955444
+    },
+    {
+      "query_id": "DEV-G20-V1",
+      "group_id": "DEV-G20",
+      "category": "no_match",
+      "expected_empty": true,
+      "best_known_good_rank": null,
+      "mrr": null,
+      "hit3": null,
+      "hit10": null,
+      "known_qrel_ndcg10_provisional": null,
+      "top10": [
+        {
+          "catalog_id": 156,
+          "score": 0.34676694869995117,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 709,
+          "score": 0.3303501307964325,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 950,
+          "score": 0.3214257061481476,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 961,
+          "score": 0.30731359124183655,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 426,
+          "score": 0.28635257482528687,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 897,
+          "score": 0.2862822711467743,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 303,
+          "score": 0.27711400389671326,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 621,
+          "score": 0.26477232575416565,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 869,
+          "score": 0.24095582962036133,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 903,
+          "score": 0.23544418811798096,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 10,
+      "max_cosine": 0.34676694869995117
+    },
+    {
+      "query_id": "DEV-G20-V2",
+      "group_id": "DEV-G20",
+      "category": "no_match",
+      "expected_empty": true,
+      "best_known_good_rank": null,
+      "mrr": null,
+      "hit3": null,
+      "hit10": null,
+      "known_qrel_ndcg10_provisional": null,
+      "top10": [
+        {
+          "catalog_id": 709,
+          "score": 0.35607028007507324,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 303,
+          "score": 0.33034631609916687,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 797,
+          "score": 0.3191690444946289,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 443,
+          "score": 0.2966548204421997,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 903,
+          "score": 0.2893829047679901,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 897,
+          "score": 0.2775000333786011,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 831,
+          "score": 0.2762558162212372,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 950,
+          "score": 0.2695229947566986,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 975,
+          "score": 0.26666468381881714,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 803,
+          "score": 0.26664215326309204,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 10,
+      "max_cosine": 0.35607028007507324
+    },
+    {
+      "query_id": "DEV-G20-V3",
+      "group_id": "DEV-G20",
+      "category": "no_match",
+      "expected_empty": true,
+      "best_known_good_rank": null,
+      "mrr": null,
+      "hit3": null,
+      "hit10": null,
+      "known_qrel_ndcg10_provisional": null,
+      "top10": [
+        {
+          "catalog_id": 709,
+          "score": 0.4141633212566376,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 897,
+          "score": 0.38503485918045044,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 303,
+          "score": 0.3636384904384613,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 961,
+          "score": 0.3409850299358368,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 978,
+          "score": 0.3290528357028961,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 156,
+          "score": 0.3108036518096924,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 323,
+          "score": 0.3033014237880707,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 426,
+          "score": 0.2887119650840759,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 166,
+          "score": 0.2757672071456909,
+          "known_grade": null
+        },
+        {
+          "catalog_id": 667,
+          "score": 0.2745884954929352,
+          "known_grade": null
+        }
+      ],
+      "known_bad_in_top10": 0,
+      "unknown_in_top10": 10,
+      "max_cosine": 0.4141633212566376
+    }
+  ],
+  "positive_queries": 48,
+  "no_match_queries": 12,
+  "seconds": 2.532997599999362,
+  "scope": "Pure semantic retrieval over all 1000 unchanged profiles; raw dev queries; no test. Unknown documents remain ungraded.",
+  "no_match_policy": "No threshold selected or production logic changed; cosine distributions recorded, not empty-result accuracy."
+}

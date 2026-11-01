@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "baseline_sources_unchanged": 72,
+  "baseline_backup_hash_verified": true,
+  "pool_queries": 120,
+  "pool_pairs": 3315,
+  "all_four_rankings_covered": true,
+  "public_review_hides_model_ranks_prior_grades": true,
+  "fresh_query_drafts": 150,
+  "dev_test_families_disjoint": true,
+  "scorer_dcg_and_missing_label_handling_verified": true,
+  "agent_pilot_complete_queries": 2,
+  "full_pooled_assessment_completed": false,
+  "fresh_independent_test_ready": false,
+  "production_modified": false
+}

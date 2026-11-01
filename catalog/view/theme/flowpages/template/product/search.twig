@@ -1,0 +1,480 @@
+{{ header }}
+<div id="product-search" class="fp-search-page" data-has-criteria="{{ search or has_filters ? '1' : '0' }}">
+  <div class="container">
+    <ul class="breadcrumb fp-search-breadcrumb">
+      {% for breadcrumb in breadcrumbs %}
+      <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <section class="fp-search-intro" aria-labelledby="fp-search-title">
+      <div class="fp-search-intro__copy">
+        <span class="fp-kicker">Поиск по смыслу</span>
+        <h1 id="fp-search-title">{{ heading_title }}</h1>
+        <p>{{ text_search_intro }}</p>
+      </div>
+      <div class="fp-search-examples">
+        <span>Попробуйте:</span>
+        <a href="{{ example_short_url }}">короткий страшный детектив</a>
+        <a href="{{ example_cozy_url }}">что-нибудь уютное на вечер</a>
+        <a href="{{ example_mystery_url }}">книга с тайной</a>
+      </div>
+    </section>
+
+    <button type="button" class="fp-filter-toggle" id="fp-filter-toggle" aria-controls="fp-search-filters" aria-expanded="false">
+      <i class="fa fa-sliders"></i> {{ text_filters }}
+      {% if filter_count %}<span>{{ filter_count }}</span>{% endif %}
+    </button>
+
+    <div class="fp-search-layout">
+      <aside class="fp-search-filters" id="fp-search-filters">
+        <form action="index.php" method="get">
+          <input type="hidden" name="route" value="product/search">
+          <input type="hidden" name="search" value="{{ search }}">
+          <input type="hidden" name="sort" value="{{ sort }}">
+          <input type="hidden" name="limit" value="{{ limit }}">
+
+          <div class="fp-filter-heading">
+            <div>
+              <span class="fp-kicker">Уточнить выбор</span>
+              <h2>{{ text_filters }}</h2>
+            </div>
+            {% if has_filters %}<a href="{{ clear_url }}">{{ text_clear_filters }}</a>{% endif %}
+          </div>
+
+          <details class="fp-filter-group" open>
+            <summary>{{ text_price }}</summary>
+            <div class="fp-range-fields">
+              <label>
+                <span>{{ text_from }}</span>
+                <input type="number" name="price_min" value="{{ filters.price_min is not null ? filters.price_min : '' }}" min="0" step="0.1" placeholder="{{ facets.price.min|number_format(1, ',', '') }}">
+              </label>
+              <span>—</span>
+              <label>
+                <span>{{ text_to }}</span>
+                <input type="number" name="price_max" value="{{ filters.price_max is not null ? filters.price_max : '' }}" min="0" step="0.1" placeholder="{{ facets.price.max|number_format(1, ',', '') }}">
+              </label>
+            </div>
+          </details>
+
+          <details class="fp-filter-group" {% if filters.authors %}open{% endif %}>
+            <summary>{{ text_author }}{% if filters.authors %}<em>{{ filters.authors|length }}</em>{% endif %}</summary>
+            <div class="fp-filter-options">
+              {% if facets.authors %}
+              <label class="fp-option-search">
+                <i class="fa fa-search"></i>
+                <input type="search" placeholder="{{ text_filter_authors }}" data-option-filter="fp-author-options">
+              </label>
+              <div class="fp-checkbox-list fp-checkbox-list--authors" id="fp-author-options">
+                {% for author in facets.authors %}
+                <label data-option-label="{{ author|lower }}">
+                  <input type="checkbox" name="authors[]" value="{{ author }}" {% if author in filters.authors %}checked{% endif %}>
+                  <span>{{ author }}</span>
+                </label>
+                {% endfor %}
+              </div>
+              {% else %}
+              <p class="fp-filter-empty">{{ text_no_facets }}</p>
+              {% endif %}
+            </div>
+          </details>
+
+          <details class="fp-filter-group" open>
+            <summary>{{ text_genre }}{% if filters.genres %}<em>{{ filters.genres|length }}</em>{% endif %}</summary>
+            <div class="fp-checkbox-list">
+              {% for genre in facets.genres %}
+              <label>
+                <input type="checkbox" name="genres[]" value="{{ genre }}" {% if genre in filters.genres %}checked{% endif %}>
+                <span>{{ genre }}</span>
+              </label>
+              {% endfor %}
+            </div>
+          </details>
+
+          <details class="fp-filter-group">
+            <summary>{{ text_pages }}</summary>
+            <div class="fp-range-fields">
+              <label>
+                <span>{{ text_from }}</span>
+                <input type="number" name="pages_min" value="{{ filters.pages_min is not null ? filters.pages_min : '' }}" min="1" step="1" placeholder="{{ facets.pages.min }}">
+              </label>
+              <span>—</span>
+              <label>
+                <span>{{ text_to }}</span>
+                <input type="number" name="pages_max" value="{{ filters.pages_max is not null ? filters.pages_max : '' }}" min="1" step="1" placeholder="{{ facets.pages.max }}">
+              </label>
+            </div>
+          </details>
+
+          <details class="fp-filter-group">
+            <summary>{{ text_year }}</summary>
+            <div class="fp-range-fields">
+              <label>
+                <span>{{ text_from }}</span>
+                <input type="number" name="year_min" value="{{ filters.year_min is not null ? filters.year_min : '' }}" min="0" step="1" placeholder="{{ facets.year.min }}">
+              </label>
+              <span>—</span>
+              <label>
+                <span>{{ text_to }}</span>
+                <input type="number" name="year_max" value="{{ filters.year_max is not null ? filters.year_max : '' }}" min="0" step="1" placeholder="{{ facets.year.max }}">
+              </label>
+            </div>
+          </details>
+
+          <details class="fp-filter-group">
+            <summary>{{ text_age }}{% if filters.age_ratings %}<em>{{ filters.age_ratings|length }}</em>{% endif %}</summary>
+            <div class="fp-checkbox-list fp-checkbox-list--compact">
+              {% for age in facets.age_ratings %}
+              <label>
+                <input type="checkbox" name="age_ratings[]" value="{{ age }}" {% if age in filters.age_ratings %}checked{% endif %}>
+                <span>{{ age }}</span>
+              </label>
+              {% endfor %}
+            </div>
+          </details>
+
+          <details class="fp-filter-group">
+            <summary>{{ text_mood }}{% if filters.moods %}<em>{{ filters.moods|length }}</em>{% endif %}</summary>
+            <div class="fp-checkbox-list">
+              {% for mood in facets.moods %}
+              <label>
+                <input type="checkbox" name="moods[]" value="{{ mood }}" {% if mood in filters.moods %}checked{% endif %}>
+                <span>{{ mood }}</span>
+              </label>
+              {% endfor %}
+            </div>
+          </details>
+
+          <details class="fp-filter-group">
+            <summary>{{ text_pace }}{% if filters.paces %}<em>{{ filters.paces|length }}</em>{% endif %}</summary>
+            <div class="fp-checkbox-list fp-checkbox-list--compact">
+              {% for pace in facets.paces %}
+              <label>
+                <input type="checkbox" name="paces[]" value="{{ pace }}" {% if pace in filters.paces %}checked{% endif %}>
+                <span>{{ pace }}</span>
+              </label>
+              {% endfor %}
+            </div>
+          </details>
+
+        </form>
+      </aside>
+
+      <main class="fp-search-results">
+        {{ content_top }}
+
+        {% if fallback_used %}
+        <div class="fp-search-notice fp-search-notice--warning">
+          <i class="fa fa-info-circle"></i>
+          <span>{{ text_fallback_notice }}</span>
+        </div>
+        {% elseif correction_applied and corrected_query %}
+        <div class="fp-search-notice">
+          <i class="fa fa-magic"></i>
+          <span>{{ text_corrected_query }} <strong>{{ corrected_query }}</strong></span>
+        </div>
+        {% endif %}
+
+        {% if partial_notice %}
+        <div class="fp-search-notice">
+          <i class="fa fa-info-circle" aria-hidden="true"></i>
+          <span>{{ partial_notice }}</span>
+        </div>
+        {% endif %}
+
+        {% if search or has_filters %}
+        <div class="fp-results-toolbar">
+          <div>
+            <span class="fp-kicker">{{ ml_used ? text_ml_label : heading_title }}</span>
+            <h2>{{ product_total }} {{ text_results_found }}</h2>
+          </div>
+          <div class="fp-results-controls">
+            <label class="fp-results-control fp-results-control--sort">
+              <span>{{ text_sort }}</span>
+              <select data-search-navigation="sort">
+                {% for option in sorts %}
+                <option value="{{ option.href }}" {% if option.selected %}selected{% endif %}>{{ option.text }}</option>
+                {% endfor %}
+              </select>
+            </label>
+            <label class="fp-results-control fp-results-control--limit">
+              <span>{{ text_limit }}</span>
+              <select data-search-navigation="limit">
+                {% for option in limits %}
+                <option value="{{ option.href }}" {% if option.selected %}selected{% endif %}>{{ option.text }}</option>
+                {% endfor %}
+              </select>
+            </label>
+          </div>
+        </div>
+
+        {% if products %}
+        <div class="fp-search-grid">
+          {% for product in products %}
+          <article class="fp-search-book">
+            <a class="fp-search-book__cover" href="{{ product.href }}">
+              <img src="{{ product.thumb }}" alt="{{ product.name }}" loading="lazy">
+            </a>
+            <div class="fp-search-book__body">
+              {% if product.author %}<div class="fp-search-book__author">{{ product.author }}</div>{% endif %}
+              <h3><a href="{{ product.href }}">{{ product.name }}</a></h3>
+              <div class="fp-search-book__facts">
+                {% if product.year %}<span>{{ product.year }}</span>{% endif %}
+                {% if product.pages %}<span>{{ product.pages }} стр.</span>{% endif %}
+                {% if product.pace %}<span>{{ product.pace }} темп</span>{% endif %}
+              </div>
+              <div class="fp-search-book__ratings" aria-label="{{ text_rating_openlibrary }} / {{ text_rating_flowpages }}">
+                {% if product.external_rating %}
+                <span class="fp-search-book__rating fp-search-book__rating--external" title="{{ text_rating_openlibrary }}: {{ product.external_rating }}, {{ product.external_rating_count }} {{ text_external_votes }}">
+                  <strong>{{ text_rating_openlibrary }}</strong><i class="fa fa-star"></i> {{ product.external_rating|number_format(1, rating_decimal_point, '') }}{% if product.external_rating_count %} · {{ product.external_rating_count }} {{ text_external_votes }}{% endif %}
+                </span>
+                {% endif %}
+                <span class="fp-search-book__rating fp-search-book__rating--local" title="{{ text_rating_flowpages }}{% if product.local_rating_count %}: {{ product.local_rating }}, {{ product.local_rating_count }} {{ text_local_reviews }}{% else %}: {{ text_no_local_reviews }}{% endif %}">
+                  <strong>{{ text_rating_flowpages }}</strong>{% if product.local_rating_count %}<i class="fa fa-star"></i> {{ product.local_rating|number_format(1, rating_decimal_point, '') }} · {{ product.local_rating_count }} {{ text_local_reviews }}{% else %}{{ text_no_local_reviews }}{% endif %}
+                </span>
+                {% if product.explanation %}
+                <div class="fp-search-book__reasons" aria-label="{{ text_explanation }}">
+                  {% for reason in product.explanation %}
+                  <span><i class="fa fa-check"></i>{{ reason }}</span>
+                  {% endfor %}
+                </div>
+                {% endif %}
+              </div>
+              <p class="fp-search-book__description">{{ product.description }}</p>
+
+              <div class="fp-search-book__footer">
+                {% if product.price %}
+                <div class="fp-search-book__price">
+                  {% if not product.special %}
+                  {{ product.price }}
+                  {% else %}
+                  <strong>{{ product.special }}</strong>
+                  <s>{{ product.price }}</s>
+                  {% endif %}
+                  {% if product.tax %}<small>{{ text_tax }} {{ product.tax }}</small>{% endif %}
+                </div>
+                {% endif %}
+                <div class="fp-search-book__actions">
+                  <button type="button" class="fp-add-cart" aria-label="Добавить «{{ product.name }}» в корзину" onclick="cart.add('{{ product.product_id }}', '{{ product.minimum }}');">
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i><span>В корзину</span>
+                  </button>
+                  <button type="button" class="fp-search-book__save" title="{{ button_wishlist }}" aria-label="Добавить «{{ product.name }}» в закладки" onclick="wishlist.add('{{ product.product_id }}');"><i class="fa fa-bookmark-o" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+
+        <div class="fp-search-pagination">
+          <div>{{ pagination }}</div>
+          <p>{{ results }}</p>
+        </div>
+        {% else %}
+        <div class="fp-search-empty">
+          <span aria-hidden="true">∅</span>
+          <h2>{{ empty_title }}</h2>
+          <p>{{ empty_message }}</p>
+          {% if has_filters %}<a href="{{ clear_url }}">{{ text_clear_filters }}</a>{% endif %}
+        </div>
+        {% endif %}
+        {% else %}
+        <div class="fp-search-welcome">
+          <div>
+            <span class="fp-kicker">Умный поиск готов</span>
+            <h2>Введите запрос в поле наверху</h2>
+            <p>Можно искать по названию и автору или просто описать желаемую книгу своими словами.</p>
+          </div>
+        </div>
+        {% endif %}
+
+        {{ content_bottom }}
+      </main>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var toggle = document.getElementById('fp-filter-toggle');
+  var filters = document.getElementById('fp-search-filters');
+  var filterForm = filters ? filters.querySelector('form') : null;
+  var requestController = null;
+  var numberTimer = null;
+  var requestSequence = 0;
+
+  if (toggle && filters) {
+    toggle.addEventListener('click', function () {
+      var open = filters.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll('[data-option-filter]'), function (input) {
+    input.addEventListener('input', function () {
+      var list = document.getElementById(input.getAttribute('data-option-filter'));
+      var query = input.value.toLocaleLowerCase('ru').trim();
+      if (!list) return;
+
+      Array.prototype.forEach.call(list.querySelectorAll('[data-option-label]'), function (option) {
+        option.hidden = query && option.getAttribute('data-option-label').indexOf(query) === -1;
+      });
+    });
+  });
+
+  function hasSubmittedCriteria() {
+    var page = document.getElementById('product-search');
+    return !!(page && page.getAttribute('data-has-criteria') === '1');
+  }
+
+  function buildFilterUrl() {
+    if (!filterForm) return '';
+
+    var params = [];
+    Array.prototype.forEach.call(filterForm.elements, function (field) {
+      if (!field.name || field.disabled) return;
+      if ((field.type === 'checkbox' || field.type === 'radio') && !field.checked) return;
+      if (field.value.trim() === '') return;
+      params.push(encodeURIComponent(field.name) + '=' + encodeURIComponent(field.value));
+    });
+
+    return filterForm.action + (params.length ? '?' + params.join('&') : '');
+  }
+
+  function syncFilters(responseDocument) {
+    if (!filterForm) return;
+
+    var responseForm = responseDocument.querySelector('#fp-search-filters form');
+    if (responseForm) {
+      ['sort', 'limit'].forEach(function (name) {
+        var current = filterForm.querySelector('input[name="' + name + '"]');
+        var incoming = responseForm.querySelector('input[name="' + name + '"]');
+        if (current && incoming) current.value = incoming.value;
+      });
+    }
+
+    var currentHeading = document.querySelector('#fp-search-filters .fp-filter-heading');
+    var incomingHeading = responseDocument.querySelector('#fp-search-filters .fp-filter-heading');
+    if (currentHeading && incomingHeading) currentHeading.innerHTML = incomingHeading.innerHTML;
+
+    var currentSummaries = document.querySelectorAll('#fp-search-filters .fp-filter-group > summary');
+    var incomingSummaries = responseDocument.querySelectorAll('#fp-search-filters .fp-filter-group > summary');
+    Array.prototype.forEach.call(currentSummaries, function (summary, index) {
+      if (incomingSummaries[index]) summary.innerHTML = incomingSummaries[index].innerHTML;
+    });
+
+    var incomingToggle = responseDocument.getElementById('fp-filter-toggle');
+    if (toggle && incomingToggle) toggle.innerHTML = incomingToggle.innerHTML;
+  }
+
+  function setLoading(loading) {
+    var results = document.querySelector('.fp-search-results');
+    if (!results) return;
+    results.classList.toggle('is-loading', loading);
+    results.setAttribute('aria-busy', loading ? 'true' : 'false');
+  }
+
+  function updateResults(responseDocument) {
+    var currentResults = document.querySelector('.fp-search-results');
+    var incomingResults = responseDocument.querySelector('.fp-search-results');
+    var currentPage = document.getElementById('product-search');
+    var incomingPage = responseDocument.getElementById('product-search');
+
+    if (!currentResults || !incomingResults || !currentPage || !incomingPage) {
+      throw new Error('search_fragment_missing');
+    }
+
+    currentResults.innerHTML = incomingResults.innerHTML;
+    currentPage.setAttribute('data-has-criteria', incomingPage.getAttribute('data-has-criteria') || '0');
+    document.title = responseDocument.title || document.title;
+    syncFilters(responseDocument);
+  }
+
+  function navigate(url, historyMode) {
+    if (!url) return false;
+    if (!window.fetch || !window.DOMParser || !hasSubmittedCriteria()) return false;
+
+    if (requestController) requestController.abort();
+    requestController = window.AbortController ? new AbortController() : null;
+    requestSequence += 1;
+    var sequence = requestSequence;
+    setLoading(true);
+
+    fetch(url, {
+      credentials: 'same-origin',
+      headers: {'X-Requested-With': 'XMLHttpRequest'},
+      signal: requestController ? requestController.signal : undefined
+    }).then(function (response) {
+      if (!response.ok) throw new Error('search_request_failed');
+      return response.text().then(function (html) {
+        return {html: html, url: response.url || url};
+      });
+    }).then(function (payload) {
+      if (sequence !== requestSequence) return;
+      var responseDocument = new DOMParser().parseFromString(payload.html, 'text/html');
+      updateResults(responseDocument);
+      if (historyMode === 'push') {
+        window.history.pushState({searchAjax: true}, '', payload.url);
+      } else if (historyMode === 'replace') {
+        window.history.replaceState({searchAjax: true}, '', payload.url);
+      }
+      setLoading(false);
+    }).catch(function (error) {
+      if (error && error.name === 'AbortError') return;
+      window.location.href = url;
+    });
+
+    return true;
+  }
+
+  function updateFromFilters() {
+    var url = buildFilterUrl();
+    if (!navigate(url, 'replace')) window.location.href = url;
+  }
+
+  window.fpSearchAjaxNavigate = navigate;
+
+  if (filterForm) {
+    filterForm.addEventListener('submit', function (event) {
+      if (!hasSubmittedCriteria()) return;
+      event.preventDefault();
+      updateFromFilters();
+    });
+
+    filterForm.addEventListener('change', function (event) {
+      var field = event.target;
+      if (!field.name || !hasSubmittedCriteria()) return;
+      if (field.type === 'number') return;
+      updateFromFilters();
+    });
+
+    filterForm.addEventListener('input', function (event) {
+      var field = event.target;
+      if (field.type !== 'number' || !field.name || !hasSubmittedCriteria()) return;
+      window.clearTimeout(numberTimer);
+      numberTimer = window.setTimeout(updateFromFilters, 500);
+    });
+  }
+
+  document.addEventListener('change', function (event) {
+    var select = event.target.closest ? event.target.closest('[data-search-navigation]') : null;
+    if (!select) return;
+    if (!navigate(select.value, 'replace')) window.location.href = select.value;
+  });
+
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest ? event.target.closest('.fp-search-pagination a, .fp-filter-heading a, .fp-search-empty a') : null;
+    if (!link || event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    if (!hasSubmittedCriteria()) return;
+    event.preventDefault();
+    if (!navigate(link.href, link.closest('.fp-search-pagination') ? 'push' : 'replace')) {
+      window.location.href = link.href;
+    }
+  });
+
+  window.addEventListener('popstate', function () {
+    if (!navigate(window.location.href, false)) window.location.reload();
+  });
+}());
+</script>
+{{ footer }}

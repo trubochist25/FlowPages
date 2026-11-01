@@ -1,0 +1,1160 @@
+{
+  "original": {
+    "cases": [
+      {
+        "name": "author-Стивен Кинг",
+        "passed": true,
+        "results": 10,
+        "state": "results",
+        "top_titles": [
+          "ОНО",
+          "Страдание",
+          "Кэрри"
+        ],
+        "request": {
+          "query": "Стивен Кинг",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 10,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "author-Джейн Остин",
+        "passed": true,
+        "results": 6,
+        "state": "partial",
+        "top_titles": [
+          "Гордость и предубеждение",
+          "Эмма",
+          "Чувство и чувствительность"
+        ],
+        "request": {
+          "query": "Джейн Остин",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 10,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "author-Джордж Оруэлл",
+        "passed": true,
+        "results": 10,
+        "state": "results",
+        "top_titles": [
+          "1984",
+          "Скотный двор",
+          "Посвящение Каталонии"
+        ],
+        "request": {
+          "query": "Джордж Оруэлл",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 10,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "author-Агата Кристи",
+        "passed": true,
+        "results": 10,
+        "state": "results",
+        "top_titles": [
+          "И их не было",
+          "Убийство в Восточном экспрессе",
+          "Убийства"
+        ],
+        "request": {
+          "query": "Агата Кристи",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 10,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "author-Фёдор Достоевский",
+        "passed": false,
+        "results": 9,
+        "state": "partial",
+        "top_titles": [
+          "Преступление и наказание",
+          "Записки изъ подполья",
+          "Бра́тья Карама́зовы"
+        ],
+        "request": {
+          "query": "Фёдор Достоевский",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 10,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-0",
+        "passed": true,
+        "results": 50,
+        "state": "results",
+        "top_titles": [
+          "Страдание",
+          "Скелет экипажа",
+          "Участок Салема"
+        ],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [
+              "Стивен Кинг"
+            ],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-1",
+        "passed": true,
+        "results": 2,
+        "state": "partial",
+        "top_titles": [
+          "Интересные времена",
+          "Небо и Земля"
+        ],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [
+              "Фэнтези"
+            ],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-2",
+        "passed": true,
+        "results": 1,
+        "state": "partial",
+        "top_titles": [
+          "Небо и Земля"
+        ],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [
+              "уютная"
+            ],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-3",
+        "passed": true,
+        "results": 1,
+        "state": "partial",
+        "top_titles": [
+          "Воспоминания Адриана"
+        ],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": [
+              "медленный"
+            ]
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-4",
+        "passed": true,
+        "results": 1,
+        "state": "partial",
+        "top_titles": [
+          "Пикник на обочине"
+        ],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": 100,
+            "pages_max": 250,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-5",
+        "passed": true,
+        "results": 0,
+        "state": "no_matches",
+        "top_titles": [],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": 300.0,
+            "price_max": 600.0,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-6",
+        "passed": true,
+        "results": 2,
+        "state": "partial",
+        "top_titles": [
+          "Как завоевывать друзей и оказывать влияние на людей",
+          "Тайна синего поезда"
+        ],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": 1900,
+            "year_max": 1950,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-7",
+        "passed": true,
+        "results": 50,
+        "state": "results",
+        "top_titles": [
+          "Фантастические звери и где их найти",
+          "Бесконечная история",
+          "Чернильное сердце"
+        ],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [
+              "6+"
+            ],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-8",
+        "passed": true,
+        "results": 1,
+        "state": "partial",
+        "top_titles": [
+          "Записки изъ подполья"
+        ],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [
+              "Фёдор Достоевский"
+            ],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": 300,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-9",
+        "passed": true,
+        "results": 50,
+        "state": "results",
+        "top_titles": [
+          "Фантастические звери и где их найти",
+          "Бесконечная история",
+          "Чернильное сердце"
+        ],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": 900.0,
+            "authors": [],
+            "genres": [
+              "Детская литература"
+            ],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [
+              "0+",
+              "6+"
+            ],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "empty",
+        "passed": false,
+        "results": 20,
+        "state": "results",
+        "top_titles": [
+          "Дюна",
+          "Все закончится на нас",
+          "48 законов власти"
+        ],
+        "request": {
+          "query": "",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 20,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "punctuation",
+        "passed": true,
+        "results": 0,
+        "state": "invalid_query",
+        "top_titles": [],
+        "request": {
+          "query": "!!!",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 20,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "impossible-filter",
+        "passed": true,
+        "results": 0,
+        "state": "no_matches",
+        "top_titles": [],
+        "request": {
+          "query": "книга",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": 1,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 20,
+          "offset": 0,
+          "include_debug": false
+        }
+      }
+    ],
+    "failures": [
+      "author-Фёдор Достоевский",
+      "empty"
+    ]
+  },
+  "selected": {
+    "cases": [
+      {
+        "name": "author-Стивен Кинг",
+        "passed": true,
+        "results": 10,
+        "state": "results",
+        "top_titles": [
+          "ОНО",
+          "Страдание",
+          "Кэрри"
+        ],
+        "request": {
+          "query": "Стивен Кинг",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 10,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "author-Джейн Остин",
+        "passed": true,
+        "results": 6,
+        "state": "partial",
+        "top_titles": [
+          "Гордость и предубеждение",
+          "Эмма",
+          "Чувство и чувствительность"
+        ],
+        "request": {
+          "query": "Джейн Остин",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 10,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "author-Джордж Оруэлл",
+        "passed": true,
+        "results": 10,
+        "state": "results",
+        "top_titles": [
+          "1984",
+          "Скотный двор",
+          "Посвящение Каталонии"
+        ],
+        "request": {
+          "query": "Джордж Оруэлл",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 10,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "author-Агата Кристи",
+        "passed": true,
+        "results": 10,
+        "state": "results",
+        "top_titles": [
+          "И их не было",
+          "Убийство в Восточном экспрессе",
+          "Убийства"
+        ],
+        "request": {
+          "query": "Агата Кристи",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 10,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "author-Фёдор Достоевский",
+        "passed": false,
+        "results": 9,
+        "state": "partial",
+        "top_titles": [
+          "Преступление и наказание",
+          "Записки изъ подполья",
+          "Бра́тья Карама́зовы"
+        ],
+        "request": {
+          "query": "Фёдор Достоевский",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 10,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-0",
+        "passed": true,
+        "results": 1,
+        "state": "partial",
+        "top_titles": [
+          "Страдание"
+        ],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [
+              "Стивен Кинг"
+            ],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-1",
+        "passed": true,
+        "results": 6,
+        "state": "partial",
+        "top_titles": [
+          "Небо и Земля",
+          "Интересные времена",
+          "Бесконечная история"
+        ],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [
+              "Фэнтези"
+            ],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-2",
+        "passed": true,
+        "results": 5,
+        "state": "partial",
+        "top_titles": [
+          "Небо и Земля",
+          "Бесконечная история",
+          "Фантастические звери и где их найти"
+        ],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [
+              "уютная"
+            ],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-3",
+        "passed": true,
+        "results": 1,
+        "state": "partial",
+        "top_titles": [
+          "Воспоминания Адриана"
+        ],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": [
+              "медленный"
+            ]
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-4",
+        "passed": true,
+        "results": 2,
+        "state": "partial",
+        "top_titles": [
+          "Пикник на обочине",
+          "Фантастические звери и где их найти"
+        ],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": 100,
+            "pages_max": 250,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-5",
+        "passed": true,
+        "results": 0,
+        "state": "no_matches",
+        "top_titles": [],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": 300.0,
+            "price_max": 600.0,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-6",
+        "passed": true,
+        "results": 2,
+        "state": "partial",
+        "top_titles": [
+          "Тайна синего поезда",
+          "Как завоевывать друзей и оказывать влияние на людей"
+        ],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": 1900,
+            "year_max": 1950,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-7",
+        "passed": true,
+        "results": 4,
+        "state": "partial",
+        "top_titles": [
+          "Бесконечная история",
+          "Фантастические звери и где их найти",
+          "Хроники Нарнии"
+        ],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [
+              "6+"
+            ],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-8",
+        "passed": true,
+        "results": 0,
+        "state": "no_matches",
+        "top_titles": [],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [
+              "Фёдор Достоевский"
+            ],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": 300,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "filter-9",
+        "passed": true,
+        "results": 4,
+        "state": "partial",
+        "top_titles": [
+          "Бесконечная история",
+          "Фантастические звери и где их найти",
+          "Хроники Нарнии"
+        ],
+        "request": {
+          "query": "Хочу интересную книгу",
+          "filters": {
+            "price_min": null,
+            "price_max": 900.0,
+            "authors": [],
+            "genres": [
+              "Детская литература"
+            ],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [
+              "0+",
+              "6+"
+            ],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 50,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "empty",
+        "passed": false,
+        "results": 20,
+        "state": "results",
+        "top_titles": [
+          "Дюна",
+          "Все закончится на нас",
+          "48 законов власти"
+        ],
+        "request": {
+          "query": "",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 20,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "punctuation",
+        "passed": true,
+        "results": 0,
+        "state": "invalid_query",
+        "top_titles": [],
+        "request": {
+          "query": "!!!",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": null,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 20,
+          "offset": 0,
+          "include_debug": false
+        }
+      },
+      {
+        "name": "impossible-filter",
+        "passed": true,
+        "results": 0,
+        "state": "no_matches",
+        "top_titles": [],
+        "request": {
+          "query": "книга",
+          "filters": {
+            "price_min": null,
+            "price_max": null,
+            "authors": [],
+            "genres": [],
+            "pages_min": null,
+            "pages_max": 1,
+            "year_min": null,
+            "year_max": null,
+            "age_ratings": [],
+            "moods": [],
+            "paces": []
+          },
+          "sort": "relevance",
+          "local_ratings": {},
+          "limit": 20,
+          "offset": 0,
+          "include_debug": false
+        }
+      }
+    ],
+    "failures": [
+      "author-Фёдор Достоевский",
+      "empty"
+    ]
+  }
+}

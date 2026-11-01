@@ -1,0 +1,53 @@
+{
+  "status": "selected_integration_frozen_for_dev_annotation",
+  "selected": "fine-tuned model + matching experimental index + fuzzy title resolver; existing ranking weights",
+  "files": {
+    "model": {
+      "path": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\experiments\\e5_finetuning_v1\\limited_experiment\\selected-model\\model.safetensors",
+      "sha256": "1c1813ae9a621a9ead0886b161177b746d70e9f9942b88752c3f1ac5ef35721a"
+    },
+    "index": {
+      "path": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\experiments\\e5_finetuning_v1\\comparison\\index\\book-index.npz",
+      "sha256": "d728e5f6be0860d7c22d15588c1deac23fd32f8463a22a99b73520e6f8d85fd6"
+    },
+    "manifest": {
+      "path": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\experiments\\e5_finetuning_v1\\comparison\\index\\manifest.json",
+      "sha256": "3e6346f351d61ef2e2984060b1885025d19e64e27009bd5b66ac5c51845a4c41"
+    },
+    "resolver": {
+      "path": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\title_resolver.py",
+      "sha256": "813a5a5d7c3ecb1f2d7ed272cbd3199317310835c15c0822f0ebf7684509d58f"
+    },
+    "config": {
+      "path": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\config.py",
+      "sha256": "5e32378bdc0b3e70f531f48bf7bde319f2f7a9697beac32f7a5698c38a318367"
+    },
+    "correction": {
+      "path": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\correction.py",
+      "sha256": "ba895aaea8fde5fc8b216eb52b254d926ec720967b116cbb0fcbe11d2d2ea3fc"
+    },
+    "search": {
+      "path": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\search.py",
+      "sha256": "f81482f98e4ea08ddd0f1f1b25e16f80f30951ea9d7e21a52ddec325982d6662"
+    },
+    "regression_queries": {
+      "path": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\evaluation_queries.json",
+      "sha256": "422fa8b1e5b4e954fc00775eef9bab757bda30a9b0e19a906d6a5987a326223c"
+    }
+  },
+  "regression77": {
+    "baseline": {
+      "hit1": 0.8571428571428571,
+      "hit3": 0.935064935064935,
+      "hit10": 0.974025974025974
+    },
+    "experimental": {
+      "hit1": 0.9090909090909091,
+      "hit3": 0.948051948051948,
+      "hit10": 0.987012987012987
+    },
+    "latency_p95_ratio": 1.0341733809997606
+  },
+  "closed_new_test_opened": false,
+  "note": "The 99-query new test draft has not been retrieved or evaluated."
+}

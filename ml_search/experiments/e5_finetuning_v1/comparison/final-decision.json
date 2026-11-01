@@ -1,0 +1,37 @@
+{
+  "checks": {
+    "ndcg_gain_at_least_0_03_provisional": true,
+    "regression_hit3_drop_within_2pp": true,
+    "regression_hit10_drop_within_2pp": true,
+    "no_new_search_safeguard_failure": true,
+    "no_new_navigation_failures": false,
+    "no_new_mandatory_alchemy_failure": true,
+    "full_search_p95_ratio_within_1_2": true,
+    "no_new_recommendation_invariant_failures": true
+  },
+  "full_test_ndcg10_gain_provisional": 0.14077382962068952,
+  "all_numeric_and_safety_criteria_pass": false,
+  "full_search_p95_ratio": 1.0045260341895943,
+  "production_replaced": false,
+  "model_reselected_after_test": false,
+  "closed_test_not_used_for_tuning": true,
+  "decision": "Keep original production search: new navigation failures violate pre-agreed criteria. Large provisional semantic gains justify a later separately evaluated experiment, not deployment of this checkpoint.",
+  "ndcg_is_provisional_due_to_incomplete_qrels": true,
+  "navigation_scope_correction": "Includes navigational, partial_title, author_only and typo; initial script omitted the last three categories.",
+  "navigation_new_failures": [
+    {
+      "query": "гарри потр философкий камин",
+      "category": "typo",
+      "old_rank": 1,
+      "new_rank": 4,
+      "new_failure": true
+    },
+    {
+      "query": "татуировка дракона",
+      "category": "partial_title",
+      "old_rank": 1,
+      "new_rank": null,
+      "new_failure": true
+    }
+  ]
+}

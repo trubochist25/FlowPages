@@ -1,0 +1,112 @@
+{{ header }}
+<div id="product-category" class="container">
+	<ul class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+		{% for breadcrumb in breadcrumbs %}
+			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+				<a itemprop="item" href="{{ breadcrumb.href }}"><span itemprop="name">{{ breadcrumb.text }}</span></a>
+				<meta itemprop="position" content="{{ loop.index }}" />
+			</li>
+		{% endfor %}
+	</ul>
+	<div class="row">
+		<div id="content" class="col-sm-12">
+			{{ content_top }}
+			<h1>{{ heading_title }}</h1>
+			{% if description %}
+				<div class="row">
+					<div class="col-sm-12">{{ description }}</div>
+				</div>
+				<hr>
+			{% endif %}
+			{% if categories %}
+				<h4>{{ text_refine }}</h4>
+				<ul class="category__category-list row-flex">
+					{% for category in categories %}
+						<li class="category__category-list-item"><a href="{{ category.href }}">{{ category.name }}</a></li>
+					{% endfor %}
+				</ul>
+			{% endif %}
+			{% if products %}
+				<div class="fp-catalog-toolbar">
+					<div class="fp-catalog-toolbar__filters">
+						<div class="form-group input-group input-group-sm fp-catalog-toolbar__sort">
+							<label class="input-group-addon" for="input-sort">{{ text_sort }}</label>
+							<select id="input-sort" class="form-control" onchange="location = this.value;">
+								{% for sorts in sorts %}
+									{% if sorts.value == '%s-%s'|format(sort, order) %}
+										<option value="{{ sorts.href }}" selected="selected">{{ sorts.text }}</option>
+									{% else %}
+										<option value="{{ sorts.href }}">{{ sorts.text }}</option>
+									{% endif %}
+								{% endfor %}
+							</select>
+						</div>
+						<div class="form-group input-group input-group-sm fp-catalog-toolbar__limit">
+							<label class="input-group-addon" for="input-limit">{{ text_limit }}</label>
+							<select id="input-limit" class="form-control" onchange="location = this.value;">
+								{% for limits in limits %}
+									{% if limits.value == limit %}
+										<option value="{{ limits.href }}" selected="selected">{{ limits.text }}</option>
+									{% else %}
+										<option value="{{ limits.href }}">{{ limits.text }}</option>
+									{% endif %}
+								{% endfor %}
+							</select>
+						</div>
+					</div>
+					<div class="btn-group fp-catalog-toolbar__views" role="group" aria-label="Вид каталога">
+						<button type="button" id="list-view" class="btn" data-toggle="tooltip" title="{{ button_list }}" aria-label="{{ button_list }}"><i class="fa fa-th-list" aria-hidden="true"></i></button>
+						<button type="button" id="grid-view" class="btn" data-toggle="tooltip" title="{{ button_grid }}" aria-label="{{ button_grid }}"><i class="fa fa-th" aria-hidden="true"></i></button>
+					</div>
+				</div>
+				<div class="row row-flex fp-catalog-products">
+					{% for product in products %}
+						<div class="product-layout product-grid col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<article class="fp-catalog-card">
+								<a class="fp-catalog-card__cover" href="{{ product.href }}">
+									<img src="{{ product.thumb }}" alt="{{ product.name }}" loading="lazy" />
+								</a>
+								<div class="fp-catalog-card__body">
+									<div class="fp-catalog-card__meta">
+										<p class="fp-catalog-card__author">{% if product.author %}{{ product.author }}{% else %}&nbsp;{% endif %}</p>
+										{% if product.external_rating %}
+											<span class="fp-catalog-card__rating" aria-label="Рейтинг OpenLibrary {{ product.external_rating|number_format(1, ',', '') }} из 5"><i class="fa fa-star" aria-hidden="true"></i> {{ product.external_rating|number_format(1, ',', '') }}</span>
+										{% endif %}
+									</div>
+									<h3><a href="{{ product.href }}" title="{{ product.name }}">{{ product.name }}</a></h3>
+									<div class="fp-catalog-card__price">
+										{% if product.special %}
+											<strong>{{ product.special }}</strong><s>{{ product.price }}</s>
+										{% elseif product.price %}
+											<strong>{{ product.price }}</strong>
+										{% endif %}
+									</div>
+								</div>
+								<div class="fp-catalog-card__actions">
+									<button type="button" class="fp-catalog-card__cart" onclick="cart.add('{{ product.product_id }}', '{{ product.minimum }}');">
+										<i class="fa fa-shopping-bag" aria-hidden="true"></i><span>В корзину</span>
+									</button>
+									<button type="button" class="fp-catalog-card__save" title="{{ button_wishlist }}" aria-label="Добавить «{{ product.name }}» в закладки" onclick="wishlist.add('{{ product.product_id }}');">
+										<i class="fa fa-bookmark-o" aria-hidden="true"></i>
+									</button>
+								</div>
+							</article>
+						</div>
+					{% endfor %}
+				</div>
+				<div class="row">
+					<div class="col-sm-6 text-left">{{ pagination }}</div>
+					<div class="col-sm-6 text-right">{{ results }}</div>
+				</div>
+			{% endif %}
+			{% if not categories and not products %}
+				<p>{{ text_empty }}</p>
+				<div class="buttons">
+					<div class="pull-right"><a href="{{ continue }}" class="btn btn-primary">{{ button_continue }}</a></div>
+				</div>
+			{% endif %}
+			{{ content_bottom }}
+		</div>
+	</div>
+</div>
+{{ footer }}

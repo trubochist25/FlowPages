@@ -1,0 +1,17 @@
+{
+  "files_sha256": {
+    "ml_search/experiments/e5_finetuning_v1/regression_diagnosis_v1/DIAGNOSIS_REPORT.md": "eac885c5479a04e88e11ca513b51ad24ad33a10c4167c18595a55257bd96fb8b",
+    "ml_search/experiments/e5_finetuning_v1/regression_diagnosis_v1/navigation-variants.json": "c539ce0428bba9842346c6b7bb487730d59167a5869e70d0fa2183b6c95253dd",
+    "ml_search/experiments/e5_finetuning_v1/regression_diagnosis_v1/traces.json": "3e698b4905a823d7900ef57f6bdd80ed25ef44eb650ff43617c0001fb7887859",
+    "ml_search/experiments/e5_finetuning_v1/regression_diagnosis_v1/validation.json": "b3b3d7f23945211147180c2ceac21ffc8cdd0a5cdaa20c69807536a22d389f3c",
+    "ml_search/experiments/e5_finetuning_v1/diagnose_regressions.py": "121bb5bac579b96d436d71eb50d2c00e8eb94aee67c283ca35fcc15c81f25fda",
+    "ml_search/experiments/e5_finetuning_v1/probe_navigation_variants.py": "c59c57dc411d53c6d83be4ef7ccf2c1dccc5d57a745d5266cd114ad90348092c",
+    "ml_search/experiments/e5_finetuning_v1/finish_regression_diagnosis.py": "43278cb959bacc14168691dfdb3fc801bb6ec486894acd818fefbd7a2fd162fc",
+    "ml_search/experiments/e5_finetuning_v1/regression-diagnosis.log": "a560553ea359915d7f22e4f1db4a74d02ff054058e214fd03447873f1f300aaa",
+    "ml_search/experiments/e5_finetuning_v1/navigation-variants.log": "bbc75028d941de30f37656dd2cade244a15f0bba3301b20f9fcf81586244185e"
+  },
+  "cases": 12,
+  "additional_navigation_variants": 4,
+  "production_modified": false,
+  "diagnostic_not_model_selection": true
+}

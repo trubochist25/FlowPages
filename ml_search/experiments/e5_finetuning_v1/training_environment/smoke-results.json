@@ -1,0 +1,95 @@
+{
+  "purpose": "technical only; not a quality evaluation or selected final objective",
+  "torch": "2.11.0+cu128",
+  "cuda_runtime": "12.8",
+  "gpu_name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "gpu_capability": [
+    12,
+    0
+  ],
+  "compiled_architectures": [
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120"
+  ],
+  "precision": "bf16 autocast",
+  "optimizer": "AdamW full model weights",
+  "objective": "MultipleNegativesRankingLoss scale 20; normalized cosine; conservative reviewed batches",
+  "batch_size": 8,
+  "max_sequence_length": 512,
+  "actual_max_tokens": 207,
+  "distinct_training_examples": 16,
+  "optimizer_steps": 12,
+  "step_seconds": [
+    0.5554841000011947,
+    0.12690920000022743,
+    0.15426639999714098,
+    0.10837360000004992,
+    0.10377069999958621,
+    0.1309406999971543,
+    0.14614660000006552,
+    0.15155899999808753,
+    0.1603727000001527,
+    0.10817420000239508,
+    0.10232049999831361,
+    0.13727990000188584
+  ],
+  "losses": [
+    1.3339807987213135,
+    1.098135232925415,
+    0.9266245365142822,
+    0.7806606292724609,
+    0.6317076683044434,
+    0.4794759750366211,
+    0.4105257987976074,
+    0.29109644889831543,
+    0.22009015083312988,
+    0.1508793830871582,
+    0.11373019218444824,
+    0.05972146987915039
+  ],
+  "steady_step_median_seconds": 0.13411029999952007,
+  "examples_per_second": 59.65239060704979,
+  "gpu_peak_allocated_gib": 2.214606285095215,
+  "gpu_peak_reserved_gib": 2.765625,
+  "gpu_samples": [
+    "name, memory.total [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 4145 MiB, 616.92",
+    "name, memory.total [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 3769 MiB, 616.92",
+    "name, memory.total [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 3768 MiB, 616.92",
+    "name, memory.total [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 3768 MiB, 616.92",
+    "name, memory.total [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 3768 MiB, 616.92",
+    "name, memory.total [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 3768 MiB, 616.92",
+    "name, memory.total [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 3764 MiB, 616.92",
+    "name, memory.total [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 3763 MiB, 616.92",
+    "name, memory.total [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 3763 MiB, 616.92",
+    "name, memory.total [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 3763 MiB, 616.92",
+    "name, memory.total [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 3763 MiB, 616.92",
+    "name, memory.total [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 3763 MiB, 616.92"
+  ],
+  "hardware_before": {
+    "ram": {
+      "total_gib": 31.29738998413086,
+      "available_gib": 19.394184112548828
+    },
+    "gpu": "name, memory.total [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 6739 MiB, 616.92"
+  },
+  "ram_after": {
+    "total_gib": 31.29738998413086,
+    "available_gib": 16.511615753173828
+  },
+  "process_peak_sampled_rss_gib": 3.723491668701172,
+  "rss_sampling_interval_seconds": 0.1,
+  "load_seconds": 1.9254687000029662,
+  "save_seconds": 1.5816225000016857,
+  "reload_seconds": 2.0847869999997783,
+  "reload_max_absolute_embedding_error": 0.0,
+  "optimizer_reload_passed": true,
+  "weight_update_max_embedding_difference": 0.06971953064203262,
+  "original_model_unchanged": true,
+  "full_training_not_started": true,
+  "estimate_512_examples_3_epochs_seconds_same_configuration": 25.749177599907853,
+  "estimate_1000_examples_3_epochs_seconds_same_configuration": 50.291362499820025
+}

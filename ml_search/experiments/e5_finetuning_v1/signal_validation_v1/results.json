@@ -1,0 +1,500 @@
+{
+  "weight_stability": {
+    "protocol": "leave-one-family-out selection among default and grid top20",
+    "selected_frequency": {
+      "grid_7": 1,
+      "grid_1": 12
+    },
+    "adaptive_cv_ndcg": 0.23252314821904868,
+    "default_cv_ndcg": 0.23622583359522997,
+    "delta": -0.0037026853761812917,
+    "folds": [
+      {
+        "heldout_family": "NEW-F02",
+        "selected": "grid_7",
+        "selected_heldout_ndcg": 0.3333333333333333,
+        "default_heldout_ndcg": 0.3333333333333333
+      },
+      {
+        "heldout_family": "NEW-F06",
+        "selected": "grid_1",
+        "selected_heldout_ndcg": 0.0,
+        "default_heldout_ndcg": 0.0
+      },
+      {
+        "heldout_family": "NEW-F07",
+        "selected": "grid_1",
+        "selected_heldout_ndcg": 0.33926085360199965,
+        "default_heldout_ndcg": 0.33926085360199965
+      },
+      {
+        "heldout_family": "NEW-F08",
+        "selected": "grid_1",
+        "selected_heldout_ndcg": 0.2923786423024661,
+        "default_heldout_ndcg": 0.31147111905953334
+      },
+      {
+        "heldout_family": "NEW-F12",
+        "selected": "grid_1",
+        "selected_heldout_ndcg": 0.0,
+        "default_heldout_ndcg": 0.0
+      },
+      {
+        "heldout_family": "NEW-F17",
+        "selected": "grid_1",
+        "selected_heldout_ndcg": 0.20438901925639266,
+        "default_heldout_ndcg": 0.20681264555044523
+      },
+      {
+        "heldout_family": "NEW-F18",
+        "selected": "grid_1",
+        "selected_heldout_ndcg": 0.15159675740780534,
+        "default_heldout_ndcg": 0.24724373026152877
+      },
+      {
+        "heldout_family": "NEW-F27",
+        "selected": "grid_1",
+        "selected_heldout_ndcg": 0.643558852691131,
+        "default_heldout_ndcg": 0.47689218602446437
+      },
+      {
+        "heldout_family": "NEW-F34",
+        "selected": "grid_1",
+        "selected_heldout_ndcg": 0.4692213134229677,
+        "default_heldout_ndcg": 0.5020264932230488
+      },
+      {
+        "heldout_family": "NEW-F37",
+        "selected": "grid_1",
+        "selected_heldout_ndcg": 0.020603644188460727,
+        "default_heldout_ndcg": 0.02391173278070305
+      },
+      {
+        "heldout_family": "NEW-F39",
+        "selected": "grid_1",
+        "selected_heldout_ndcg": 0.0,
+        "default_heldout_ndcg": 0.0
+      },
+      {
+        "heldout_family": "NEW-F42",
+        "selected": "grid_1",
+        "selected_heldout_ndcg": 0.4213560408575303,
+        "default_heldout_ndcg": 0.4213560408575303
+      },
+      {
+        "heldout_family": "NEW-F45",
+        "selected": "grid_1",
+        "selected_heldout_ndcg": 0.14710246978554622,
+        "default_heldout_ndcg": 0.20862770204540226
+      }
+    ]
+  },
+  "empty_detection": {
+    "protocol": "leave-one-family-out logistic regression with per-fold threshold selection",
+    "features": [
+      "raw_top1",
+      "raw_top1_zscore",
+      "raw_top1_gap",
+      "raw_top1_minus_top10_mean",
+      "lexical_top1",
+      "lexical_gap",
+      "ranking_top_score",
+      "ranking_gap",
+      "semantic_lexical_top5_overlap",
+      "known_query_token_fraction"
+    ],
+    "positive_recall": 0.717948717948718,
+    "empty_recall": 0.4166666666666667,
+    "balanced_accuracy": 0.5673076923076923,
+    "false_empty_query_ids": [
+      "NEW-F02-V1",
+      "NEW-F02-V2",
+      "NEW-F02-V3",
+      "NEW-F06-V2",
+      "NEW-F06-V3",
+      "NEW-F12-V1",
+      "NEW-F12-V2",
+      "NEW-F27-V2",
+      "NEW-F34-V1",
+      "NEW-F39-V1",
+      "NEW-F39-V2"
+    ],
+    "missed_empty_query_ids": [
+      "NEW-F23-V1",
+      "NEW-F23-V2",
+      "NEW-F25-V1",
+      "NEW-F25-V2",
+      "NEW-F25-V3",
+      "NEW-F48-V3",
+      "NEW-F50-V3"
+    ],
+    "median_threshold": 0.48495611980279213,
+    "probabilities": [
+      {
+        "query_id": "NEW-F02-V1",
+        "family_id": "NEW-F02",
+        "expected_empty": false,
+        "probability_has_match": 0.49972725396837775,
+        "predicted_has_match": false
+      },
+      {
+        "query_id": "NEW-F02-V2",
+        "family_id": "NEW-F02",
+        "expected_empty": false,
+        "probability_has_match": 0.4892353686049792,
+        "predicted_has_match": false
+      },
+      {
+        "query_id": "NEW-F02-V3",
+        "family_id": "NEW-F02",
+        "expected_empty": false,
+        "probability_has_match": 0.44332088649899626,
+        "predicted_has_match": false
+      },
+      {
+        "query_id": "NEW-F06-V1",
+        "family_id": "NEW-F06",
+        "expected_empty": false,
+        "probability_has_match": 0.5746097569955577,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F06-V2",
+        "family_id": "NEW-F06",
+        "expected_empty": false,
+        "probability_has_match": 0.4028439770520922,
+        "predicted_has_match": false
+      },
+      {
+        "query_id": "NEW-F06-V3",
+        "family_id": "NEW-F06",
+        "expected_empty": false,
+        "probability_has_match": 0.18593635089683316,
+        "predicted_has_match": false
+      },
+      {
+        "query_id": "NEW-F07-V1",
+        "family_id": "NEW-F07",
+        "expected_empty": false,
+        "probability_has_match": 0.470568731442982,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F07-V2",
+        "family_id": "NEW-F07",
+        "expected_empty": false,
+        "probability_has_match": 0.44043500833938853,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F07-V3",
+        "family_id": "NEW-F07",
+        "expected_empty": false,
+        "probability_has_match": 0.5896672384618349,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F08-V1",
+        "family_id": "NEW-F08",
+        "expected_empty": false,
+        "probability_has_match": 0.5036658262271038,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F08-V2",
+        "family_id": "NEW-F08",
+        "expected_empty": false,
+        "probability_has_match": 0.5074877022179037,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F08-V3",
+        "family_id": "NEW-F08",
+        "expected_empty": false,
+        "probability_has_match": 0.5104297401253287,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F12-V1",
+        "family_id": "NEW-F12",
+        "expected_empty": false,
+        "probability_has_match": 0.4081349539417946,
+        "predicted_has_match": false
+      },
+      {
+        "query_id": "NEW-F12-V2",
+        "family_id": "NEW-F12",
+        "expected_empty": false,
+        "probability_has_match": 0.4180731069692607,
+        "predicted_has_match": false
+      },
+      {
+        "query_id": "NEW-F12-V3",
+        "family_id": "NEW-F12",
+        "expected_empty": false,
+        "probability_has_match": 0.5751624827711594,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F17-V1",
+        "family_id": "NEW-F17",
+        "expected_empty": false,
+        "probability_has_match": 0.7713894903673424,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F17-V2",
+        "family_id": "NEW-F17",
+        "expected_empty": false,
+        "probability_has_match": 0.5999102276299983,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F17-V3",
+        "family_id": "NEW-F17",
+        "expected_empty": false,
+        "probability_has_match": 0.5718957144132257,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F18-V1",
+        "family_id": "NEW-F18",
+        "expected_empty": false,
+        "probability_has_match": 0.4546037539172099,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F18-V2",
+        "family_id": "NEW-F18",
+        "expected_empty": false,
+        "probability_has_match": 0.6154680415839031,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F18-V3",
+        "family_id": "NEW-F18",
+        "expected_empty": false,
+        "probability_has_match": 0.5623084411719953,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F23-V1",
+        "family_id": "NEW-F23",
+        "expected_empty": true,
+        "probability_has_match": 0.7084691760289498,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F23-V2",
+        "family_id": "NEW-F23",
+        "expected_empty": true,
+        "probability_has_match": 0.9066546890259849,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F23-V3",
+        "family_id": "NEW-F23",
+        "expected_empty": true,
+        "probability_has_match": 0.4736605927961147,
+        "predicted_has_match": false
+      },
+      {
+        "query_id": "NEW-F25-V1",
+        "family_id": "NEW-F25",
+        "expected_empty": true,
+        "probability_has_match": 0.9024600570447595,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F25-V2",
+        "family_id": "NEW-F25",
+        "expected_empty": true,
+        "probability_has_match": 0.9930582252566776,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F25-V3",
+        "family_id": "NEW-F25",
+        "expected_empty": true,
+        "probability_has_match": 0.7184401890895796,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F27-V1",
+        "family_id": "NEW-F27",
+        "expected_empty": false,
+        "probability_has_match": 0.5580550336549512,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F27-V2",
+        "family_id": "NEW-F27",
+        "expected_empty": false,
+        "probability_has_match": 0.4202507987924557,
+        "predicted_has_match": false
+      },
+      {
+        "query_id": "NEW-F27-V3",
+        "family_id": "NEW-F27",
+        "expected_empty": false,
+        "probability_has_match": 0.5524475631636381,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F34-V1",
+        "family_id": "NEW-F34",
+        "expected_empty": false,
+        "probability_has_match": 0.10577024966935247,
+        "predicted_has_match": false
+      },
+      {
+        "query_id": "NEW-F34-V2",
+        "family_id": "NEW-F34",
+        "expected_empty": false,
+        "probability_has_match": 0.5509850497898727,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F34-V3",
+        "family_id": "NEW-F34",
+        "expected_empty": false,
+        "probability_has_match": 0.7013542646236104,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F37-V1",
+        "family_id": "NEW-F37",
+        "expected_empty": false,
+        "probability_has_match": 0.45915554972484596,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F37-V2",
+        "family_id": "NEW-F37",
+        "expected_empty": false,
+        "probability_has_match": 0.7299914243229265,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F37-V3",
+        "family_id": "NEW-F37",
+        "expected_empty": false,
+        "probability_has_match": 0.6856527081615265,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F39-V1",
+        "family_id": "NEW-F39",
+        "expected_empty": false,
+        "probability_has_match": 0.4833570302891076,
+        "predicted_has_match": false
+      },
+      {
+        "query_id": "NEW-F39-V2",
+        "family_id": "NEW-F39",
+        "expected_empty": false,
+        "probability_has_match": 0.4522426061763476,
+        "predicted_has_match": false
+      },
+      {
+        "query_id": "NEW-F39-V3",
+        "family_id": "NEW-F39",
+        "expected_empty": false,
+        "probability_has_match": 0.7286823248741442,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F42-V1",
+        "family_id": "NEW-F42",
+        "expected_empty": false,
+        "probability_has_match": 0.8666907764475449,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F42-V2",
+        "family_id": "NEW-F42",
+        "expected_empty": false,
+        "probability_has_match": 0.643015159065038,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F42-V3",
+        "family_id": "NEW-F42",
+        "expected_empty": false,
+        "probability_has_match": 0.6804996359988451,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F45-V1",
+        "family_id": "NEW-F45",
+        "expected_empty": false,
+        "probability_has_match": 0.7054389911721751,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F45-V2",
+        "family_id": "NEW-F45",
+        "expected_empty": false,
+        "probability_has_match": 0.7529365426185447,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F45-V3",
+        "family_id": "NEW-F45",
+        "expected_empty": false,
+        "probability_has_match": 0.791838194073508,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F48-V1",
+        "family_id": "NEW-F48",
+        "expected_empty": true,
+        "probability_has_match": 0.2362508079209627,
+        "predicted_has_match": false
+      },
+      {
+        "query_id": "NEW-F48-V2",
+        "family_id": "NEW-F48",
+        "expected_empty": true,
+        "probability_has_match": 0.41125635269303285,
+        "predicted_has_match": false
+      },
+      {
+        "query_id": "NEW-F48-V3",
+        "family_id": "NEW-F48",
+        "expected_empty": true,
+        "probability_has_match": 0.9974740921539792,
+        "predicted_has_match": true
+      },
+      {
+        "query_id": "NEW-F50-V1",
+        "family_id": "NEW-F50",
+        "expected_empty": true,
+        "probability_has_match": 0.2594580681727858,
+        "predicted_has_match": false
+      },
+      {
+        "query_id": "NEW-F50-V2",
+        "family_id": "NEW-F50",
+        "expected_empty": true,
+        "probability_has_match": 0.11148403819547749,
+        "predicted_has_match": false
+      },
+      {
+        "query_id": "NEW-F50-V3",
+        "family_id": "NEW-F50",
+        "expected_empty": true,
+        "probability_has_match": 0.43935042278041303,
+        "predicted_has_match": true
+      }
+    ]
+  },
+  "recommendation": {
+    "weights": "keep_default",
+    "empty_detection": "do_not_integrate"
+  },
+  "limitations": [
+    "Only four empty-intent families are available; three paraphrases per family are correlated.",
+    "All development judgments were made by the same agent that authored the queries."
+  ]
+}

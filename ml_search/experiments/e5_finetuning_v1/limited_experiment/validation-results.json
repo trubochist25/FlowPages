@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "trained_runs": 2,
+  "evaluated_trained_checkpoints": 6,
+  "total_optimizer_steps": 1124,
+  "dev_families_with_positive_answers": 16,
+  "positive_dev_queries": 48,
+  "no_match_dev_queries_not_in_ranking_selection": 12,
+  "selected_by_preregistered_dev_only_rule": true,
+  "selected_copy_matches_checkpoint": true,
+  "production_files_unchanged": 8,
+  "service_environment_unchanged": true,
+  "frozen_assessment_unchanged": true,
+  "test_model_evaluation_performed": false,
+  "preliminary_run_not_in_comparison": true
+}

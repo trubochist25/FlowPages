@@ -1,0 +1,338 @@
+[
+  {
+    "query": "Гарри Поттер и философский камень",
+    "expected_title": "Гарри Поттер и философский камень",
+    "models": {
+      "original": {
+        "full_rank": 1,
+        "raw_semantic_rank": 1,
+        "intent": {
+          "original_query": "Гарри Поттер и философский камень",
+          "normalized_query": "гарри поттер и философский камень",
+          "corrected_query": "гарри поттер и философский камень",
+          "query_variants": [
+            "гарри поттер и философский камень"
+          ],
+          "taxonomy_query": "",
+          "residual_query": "",
+          "matched_titles": [
+            "Гарри Поттер и философский камень"
+          ],
+          "matched_authors": [],
+          "preferred_genres": [],
+          "excluded_genres": [],
+          "preferred_moods": [],
+          "excluded_moods": [],
+          "preferred_paces": [],
+          "excluded_terms": [],
+          "pages": null,
+          "year": null,
+          "age_max": null,
+          "matched_phrases": []
+        },
+        "target_breakdown": {
+          "total": 0.99,
+          "relevance": 1.0,
+          "semantic": 0.963525,
+          "residual_semantic": 0.0,
+          "lexical": 1.0,
+          "residual_lexical": 0.0,
+          "metadata": 0.5,
+          "popularity": 0.928147,
+          "entity_match": "exact_title"
+        }
+      },
+      "selected": {
+        "full_rank": 1,
+        "raw_semantic_rank": 2,
+        "intent": {
+          "original_query": "Гарри Поттер и философский камень",
+          "normalized_query": "гарри поттер и философский камень",
+          "corrected_query": "гарри поттер и философский камень",
+          "query_variants": [
+            "гарри поттер и философский камень"
+          ],
+          "taxonomy_query": "",
+          "residual_query": "",
+          "matched_titles": [
+            "Гарри Поттер и философский камень"
+          ],
+          "matched_authors": [],
+          "preferred_genres": [],
+          "excluded_genres": [],
+          "preferred_moods": [],
+          "excluded_moods": [],
+          "preferred_paces": [],
+          "excluded_terms": [],
+          "pages": null,
+          "year": null,
+          "age_max": null,
+          "matched_phrases": []
+        },
+        "target_breakdown": {
+          "total": 0.99,
+          "relevance": 1.0,
+          "semantic": 0.701362,
+          "residual_semantic": 0.0,
+          "lexical": 1.0,
+          "residual_lexical": 0.0,
+          "metadata": 0.5,
+          "popularity": 0.928147,
+          "entity_match": "exact_title"
+        }
+      }
+    }
+  },
+  {
+    "query": "гарри поттер философский камень",
+    "expected_title": "Гарри Поттер и философский камень",
+    "models": {
+      "original": {
+        "full_rank": 1,
+        "raw_semantic_rank": 1,
+        "intent": {
+          "original_query": "гарри поттер философский камень",
+          "normalized_query": "гарри поттер философский камень",
+          "corrected_query": "гарри поттер философский камень",
+          "query_variants": [
+            "гарри поттер философский камень"
+          ],
+          "taxonomy_query": "",
+          "residual_query": "",
+          "matched_titles": [
+            "Гарри Поттер и философский камень"
+          ],
+          "matched_authors": [],
+          "preferred_genres": [],
+          "excluded_genres": [],
+          "preferred_moods": [],
+          "excluded_moods": [],
+          "preferred_paces": [],
+          "excluded_terms": [],
+          "pages": null,
+          "year": null,
+          "age_max": null,
+          "matched_phrases": []
+        },
+        "target_breakdown": {
+          "total": 0.96,
+          "relevance": 0.98,
+          "semantic": 0.959781,
+          "residual_semantic": 0.0,
+          "lexical": 0.99125,
+          "residual_lexical": 0.0,
+          "metadata": 0.5,
+          "popularity": 0.928147,
+          "entity_match": "title"
+        }
+      },
+      "selected": {
+        "full_rank": 1,
+        "raw_semantic_rank": 2,
+        "intent": {
+          "original_query": "гарри поттер философский камень",
+          "normalized_query": "гарри поттер философский камень",
+          "corrected_query": "гарри поттер философский камень",
+          "query_variants": [
+            "гарри поттер философский камень"
+          ],
+          "taxonomy_query": "",
+          "residual_query": "",
+          "matched_titles": [
+            "Гарри Поттер и философский камень"
+          ],
+          "matched_authors": [],
+          "preferred_genres": [],
+          "excluded_genres": [],
+          "preferred_moods": [],
+          "excluded_moods": [],
+          "preferred_paces": [],
+          "excluded_terms": [],
+          "pages": null,
+          "year": null,
+          "age_max": null,
+          "matched_phrases": []
+        },
+        "target_breakdown": {
+          "total": 0.96,
+          "relevance": 0.98,
+          "semantic": 0.69687,
+          "residual_semantic": 0.0,
+          "lexical": 0.99125,
+          "residual_lexical": 0.0,
+          "metadata": 0.5,
+          "popularity": 0.928147,
+          "entity_match": "title"
+        }
+      }
+    }
+  },
+  {
+    "query": "Девушка с татуировкой дракона",
+    "expected_title": "Девушка с татуировкой дракона",
+    "models": {
+      "original": {
+        "full_rank": 1,
+        "raw_semantic_rank": 1,
+        "intent": {
+          "original_query": "Девушка с татуировкой дракона",
+          "normalized_query": "девушка с татуировкой дракона",
+          "corrected_query": "девушка с татуировкой дракона",
+          "query_variants": [
+            "девушка с татуировкой дракона"
+          ],
+          "taxonomy_query": "",
+          "residual_query": "",
+          "matched_titles": [
+            "Девушка с татуировкой дракона"
+          ],
+          "matched_authors": [],
+          "preferred_genres": [],
+          "excluded_genres": [],
+          "preferred_moods": [],
+          "excluded_moods": [],
+          "preferred_paces": [],
+          "excluded_terms": [],
+          "pages": null,
+          "year": null,
+          "age_max": null,
+          "matched_phrases": []
+        },
+        "target_breakdown": {
+          "total": 0.99,
+          "relevance": 1.0,
+          "semantic": 0.935018,
+          "residual_semantic": 0.0,
+          "lexical": 1.0,
+          "residual_lexical": 0.0,
+          "metadata": 0.5,
+          "popularity": 0.600383,
+          "entity_match": "exact_title"
+        }
+      },
+      "selected": {
+        "full_rank": 1,
+        "raw_semantic_rank": 213,
+        "intent": {
+          "original_query": "Девушка с татуировкой дракона",
+          "normalized_query": "девушка с татуировкой дракона",
+          "corrected_query": "девушка с татуировкой дракона",
+          "query_variants": [
+            "девушка с татуировкой дракона"
+          ],
+          "taxonomy_query": "",
+          "residual_query": "",
+          "matched_titles": [
+            "Девушка с татуировкой дракона"
+          ],
+          "matched_authors": [],
+          "preferred_genres": [],
+          "excluded_genres": [],
+          "preferred_moods": [],
+          "excluded_moods": [],
+          "preferred_paces": [],
+          "excluded_terms": [],
+          "pages": null,
+          "year": null,
+          "age_max": null,
+          "matched_phrases": []
+        },
+        "target_breakdown": {
+          "total": 0.99,
+          "relevance": 1.0,
+          "semantic": 0.542057,
+          "residual_semantic": 0.0,
+          "lexical": 1.0,
+          "residual_lexical": 0.0,
+          "metadata": 0.5,
+          "popularity": 0.600383,
+          "entity_match": "exact_title"
+        }
+      }
+    }
+  },
+  {
+    "query": "татуировкой дракона",
+    "expected_title": "Девушка с татуировкой дракона",
+    "models": {
+      "original": {
+        "full_rank": 1,
+        "raw_semantic_rank": 1,
+        "intent": {
+          "original_query": "татуировкой дракона",
+          "normalized_query": "татуировкой дракона",
+          "corrected_query": "татуировкой дракона",
+          "query_variants": [
+            "татуировкой дракона"
+          ],
+          "taxonomy_query": "",
+          "residual_query": "",
+          "matched_titles": [
+            "Девушка с татуировкой дракона"
+          ],
+          "matched_authors": [],
+          "preferred_genres": [],
+          "excluded_genres": [],
+          "preferred_moods": [],
+          "excluded_moods": [],
+          "preferred_paces": [],
+          "excluded_terms": [],
+          "pages": null,
+          "year": null,
+          "age_max": null,
+          "matched_phrases": []
+        },
+        "target_breakdown": {
+          "total": 0.96,
+          "relevance": 0.98,
+          "semantic": 0.932622,
+          "residual_semantic": 0.0,
+          "lexical": 0.941667,
+          "residual_lexical": 0.0,
+          "metadata": 0.5,
+          "popularity": 0.600383,
+          "entity_match": "title"
+        }
+      },
+      "selected": {
+        "full_rank": 1,
+        "raw_semantic_rank": 381,
+        "intent": {
+          "original_query": "татуировкой дракона",
+          "normalized_query": "татуировкой дракона",
+          "corrected_query": "татуировкой дракона",
+          "query_variants": [
+            "татуировкой дракона"
+          ],
+          "taxonomy_query": "",
+          "residual_query": "",
+          "matched_titles": [
+            "Девушка с татуировкой дракона"
+          ],
+          "matched_authors": [],
+          "preferred_genres": [],
+          "excluded_genres": [],
+          "preferred_moods": [],
+          "excluded_moods": [],
+          "preferred_paces": [],
+          "excluded_terms": [],
+          "pages": null,
+          "year": null,
+          "age_max": null,
+          "matched_phrases": []
+        },
+        "target_breakdown": {
+          "total": 0.96,
+          "relevance": 0.98,
+          "semantic": 0.512255,
+          "residual_semantic": 0.0,
+          "lexical": 0.941667,
+          "residual_lexical": 0.0,
+          "metadata": 0.5,
+          "popularity": 0.600383,
+          "entity_match": "title"
+        }
+      }
+    }
+  }
+]

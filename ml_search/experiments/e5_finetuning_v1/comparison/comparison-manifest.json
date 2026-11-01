@@ -1,0 +1,31 @@
+{
+  "files_sha256": {
+    "ml_search/experiments/e5_finetuning_v1/comparison/acceptance-criteria.json": "886822a1a2a0d788a6ad49c9485f80720390e5ddfc4097036584a9db07a9ad02",
+    "ml_search/experiments/e5_finetuning_v1/comparison/alchemy-comparison.json": "784043f688a4bdc0c0425ba7f6d17568d509c125de305ca3f825fe424400abfc",
+    "ml_search/experiments/e5_finetuning_v1/comparison/comparison-preregistration.json": "2fa164186b9a2fe7601dcd4ee0a020323c858a77cd91729d2013a8c37448fa37",
+    "ml_search/experiments/e5_finetuning_v1/comparison/COMPARISON_REPORT.md": "f984f4cb5124a8a00a0039821a7b7d9118dad27e2290ca762dffc7b8cd1b6811",
+    "ml_search/experiments/e5_finetuning_v1/comparison/decision.json": "71e55c94b8080501c2d328b45becac61428a6c1357dcda28dd5ad6a13ada4102",
+    "ml_search/experiments/e5_finetuning_v1/comparison/dev-results.json": "1acda710a8f7b6ea0f89d40725660ca68e112e82df905133b7b14588a48143e9",
+    "ml_search/experiments/e5_finetuning_v1/comparison/final-decision.json": "476704b8af77e967efa46e2c09d13bdb91eb4bbd646860cca2d09123780723fd",
+    "ml_search/experiments/e5_finetuning_v1/comparison/independent-functional-check.json": "66373516063dfd2cc124c00a5bc977031bbdc6bf2b194fe48ce20564ffd423c7",
+    "ml_search/experiments/e5_finetuning_v1/comparison/latency.json": "1e67f228971d3e5420d368c88be83d9076b9636b92f022c60b0902ca8afa4677",
+    "ml_search/experiments/e5_finetuning_v1/comparison/recommendation-comparison.json": "8e8c85298feafaecbd955d1966bdcd71a5e3649d0af75f8fd26edb4c256a62bb",
+    "ml_search/experiments/e5_finetuning_v1/comparison/regression77.json": "09af28058105df81db226fea5e61b4356bdb5f8d076e7065dad7114cb45c4d03",
+    "ml_search/experiments/e5_finetuning_v1/comparison/search-safeguards.json": "6b807b5ce69af701fe186a0852c7c72faca33f76992cc8aad5154252be742127",
+    "ml_search/experiments/e5_finetuning_v1/comparison/stability.json": "c503aff632f2b8ed54b79f709a3abcba5886fb34c24342c2b2791f49c41a310a",
+    "ml_search/experiments/e5_finetuning_v1/comparison/test-results.json": "37c0f3e739d216b8334676db8f8d1523d5b781f813a6ffdc2f0fa902f2ad918d",
+    "ml_search/experiments/e5_finetuning_v1/comparison/validation-results.json": "d72a0ab8b99a73fdb23b9fe2112a9bc3405cbf2bb6a39fd66c233c03ec888852",
+    "ml_search/experiments/e5_finetuning_v1/comparison/index/book-index.npz": "d728e5f6be0860d7c22d15588c1deac23fd32f8463a22a99b73520e6f8d85fd6",
+    "ml_search/experiments/e5_finetuning_v1/comparison/index/manifest.json": "3e6346f351d61ef2e2984060b1885025d19e64e27009bd5b66ac5c51845a4c41",
+    "ml_search/experiments/e5_finetuning_v1/compare_selected_model.py": "8ae4b7daa1b60ef68921cff4b84a8e5e540212114b111c7fb5219a9baf2b368e",
+    "ml_search/experiments/e5_finetuning_v1/build_comparison_index.py": "1448266d6ef3aa54a0e739ce39cd9e12f3895e84bc7cfdb47a23f89044fa5181",
+    "ml_search/experiments/e5_finetuning_v1/finalize_comparison.py": "3ece3fcb91b6dce3c90004709f066b659acb43eaa40cd401d816666952fb74bb",
+    "ml_search/experiments/e5_finetuning_v1/comparison.log": "22c6da5fc2944dd967a540da07c8ec6645062eb13ab381152ec747615c25d5ff",
+    "ml_search/experiments/e5_finetuning_v1/comparison-index-build.log": "7814ae71cb30fde3712aa7c4339c8bd705b4e1ef3bfd4e96337b2ab405e72e52"
+  },
+  "selected_model_sha256": "1c1813ae9a621a9ead0886b161177b746d70e9f9942b88752c3f1ac5ef35721a",
+  "backup_selected_model": "backups/e5-limited-experiment-selected-20260915-v1.zip",
+  "closed_test_used_once": true,
+  "final_decision": "comparison/final-decision.json",
+  "production_replaced": false
+}

@@ -1,0 +1,785 @@
+{
+  "summary": {
+    "cases": 40,
+    "fully_supported_cases": 36,
+    "partially_supported": 2,
+    "unsupported": 2,
+    "supported_target_semantic_top10": 22,
+    "supported_target_full_top10": 33,
+    "ranking_improves_target": 24,
+    "ranking_worsens_target": 2,
+    "priority_mixed_cases": [
+      "A05",
+      "A08",
+      "A18"
+    ],
+    "semantic_diagnostic_case": [
+      "A27"
+    ],
+    "priority_rule_cases": [
+      "A24",
+      "A29",
+      "A36"
+    ],
+    "cause_counts": {
+      "mixed": 1,
+      "working": 14,
+      "label_and_metadata": 1,
+      "label_and_parser": 1,
+      "embedding_and_ranking": 1,
+      "embedding_compensated": 10,
+      "embedding_and_parser": 2,
+      "working_negation": 3,
+      "embedding_and_metadata": 1,
+      "parser_and_ranking": 1,
+      "parser_context": 2,
+      "parser_negation": 1,
+      "unsupported_label": 2
+    },
+    "scope": "Target-book diagnostic ranks, not exhaustive relevance judgments or unbiased quality estimates."
+  },
+  "cases": [
+    {
+      "audit_id": "A01",
+      "cause": "mixed",
+      "assessment": "Готическое поместье подтверждено. История ошибочно становится жанром; теги настроения также требуют сверки. Семантика 9, полная выдача 7; без metadata 4. Не чистая ошибка E5.",
+      "structured_moods": [
+        "страшная",
+        "мрачная",
+        "напряжённая"
+      ],
+      "structured_genres": [
+        "Ужасы"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 9,
+      "semantic_rank": 9,
+      "full_rank": 7,
+      "returned_rank": 7
+    },
+    {
+      "audit_id": "A02",
+      "cause": "working",
+      "assessment": "Абсурдное космическое приключение найдено первым семантически и в полной выдаче. Контрольный успех.",
+      "structured_moods": [
+        "динамичная",
+        "приключенческая"
+      ],
+      "structured_genres": [
+        "Фантастика",
+        "Приключения"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 1,
+      "semantic_rank": 1,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A03",
+      "cause": "label_and_metadata",
+      "assessment": "Средневековый интеллектуальный детектив подтверждён, мрачность прямо не указана. Семантика 22, полная выдача 9. Теги профиля и мягких фильтров требуют сверки; не считать безусловной обучающей парой без уточнения тона.",
+      "structured_moods": [
+        "напряжённая",
+        "мрачная",
+        "динамичная"
+      ],
+      "structured_genres": [
+        "Триллеры"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 22,
+      "semantic_rank": 22,
+      "full_rank": 9,
+      "returned_rank": 9
+    },
+    {
+      "audit_id": "A04",
+      "cause": "label_and_parser",
+      "assessment": "Находчивость и юмор подтверждены, доброта и преодоление собственного страха прямо не описаны. Ошибочно добавлен жанр История, однако целевая книга первая.",
+      "structured_moods": [
+        "лёгкая",
+        "уютная"
+      ],
+      "structured_genres": [
+        "Детская литература"
+      ],
+      "structured_pace": "средний",
+      "raw_semantic_rank": 2,
+      "semantic_rank": 2,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A05",
+      "cause": "embedding_and_ranking",
+      "assessment": "Память, брак и возвращение войн описаны, но E5 ставит книгу 98-й, полная система 196-й и отсекает. Лексическое совпадение низкое (0,1625), теги дают metadata=0; текст и структурированные настроения расходятся. Приоритетный смешанный случай.",
+      "structured_moods": [
+        "динамичная",
+        "приключенческая"
+      ],
+      "structured_genres": [
+        "Фэнтези",
+        "Приключения"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 98,
+      "semantic_rank": 98,
+      "full_rank": 196,
+      "returned_rank": null
+    },
+    {
+      "audit_id": "A06",
+      "cause": "working",
+      "assessment": "Философия одиночества после эпидемии подтверждена; полная выдача первая. Ложный жанр История присутствует, но здесь не приводит к промаху по цели.",
+      "structured_moods": [
+        "страшная",
+        "мрачная",
+        "напряжённая"
+      ],
+      "structured_genres": [
+        "Ужасы",
+        "Фантастика",
+        "Классическая литература"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 2,
+      "semantic_rank": 1,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A07",
+      "cause": "embedding_compensated",
+      "assessment": "Детство, лето и медленный темп описаны. Семантика 24, полная выдача 1: лексика и характеристики компенсируют слабость E5. Без metadata позиция 2.",
+      "structured_moods": [
+        "волшебная",
+        "приключенческая"
+      ],
+      "structured_genres": [
+        "Фэнтези",
+        "Классическая литература"
+      ],
+      "structured_pace": "медленный",
+      "raw_semantic_rank": 20,
+      "semantic_rank": 24,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A08",
+      "cause": "embedding_and_parser",
+      "assessment": "Сохранённое лето и медленный темп описаны. Семантика 237, полная выдача 10, первые результаты не подтверждают летние воспоминания. Разговорное «никуда не торопиться» не распознано как медленный темп. Приоритет для проверки адаптации к разговорной речи.",
+      "structured_moods": [
+        "волшебная",
+        "приключенческая"
+      ],
+      "structured_genres": [
+        "Фэнтези",
+        "Классическая литература"
+      ],
+      "structured_pace": "медленный",
+      "raw_semantic_rank": 224,
+      "semantic_rank": 237,
+      "full_rank": 10,
+      "returned_rank": 10
+    },
+    {
+      "audit_id": "A09",
+      "cause": "working",
+      "assessment": "Неоднозначная медленная тревога усадебного дома описана и найдена первой. Более конкретная формулировка работает.",
+      "structured_moods": [
+        "страшная",
+        "мрачная",
+        "напряжённая"
+      ],
+      "structured_genres": [
+        "Ужасы"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 2,
+      "semantic_rank": 1,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A10",
+      "cause": "working_negation",
+      "assessment": "Неоднозначность объяснения призраками подтверждена; книга первая. Это локальный успех сложного отрицания, не доказательство универсального понимания отрицаний.",
+      "structured_moods": [
+        "страшная",
+        "мрачная",
+        "напряжённая"
+      ],
+      "structured_genres": [
+        "Ужасы"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 11,
+      "semantic_rank": 8,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A11",
+      "cause": "working",
+      "assessment": "Старые супруги и забытое прошлое подтверждены; семантика 6, полная выдача 3. Без metadata 2; влияние тегов небольшое, но не положительное.",
+      "structured_moods": [
+        "динамичная",
+        "приключенческая"
+      ],
+      "structured_genres": [
+        "Фэнтези",
+        "Приключения"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 7,
+      "semantic_rank": 6,
+      "full_rank": 3,
+      "returned_rank": 3
+    },
+    {
+      "audit_id": "A12",
+      "cause": "working",
+      "assessment": "Туман и путешествие пожилых супругов явно описаны; обе выдачи первые. Конкретный пересказ успешнее A05.",
+      "structured_moods": [
+        "динамичная",
+        "приключенческая"
+      ],
+      "structured_genres": [
+        "Фэнтези",
+        "Приключения"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 1,
+      "semantic_rank": 1,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A13",
+      "cause": "working_negation",
+      "assessment": "Биологическое объяснение инфекции подтверждено; обе выдачи первые. Не переносить результат на отрицания других тем.",
+      "structured_moods": [
+        "страшная",
+        "мрачная",
+        "напряжённая"
+      ],
+      "structured_genres": [
+        "Ужасы",
+        "Фантастика",
+        "Классическая литература"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 1,
+      "semantic_rank": 1,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A14",
+      "cause": "working",
+      "assessment": "Одиночество и пересмотр понятия чудовища явно описаны; семантика 3, полная выдача 1.",
+      "structured_moods": [
+        "страшная",
+        "мрачная",
+        "напряжённая"
+      ],
+      "structured_genres": [
+        "Ужасы",
+        "Фантастика",
+        "Классическая литература"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 11,
+      "semantic_rank": 3,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A15",
+      "cause": "working",
+      "assessment": "Космический абсурд описан; семантика 2, полная выдача 1.",
+      "structured_moods": [
+        "динамичная",
+        "приключенческая"
+      ],
+      "structured_genres": [
+        "Фантастика",
+        "Приключения"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 2,
+      "semantic_rank": 2,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A16",
+      "cause": "embedding_compensated",
+      "assessment": "Абсурдные космические странствия описаны; семантика 23, полная выдача 1. Запрос с противопоставлением успешно компенсируется лексикой и характеристиками.",
+      "structured_moods": [
+        "динамичная",
+        "приключенческая"
+      ],
+      "structured_genres": [
+        "Фантастика",
+        "Приключения"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 25,
+      "semantic_rank": 23,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A17",
+      "cause": "working",
+      "assessment": "Монах, спутник и библиотека описаны. Семантика и полная выдача первые, но без лексики книга 53-я: сильная зависимость текущей формулы от лексики.",
+      "structured_moods": [
+        "напряжённая",
+        "мрачная",
+        "динамичная"
+      ],
+      "structured_genres": [
+        "Триллеры"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 1,
+      "semantic_rank": 1,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A18",
+      "cause": "embedding_and_metadata",
+      "assessment": "Рукописи, монастырь и власть описаны. Семантика 132, полная выдача 19; без metadata 10. Структурированные настроения целевой книги не подтверждают интеллектуальную загадочность, указанную в тексте. Приоритетный смешанный случай.",
+      "structured_moods": [
+        "напряжённая",
+        "мрачная",
+        "динамичная"
+      ],
+      "structured_genres": [
+        "Триллеры"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 158,
+      "semantic_rank": 132,
+      "full_rank": 19,
+      "returned_rank": 19
+    },
+    {
+      "audit_id": "A19",
+      "cause": "embedding_compensated",
+      "assessment": "Слабый герой, хищники и юмор описаны; семантика 16, полная выдача 3. Настройка признаков компенсирует слабый семантический результат.",
+      "structured_moods": [
+        "лёгкая",
+        "уютная"
+      ],
+      "structured_genres": [
+        "Детская литература"
+      ],
+      "structured_pace": "средний",
+      "raw_semantic_rank": 20,
+      "semantic_rank": 16,
+      "full_rank": 3,
+      "returned_rank": 3
+    },
+    {
+      "audit_id": "A20",
+      "cause": "working",
+      "assessment": "Выдуманное и настоящее чудовище описаны; семантика 2, полная выдача 1.",
+      "structured_moods": [
+        "лёгкая",
+        "уютная"
+      ],
+      "structured_genres": [
+        "Детская литература"
+      ],
+      "structured_pace": "средний",
+      "raw_semantic_rank": 1,
+      "semantic_rank": 2,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A21",
+      "cause": "embedding_compensated",
+      "assessment": "Принятие себя и буллинг описаны; семантика 22, полная выдача 1. Эмоциональное чтение распознано.",
+      "structured_moods": [
+        "эмоциональная",
+        "драматичная"
+      ],
+      "structured_genres": [
+        "Подростковая литература",
+        "Детская литература",
+        "Современная проза"
+      ],
+      "structured_pace": "средний",
+      "raw_semantic_rank": 14,
+      "semantic_rank": 22,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A22",
+      "cause": "embedding_compensated",
+      "assessment": "Неприятие в школе описано; семантика 46, полная выдача 2. Словарь распознаёт ребёнка, но не всю разговорную эмоциональную задачу.",
+      "structured_moods": [
+        "эмоциональная",
+        "драматичная"
+      ],
+      "structured_genres": [
+        "Подростковая литература",
+        "Детская литература",
+        "Современная проза"
+      ],
+      "structured_pace": "средний",
+      "raw_semantic_rank": 58,
+      "semantic_rank": 46,
+      "full_rank": 2,
+      "returned_rank": 2
+    },
+    {
+      "audit_id": "A23",
+      "cause": "embedding_and_parser",
+      "assessment": "Достоинство и опыт описаны; семантика 18, полная выдача 2. «Научного опыта» ошибочно добавляет познавательное настроение: речь о событии сюжета, а не типе чтения.",
+      "structured_moods": [
+        "меланхоличная",
+        "эмоциональная",
+        "вдумчивая"
+      ],
+      "structured_genres": [
+        "Фантастика",
+        "Современная проза"
+      ],
+      "structured_pace": "средний",
+      "raw_semantic_rank": 16,
+      "semantic_rank": 18,
+      "full_rank": 2,
+      "returned_rank": 2
+    },
+    {
+      "audit_id": "A24",
+      "cause": "parser_and_ranking",
+      "assessment": "Операция и переоценка отношений прямо описаны. Семантика 5, полная выдача 11; без metadata 1. «Умнее» ошибочно трактуется как желание интеллектуального чтения, а не изменение героя. Первые книги не подтверждают операцию. Исправление правил важнее обучения на этом примере.",
+      "structured_moods": [
+        "меланхоличная",
+        "эмоциональная",
+        "вдумчивая"
+      ],
+      "structured_genres": [
+        "Фантастика",
+        "Современная проза"
+      ],
+      "structured_pace": "средний",
+      "raw_semantic_rank": 5,
+      "semantic_rank": 5,
+      "full_rank": 11,
+      "returned_rank": 11
+    },
+    {
+      "audit_id": "A25",
+      "cause": "working_negation",
+      "assessment": "Жестокость островного общества описана; семантика 7, полная выдача 1. Противопоставление весёлым каникулам не вызывает промаха.",
+      "structured_moods": [
+        "напряжённая",
+        "мрачная",
+        "динамичная"
+      ],
+      "structured_genres": [
+        "Триллеры",
+        "Классическая литература"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 11,
+      "semantic_rank": 7,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A26",
+      "cause": "embedding_compensated",
+      "assessment": "Разрушение правил детской группы описано; семантика 89, полная выдача 5. metadata не влияет на позицию, лексика существенно помогает.",
+      "structured_moods": [
+        "напряжённая",
+        "мрачная",
+        "динамичная"
+      ],
+      "structured_genres": [
+        "Триллеры",
+        "Классическая литература"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 102,
+      "semantic_rank": 89,
+      "full_rank": 5,
+      "returned_rank": 5
+    },
+    {
+      "audit_id": "A27",
+      "cause": "embedding_compensated",
+      "assessment": "Слежка и переписывание прошлого описаны. Семантика 502 после нормализации (415 для исходной строки), полная выдача 2. Семантические лидеры по профилям не подтверждают антиутопическую слежку. Сильный диагностический случай E5, хотя пользовательский поиск спасается лексикой и тегами.",
+      "structured_moods": [
+        "мрачная",
+        "напряжённая",
+        "интеллектуальная"
+      ],
+      "structured_genres": [
+        "Фантастика",
+        "Классическая литература"
+      ],
+      "structured_pace": "средний",
+      "raw_semantic_rank": 415,
+      "semantic_rank": 502,
+      "full_rank": 2,
+      "returned_rank": 2
+    },
+    {
+      "audit_id": "A28",
+      "cause": "embedding_compensated",
+      "assessment": "Контроль частной жизни и прошлого описан; семантика 91, полная выдача 1. Разговорный запрос компенсируется лексикой.",
+      "structured_moods": [
+        "мрачная",
+        "напряжённая",
+        "интеллектуальная"
+      ],
+      "structured_genres": [
+        "Фантастика",
+        "Классическая литература"
+      ],
+      "structured_pace": "средний",
+      "raw_semantic_rank": 153,
+      "semantic_rank": 91,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A29",
+      "cause": "parser_context",
+      "assessment": "Программирование людей описано; семантика 6, полная выдача 1. Сюжетное «программированием» ошибочно добавляет жанр Компьютеры и технологии. Ошибка контекста правил, не повод обучать модель такому жанровому признаку.",
+      "structured_moods": [
+        "интеллектуальная",
+        "загадочная"
+      ],
+      "structured_genres": [
+        "Фантастика",
+        "Классическая литература"
+      ],
+      "structured_pace": "медленный",
+      "raw_semantic_rank": 11,
+      "semantic_rank": 6,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A30",
+      "cause": "working",
+      "assessment": "Выращивание каст и обучение во сне описаны; обе выдачи первые.",
+      "structured_moods": [
+        "интеллектуальная",
+        "загадочная"
+      ],
+      "structured_genres": [
+        "Фантастика",
+        "Классическая литература"
+      ],
+      "structured_pace": "медленный",
+      "raw_semantic_rank": 2,
+      "semantic_rank": 2,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A31",
+      "cause": "working",
+      "assessment": "Домосед и смелость, уют и приключение описаны; семантика 7, полная выдача 1.",
+      "structured_moods": [
+        "приключенческая",
+        "волшебная",
+        "уютная"
+      ],
+      "structured_genres": [
+        "Фэнтези",
+        "Приключения",
+        "Детская литература"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 7,
+      "semantic_rank": 7,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A32",
+      "cause": "embedding_compensated",
+      "assessment": "Поход, сокровища, дракон и находчивость описаны; семантика 16, полная выдача 1. Правила находят волшебство, лексика помогает.",
+      "structured_moods": [
+        "приключенческая",
+        "волшебная",
+        "уютная"
+      ],
+      "structured_genres": [
+        "Фэнтези",
+        "Приключения",
+        "Детская литература"
+      ],
+      "structured_pace": "быстрый",
+      "raw_semantic_rank": 16,
+      "semantic_rank": 16,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A33",
+      "cause": "working",
+      "assessment": "Ответственность, дружба и детский взгляд описаны; семантика 10, полная выдача 1.",
+      "structured_moods": [
+        "эмоциональная",
+        "меланхоличная",
+        "вдумчивая"
+      ],
+      "structured_genres": [
+        "Детская литература",
+        "Фэнтези",
+        "Приключения"
+      ],
+      "structured_pace": "средний",
+      "raw_semantic_rank": 7,
+      "semantic_rank": 10,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A34",
+      "cause": "embedding_compensated",
+      "assessment": "Мальчик и необычные взрослые описаны; семантика 120, полная выдача 3. Без metadata 1, поэтому признаки приключения немного мешают.",
+      "structured_moods": [
+        "эмоциональная",
+        "меланхоличная",
+        "вдумчивая"
+      ],
+      "structured_genres": [
+        "Детская литература",
+        "Фэнтези",
+        "Приключения"
+      ],
+      "structured_pace": "средний",
+      "raw_semantic_rank": 235,
+      "semantic_rank": 120,
+      "full_rank": 3,
+      "returned_rank": 3
+    },
+    {
+      "audit_id": "A35",
+      "cause": "working",
+      "assessment": "Ироничная медленная романтика и взаимные заблуждения описаны; обе выдачи первые.",
+      "structured_moods": [
+        "ироничная",
+        "романтичная",
+        "вдумчивая"
+      ],
+      "structured_genres": [
+        "Классическая литература",
+        "Романтика"
+      ],
+      "structured_pace": "медленный",
+      "raw_semantic_rank": 1,
+      "semantic_rank": 1,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A36",
+      "cause": "parser_negation",
+      "assessment": "Медленный темп описан; обе выдачи первые. Но «без быстрого темпа» записано в preferred_paces=быстрый. Промах парсера скрыт правильным первым результатом.",
+      "structured_moods": [
+        "ироничная",
+        "романтичная",
+        "вдумчивая"
+      ],
+      "structured_genres": [
+        "Классическая литература",
+        "Романтика"
+      ],
+      "structured_pace": "медленный",
+      "raw_semantic_rank": 1,
+      "semantic_rank": 1,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A37",
+      "cause": "working",
+      "assessment": "Отчуждение и страх взросления описаны; обе выдачи первые.",
+      "structured_moods": [
+        "меланхоличная",
+        "ироничная",
+        "эмоциональная"
+      ],
+      "structured_genres": [
+        "Классическая литература",
+        "Подростковая литература"
+      ],
+      "structured_pace": "средний",
+      "raw_semantic_rank": 1,
+      "semantic_rank": 1,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A38",
+      "cause": "parser_context",
+      "assessment": "Чтение в приёмной семье во время войны подтверждено; обе выдачи первые после нормализации. Слово история даёт лишний жанр История.",
+      "structured_moods": [
+        "лёгкая",
+        "уютная"
+      ],
+      "structured_genres": [
+        "Детская литература"
+      ],
+      "structured_pace": "средний",
+      "raw_semantic_rank": 4,
+      "semantic_rank": 1,
+      "full_rank": 1,
+      "returned_rank": 1
+    },
+    {
+      "audit_id": "A39",
+      "cause": "unsupported_label",
+      "assessment": "Бабушкина кухня и хлеб не подтверждены профилем. Цель 52-я в полном ранжировании, но это не доказанная ошибка: нельзя выдумать позитивную обучающую пару.",
+      "structured_moods": [
+        "волшебная",
+        "приключенческая"
+      ],
+      "structured_genres": [
+        "Фэнтези",
+        "Классическая литература"
+      ],
+      "structured_pace": "медленный",
+      "raw_semantic_rank": 40,
+      "semantic_rank": 41,
+      "full_rank": 52,
+      "returned_rank": null
+    },
+    {
+      "audit_id": "A40",
+      "cause": "unsupported_label",
+      "assessment": "Профиль художественной книги подтверждает травлю, но не упражнения и план действий родителям. Цель 305-я; требовать её подъёма неверно.",
+      "structured_moods": [
+        "эмоциональная",
+        "драматичная"
+      ],
+      "structured_genres": [
+        "Подростковая литература",
+        "Детская литература",
+        "Современная проза"
+      ],
+      "structured_pace": "средний",
+      "raw_semantic_rank": 221,
+      "semantic_rank": 198,
+      "full_rank": 305,
+      "returned_rank": null
+    }
+  ]
+}

@@ -1,0 +1,3233 @@
+{
+  "protocol": "Rerank only current top-K; select on 51-query dev with 77-query guardrails; validate selection by leave-one-family-out; 99-query closed test unopened.",
+  "candidate_recall_dev": {
+    "10": 0.4358974358974359,
+    "20": 0.46153846153846156,
+    "30": 0.5128205128205128,
+    "50": 0.5384615384615384,
+    "100": 0.6666666666666666,
+    "200": 0.8205128205128205,
+    "1000": 1.0
+  },
+  "baseline": {
+    "dev": {
+      "ndcg10": 0.23622583359522997,
+      "hit3": 0.2564102564102564,
+      "hit10": 0.4358974358974359
+    },
+    "regression77": {
+      "ndcg10": 0.9417260048371283,
+      "hit3": 0.948051948051948,
+      "hit10": 0.987012987012987
+    }
+  },
+  "searched_variants": 252,
+  "eligible_variants": 137,
+  "selected": {
+    "config": {
+      "candidate_k": 1000,
+      "component": "max_fields",
+      "alpha": 0.6
+    },
+    "dev": {
+      "ndcg10": 0.28497803287782614,
+      "hit3": 0.30769230769230765,
+      "hit10": 0.4871794871794872
+    },
+    "regression77": {
+      "ndcg10": 0.9174988273708523,
+      "hit3": 0.948051948051948,
+      "hit10": 0.987012987012987
+    }
+  },
+  "selected_delta": {
+    "ndcg10": 0.048752199282596165,
+    "hit3": 0.051282051282051266,
+    "hit10": 0.05128205128205132
+  },
+  "selected_rows": {
+    "dev": [
+      {
+        "query_id": "NEW-F02-V1",
+        "family_id": "NEW-F02",
+        "category": "mood",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          516,
+          370,
+          74,
+          292,
+          167,
+          679,
+          718,
+          710,
+          567,
+          628
+        ]
+      },
+      {
+        "query_id": "NEW-F02-V2",
+        "family_id": "NEW-F02",
+        "category": "mood",
+        "expected_empty": false,
+        "ndcg10": 0.6309297535714574,
+        "hit3": true,
+        "hit10": true,
+        "rank": 2,
+        "top_ids": [
+          710,
+          516,
+          891,
+          271,
+          74,
+          541,
+          21,
+          17,
+          642,
+          88
+        ]
+      },
+      {
+        "query_id": "NEW-F02-V3",
+        "family_id": "NEW-F02",
+        "category": "mood",
+        "expected_empty": false,
+        "ndcg10": 0.6309297535714574,
+        "hit3": true,
+        "hit10": true,
+        "rank": 2,
+        "top_ids": [
+          329,
+          516,
+          4,
+          74,
+          710,
+          950,
+          343,
+          762,
+          642,
+          838
+        ]
+      },
+      {
+        "query_id": "NEW-F06-V1",
+        "family_id": "NEW-F06",
+        "category": "mood",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          849,
+          760,
+          28,
+          254,
+          343,
+          477,
+          830,
+          738,
+          765,
+          53
+        ]
+      },
+      {
+        "query_id": "NEW-F06-V2",
+        "family_id": "NEW-F06",
+        "category": "mood",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          476,
+          4,
+          80,
+          659,
+          567,
+          537,
+          703,
+          254,
+          160,
+          166
+        ]
+      },
+      {
+        "query_id": "NEW-F06-V3",
+        "family_id": "NEW-F06",
+        "category": "mood",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          762,
+          292,
+          343,
+          76,
+          336,
+          166,
+          145,
+          75,
+          514,
+          74
+        ]
+      },
+      {
+        "query_id": "NEW-F07-V1",
+        "family_id": "NEW-F07",
+        "category": "mood",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          922,
+          169,
+          540,
+          354,
+          850,
+          698,
+          65,
+          646,
+          8,
+          18
+        ]
+      },
+      {
+        "query_id": "NEW-F07-V2",
+        "family_id": "NEW-F07",
+        "category": "mood",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          76,
+          416,
+          289,
+          222,
+          706,
+          980,
+          269,
+          898,
+          131,
+          15
+        ]
+      },
+      {
+        "query_id": "NEW-F07-V3",
+        "family_id": "NEW-F07",
+        "category": "mood",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          710,
+          801,
+          2,
+          357,
+          493,
+          131,
+          564,
+          895,
+          375,
+          412
+        ]
+      },
+      {
+        "query_id": "NEW-F08-V1",
+        "family_id": "NEW-F08",
+        "category": "mood",
+        "expected_empty": false,
+        "ndcg10": 0.52129602861432,
+        "hit3": true,
+        "hit10": true,
+        "rank": 2,
+        "top_ids": [
+          513,
+          292,
+          947,
+          577,
+          743,
+          508,
+          470,
+          527,
+          2,
+          316
+        ]
+      },
+      {
+        "query_id": "NEW-F08-V2",
+        "family_id": "NEW-F08",
+        "category": "mood",
+        "expected_empty": false,
+        "ndcg10": 0.26064801430716,
+        "hit3": false,
+        "hit10": true,
+        "rank": 8,
+        "top_ids": [
+          527,
+          124,
+          254,
+          676,
+          50,
+          4,
+          337,
+          292,
+          11,
+          352
+        ]
+      },
+      {
+        "query_id": "NEW-F08-V3",
+        "family_id": "NEW-F08",
+        "category": "mood",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          379,
+          577,
+          527,
+          40,
+          25,
+          23,
+          192,
+          31,
+          20,
+          146
+        ]
+      },
+      {
+        "query_id": "NEW-F12-V1",
+        "family_id": "NEW-F12",
+        "category": "atmosphere",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          463,
+          815,
+          330,
+          207,
+          779,
+          321,
+          718,
+          378,
+          708,
+          853
+        ]
+      },
+      {
+        "query_id": "NEW-F12-V2",
+        "family_id": "NEW-F12",
+        "category": "atmosphere",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          704,
+          601,
+          575,
+          90,
+          214,
+          788,
+          815,
+          467,
+          930,
+          526
+        ]
+      },
+      {
+        "query_id": "NEW-F12-V3",
+        "family_id": "NEW-F12",
+        "category": "atmosphere",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          601,
+          832,
+          214,
+          815,
+          546,
+          9,
+          779,
+          575,
+          468,
+          940
+        ]
+      },
+      {
+        "query_id": "NEW-F17-V1",
+        "family_id": "NEW-F17",
+        "category": "atmosphere",
+        "expected_empty": false,
+        "ndcg10": 0.11861329943102608,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          760,
+          854,
+          472,
+          271,
+          995,
+          454,
+          224,
+          876,
+          999,
+          42
+        ]
+      },
+      {
+        "query_id": "NEW-F17-V2",
+        "family_id": "NEW-F17",
+        "category": "atmosphere",
+        "expected_empty": false,
+        "ndcg10": 0.330639228452749,
+        "hit3": false,
+        "hit10": true,
+        "rank": 10,
+        "top_ids": [
+          145,
+          201,
+          472,
+          798,
+          854,
+          876,
+          271,
+          990,
+          198,
+          439
+        ]
+      },
+      {
+        "query_id": "NEW-F17-V3",
+        "family_id": "NEW-F17",
+        "category": "atmosphere",
+        "expected_empty": false,
+        "ndcg10": 0.08688267143572001,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          472,
+          854,
+          708,
+          995,
+          153,
+          224,
+          219,
+          271,
+          760,
+          207
+        ]
+      },
+      {
+        "query_id": "NEW-F18-V1",
+        "family_id": "NEW-F18",
+        "category": "atmosphere",
+        "expected_empty": false,
+        "ndcg10": 0.2599684183601281,
+        "hit3": false,
+        "hit10": true,
+        "rank": 6,
+        "top_ids": [
+          685,
+          32,
+          638,
+          381,
+          222,
+          612,
+          628,
+          445,
+          317,
+          904
+        ]
+      },
+      {
+        "query_id": "NEW-F18-V2",
+        "family_id": "NEW-F18",
+        "category": "atmosphere",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          979,
+          130,
+          217,
+          55,
+          366,
+          8,
+          518,
+          600,
+          388,
+          556
+        ]
+      },
+      {
+        "query_id": "NEW-F18-V3",
+        "family_id": "NEW-F18",
+        "category": "atmosphere",
+        "expected_empty": false,
+        "ndcg10": 0.41336308082107337,
+        "hit3": false,
+        "hit10": true,
+        "rank": 5,
+        "top_ids": [
+          242,
+          779,
+          839,
+          609,
+          612,
+          157,
+          32,
+          638,
+          401,
+          794
+        ]
+      },
+      {
+        "query_id": "NEW-F23-V1",
+        "family_id": "NEW-F23",
+        "category": "colloquial",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          948,
+          950,
+          476,
+          4,
+          731,
+          68,
+          537,
+          3,
+          304,
+          619
+        ]
+      },
+      {
+        "query_id": "NEW-F23-V2",
+        "family_id": "NEW-F23",
+        "category": "colloquial",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          710,
+          2,
+          982,
+          68,
+          743,
+          673,
+          801,
+          787,
+          762,
+          930
+        ]
+      },
+      {
+        "query_id": "NEW-F23-V3",
+        "family_id": "NEW-F23",
+        "category": "colloquial",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          3,
+          100,
+          68,
+          167,
+          816,
+          337,
+          703,
+          741,
+          1,
+          948
+        ]
+      },
+      {
+        "query_id": "NEW-F25-V1",
+        "family_id": "NEW-F25",
+        "category": "colloquial",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          483,
+          44,
+          754,
+          969,
+          951,
+          649,
+          172,
+          888,
+          743,
+          27
+        ]
+      },
+      {
+        "query_id": "NEW-F25-V2",
+        "family_id": "NEW-F25",
+        "category": "colloquial",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          474,
+          217,
+          999,
+          32,
+          44,
+          92,
+          361,
+          562,
+          381,
+          7
+        ]
+      },
+      {
+        "query_id": "NEW-F25-V3",
+        "family_id": "NEW-F25",
+        "category": "colloquial",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          830,
+          888,
+          483,
+          383,
+          475,
+          435,
+          751,
+          31,
+          564,
+          821
+        ]
+      },
+      {
+        "query_id": "NEW-F27-V1",
+        "family_id": "NEW-F27",
+        "category": "colloquial",
+        "expected_empty": false,
+        "ndcg10": 0.5,
+        "hit3": true,
+        "hit10": true,
+        "rank": 3,
+        "top_ids": [
+          33,
+          838,
+          615,
+          337,
+          960,
+          801,
+          758,
+          11,
+          254,
+          6
+        ]
+      },
+      {
+        "query_id": "NEW-F27-V2",
+        "family_id": "NEW-F27",
+        "category": "colloquial",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          615,
+          33,
+          677,
+          517,
+          271,
+          838,
+          85,
+          107,
+          938,
+          13
+        ]
+      },
+      {
+        "query_id": "NEW-F27-V3",
+        "family_id": "NEW-F27",
+        "category": "colloquial",
+        "expected_empty": false,
+        "ndcg10": 0.6309297535714574,
+        "hit3": true,
+        "hit10": true,
+        "rank": 2,
+        "top_ids": [
+          631,
+          615,
+          11,
+          23,
+          677,
+          241,
+          605,
+          838,
+          950,
+          360
+        ]
+      },
+      {
+        "query_id": "NEW-F34-V1",
+        "family_id": "NEW-F34",
+        "category": "negation",
+        "expected_empty": false,
+        "ndcg10": 0.6280335914305488,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          684,
+          213,
+          820,
+          537,
+          57,
+          154,
+          731,
+          225,
+          652,
+          81
+        ]
+      },
+      {
+        "query_id": "NEW-F34-V2",
+        "family_id": "NEW-F34",
+        "category": "negation",
+        "expected_empty": false,
+        "ndcg10": 0.8344475896326595,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          536,
+          570,
+          684,
+          98,
+          154,
+          247,
+          213,
+          141,
+          820,
+          85
+        ]
+      },
+      {
+        "query_id": "NEW-F34-V3",
+        "family_id": "NEW-F34",
+        "category": "negation",
+        "expected_empty": false,
+        "ndcg10": 0.1608062983790299,
+        "hit3": false,
+        "hit10": true,
+        "rank": 10,
+        "top_ids": [
+          225,
+          851,
+          154,
+          213,
+          652,
+          342,
+          177,
+          247,
+          708,
+          684
+        ]
+      },
+      {
+        "query_id": "NEW-F37-V1",
+        "family_id": "NEW-F37",
+        "category": "negation",
+        "expected_empty": false,
+        "ndcg10": 0.07173519834210915,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          728,
+          648,
+          170,
+          461,
+          214,
+          956,
+          385,
+          885,
+          583,
+          936
+        ]
+      },
+      {
+        "query_id": "NEW-F37-V2",
+        "family_id": "NEW-F37",
+        "category": "negation",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          576,
+          728,
+          1,
+          371,
+          1000,
+          170,
+          79,
+          596,
+          240,
+          566
+        ]
+      },
+      {
+        "query_id": "NEW-F37-V3",
+        "family_id": "NEW-F37",
+        "category": "negation",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          7,
+          885,
+          197,
+          648,
+          252,
+          936,
+          722,
+          289,
+          325,
+          566
+        ]
+      },
+      {
+        "query_id": "NEW-F39-V1",
+        "family_id": "NEW-F39",
+        "category": "negation",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          43,
+          751,
+          881,
+          147,
+          86,
+          807,
+          808,
+          970,
+          949,
+          880
+        ]
+      },
+      {
+        "query_id": "NEW-F39-V2",
+        "family_id": "NEW-F39",
+        "category": "negation",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          545,
+          381,
+          980,
+          474,
+          688,
+          673,
+          565,
+          918,
+          159,
+          931
+        ]
+      },
+      {
+        "query_id": "NEW-F39-V3",
+        "family_id": "NEW-F39",
+        "category": "negation",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          971,
+          673,
+          521,
+          12,
+          630,
+          884,
+          751,
+          790,
+          857,
+          931
+        ]
+      },
+      {
+        "query_id": "NEW-F42-V1",
+        "family_id": "NEW-F42",
+        "category": "plot",
+        "expected_empty": false,
+        "ndcg10": 0.6131471927654584,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          989,
+          762,
+          710,
+          471,
+          958,
+          626,
+          73,
+          358,
+          143,
+          585
+        ]
+      },
+      {
+        "query_id": "NEW-F42-V2",
+        "family_id": "NEW-F42",
+        "category": "plot",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          710,
+          762,
+          295,
+          330,
+          405,
+          553,
+          207,
+          441,
+          157,
+          598
+        ]
+      },
+      {
+        "query_id": "NEW-F42-V3",
+        "family_id": "NEW-F42",
+        "category": "plot",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          329,
+          989,
+          710,
+          328,
+          157,
+          416,
+          41,
+          525,
+          840,
+          436
+        ]
+      },
+      {
+        "query_id": "NEW-F45-V1",
+        "family_id": "NEW-F45",
+        "category": "plot",
+        "expected_empty": false,
+        "ndcg10": 0.23719771276929622,
+        "hit3": false,
+        "hit10": true,
+        "rank": 5,
+        "top_ids": [
+          152,
+          505,
+          848,
+          506,
+          515,
+          891,
+          494,
+          456,
+          96,
+          795
+        ]
+      },
+      {
+        "query_id": "NEW-F45-V2",
+        "family_id": "NEW-F45",
+        "category": "plot",
+        "expected_empty": false,
+        "ndcg10": 0.1845756967795682,
+        "hit3": false,
+        "hit10": true,
+        "rank": 9,
+        "top_ids": [
+          152,
+          38,
+          95,
+          125,
+          505,
+          434,
+          681,
+          459,
+          355,
+          41
+        ]
+      },
+      {
+        "query_id": "NEW-F45-V3",
+        "family_id": "NEW-F45",
+        "category": "plot",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          152,
+          891,
+          898,
+          843,
+          767,
+          95,
+          795,
+          223,
+          706,
+          861
+        ]
+      },
+      {
+        "query_id": "NEW-F48-V1",
+        "family_id": "NEW-F48",
+        "category": "specialized",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          514,
+          156,
+          961,
+          709,
+          897,
+          950,
+          303,
+          426,
+          869,
+          299
+        ]
+      },
+      {
+        "query_id": "NEW-F48-V2",
+        "family_id": "NEW-F48",
+        "category": "specialized",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          948,
+          166,
+          709,
+          897,
+          903,
+          950,
+          537,
+          894,
+          634,
+          426
+        ]
+      },
+      {
+        "query_id": "NEW-F48-V3",
+        "family_id": "NEW-F48",
+        "category": "specialized",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          709,
+          961,
+          897,
+          426,
+          156,
+          621,
+          950,
+          213,
+          684,
+          634
+        ]
+      },
+      {
+        "query_id": "NEW-F50-V1",
+        "family_id": "NEW-F50",
+        "category": "specialized",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          390,
+          347,
+          876,
+          650,
+          532,
+          679,
+          266,
+          91,
+          797,
+          253
+        ]
+      },
+      {
+        "query_id": "NEW-F50-V2",
+        "family_id": "NEW-F50",
+        "category": "specialized",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          266,
+          736,
+          621,
+          91,
+          593,
+          218,
+          253,
+          603,
+          967,
+          747
+        ]
+      },
+      {
+        "query_id": "NEW-F50-V3",
+        "family_id": "NEW-F50",
+        "category": "specialized",
+        "expected_empty": true,
+        "ndcg10": null,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          106,
+          736,
+          666,
+          91,
+          568,
+          709,
+          961,
+          195,
+          266,
+          897
+        ]
+      }
+    ],
+    "regression77": [
+      {
+        "query_id": "REG-001",
+        "family_id": "REG-001",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          31,
+          50,
+          499,
+          316,
+          527,
+          120,
+          680,
+          91,
+          85,
+          15
+        ]
+      },
+      {
+        "query_id": "REG-002",
+        "family_id": "REG-002",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          546,
+          296,
+          968,
+          291,
+          859,
+          570,
+          210,
+          367,
+          225,
+          202
+        ]
+      },
+      {
+        "query_id": "REG-003",
+        "family_id": "REG-003",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          10,
+          373,
+          664,
+          767,
+          79,
+          303,
+          645,
+          34,
+          406,
+          834
+        ]
+      },
+      {
+        "query_id": "REG-004",
+        "family_id": "REG-004",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          250,
+          379,
+          839,
+          45,
+          40,
+          907,
+          282,
+          276,
+          192,
+          498
+        ]
+      },
+      {
+        "query_id": "REG-005",
+        "family_id": "REG-005",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          73,
+          253,
+          858,
+          347,
+          136,
+          609,
+          937,
+          889,
+          168,
+          58
+        ]
+      },
+      {
+        "query_id": "REG-006",
+        "family_id": "REG-006",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          17,
+          152,
+          541,
+          908,
+          355,
+          441,
+          528,
+          742,
+          843,
+          447
+        ]
+      },
+      {
+        "query_id": "REG-007",
+        "family_id": "REG-007",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          29,
+          334,
+          244,
+          49,
+          544,
+          895,
+          860,
+          759,
+          375,
+          40
+        ]
+      },
+      {
+        "query_id": "REG-008",
+        "family_id": "REG-008",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          37,
+          221,
+          62,
+          146,
+          555,
+          61,
+          750,
+          235,
+          382,
+          257
+        ]
+      },
+      {
+        "query_id": "REG-009",
+        "family_id": "REG-009",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          66,
+          365,
+          143,
+          563,
+          178,
+          662,
+          427,
+          496,
+          50,
+          8
+        ]
+      },
+      {
+        "query_id": "REG-010",
+        "family_id": "REG-010",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          56,
+          621,
+          71,
+          154,
+          967,
+          236,
+          257,
+          382,
+          985,
+          53
+        ]
+      },
+      {
+        "query_id": "REG-011",
+        "family_id": "REG-011",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          168,
+          64,
+          509,
+          578,
+          415,
+          580,
+          376,
+          237,
+          319,
+          194
+        ]
+      },
+      {
+        "query_id": "REG-012",
+        "family_id": "REG-012",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          72,
+          983,
+          289,
+          885,
+          819,
+          496,
+          782,
+          917,
+          702,
+          861
+        ]
+      },
+      {
+        "query_id": "REG-013",
+        "family_id": "REG-013",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          117,
+          705,
+          410,
+          371,
+          215,
+          423,
+          216,
+          418,
+          12,
+          911
+        ]
+      },
+      {
+        "query_id": "REG-014",
+        "family_id": "REG-014",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          38,
+          76,
+          216,
+          343,
+          941,
+          828,
+          140,
+          395,
+          494,
+          147
+        ]
+      },
+      {
+        "query_id": "REG-015",
+        "family_id": "REG-015",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          204,
+          359,
+          962,
+          739,
+          438,
+          469,
+          357,
+          572,
+          702,
+          471
+        ]
+      },
+      {
+        "query_id": "REG-016",
+        "family_id": "REG-016",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          5,
+          146,
+          15,
+          23,
+          453,
+          538,
+          175,
+          577,
+          319,
+          520
+        ]
+      },
+      {
+        "query_id": "REG-017",
+        "family_id": "REG-017",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 0.3333333333333333,
+        "hit3": false,
+        "hit10": true,
+        "rank": 7,
+        "top_ids": [
+          59,
+          708,
+          376,
+          591,
+          110,
+          342,
+          52,
+          73,
+          786,
+          910
+        ]
+      },
+      {
+        "query_id": "REG-018",
+        "family_id": "REG-018",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          12,
+          905,
+          155,
+          579,
+          928,
+          344,
+          233,
+          488,
+          746,
+          46
+        ]
+      },
+      {
+        "query_id": "REG-019",
+        "family_id": "REG-019",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          44,
+          50,
+          946,
+          45,
+          624,
+          780,
+          759,
+          61,
+          143,
+          128
+        ]
+      },
+      {
+        "query_id": "REG-020",
+        "family_id": "REG-020",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          26,
+          57,
+          394,
+          111,
+          922,
+          968,
+          378,
+          22,
+          120,
+          660
+        ]
+      },
+      {
+        "query_id": "REG-021",
+        "family_id": "REG-021",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          96,
+          431,
+          858,
+          129,
+          290,
+          981,
+          58,
+          448,
+          496,
+          956
+        ]
+      },
+      {
+        "query_id": "REG-022",
+        "family_id": "REG-022",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 0.5,
+        "hit3": true,
+        "hit10": true,
+        "rank": 3,
+        "top_ids": [
+          143,
+          931,
+          158,
+          316,
+          563,
+          905,
+          561,
+          771,
+          682,
+          448
+        ]
+      },
+      {
+        "query_id": "REG-023",
+        "family_id": "REG-023",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          49,
+          334,
+          55,
+          738,
+          721,
+          223,
+          547,
+          128,
+          958,
+          781
+        ]
+      },
+      {
+        "query_id": "REG-024",
+        "family_id": "REG-024",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 0.0,
+        "hit3": false,
+        "hit10": false,
+        "rank": null,
+        "top_ids": [
+          432,
+          388,
+          987,
+          814,
+          812,
+          819,
+          850,
+          618,
+          565,
+          858
+        ]
+      },
+      {
+        "query_id": "REG-025",
+        "family_id": "REG-025",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          193,
+          512,
+          588,
+          945,
+          990,
+          88,
+          472,
+          723,
+          927,
+          198
+        ]
+      },
+      {
+        "query_id": "REG-026",
+        "family_id": "REG-026",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          35,
+          208,
+          82,
+          956,
+          987,
+          181,
+          774,
+          403,
+          717,
+          397
+        ]
+      },
+      {
+        "query_id": "REG-027",
+        "family_id": "REG-027",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          22,
+          176,
+          99,
+          376,
+          175,
+          59,
+          289,
+          719,
+          520,
+          380
+        ]
+      },
+      {
+        "query_id": "REG-028",
+        "family_id": "REG-028",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          57,
+          570,
+          511,
+          296,
+          98,
+          536,
+          524,
+          613,
+          401,
+          73
+        ]
+      },
+      {
+        "query_id": "REG-029",
+        "family_id": "REG-029",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          78,
+          571,
+          98,
+          247,
+          570,
+          661,
+          566,
+          831,
+          135,
+          836
+        ]
+      },
+      {
+        "query_id": "REG-030",
+        "family_id": "REG-030",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          124,
+          201,
+          213,
+          34,
+          286,
+          514,
+          990,
+          903,
+          869,
+          667
+        ]
+      },
+      {
+        "query_id": "REG-031",
+        "family_id": "REG-031",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          39,
+          127,
+          587,
+          939,
+          714,
+          847,
+          302,
+          293,
+          492,
+          759
+        ]
+      },
+      {
+        "query_id": "REG-032",
+        "family_id": "REG-032",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          47,
+          381,
+          823,
+          966,
+          464,
+          683,
+          555,
+          492,
+          833,
+          143
+        ]
+      },
+      {
+        "query_id": "REG-033",
+        "family_id": "REG-033",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          208,
+          157,
+          789,
+          30,
+          148,
+          509,
+          328,
+          397,
+          639,
+          573
+        ]
+      },
+      {
+        "query_id": "REG-034",
+        "family_id": "REG-034",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          34,
+          412,
+          132,
+          607,
+          454,
+          731,
+          141,
+          940,
+          997,
+          537
+        ]
+      },
+      {
+        "query_id": "REG-035",
+        "family_id": "REG-035",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          132,
+          196,
+          250,
+          680,
+          681,
+          45,
+          71,
+          591,
+          759,
+          56
+        ]
+      },
+      {
+        "query_id": "REG-036",
+        "family_id": "REG-036",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          136,
+          433,
+          50,
+          218,
+          61,
+          973,
+          974,
+          716,
+          864,
+          138
+        ]
+      },
+      {
+        "query_id": "REG-037",
+        "family_id": "REG-037",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          230,
+          531,
+          980,
+          723,
+          115,
+          744,
+          282,
+          794,
+          436,
+          438
+        ]
+      },
+      {
+        "query_id": "REG-038",
+        "family_id": "REG-038",
+        "category": "semantic",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          470,
+          589,
+          182,
+          632,
+          316,
+          805,
+          120,
+          736,
+          97,
+          137
+        ]
+      },
+      {
+        "query_id": "REG-039",
+        "family_id": "REG-039",
+        "category": "navigational",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          31,
+          805,
+          632,
+          376,
+          440,
+          176,
+          35,
+          59,
+          236,
+          786
+        ]
+      },
+      {
+        "query_id": "REG-040",
+        "family_id": "REG-040",
+        "category": "navigational",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          546,
+          497,
+          593,
+          71,
+          495,
+          99,
+          511,
+          81,
+          313,
+          73
+        ]
+      },
+      {
+        "query_id": "REG-041",
+        "family_id": "REG-041",
+        "category": "navigational",
+        "expected_empty": false,
+        "ndcg10": 0.5,
+        "hit3": true,
+        "hit10": true,
+        "rank": 3,
+        "top_ids": [
+          952,
+          782,
+          10,
+          399,
+          750,
+          187,
+          21,
+          252,
+          240,
+          7
+        ]
+      },
+      {
+        "query_id": "REG-042",
+        "family_id": "REG-042",
+        "category": "navigational",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          204,
+          596,
+          985,
+          729,
+          637,
+          185,
+          845,
+          993,
+          304,
+          175
+        ]
+      },
+      {
+        "query_id": "REG-043",
+        "family_id": "REG-043",
+        "category": "navigational",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          12,
+          184,
+          121,
+          134,
+          918,
+          309,
+          503,
+          25,
+          689,
+          488
+        ]
+      },
+      {
+        "query_id": "REG-044",
+        "family_id": "REG-044",
+        "category": "navigational",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          124,
+          505,
+          615,
+          801,
+          470,
+          415,
+          462,
+          888,
+          206,
+          581
+        ]
+      },
+      {
+        "query_id": "REG-045",
+        "family_id": "REG-045",
+        "category": "navigational",
+        "expected_empty": false,
+        "ndcg10": 0.6309297535714574,
+        "hit3": true,
+        "hit10": true,
+        "rank": 2,
+        "top_ids": [
+          771,
+          38,
+          140,
+          147,
+          216,
+          887,
+          605,
+          409,
+          174,
+          284
+        ]
+      },
+      {
+        "query_id": "REG-046",
+        "family_id": "REG-046",
+        "category": "navigational",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          5,
+          757,
+          319,
+          298,
+          332,
+          769,
+          821,
+          478,
+          882,
+          66
+        ]
+      },
+      {
+        "query_id": "REG-047",
+        "family_id": "REG-047",
+        "category": "navigational",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          26,
+          394,
+          632,
+          356,
+          183,
+          168,
+          604,
+          580,
+          470,
+          780
+        ]
+      },
+      {
+        "query_id": "REG-048",
+        "family_id": "REG-048",
+        "category": "navigational",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          29,
+          202,
+          470,
+          779,
+          81,
+          59,
+          57,
+          910,
+          110,
+          777
+        ]
+      },
+      {
+        "query_id": "REG-049",
+        "family_id": "REG-049",
+        "category": "navigational",
+        "expected_empty": false,
+        "ndcg10": 0.9132861715058804,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          5,
+          86,
+          23,
+          30,
+          15,
+          25,
+          18,
+          20,
+          319,
+          176
+        ]
+      },
+      {
+        "query_id": "REG-050",
+        "family_id": "REG-050",
+        "category": "navigational",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          204,
+          596,
+          729,
+          993,
+          845,
+          637,
+          175,
+          644,
+          185,
+          769
+        ]
+      },
+      {
+        "query_id": "REG-051",
+        "family_id": "REG-051",
+        "category": "navigational",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          546,
+          497,
+          511,
+          71,
+          81,
+          236,
+          93,
+          280,
+          967,
+          580
+        ]
+      },
+      {
+        "query_id": "REG-052",
+        "family_id": "REG-052",
+        "category": "navigational",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          124,
+          801,
+          728,
+          415,
+          470,
+          655,
+          581,
+          182,
+          552,
+          206
+        ]
+      },
+      {
+        "query_id": "REG-053",
+        "family_id": "REG-053",
+        "category": "navigational",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          73,
+          479,
+          349,
+          812,
+          372,
+          888,
+          470,
+          363,
+          840,
+          433
+        ]
+      },
+      {
+        "query_id": "REG-054",
+        "family_id": "REG-054",
+        "category": "navigational",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          12,
+          6,
+          337,
+          503,
+          25,
+          171,
+          13,
+          67,
+          210,
+          605
+        ]
+      },
+      {
+        "query_id": "REG-055",
+        "family_id": "REG-055",
+        "category": "theme_mood",
+        "expected_empty": false,
+        "ndcg10": 0.5,
+        "hit3": true,
+        "hit10": true,
+        "rank": 3,
+        "top_ids": [
+          474,
+          7,
+          999,
+          32,
+          197,
+          658,
+          492,
+          899,
+          496,
+          852
+        ]
+      },
+      {
+        "query_id": "REG-056",
+        "family_id": "REG-056",
+        "category": "theme_mood",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          57,
+          296,
+          376,
+          213,
+          168,
+          937,
+          64,
+          933,
+          922,
+          836
+        ]
+      },
+      {
+        "query_id": "REG-057",
+        "family_id": "REG-057",
+        "category": "theme_mood",
+        "expected_empty": false,
+        "ndcg10": 0.6309297535714574,
+        "hit3": true,
+        "hit10": true,
+        "rank": 2,
+        "top_ids": [
+          328,
+          208,
+          496,
+          729,
+          990,
+          318,
+          251,
+          397,
+          469,
+          225
+        ]
+      },
+      {
+        "query_id": "REG-058",
+        "family_id": "REG-058",
+        "category": "theme_mood",
+        "expected_empty": false,
+        "ndcg10": 0.6309297535714574,
+        "hit3": true,
+        "hit10": true,
+        "rank": 2,
+        "top_ids": [
+          580,
+          142,
+          780,
+          694,
+          372,
+          195,
+          64,
+          632,
+          716,
+          589
+        ]
+      },
+      {
+        "query_id": "REG-059",
+        "family_id": "REG-059",
+        "category": "theme_mood",
+        "expected_empty": false,
+        "ndcg10": 0.4306765580733931,
+        "hit3": false,
+        "hit10": true,
+        "rank": 4,
+        "top_ids": [
+          70,
+          772,
+          665,
+          811,
+          197,
+          944,
+          43,
+          725,
+          658,
+          178
+        ]
+      },
+      {
+        "query_id": "REG-060",
+        "family_id": "REG-060",
+        "category": "theme_mood",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          584,
+          779,
+          822,
+          207,
+          246,
+          138,
+          301,
+          104,
+          90,
+          502
+        ]
+      },
+      {
+        "query_id": "REG-061",
+        "family_id": "REG-061",
+        "category": "typo",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          5,
+          757,
+          821,
+          319,
+          769,
+          986,
+          960,
+          301,
+          246,
+          478
+        ]
+      },
+      {
+        "query_id": "REG-062",
+        "family_id": "REG-062",
+        "category": "typo",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          38,
+          328,
+          416,
+          434,
+          41,
+          232,
+          771,
+          84,
+          891,
+          952
+        ]
+      },
+      {
+        "query_id": "REG-063",
+        "family_id": "REG-063",
+        "category": "typo",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          26,
+          394,
+          356,
+          183,
+          168,
+          632,
+          289,
+          520,
+          885,
+          604
+        ]
+      },
+      {
+        "query_id": "REG-064",
+        "family_id": "REG-064",
+        "category": "one_word_guard",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          115,
+          980,
+          496,
+          812,
+          436,
+          493,
+          850,
+          422,
+          260,
+          230
+        ]
+      },
+      {
+        "query_id": "REG-065",
+        "family_id": "REG-065",
+        "category": "one_word_guard",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          10,
+          373,
+          834,
+          868,
+          767,
+          407,
+          664,
+          406,
+          34,
+          576
+        ]
+      },
+      {
+        "query_id": "REG-066",
+        "family_id": "REG-066",
+        "category": "one_word_guard",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          66,
+          143,
+          350,
+          857,
+          549,
+          93,
+          944,
+          244,
+          610,
+          41
+        ]
+      },
+      {
+        "query_id": "REG-067",
+        "family_id": "REG-067",
+        "category": "one_word_guard",
+        "expected_empty": false,
+        "ndcg10": 0.6309297535714574,
+        "hit3": true,
+        "hit10": true,
+        "rank": 2,
+        "top_ids": [
+          588,
+          193,
+          512,
+          945,
+          438,
+          459,
+          125,
+          88,
+          990,
+          472
+        ]
+      },
+      {
+        "query_id": "REG-068",
+        "family_id": "REG-068",
+        "category": "one_word_guard",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          48,
+          643,
+          914,
+          126,
+          836,
+          986,
+          894,
+          613,
+          267,
+          443
+        ]
+      },
+      {
+        "query_id": "REG-069",
+        "family_id": "REG-069",
+        "category": "one_word_positive",
+        "expected_empty": false,
+        "ndcg10": 0.3154648767857287,
+        "hit3": false,
+        "hit10": true,
+        "rank": 8,
+        "top_ids": [
+          173,
+          643,
+          196,
+          507,
+          48,
+          88,
+          354,
+          8,
+          222,
+          469
+        ]
+      },
+      {
+        "query_id": "REG-070",
+        "family_id": "REG-070",
+        "category": "one_word_positive",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          373,
+          820,
+          430,
+          297,
+          750,
+          454,
+          631,
+          103,
+          212,
+          809
+        ]
+      },
+      {
+        "query_id": "REG-071",
+        "family_id": "REG-071",
+        "category": "one_word_positive",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          525,
+          876,
+          794,
+          957,
+          778,
+          482,
+          973,
+          815,
+          654,
+          463
+        ]
+      },
+      {
+        "query_id": "REG-072",
+        "family_id": "REG-072",
+        "category": "one_word_positive",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          149,
+          235,
+          765,
+          386,
+          588,
+          659,
+          472,
+          513,
+          872,
+          759
+        ]
+      },
+      {
+        "query_id": "REG-073",
+        "family_id": "REG-073",
+        "category": "one_word_positive",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          299,
+          135,
+          986,
+          827,
+          769,
+          323,
+          51,
+          171,
+          126,
+          542
+        ]
+      },
+      {
+        "query_id": "REG-074",
+        "family_id": "REG-074",
+        "category": "partial_title",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          5,
+          757,
+          332,
+          298,
+          769,
+          478,
+          551,
+          452,
+          986,
+          821
+        ]
+      },
+      {
+        "query_id": "REG-075",
+        "family_id": "REG-075",
+        "category": "partial_title",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          230,
+          998,
+          307,
+          322,
+          176,
+          981,
+          380,
+          289,
+          22,
+          786
+        ]
+      },
+      {
+        "query_id": "REG-076",
+        "family_id": "REG-076",
+        "category": "author_only",
+        "expected_empty": false,
+        "ndcg10": 0.6309297535714574,
+        "hit3": true,
+        "hit10": true,
+        "rank": 2,
+        "top_ids": [
+          286,
+          584,
+          221,
+          621,
+          122,
+          170,
+          536,
+          57,
+          52,
+          476
+        ]
+      },
+      {
+        "query_id": "REG-077",
+        "family_id": "REG-077",
+        "category": "author_only",
+        "expected_empty": false,
+        "ndcg10": 1.0,
+        "hit3": true,
+        "hit10": true,
+        "rank": 1,
+        "top_ids": [
+          31,
+          236,
+          82,
+          968,
+          257,
+          497,
+          407,
+          882,
+          225,
+          440
+        ]
+      }
+    ]
+  },
+  "leave_one_family_out": {
+    "adaptive": {
+      "ndcg10": 0.2747086382368998,
+      "hit3": 0.2564102564102564,
+      "hit10": 0.4871794871794872
+    },
+    "baseline": {
+      "ndcg10": 0.23622583359522997,
+      "hit3": 0.2564102564102564,
+      "hit10": 0.4358974358974359
+    },
+    "delta": {
+      "ndcg10": 0.03848280464166981,
+      "hit3": 0.0,
+      "hit10": 0.05128205128205132
+    }
+  },
+  "top20": [
+    {
+      "config": {
+        "candidate_k": 1000,
+        "component": "max_fields",
+        "alpha": 0.6
+      },
+      "dev": {
+        "ndcg10": 0.28497803287782614,
+        "hit3": 0.30769230769230765,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9174988273708523,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 100,
+        "component": "max_fields",
+        "alpha": 0.6
+      },
+      "dev": {
+        "ndcg10": 0.2792313170656542,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9177958904068871,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 200,
+        "component": "max_fields",
+        "alpha": 0.6
+      },
+      "dev": {
+        "ndcg10": 0.2774796078832578,
+        "hit3": 0.282051282051282,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9177958904068871,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 1000,
+        "component": "max_fields",
+        "alpha": 0.5
+      },
+      "dev": {
+        "ndcg10": 0.27170415251087243,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9177958904068871,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 50,
+        "component": "max_fields",
+        "alpha": 0.6
+      },
+      "dev": {
+        "ndcg10": 0.27118152508594595,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9278172037308725,
+        "hit3": 0.961038961038961,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 200,
+        "component": "max_fields",
+        "alpha": 0.5
+      },
+      "dev": {
+        "ndcg10": 0.26807308000076346,
+        "hit3": 0.23076923076923073,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9185291421290439,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 30,
+        "component": "max_fields",
+        "alpha": 0.4
+      },
+      "dev": {
+        "ndcg10": 0.26439297660198174,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9314129563377197,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 50,
+        "component": "max_fields",
+        "alpha": 0.4
+      },
+      "dev": {
+        "ndcg10": 0.26432965065901626,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9314129563377197,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 30,
+        "component": "max_fields",
+        "alpha": 0.6
+      },
+      "dev": {
+        "ndcg10": 0.2642049855424272,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9274192086642945,
+        "hit3": 0.961038961038961,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 1000,
+        "component": "max_fields",
+        "alpha": 0.4
+      },
+      "dev": {
+        "ndcg10": 0.26083373941961574,
+        "hit3": 0.23076923076923073,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9187612000062856,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 50,
+        "component": "plot",
+        "alpha": 0.6
+      },
+      "dev": {
+        "ndcg10": 0.2597721217542332,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9284516524302443,
+        "hit3": 0.961038961038961,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 30,
+        "component": "plot",
+        "alpha": 0.6
+      },
+      "dev": {
+        "ndcg10": 0.2597034884108789,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9275513479896389,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 100,
+        "component": "max_fields",
+        "alpha": 0.5
+      },
+      "dev": {
+        "ndcg10": 0.25858351108334887,
+        "hit3": 0.23076923076923073,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9233222622125316,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 100,
+        "component": "max_fields",
+        "alpha": 0.4
+      },
+      "dev": {
+        "ndcg10": 0.25838837040413726,
+        "hit3": 0.23076923076923073,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9230520107157462,
+        "hit3": 0.935064935064935,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 50,
+        "component": "max_fields",
+        "alpha": 0.5
+      },
+      "dev": {
+        "ndcg10": 0.2567634937412532,
+        "hit3": 0.23076923076923073,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9313120243071765,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 200,
+        "component": "max_fields",
+        "alpha": 0.4
+      },
+      "dev": {
+        "ndcg10": 0.2566457367564054,
+        "hit3": 0.23076923076923073,
+        "hit10": 0.4871794871794872
+      },
+      "regression77": {
+        "ndcg10": 0.9230520107157462,
+        "hit3": 0.935064935064935,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 200,
+        "component": "max_fields",
+        "alpha": 0.3
+      },
+      "dev": {
+        "ndcg10": 0.25606692932835373,
+        "hit3": 0.2564102564102564,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9281172073844827,
+        "hit3": 0.935064935064935,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 30,
+        "component": "max_fields",
+        "alpha": 0.3
+      },
+      "dev": {
+        "ndcg10": 0.25568242093541566,
+        "hit3": 0.30769230769230765,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9359740185439658,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 100,
+        "component": "max_fields",
+        "alpha": 0.3
+      },
+      "dev": {
+        "ndcg10": 0.2554302075042132,
+        "hit3": 0.28205128205128205,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9281172073844827,
+        "hit3": 0.935064935064935,
+        "hit10": 0.987012987012987
+      }
+    },
+    {
+      "config": {
+        "candidate_k": 50,
+        "component": "max_fields",
+        "alpha": 0.3
+      },
+      "dev": {
+        "ndcg10": 0.2553291573897771,
+        "hit3": 0.282051282051282,
+        "hit10": 0.46153846153846156
+      },
+      "regression77": {
+        "ndcg10": 0.9359740185439658,
+        "hit3": 0.948051948051948,
+        "hit10": 0.987012987012987
+      }
+    }
+  ],
+  "limitations": [
+    "The dev judgments are sparse and agent-authored; unjudged books remain unknown.",
+    "This tests a bi-encoder field reranker, not a true cross-encoder with joint token attention."
+  ]
+}

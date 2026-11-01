@@ -1,0 +1,5051 @@
+{
+  "training_excluded_book_ids": [
+    5,
+    8,
+    10,
+    12,
+    15,
+    17,
+    18,
+    20,
+    22,
+    23,
+    25,
+    26,
+    29,
+    30,
+    31,
+    34,
+    35,
+    37,
+    38,
+    39,
+    40,
+    44,
+    46,
+    47,
+    48,
+    49,
+    52,
+    54,
+    56,
+    57,
+    58,
+    59,
+    66,
+    70,
+    71,
+    72,
+    73,
+    76,
+    78,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    92,
+    96,
+    98,
+    102,
+    103,
+    109,
+    110,
+    115,
+    117,
+    118,
+    119,
+    120,
+    121,
+    123,
+    124,
+    129,
+    130,
+    132,
+    133,
+    134,
+    136,
+    137,
+    142,
+    143,
+    145,
+    146,
+    148,
+    149,
+    152,
+    154,
+    155,
+    157,
+    158,
+    160,
+    165,
+    168,
+    172,
+    174,
+    175,
+    176,
+    177,
+    178,
+    184,
+    186,
+    191,
+    193,
+    194,
+    197,
+    202,
+    204,
+    208,
+    215,
+    216,
+    217,
+    221,
+    223,
+    230,
+    232,
+    235,
+    247,
+    250,
+    292,
+    299,
+    319,
+    322,
+    373,
+    376,
+    411,
+    429,
+    453,
+    470,
+    477,
+    509,
+    520,
+    525,
+    539,
+    546,
+    555,
+    559,
+    563,
+    566,
+    584,
+    639,
+    644,
+    702,
+    719,
+    737,
+    786,
+    811,
+    887,
+    910,
+    924,
+    933,
+    934,
+    999
+  ],
+  "do_not_place_as_in_batch_negatives": [
+    {
+      "book_a": 1,
+      "book_b": 2,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 7,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 11,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 14,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 19,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": []
+    },
+    {
+      "book_a": 1,
+      "book_b": 21,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество",
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 32,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 45,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 65,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 77,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 79,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 80,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 94,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 108,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 122,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 127,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество",
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление",
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 161,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 167,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 1,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 11,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 14,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 16,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 19,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 24,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 28,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 32,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 33,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 36,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 42,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 43,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 55,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 65,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 75,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 80,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 94,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 108,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 166,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 2,
+      "book_b": 167,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 3,
+      "book_b": 68,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "предпринимательство"
+      ]
+    },
+    {
+      "book_a": 4,
+      "book_b": 6,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "практические идеи",
+        "привычки и личный рост"
+      ]
+    },
+    {
+      "book_a": 4,
+      "book_b": 11,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": [
+        "привычки и личный рост"
+      ]
+    },
+    {
+      "book_a": 4,
+      "book_b": 13,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 4,
+      "book_b": 14,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "привычки и личный рост"
+      ]
+    },
+    {
+      "book_a": 4,
+      "book_b": 19,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 4,
+      "book_b": 27,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 4,
+      "book_b": 42,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 4,
+      "book_b": 62,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 4,
+      "book_b": 80,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": [
+        "практические идеи"
+      ]
+    },
+    {
+      "book_a": 4,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 4,
+      "book_b": 161,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "практические идеи"
+      ]
+    },
+    {
+      "book_a": 4,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 4,
+      "book_b": 166,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество",
+        "привычки и личный рост"
+      ]
+    },
+    {
+      "book_a": 4,
+      "book_b": 167,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "практические идеи"
+      ]
+    },
+    {
+      "book_a": 6,
+      "book_b": 11,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "привычки и личный рост"
+      ]
+    },
+    {
+      "book_a": 6,
+      "book_b": 14,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "привычки и личный рост"
+      ]
+    },
+    {
+      "book_a": 6,
+      "book_b": 24,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 6,
+      "book_b": 27,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 6,
+      "book_b": 50,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 6,
+      "book_b": 65,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 6,
+      "book_b": 77,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": []
+    },
+    {
+      "book_a": 6,
+      "book_b": 80,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "практические идеи"
+      ]
+    },
+    {
+      "book_a": 6,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 6,
+      "book_b": 116,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 6,
+      "book_b": 161,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "практические идеи"
+      ]
+    },
+    {
+      "book_a": 6,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 6,
+      "book_b": 166,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "привычки и личный рост"
+      ]
+    },
+    {
+      "book_a": 6,
+      "book_b": 167,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "практические идеи"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 11,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 14,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 16,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "магия и сверхъестественное"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 21,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 32,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 43,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 45,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 79,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 93,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "магия и сверхъестественное"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 94,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 99,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "магия и сверхъестественное"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 108,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество",
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 122,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 127,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 159,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 7,
+      "book_b": 173,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "магия и сверхъестественное"
+      ]
+    },
+    {
+      "book_a": 11,
+      "book_b": 14,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление",
+        "привычки и личный рост",
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 11,
+      "book_b": 32,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 11,
+      "book_b": 43,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 11,
+      "book_b": 65,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 11,
+      "book_b": 79,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 11,
+      "book_b": 80,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 11,
+      "book_b": 108,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 11,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 11,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 11,
+      "book_b": 159,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 11,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 11,
+      "book_b": 166,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "привычки и личный рост"
+      ]
+    },
+    {
+      "book_a": 11,
+      "book_b": 167,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 13,
+      "book_b": 19,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 13,
+      "book_b": 21,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": []
+    },
+    {
+      "book_a": 13,
+      "book_b": 27,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 13,
+      "book_b": 42,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 13,
+      "book_b": 62,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 13,
+      "book_b": 122,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "наука и устройство мира"
+      ]
+    },
+    {
+      "book_a": 13,
+      "book_b": 126,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "наука и устройство мира"
+      ]
+    },
+    {
+      "book_a": 13,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 13,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 13,
+      "book_b": 166,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 14,
+      "book_b": 32,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 14,
+      "book_b": 36,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": []
+    },
+    {
+      "book_a": 14,
+      "book_b": 43,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 14,
+      "book_b": 65,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 14,
+      "book_b": 79,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 14,
+      "book_b": 80,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 14,
+      "book_b": 108,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 14,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 14,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 14,
+      "book_b": 159,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 14,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 14,
+      "book_b": 166,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "привычки и личный рост"
+      ]
+    },
+    {
+      "book_a": 14,
+      "book_b": 167,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 16,
+      "book_b": 24,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 16,
+      "book_b": 28,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 16,
+      "book_b": 32,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 16,
+      "book_b": 33,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 16,
+      "book_b": 36,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 16,
+      "book_b": 41,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 16,
+      "book_b": 43,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 16,
+      "book_b": 62,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 16,
+      "book_b": 90,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": []
+    },
+    {
+      "book_a": 16,
+      "book_b": 93,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "магия и сверхъестественное"
+      ]
+    },
+    {
+      "book_a": 16,
+      "book_b": 95,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 16,
+      "book_b": 99,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "магия и сверхъестественное"
+      ]
+    },
+    {
+      "book_a": 16,
+      "book_b": 108,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 16,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 16,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 16,
+      "book_b": 159,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 16,
+      "book_b": 173,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "магия и сверхъестественное",
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 19,
+      "book_b": 27,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 19,
+      "book_b": 42,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество",
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 19,
+      "book_b": 45,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "война и её последствия"
+      ]
+    },
+    {
+      "book_a": 19,
+      "book_b": 55,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "война и её последствия",
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 19,
+      "book_b": 62,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 19,
+      "book_b": 75,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 19,
+      "book_b": 79,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": []
+    },
+    {
+      "book_a": 19,
+      "book_b": 94,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 19,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "война и её последствия"
+      ]
+    },
+    {
+      "book_a": 19,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 19,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество",
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 19,
+      "book_b": 166,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество",
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 19,
+      "book_b": 167,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "война и её последствия"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 32,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 45,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество",
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 53,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 74,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 77,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 79,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 90,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 93,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 94,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 95,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 108,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 116,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 122,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 127,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество",
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 161,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 21,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 24,
+      "book_b": 27,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "взросление и поиск себя",
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 24,
+      "book_b": 28,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 24,
+      "book_b": 32,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 24,
+      "book_b": 33,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 24,
+      "book_b": 36,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 24,
+      "book_b": 43,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 24,
+      "book_b": 50,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "взросление и поиск себя",
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 24,
+      "book_b": 65,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 24,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 24,
+      "book_b": 108,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 24,
+      "book_b": 116,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 24,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 27,
+      "book_b": 42,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 27,
+      "book_b": 50,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": [
+        "взросление и поиск себя",
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 27,
+      "book_b": 62,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 27,
+      "book_b": 65,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 27,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 27,
+      "book_b": 116,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 27,
+      "book_b": 128,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": []
+    },
+    {
+      "book_a": 27,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 27,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 27,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 27,
+      "book_b": 166,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 32,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 33,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": [
+        "личный выбор",
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 36,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 43,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 53,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 55,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 62,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 74,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 75,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 90,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 97,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 99,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 108,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 122,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "здоровье и образ жизни"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 28,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 32,
+      "book_b": 33,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 32,
+      "book_b": 36,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 32,
+      "book_b": 43,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения",
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 32,
+      "book_b": 77,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 32,
+      "book_b": 79,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения",
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 32,
+      "book_b": 108,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения",
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 32,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 32,
+      "book_b": 127,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 32,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 32,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 32,
+      "book_b": 159,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 32,
+      "book_b": 161,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 32,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 32,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 32,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 36,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "любовь и отношения",
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 43,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 53,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 55,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 62,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 74,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 75,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 77,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 90,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 97,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 99,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 108,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 127,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 33,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 43,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 53,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 55,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 62,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 74,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 75,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 77,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 90,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 97,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 99,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 108,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 127,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 36,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 41,
+      "book_b": 50,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "мышление и поведение"
+      ]
+    },
+    {
+      "book_a": 41,
+      "book_b": 62,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 41,
+      "book_b": 65,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "мышление и поведение"
+      ]
+    },
+    {
+      "book_a": 41,
+      "book_b": 77,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "мышление и поведение"
+      ]
+    },
+    {
+      "book_a": 41,
+      "book_b": 93,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 41,
+      "book_b": 94,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 41,
+      "book_b": 95,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 41,
+      "book_b": 97,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 41,
+      "book_b": 99,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 41,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 41,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 41,
+      "book_b": 116,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 41,
+      "book_b": 126,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 41,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 41,
+      "book_b": 159,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "мышление и поведение",
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 41,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 41,
+      "book_b": 173,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения",
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 42,
+      "book_b": 53,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания"
+      ]
+    },
+    {
+      "book_a": 42,
+      "book_b": 55,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 42,
+      "book_b": 62,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 42,
+      "book_b": 74,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания"
+      ]
+    },
+    {
+      "book_a": 42,
+      "book_b": 75,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 42,
+      "book_b": 79,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания"
+      ]
+    },
+    {
+      "book_a": 42,
+      "book_b": 90,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания"
+      ]
+    },
+    {
+      "book_a": 42,
+      "book_b": 94,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 42,
+      "book_b": 95,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания"
+      ]
+    },
+    {
+      "book_a": 42,
+      "book_b": 97,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания"
+      ]
+    },
+    {
+      "book_a": 42,
+      "book_b": 114,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": [
+        "выживание и испытания"
+      ]
+    },
+    {
+      "book_a": 42,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 42,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество",
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 42,
+      "book_b": 163,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": []
+    },
+    {
+      "book_a": 42,
+      "book_b": 166,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество",
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 53,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 55,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 62,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 74,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 75,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 79,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 90,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 97,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 99,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 108,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "любовь и отношения",
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 159,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 43,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 45,
+      "book_b": 53,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 45,
+      "book_b": 55,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "война и её последствия"
+      ]
+    },
+    {
+      "book_a": 45,
+      "book_b": 74,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 45,
+      "book_b": 90,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 45,
+      "book_b": 93,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 45,
+      "book_b": 94,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 45,
+      "book_b": 95,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 45,
+      "book_b": 108,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 45,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 45,
+      "book_b": 116,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 45,
+      "book_b": 122,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 45,
+      "book_b": 127,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 45,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "война и её последствия"
+      ]
+    },
+    {
+      "book_a": 45,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 45,
+      "book_b": 167,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "война и её последствия"
+      ]
+    },
+    {
+      "book_a": 50,
+      "book_b": 65,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь",
+        "мышление и поведение"
+      ]
+    },
+    {
+      "book_a": 50,
+      "book_b": 77,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "мышление и поведение"
+      ]
+    },
+    {
+      "book_a": 50,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 50,
+      "book_b": 116,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 50,
+      "book_b": 128,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": []
+    },
+    {
+      "book_a": 50,
+      "book_b": 159,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "мышление и поведение"
+      ]
+    },
+    {
+      "book_a": 50,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 55,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 62,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 74,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания",
+        "личный выбор",
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 75,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 79,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 90,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания",
+        "личный выбор",
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 93,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 95,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания",
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 97,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания",
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 99,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания",
+        "личный выбор",
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 116,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 53,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 55,
+      "book_b": 62,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 55,
+      "book_b": 74,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 55,
+      "book_b": 75,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память",
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 55,
+      "book_b": 90,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 55,
+      "book_b": 94,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 55,
+      "book_b": 97,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 55,
+      "book_b": 99,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 55,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 55,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 55,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 55,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "война и её последствия",
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 55,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 55,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 55,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 55,
+      "book_b": 166,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 55,
+      "book_b": 167,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "война и её последствия"
+      ]
+    },
+    {
+      "book_a": 55,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 74,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 75,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 90,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 95,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 97,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 99,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 159,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 166,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 62,
+      "book_b": 173,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 65,
+      "book_b": 77,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "мышление и поведение"
+      ]
+    },
+    {
+      "book_a": 65,
+      "book_b": 80,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 65,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 65,
+      "book_b": 116,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 65,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 65,
+      "book_b": 159,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "мышление и поведение"
+      ]
+    },
+    {
+      "book_a": 65,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь"
+      ]
+    },
+    {
+      "book_a": 65,
+      "book_b": 167,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 74,
+      "book_b": 75,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 74,
+      "book_b": 79,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания"
+      ]
+    },
+    {
+      "book_a": 74,
+      "book_b": 90,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания",
+        "личный выбор",
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 74,
+      "book_b": 93,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 74,
+      "book_b": 95,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания",
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 74,
+      "book_b": 97,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания",
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 74,
+      "book_b": 99,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 74,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 74,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 74,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания",
+        "личный выбор",
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 74,
+      "book_b": 116,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 74,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 74,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 74,
+      "book_b": 162,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": []
+    },
+    {
+      "book_a": 74,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 74,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 75,
+      "book_b": 80,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "знания и развитие"
+      ]
+    },
+    {
+      "book_a": 75,
+      "book_b": 90,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 75,
+      "book_b": 94,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 75,
+      "book_b": 97,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 75,
+      "book_b": 99,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 75,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 75,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 75,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 75,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 75,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 75,
+      "book_b": 161,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "знания и развитие"
+      ]
+    },
+    {
+      "book_a": 75,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 75,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 75,
+      "book_b": 166,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 75,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 77,
+      "book_b": 79,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 77,
+      "book_b": 127,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор",
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 77,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор",
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 77,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 77,
+      "book_b": 159,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "мышление и поведение"
+      ]
+    },
+    {
+      "book_a": 77,
+      "book_b": 161,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 77,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор",
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 77,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор",
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 79,
+      "book_b": 90,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания"
+      ]
+    },
+    {
+      "book_a": 79,
+      "book_b": 95,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания"
+      ]
+    },
+    {
+      "book_a": 79,
+      "book_b": 97,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания"
+      ]
+    },
+    {
+      "book_a": 79,
+      "book_b": 108,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 79,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 79,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания"
+      ]
+    },
+    {
+      "book_a": 79,
+      "book_b": 127,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 79,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 79,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 79,
+      "book_b": 159,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 79,
+      "book_b": 161,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 79,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 79,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 79,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 80,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 80,
+      "book_b": 161,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "знания и развитие",
+        "практические идеи"
+      ]
+    },
+    {
+      "book_a": 80,
+      "book_b": 167,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление",
+        "практические идеи"
+      ]
+    },
+    {
+      "book_a": 90,
+      "book_b": 93,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 90,
+      "book_b": 95,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания",
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 90,
+      "book_b": 97,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания",
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 90,
+      "book_b": 99,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 90,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 90,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 90,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания",
+        "личный выбор",
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 90,
+      "book_b": 116,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 90,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 90,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 90,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 90,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 91,
+      "book_b": 106,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": []
+    },
+    {
+      "book_a": 93,
+      "book_b": 94,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 93,
+      "book_b": 95,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 93,
+      "book_b": 97,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 93,
+      "book_b": 99,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "магия и сверхъестественное",
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 93,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 93,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 93,
+      "book_b": 116,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения",
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 93,
+      "book_b": 126,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 93,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 93,
+      "book_b": 173,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "магия и сверхъестественное",
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 94,
+      "book_b": 97,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 94,
+      "book_b": 99,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 94,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 94,
+      "book_b": 108,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 94,
+      "book_b": 116,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 94,
+      "book_b": 122,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 94,
+      "book_b": 126,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 94,
+      "book_b": 127,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 94,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество",
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 94,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 94,
+      "book_b": 166,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 94,
+      "book_b": 173,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 95,
+      "book_b": 97,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания"
+      ]
+    },
+    {
+      "book_a": 95,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 95,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания",
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 95,
+      "book_b": 116,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 95,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 95,
+      "book_b": 159,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 95,
+      "book_b": 173,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 97,
+      "book_b": 99,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 97,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 97,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 97,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "выживание и испытания",
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 97,
+      "book_b": 116,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 97,
+      "book_b": 126,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 97,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 97,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 97,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 97,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 97,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 97,
+      "book_b": 173,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 99,
+      "book_b": 106,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 99,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 99,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 99,
+      "book_b": 116,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 99,
+      "book_b": 126,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 99,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 99,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 99,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 99,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 99,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 99,
+      "book_b": 173,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "магия и сверхъестественное",
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 106,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 106,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 106,
+      "book_b": 116,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь",
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 106,
+      "book_b": 126,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 106,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 106,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 106,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь",
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 106,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 106,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 106,
+      "book_b": 173,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 108,
+      "book_b": 112,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 108,
+      "book_b": 122,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 108,
+      "book_b": 127,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 108,
+      "book_b": 159,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 108,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 108,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 112,
+      "book_b": 114,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 112,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 112,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 112,
+      "book_b": 159,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны",
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 112,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 112,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 112,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 112,
+      "book_b": 173,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 113,
+      "book_b": 171,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": []
+    },
+    {
+      "book_a": 114,
+      "book_b": 116,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "страх и неизвестность"
+      ]
+    },
+    {
+      "book_a": 114,
+      "book_b": 128,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 114,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 114,
+      "book_b": 163,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": []
+    },
+    {
+      "book_a": 114,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 114,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 116,
+      "book_b": 126,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 116,
+      "book_b": 128,
+      "reason": "same_compatibility_cluster",
+      "shared_themes": []
+    },
+    {
+      "book_a": 116,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "дружба и взаимопомощь",
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 116,
+      "book_b": 173,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 122,
+      "book_b": 126,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "наука и устройство мира"
+      ]
+    },
+    {
+      "book_a": 122,
+      "book_b": 127,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 122,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 126,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 126,
+      "book_b": 173,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 127,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор",
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 127,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 127,
+      "book_b": 161,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 127,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "власть и общество"
+      ]
+    },
+    {
+      "book_a": 127,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор",
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 127,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор",
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 128,
+      "book_b": 140,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 128,
+      "book_b": 159,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 128,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 128,
+      "book_b": 167,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "война и её последствия"
+      ]
+    },
+    {
+      "book_a": 128,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор"
+      ]
+    },
+    {
+      "book_a": 128,
+      "book_b": 173,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 140,
+      "book_b": 151,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 140,
+      "book_b": 161,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 140,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "смысл жизни и выбор",
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 140,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "смысл жизни и выбор",
+        "человеческие отношения"
+      ]
+    },
+    {
+      "book_a": 151,
+      "book_b": 161,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 151,
+      "book_b": 162,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 151,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 151,
+      "book_b": 166,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество"
+      ]
+    },
+    {
+      "book_a": 151,
+      "book_b": 167,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "деньги и управление"
+      ]
+    },
+    {
+      "book_a": 151,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 159,
+      "book_b": 163,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "семья и поколения"
+      ]
+    },
+    {
+      "book_a": 159,
+      "book_b": 173,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "расследование и тайны"
+      ]
+    },
+    {
+      "book_a": 161,
+      "book_b": 164,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 161,
+      "book_b": 167,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "практические идеи"
+      ]
+    },
+    {
+      "book_a": 161,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "смысл жизни и выбор"
+      ]
+    },
+    {
+      "book_a": 162,
+      "book_b": 166,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "искусство и творчество",
+        "история и память"
+      ]
+    },
+    {
+      "book_a": 163,
+      "book_b": 173,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "путешествия и приключения"
+      ]
+    },
+    {
+      "book_a": 164,
+      "book_b": 170,
+      "reason": "shared_theme_or_series",
+      "shared_themes": [
+        "личный выбор",
+        "смысл жизни и выбор",
+        "человеческие отношения"
+      ]
+    }
+  ],
+  "rules": [
+    "Never put two variants or duplicate passages of the same positive book in one batch.",
+    "Avoid every listed compatibility pair as in-batch negatives; uncertainty is not a negative label.",
+    "Apply reserved-book exclusions to ALL documents in batches, including explicit negatives.",
+    "Do not automatically add mined candidates to training.",
+    "Do not assume every other document is irrelevant; use checked triplets or conservative batches if ambiguity persists.",
+    "Respect additional compatible positives; never treat them as negatives for the listed query."
+  ],
+  "limitation": "Conservative compatibility screen, not exhaustive multi-positive relevance labeling.",
+  "supplementary_excluded_book_ids": [
+    887
+  ],
+  "additional_compatible_positives": [
+    {
+      "example_id": "TRAIN-B0003-V1",
+      "book_id": 703
+    },
+    {
+      "example_id": "TRAIN-B0033-V2",
+      "book_id": 139
+    }
+  ]
+}

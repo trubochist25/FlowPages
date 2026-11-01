@@ -1,0 +1,21 @@
+{
+  "status": "query_draft_frozen_not_a_ready_independent_test",
+  "dev_queries": 51,
+  "test_queries": 99,
+  "dev_families": 17,
+  "test_families": 33,
+  "families_disjoint": true,
+  "exact_prior_query_duplicates": 0,
+  "semantic_family_overlap_audit_pending": true,
+  "real_user_queries": 0,
+  "qrels_pending": true,
+  "test_book_holdout_selection_pending": true,
+  "new_training_must_wait_for_holdout_book_and_related_work_reservation": true,
+  "all_existing_heldout_books_remain_reserved": true,
+  "no_model_queries_run": true,
+  "freeze_draft_sha256": {
+    "dev_queries.draft.json": "ee038e44a18dd0f42a50ec1721cfb78700fc80d79a46238430974891f8957f24",
+    "test_queries.draft.json": "c8f43281e50b0bbbeab28341e61f6672547ff96d1341ec9f50d6b186ff1e1c76"
+  },
+  "test_usage": "Do not retrieve or inspect test model results while selecting integration settings. After family audit and independent annotation, freeze qrels and use once."
+}

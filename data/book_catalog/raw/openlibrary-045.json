@@ -1,0 +1,3339 @@
+{
+  "numFound": 971770,
+  "start": 4400,
+  "numFoundExact": true,
+  "num_found": 971770,
+  "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+  "q": "language:rus",
+  "offset": null,
+  "docs": [
+    {
+      "author_name": [
+        "Jo Nesbø"
+      ],
+      "cover_i": 13959231,
+      "edition_count": 10,
+      "first_publish_year": 1997,
+      "key": "/works/OL20395276W",
+      "number_of_pages_median": 432,
+      "title": "Flaggermusmannen",
+      "ratings_average": 4,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL26931199M",
+            "title": "Netopyrʹ",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2017"
+            ],
+            "isbn": [
+              "9785389128682",
+              "5389128680"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1974,
+      "key": "/works/OL19375722M",
+      "number_of_pages_median": 223,
+      "title": "Formirovanie, raspredelenie i ispol'zovanie pribyli v sot︠s︡ialisticheskoĭ promyshlennosti",
+      "subject": [
+        "Profit -- Ukraine"
+      ],
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19375722M",
+            "title": "Formirovanie, raspredelenie i ispol'zovanie pribyli v sot︠s︡ialisticheskoĭ promyshlennosti",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1974"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1966,
+      "key": "/works/OL20016279M",
+      "title": "Materialy po istorii Srednei Azii.",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20016279M",
+            "title": "Materialy po istorii Srednei Azii.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1966"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1957,
+      "key": "/works/OL20648320M",
+      "title": "Bor'ba trudyashchikhsya Orlovskoi gubernii za ustanovlenie Sovetskoi vlasti v 1917-1918 gg",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20648320M",
+            "title": "Bor'ba trudyashchikhsya Orlovskoi gubernii za ustanovlenie Sovetskoi vlasti v 1917-1918 gg",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1957"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Andreas Eschbach"
+      ],
+      "cover_i": 1000334,
+      "edition_count": 3,
+      "first_publish_year": 2003,
+      "key": "/works/OL3141854W",
+      "number_of_pages_median": 268,
+      "title": "Exponentialdrift",
+      "ratings_average": 4,
+      "ratings_count": 2,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL37799473M",
+            "title": "Экспоненциальный дрейф",
+            "cover_i": 12707233,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2008"
+            ],
+            "isbn": [
+              "9785815908857",
+              "5815908851"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1970,
+      "key": "/works/OL20168520M",
+      "title": "Zemleustroistvo, planirovka sel'skikh naselennykh punktov i geodeziya.",
+      "ratings_average": 4,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20168520M",
+            "title": "Zemleustroistvo, planirovka sel'skikh naselennykh punktov i geodeziya.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1970"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1980,
+      "key": "/works/OL19543750M",
+      "number_of_pages_median": 543,
+      "title": "Anglo-russkiĭ sinonimicheskiĭ slovarʹ",
+      "subject": [
+        "English language -- Synonyms and antonyms -- Dictionaries -- Russian."
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19543750M",
+            "title": "Anglo-russkiĭ sinonimicheskiĭ slovarʹ",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1980"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1971,
+      "key": "/works/OL19347644M",
+      "number_of_pages_median": 254,
+      "title": "Diatlovy gory",
+      "subject": [
+        "Russian poetry -- Gorki, Russia (Province)"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19347644M",
+            "title": "Diatlovy gory",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1971"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1976,
+      "key": "/works/OL20008125M",
+      "title": "Tipovye tekhnologicheskie karty shinomontazhnykh rabot i tekhnicheskogo obsluzhivaniya avtomobil'nykh shin.",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20008125M",
+            "title": "Tipovye tekhnologicheskie karty shinomontazhnykh rabot i tekhnicheskogo obsluzhivaniya avtomobil'nykh shin.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1976"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Clement John Tranter"
+      ],
+      "cover_i": 9143750,
+      "edition_count": 8,
+      "first_publish_year": 1951,
+      "key": "/works/OL7293202W",
+      "number_of_pages_median": 136,
+      "title": "Integral transforms in mathematical physics",
+      "subject": [
+        "Física matemática",
+        "Transformations intégrales",
+        "Análise matemática",
+        "Integral transforms",
+        "Mathematical physics",
+        "Análise funcional",
+        "Matemática",
+        "Análise harmônica",
+        "Funções especiais",
+        "Physique mathématique",
+        "Transformations (Mathematics)"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL5782718M",
+            "title": "Integralnye preobrazovanii͡a︡ v matematic͡h︡eskoĭ fizike",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1956"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1967,
+      "key": "/works/OL17496336M",
+      "title": "Literaturnoe nasledstvo.",
+      "subject": [
+        "Turgenev, I. S. -- 1818-1883."
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL17496336M",
+            "title": "Literaturnoe nasledstvo.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1967"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Teach Yourself Publishing"
+      ],
+      "cover_i": 641998,
+      "edition_count": 1,
+      "first_publish_year": 1996,
+      "key": "/works/OL8240916W",
+      "number_of_pages_median": 320,
+      "title": "Russian",
+      "ratings_average": 4,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL8243141M",
+            "title": "Russian",
+            "cover_i": 641998,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "October 1996"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1976,
+      "key": "/works/OL19865284M",
+      "title": "Istoriya tekhniki",
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19865284M",
+            "title": "Istoriya tekhniki",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1976"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1971,
+      "key": "/works/OL20883897M",
+      "title": "Voprosy fizicheskogo vospitaniya i sportivnoi trenirovki",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20883897M",
+            "title": "Voprosy fizicheskogo vospitaniya i sportivnoi trenirovki",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1971"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Elena Mikhaĭlovna Stepanova"
+      ],
+      "cover_i": 9550204,
+      "edition_count": 4,
+      "first_publish_year": 1976,
+      "key": "/works/OL4369705W",
+      "number_of_pages_median": 129,
+      "title": "Russkiĭ i︠a︡zyk dli︠a︡ vsekh",
+      "subject": [
+        "Russian language",
+        "Outlines, syllabi",
+        "Textbooks for foreign speakers",
+        "French",
+        "Grammar",
+        "Dictionaries",
+        "Mongolian"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL16991778M",
+            "title": "Russkiĭ i͡azyk dli͡a vsekh",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1977"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Israel M. Gel'fand"
+      ],
+      "cover_i": 315083,
+      "edition_count": 5,
+      "first_publish_year": 1951,
+      "key": "/works/OL14856184W",
+      "number_of_pages_median": 185,
+      "title": "Lekt︠s︡ii po lineĭnoĭ algebre",
+      "subject": [
+        "Algebras, Linear",
+        "Linear Algebras",
+        "Linear Substitutions"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 3,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL5822205M",
+            "title": "Lectures on linear algebra.",
+            "cover_i": 12985090,
+            "language": [
+              "eng",
+              "rus"
+            ],
+            "publish_date": [
+              "1961"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1925,
+      "key": "/works/OL18231418M",
+      "number_of_pages_median": 309,
+      "title": "Vospominaniia A.G. Dostoevskoǐ.",
+      "subject": [
+        "Dostoyevsky, Fyodor, -- 1821-1881."
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL18231418M",
+            "title": "Vospominaniia A.G. Dostoevskoǐ.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1925"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1972,
+      "key": "/works/OL20035758M",
+      "number_of_pages_median": 194,
+      "title": "Atmosfery zvezd i mezhplanetnaia plazma",
+      "subject": [
+        "Plasma (Ionized gases)",
+        "Radio astronomy",
+        "Stars -- Atmospheres"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20035758M",
+            "title": "Atmosfery zvezd i mezhplanetnaia plazma",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1972"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1974,
+      "key": "/works/OL20666719M",
+      "title": "Obshchestvenno-politicheskie dvizheniya v Tsentral'noi Evrope v XIX - nachale XX v.",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20666719M",
+            "title": "Obshchestvenno-politicheskie dvizheniya v Tsentral'noi Evrope v XIX - nachale XX v.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1974"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1921,
+      "key": "/works/OL19210149M",
+      "number_of_pages_median": 125,
+      "title": "Poėzii︠a︡ bolʹshevistskikh dneĭ",
+      "subject": [
+        "Russian poetry"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19210149M",
+            "title": "Poėzii︠a︡ bolʹshevistskikh dneĭ",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1921"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1927,
+      "key": "/works/OL19964967M",
+      "title": "Vliyanie neurozhaev na narodnoe khozyaistvo Rossii",
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19964967M",
+            "title": "Vliyanie neurozhaev na narodnoe khozyaistvo Rossii",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1927"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Samara. Zemstvo."
+      ],
+      "edition_count": 1,
+      "first_publish_year": 1897,
+      "key": "/works/OL16510250M",
+      "title": "Sbornik postanovlenii Samarskago gubernskago zemskago sobraniya za vremyas 1865 po 1897 god.",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL16510250M",
+            "title": "Sbornik postanovlenii Samarskago gubernskago zemskago sobraniya za vremyas 1865 po 1897 god.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1897"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1977,
+      "key": "/works/OL20854377M",
+      "title": "Nachal'naya odnokomplektnaya shkola",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20854377M",
+            "title": "Nachal'naya odnokomplektnaya shkola",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1977"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1976,
+      "key": "/works/OL20007907M",
+      "title": "Dozornye neba",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20007907M",
+            "title": "Dozornye neba",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1976"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 2005,
+      "key": "/works/OL20421652M",
+      "number_of_pages_median": 128,
+      "title": "I︠a︡kut︠s︡kiĭ arkhiv",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20421652M",
+            "title": "I︠a︡kut︠s︡kiĭ arkhiv",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2005"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1975,
+      "key": "/works/OL20016390M",
+      "title": "Obshchaya teoriya statistiki",
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20016390M",
+            "title": "Obshchaya teoriya statistiki",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1975"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1970,
+      "key": "/works/OL17393418M",
+      "number_of_pages_median": 126,
+      "title": "Lenin i problemy istorii stran Azii.",
+      "subject": [
+        "Lenin, Vladimir Ilʹich, -- 1870-1924.",
+        "China -- Historiography",
+        "India -- Historiography"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL17393418M",
+            "title": "Lenin i problemy istorii stran Azii.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1970"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1972,
+      "key": "/works/OL19506948M",
+      "number_of_pages_median": 332,
+      "title": "Kraevye obrazovaniia materikovykh oledeneniǐ.",
+      "subject": [
+        "Moraines -- Russia"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19506948M",
+            "title": "Kraevye obrazovaniia materikovykh oledeneniǐ.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1972"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "IUliǐ Ivanovich Bleichmann"
+      ],
+      "edition_count": 1,
+      "key": "/works/OL15142789M",
+      "title": "Vieterok.",
+      "subject": [
+        "Songs (High voice) with piano"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL15142789M",
+            "title": "Vieterok.",
+            "language": [
+              "rus"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Stanisław Lem"
+      ],
+      "cover_i": 1016545,
+      "edition_count": 5,
+      "first_publish_year": 1957,
+      "key": "/works/OL2683564W",
+      "number_of_pages_median": 285,
+      "title": "Astronauci",
+      "subject": [
+        "Polish Science fiction",
+        "Science fiction"
+      ],
+      "ratings_average": 2,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL49920889M",
+            "title": "Astronavty",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1960"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1977,
+      "key": "/works/OL21566663M",
+      "title": "Gorkom, raikom partii",
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL21566663M",
+            "title": "Gorkom, raikom partii",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1977"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1966,
+      "key": "/works/OL17309447M",
+      "title": "Sovershenstvovanie i avtomatizatsiya operativnogo planirovaniya rabotȳ otdeleniĭ dorog i zheleznodorozhnȳkh uzlov",
+      "ratings_average": 1,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL17309447M",
+            "title": "Sovershenstvovanie i avtomatizatsiya operativnogo planirovaniya rabotȳ otdeleniĭ dorog i zheleznodorozhnȳkh uzlov",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1966"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1971,
+      "key": "/works/OL20883817M",
+      "title": "Voprosy vospitaniya i prepodavaniya v universitete",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20883817M",
+            "title": "Voprosy vospitaniya i prepodavaniya v universitete",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1971"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1998,
+      "key": "/works/OL18313060M",
+      "number_of_pages_median": 288,
+      "title": "Evreĭskai︠a︡ ėmigrat︠s︡ii︠a︡ v svete novykh dokumentov",
+      "subject": [
+        "Soviet Union. -- Komitet gosudarstvennoĭ bezopasnosti -- Records and correspondence.",
+        "Kommunisticheskai︠a︡ partii︠a︡ Sovetskogo Soi︠u︡za -- Records and correspodence.",
+        "Jews -- Soviet Union -- Migrations -- History -- Sources.",
+        "Soviet Union -- Emigration and immigration. -- History -- Sources."
+      ],
+      "ratings_average": 3,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL18313060M",
+            "title": "Evreĭskai︠a︡ ėmigrat︠s︡ii︠a︡ v svete novykh dokumentov",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1998"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1964,
+      "key": "/works/OL17882990M",
+      "number_of_pages_median": 78,
+      "title": "Siluriĭskie i devonskie korally Aziatskoĭ chasti SSSR.",
+      "subject": [
+        "Corals, Fossil.",
+        "Paleontology -- Silurian.",
+        "Paleontology -- Devonian.",
+        "Paleontology -- Siberia."
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL17882990M",
+            "title": "Siluriĭskie i devonskie korally Aziatskoĭ chasti SSSR.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1964"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Iosif Pavlovich Dobryǐ"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 1966,
+      "key": "/works/OL17403229M",
+      "title": "Sonata, dlia skripki i fortepiano.",
+      "subject": [
+        "Sonatas (Violin and piano)"
+      ],
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL17403229M",
+            "title": "Sonata, dlia skripki i fortepiano.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1966"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 2000,
+      "key": "/works/OL20859767M",
+      "number_of_pages_median": 239,
+      "title": "Russian futurism and David Burliuk, \"The father of Russian futurism\"",
+      "subject": [
+        "Burlyuk, David, -- 1882-1967."
+      ],
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20859767M",
+            "title": "Russian futurism and David Burliuk, \"The father of Russian futurism\"",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2000"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1978,
+      "key": "/works/OL19371936M",
+      "number_of_pages_median": 383,
+      "title": "Mirovai︠a︡ ėkonomika",
+      "subject": [
+        "Economic history -- 1945-"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19371936M",
+            "title": "Mirovai︠a︡ ėkonomika",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1978"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Union of Soviet Socialist Republics."
+      ],
+      "edition_count": 1,
+      "first_publish_year": 1961,
+      "key": "/works/OL17165270M",
+      "title": "Sbornik zakonov SSSR i ukazov Prezidiuma Verkhovnogo Soveta SSSR, 1938 g.-1961 g..",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL17165270M",
+            "title": "Sbornik zakonov SSSR i ukazov Prezidiuma Verkhovnogo Soveta SSSR, 1938 g.-1961 g..",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1961"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "James Aldridge"
+      ],
+      "cover_i": 14894332,
+      "edition_count": 5,
+      "first_publish_year": 1949,
+      "key": "/works/OL4065409W",
+      "number_of_pages_median": 728,
+      "title": "The diplomat",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL6159640M",
+            "title": "Diplomat.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1953"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Rock Brynner"
+      ],
+      "cover_i": 7088425,
+      "edition_count": 10,
+      "first_publish_year": 1989,
+      "key": "/works/OL2718360W",
+      "number_of_pages_median": 271,
+      "title": "Yul: The Man Who Would Be King",
+      "subject": [
+        "Actors",
+        "Biography",
+        "Large type books",
+        "Actors, united states",
+        "Fathers and sons"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL27153645M",
+            "title": "︠I︡Ul",
+            "language": [
+              "rus",
+              "eng"
+            ],
+            "publish_date": [
+              "2012"
+            ],
+            "isbn": [
+              "9785855380811",
+              "5855380815"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Zhores A. Medvedev"
+      ],
+      "cover_i": 6545625,
+      "edition_count": 3,
+      "first_publish_year": 1979,
+      "key": "/works/OL3148871W",
+      "number_of_pages_median": 214,
+      "title": "Nuclear disaster in the Urals",
+      "subject": [
+        "Accidents",
+        "Explosion, 1957",
+        "Nuclear explosions",
+        "Radioactive pollution",
+        "Radioactive waste disposal",
+        "Russia (Federation)",
+        "Russia (federation), environmental conditions"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL4407908M",
+            "title": "Nuclear disaster in the Urals",
+            "cover_i": 13110594,
+            "language": [
+              "eng",
+              "rus"
+            ],
+            "publish_date": [
+              "1979"
+            ],
+            "isbn": [
+              "0393012190",
+              "9780393012194"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "John Meyendorff"
+      ],
+      "cover_i": 678292,
+      "edition_count": 5,
+      "first_publish_year": 1981,
+      "key": "/works/OL1407000W",
+      "number_of_pages_median": 326,
+      "title": "Byzantium and the rise of Russia",
+      "subject": [
+        "Foreign relations",
+        "History",
+        "Byzantine empire, history",
+        "Soviet union, history"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL1588885M",
+            "title": "[Vizantii͡a︡ i Moskovskai͡a︡ Rusʹ",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1990"
+            ],
+            "isbn": [
+              "2850651826",
+              "9782850651823"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Борис Акунин"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2007,
+      "key": "/works/OL9071536W",
+      "title": "Нефритовые чётки",
+      "ratings_average": 4,
+      "ratings_count": 2,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL9046700M",
+            "title": "Нефритовые чётки",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2007"
+            ],
+            "isbn": [
+              "9785815906488",
+              "5815906484"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1987,
+      "key": "/works/OL20868643M",
+      "number_of_pages_median": 334,
+      "title": "Linii︠a︡ fronta",
+      "subject": [
+        "World War, 1939-1945 -- Soviet Union",
+        "World War, 1939-1945 -- Personal narratives, Russian",
+        "World War, 1939-1945 -- Literature and the war"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20868643M",
+            "title": "Linii︠a︡ fronta",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1987"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Elizabeth Peters"
+      ],
+      "cover_i": 1952765,
+      "edition_count": 15,
+      "first_publish_year": 1970,
+      "key": "/works/OL175831W",
+      "number_of_pages_median": 276,
+      "title": "The Dead Sea cipher",
+      "subject": [
+        "Fiction",
+        "Mystery",
+        "Van der lyn, dinah (fictitious character), fiction",
+        "Fiction, mystery & detective, women sleuths",
+        "Lebanon, fiction",
+        "Fiction, historical, general",
+        "Fiction, political",
+        "Fiction in English",
+        "Dead Sea scrolls",
+        "Fiction, romance, suspense",
+        "Fiction, mystery & detective, general",
+        "Middle east, fiction"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22993573M",
+            "title": "Zloveshchiĭ manuskript",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2003"
+            ],
+            "isbn": [
+              "5952403735",
+              "9785952403734"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Vladimir Sorokin"
+      ],
+      "cover_i": 13858227,
+      "edition_count": 4,
+      "first_publish_year": 1985,
+      "key": "/works/OL865722W",
+      "number_of_pages_median": 259,
+      "title": "Ocheredʹ",
+      "subject": [
+        "Social conditions",
+        "Consumer behavior",
+        "Fiction",
+        "Fiction, humorous",
+        "Soviet union, fiction",
+        "Russian fiction",
+        "Translations into English"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 3,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL2412520M",
+            "title": "The queue",
+            "language": [
+              "eng",
+              "rus"
+            ],
+            "publish_date": [
+              "1988"
+            ],
+            "isbn": [
+              "093052344X",
+              "0930523458",
+              "9780930523442",
+              "9780930523459"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Jack Challoner"
+      ],
+      "cover_i": 551506,
+      "edition_count": 3,
+      "first_publish_year": 1996,
+      "key": "/works/OL482767W",
+      "number_of_pages_median": 64,
+      "title": "The visual dictionary of chemistry",
+      "subject": [
+        "Chemistry",
+        "English Picture dictionaries",
+        "Juvenile literature",
+        "Pictorial works",
+        "Terminology",
+        "Chemistry, terminology",
+        "Picture dictionaries"
+      ],
+      "ratings_average": 4,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23092238M",
+            "title": "Khimii︠a︡",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1999"
+            ],
+            "isbn": [
+              "9785850505660",
+              "5850505660"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Василий Семёнович Гроссман"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 1964,
+      "key": "/works/OL16803900M",
+      "number_of_pages_median": 758,
+      "title": "Za pravoe delo. Roman.",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL16803900M",
+            "title": "Za pravoe delo. Roman.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1964"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1958,
+      "key": "/works/OL15250378M",
+      "number_of_pages_median": 112,
+      "title": "Delo Pasternaka.",
+      "subject": [
+        "Pasternak, Boris Leonidovich, -- 1890-1960.",
+        "Russian literature -- Foreign countries.",
+        "Russian prose literature -- 20th century."
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL15250378M",
+            "title": "Delo Pasternaka.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1958"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Patrick Beesly"
+      ],
+      "cover_i": 4856411,
+      "edition_count": 7,
+      "first_publish_year": 1977,
+      "key": "/works/OL5351802W",
+      "number_of_pages_median": 296,
+      "title": "Very special intelligence",
+      "subject": [
+        "Cryptography",
+        "Great Britain",
+        "Great Britain. Naval Intelligence Division",
+        "Great Britain. Naval Intelligence Division. Operational Intelligence Centre",
+        "History",
+        "Military intelligence",
+        "Naval operations",
+        "Secret service",
+        "World War, 1939-1945",
+        "World war, 1939-1945, secret service",
+        "World war, 1939-1945, naval operations",
+        "Great britain, naval intelligence division",
+        "World war, 1939-1945, secret service, great britain",
+        "Espionage & military intelligence - world war ii",
+        "Great britain - espionage",
+        "Cryptography - history",
+        "20th century british history - world war ii",
+        "Great britain - world war ii",
+        "British history - military history",
+        "Great britain. naval intelligence division. operational intelligence centre.",
+        "World war, 1939-1945--cryptography",
+        "Military intelligence--history",
+        "Military intelligence--great britain--history--20th century",
+        "D810.s7 b354 2000",
+        "940.54/8641"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL15468720M",
+            "title": "Razvedka osbogo naznachenii︠a︡",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1981"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Heinrich Mann"
+      ],
+      "cover_i": 455297,
+      "edition_count": 6,
+      "first_publish_year": 1937,
+      "key": "/works/OL1245564W",
+      "number_of_pages_median": 585,
+      "title": "Young Henry of Navarre",
+      "subject": [
+        "Fiction",
+        "Kings and rulers",
+        "Fiction, historical",
+        "France, fiction",
+        "Fiction, historical, general"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23016128M",
+            "title": "Molodye gody koroli︠a︡ Genrikha IV",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2001"
+            ],
+            "isbn": [
+              "5699014772",
+              "9785699014774"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1969,
+      "key": "/works/OL20194565M",
+      "number_of_pages_median": 237,
+      "title": "Problemy Gil'berta.",
+      "subject": [
+        "Mathematics"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20194565M",
+            "title": "Problemy Gil'berta.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1969"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Лев Толстой"
+      ],
+      "cover_i": 4113225,
+      "edition_count": 5,
+      "first_publish_year": 1917,
+      "key": "/works/OL15698334W",
+      "number_of_pages_median": 755,
+      "title": "Diaries",
+      "subject": [
+        "Translations into English",
+        "Diaries",
+        "Russian Novelists",
+        "Tolstoy, leo, graf, 1828-1910",
+        "Russian Authors",
+        "Biography"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL2348994M",
+            "title": "Tolstoy's diaries",
+            "cover_i": 4113225,
+            "language": [
+              "eng",
+              "rus"
+            ],
+            "publish_date": [
+              "1985"
+            ],
+            "isbn": [
+              "0485112760",
+              "9780485112764"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Stephen Cosgrove"
+      ],
+      "cover_i": 9846164,
+      "edition_count": 6,
+      "first_publish_year": 1987,
+      "key": "/works/OL567330W",
+      "number_of_pages_median": 30,
+      "title": "Fiddler (Barely There)",
+      "subject": [
+        "Bears",
+        "Juvenile fiction",
+        "Sharing",
+        "Fiction"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL13624952M",
+            "title": "Pilikalo",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1992"
+            ],
+            "isbn": [
+              "5857700353",
+              "9785857700358"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Markus Zusak"
+      ],
+      "cover_i": 7117196,
+      "edition_count": 5,
+      "first_publish_year": 2011,
+      "key": "/works/OL16190496W",
+      "number_of_pages_median": 499,
+      "title": "Underdogs",
+      "subject": [
+        "Interpersonal relations",
+        "Brothers",
+        "Fiction",
+        "Children's fiction",
+        "Girls, fiction",
+        "Brothers and sisters, fiction",
+        "Self-esteem, fiction",
+        "Self-esteem",
+        "Juvenile fiction",
+        "Estime de soi",
+        "Romans, nouvelles, etc. pour la jeunesse",
+        "Family relationships",
+        "Teenagers"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL27198198M",
+            "title": "Bratʹi︠a︡ Volf",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2015"
+            ],
+            "isbn": [
+              "9785990581036",
+              "5990581033"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Николай Васильевич Гоголь",
+        "Clifford Odets"
+      ],
+      "cover_i": 13444126,
+      "edition_count": 50,
+      "first_publish_year": 2009,
+      "key": "/works/OL25822755W",
+      "number_of_pages_median": 302,
+      "title": "Dead Souls",
+      "subject": [
+        "Fiction, historical, general",
+        "Russia (federation), fiction"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL35852430M",
+            "title": "Dead Souls",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2020"
+            ],
+            "isbn": [
+              "9781787362055",
+              "1787362051"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1974,
+      "key": "/works/OL21614840M",
+      "title": "Partiinye organizatsii Dal'nego Vostoka v avangarde bor'by za postroenie sotsializma i kommunizma",
+      "subject": [
+        "Kommunisticheskaya Partiya Sovetskogo Soyuza. -- Dal'nevostochnaya Organizatsiya."
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL21614840M",
+            "title": "Partiinye organizatsii Dal'nego Vostoka v avangarde bor'by za postroenie sotsializma i kommunizma",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1974"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1957,
+      "key": "/works/OL19977844M",
+      "title": "Vosstanovienie ugol'noǐ promyshlennosti Donetskogo basseǐna.",
+      "subject": [
+        "Coal mines and mining -- Donets Basin (Ukraine and Russia)"
+      ],
+      "ratings_average": 3,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19977844M",
+            "title": "Vosstanovienie ugol'noǐ promyshlennosti Donetskogo basseǐna.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1957"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Alexandre Dumas"
+      ],
+      "cover_i": 14561849,
+      "edition_count": 22,
+      "first_publish_year": 1859,
+      "key": "/works/OL36226W",
+      "number_of_pages_median": 285,
+      "title": "En Caucase",
+      "subject": [
+        "Travel",
+        "Description and travel"
+      ],
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 2,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL17618698M",
+            "title": "Kavkaz",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1988"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1961,
+      "key": "/works/OL21451205M",
+      "title": "Poli︠a︡rnyĭ Ural",
+      "subject": [
+        "Meteorology -- Observations -- Statistics",
+        "Meteorology -- Ural Mountain region"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL21451205M",
+            "title": "Poli︠a︡rnyĭ Ural",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1961"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Lawrence M. Friedman",
+        "Lawrence Meir Friedman"
+      ],
+      "cover_i": 247279,
+      "edition_count": 6,
+      "first_publish_year": 1984,
+      "key": "/works/OL1836546W",
+      "number_of_pages_median": 402,
+      "title": "American law",
+      "subject": [
+        "Law",
+        "Popular works",
+        "Law, united states, popular works"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL17080295M",
+            "title": "Vvedenie v amerikanskoe pravo",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1993"
+            ],
+            "isbn": [
+              "5010035559"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1966,
+      "key": "/works/OL20900408M",
+      "title": "Kazachiǐ Slovar-Spravochnik",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20900408M",
+            "title": "Kazachiǐ Slovar-Spravochnik",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1966"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1921,
+      "key": "/works/OL20244441M",
+      "title": "Sbornik materialov i statei",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20244441M",
+            "title": "Sbornik materialov i statei",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1921"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Elizabeth Page"
+      ],
+      "cover_i": 6980254,
+      "edition_count": 7,
+      "first_publish_year": 1939,
+      "key": "/works/OL3778155W",
+      "number_of_pages_median": 985,
+      "title": "The tree of liberty",
+      "subject": [
+        "Fiction",
+        "History",
+        "Fiction, historical, general",
+        "United states, fiction"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL6159862M",
+            "title": "Utro svobody",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1953"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1976,
+      "key": "/works/OL20283964M",
+      "title": "Effektivnost' kapital'nykh vlozhenii i osnovnykh fondov v sel'skom khozyaistve",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20283964M",
+            "title": "Effektivnost' kapital'nykh vlozhenii i osnovnykh fondov v sel'skom khozyaistve",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1976"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Georges Ivanovitch Gurdjieff"
+      ],
+      "cover_i": 14439220,
+      "edition_count": 20,
+      "first_publish_year": 1950,
+      "key": "/works/OL4096106W",
+      "number_of_pages_median": 430,
+      "title": "All and everything",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL17761672M",
+            "title": "All and everything.",
+            "language": [
+              "eng",
+              "rus",
+              "arm"
+            ],
+            "publish_date": [
+              "1950"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Władysław Reymont"
+      ],
+      "cover_i": 3950668,
+      "edition_count": 21,
+      "first_publish_year": 1900,
+      "key": "/works/OL737772W",
+      "number_of_pages_median": 366,
+      "title": "Chłopi",
+      "ratings_average": 3.5,
+      "ratings_count": 2,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL15445356M",
+            "title": "Muzhiki",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1981"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Michael Idvorsky Pupin"
+      ],
+      "cover_i": 10850358,
+      "edition_count": 20,
+      "first_publish_year": 1923,
+      "key": "/works/OL2255364W",
+      "number_of_pages_median": 396,
+      "title": "From immigrant to inventor",
+      "subject": [
+        "Biography",
+        "Inventors",
+        "Physicists",
+        "Serbs"
+      ],
+      "ratings_average": 5,
+      "ratings_count": 2,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL6162600M",
+            "title": "Ot immigranta k izobretateli͡u︡",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1953"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Andrey Bely"
+      ],
+      "cover_i": 8315192,
+      "edition_count": 18,
+      "first_publish_year": 1916,
+      "key": "/works/OL175545W",
+      "number_of_pages_median": 462,
+      "title": "Peterburg",
+      "subject": [
+        "Fiction",
+        "City and town life",
+        "History",
+        "Vida urbana",
+        "Historia",
+        "Novela",
+        "Historical fiction",
+        "Continental european fiction (fictional works by one author)",
+        "Fiction, historical, general",
+        "Saint petersburg (russia), fiction"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 14,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL7237743M",
+            "title": "Peterburg.",
+            "cover_i": 8315192,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1916"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Henry Kissinger"
+      ],
+      "cover_i": 427854,
+      "edition_count": 4,
+      "first_publish_year": 2001,
+      "key": "/works/OL1967247W",
+      "number_of_pages_median": 334,
+      "title": "Does America need a foreign policy?",
+      "subject": [
+        "Foreign relations",
+        "New York Times reviewed",
+        "United states, foreign relations, 1989-",
+        "United states, politics and government, 1961-",
+        "United states, foreign relations",
+        "Diplomacy"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL18730533M",
+            "title": "Nuzhna li Amerike vneshnyaya politika?",
+            "cover_i": 8670970,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2002"
+            ],
+            "isbn": [
+              "5862184058",
+              "9785862184051"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1972,
+      "key": "/works/OL20015617M",
+      "title": "Zhurnalistika i literatura",
+      "ratings_average": 3,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20015617M",
+            "title": "Zhurnalistika i literatura",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1972"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Poul Anderson"
+      ],
+      "cover_i": 4430863,
+      "edition_count": 11,
+      "first_publish_year": 1961,
+      "key": "/works/OL90550W",
+      "number_of_pages_median": 168,
+      "title": "Orbit unlimited",
+      "subject": [
+        "Translations into Russian",
+        "Fiction in English",
+        "American Fantasy fiction",
+        "American Science fiction",
+        "Fiction, general",
+        "Space colonies",
+        "Fiction"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22945518M",
+            "title": "Nelimitirovannai︠a︡ orbita ; Velikiĭ krestovyĭ pokhod",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1995"
+            ],
+            "isbn": [
+              "5883580556",
+              "9785883580559"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Joe Durrell",
+        "Gerald Malcolm Durrell"
+      ],
+      "cover_i": 6794984,
+      "edition_count": 13,
+      "first_publish_year": 1977,
+      "key": "/works/OL8339335W",
+      "number_of_pages_median": 190,
+      "title": "Golden Bats & Pink Pigeons",
+      "subject": [
+        "Wild animal collecting",
+        "Rare animals Mauritius",
+        "Rare animals",
+        "Wild animal collecting Mauritius",
+        "Nature",
+        "Nonfiction",
+        "Travel",
+        "Life Sciences",
+        "Zoology",
+        "SCIENCE",
+        "General",
+        "Natural history, mascarene islands",
+        "Island animals",
+        "Island plants",
+        "Nature study",
+        "Zoologists",
+        "Animals",
+        "Biography"
+      ],
+      "ratings_average": 4.5,
+      "ratings_count": 2,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL26367875M",
+            "title": "Zolotye krylany i rozovye golubi",
+            "cover_i": 8054417,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2004"
+            ],
+            "isbn": [
+              "9785699077595",
+              "5699077596"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1936,
+      "key": "/works/OL19354798M",
+      "number_of_pages_median": 428,
+      "title": "Poėty XVIII veka",
+      "subject": [
+        "Russian poetry -- 18th century."
+      ],
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19354798M",
+            "title": "Poėty XVIII veka",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1936"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1994,
+      "key": "/works/OL930000M",
+      "number_of_pages_median": 462,
+      "title": "Materialy tverdotelʹnoĭ ėlektroniki",
+      "subject": [
+        "Solid state electronics.",
+        "Research grants -- Russia (Federation)",
+        "Engineering -- Research -- Russia (Federation)"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL930000M",
+            "title": "Materialy tverdotelʹnoĭ ėlektroniki",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1994"
+            ],
+            "isbn": [
+              "5230222433",
+              "9785230222439"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Diane Chamberlain"
+      ],
+      "cover_i": 6962723,
+      "edition_count": 13,
+      "first_publish_year": 1993,
+      "key": "/works/OL2571795W",
+      "number_of_pages_median": 402,
+      "title": "Fire and rain",
+      "subject": [
+        "Fiction",
+        "Rain-making",
+        "California, fiction",
+        "Women journalists",
+        "Wildfires",
+        "Fiction, general",
+        "American literature"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22944841M",
+            "title": "Ogonʹ i dozhdʹ",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1995"
+            ],
+            "isbn": [
+              "5873221839",
+              "9785873221837"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Roman Jakobson",
+        "Stephen Rudy",
+        "Linda R. Waugh"
+      ],
+      "cover_i": 2192334,
+      "edition_count": 17,
+      "first_publish_year": 1962,
+      "key": "/works/OL1426598W",
+      "number_of_pages_median": 541,
+      "title": "Selected Writings",
+      "subject": [
+        "Collected works",
+        "Language and languages",
+        "Philology",
+        "Linguistics",
+        "Mythology, Indo-European",
+        "Slavic literature",
+        "Slavic literature, history and criticism",
+        "Poetry, history and criticism",
+        "Grammar, comparative and general, phonology",
+        "Phonetics"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 2,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL11338510M",
+            "title": "Selected Writings",
+            "cover_i": 5120267,
+            "language": [
+              "eng",
+              "cze",
+              "fre",
+              "ger",
+              "pol",
+              "rus"
+            ],
+            "publish_date": [
+              "December 1985"
+            ],
+            "isbn": [
+              "9780899250625",
+              "0899250629"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1975,
+      "key": "/works/OL21539365M",
+      "title": "Vospominaniya o Konstantine Paustovskom",
+      "subject": [
+        "Paustovskii, Konstantin."
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL21539365M",
+            "title": "Vospominaniya o Konstantine Paustovskom",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1975"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1986,
+      "key": "/works/OL17408926M",
+      "title": "SSSR v borʹbe protiv kolonializma i neokolonializma",
+      "subject": [
+        "Colonies -- History -- Sources",
+        "Soviet Union -- Foreign relations -- Developing  countries -- Sources",
+        "Soviet Union -- Foreign relations -- 1953-1975 -- Sources",
+        "Soviet Union -- Foreign relations -- 1975- -- Sources"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL17408926M",
+            "title": "SSSR v borʹbe protiv kolonializma i neokolonializma",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1986"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Andrei Nikolaevich Kolmogorov",
+        "Sergei Vasil'evic Fomin"
+      ],
+      "cover_i": 13620779,
+      "edition_count": 22,
+      "first_publish_year": 1957,
+      "key": "/works/OL2495336W",
+      "number_of_pages_median": 496,
+      "title": "Elements of the theory of functions and functional analysis, by A.N. Kolmogorov and S.V. Fomin",
+      "subject": [
+        "Functional analysis",
+        "Functions",
+        "Functions of real variables",
+        "Fonctions de variables réelles",
+        "Analyse fonctionnelle",
+        "Análise funcional",
+        "Fonctions (mathématiques)",
+        "Funkcje jednej zmiennej rzeczywistej",
+        "Analiza funkcjonalna"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 8,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL27055375M",
+            "title": "Élementy teorii funkcij i funkcional'nogo analiza",
+            "cover_i": 8671965,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2006"
+            ],
+            "isbn": [
+              "9785922102667",
+              "5922102664"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Людмила Стефановна Петрушевская"
+      ],
+      "cover_i": 9295488,
+      "edition_count": 1,
+      "first_publish_year": 2011,
+      "key": "/works/OL19949562W",
+      "number_of_pages_median": 317,
+      "title": "Rasskazy o l︠i︡ubvi",
+      "subject": [
+        "Russian Short stories",
+        "Russian Romance fiction"
+      ],
+      "ratings_average": 4.25,
+      "ratings_count": 4,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL27129909M",
+            "title": "Rasskazy o l︠i︡ubvi",
+            "cover_i": 9295488,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2011"
+            ],
+            "isbn": [
+              "9785170711253",
+              "9785271322471",
+              "5170711255",
+              "5271322475"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1997,
+      "key": "/works/OL97387M",
+      "number_of_pages_median": 468,
+      "title": "Stolypin",
+      "subject": [
+        "Stolypin, Petr Arkadʹevich, 1862-1911.",
+        "Statesmen -- Russia -- Biography.",
+        "Russia -- Politics and government -- 1904-1914."
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL97387M",
+            "title": "Stolypin",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1997"
+            ],
+            "isbn": [
+              "5888300039",
+              "9785888300039"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Kenneth Silverman"
+      ],
+      "cover_i": 22206,
+      "edition_count": 4,
+      "first_publish_year": 1996,
+      "key": "/works/OL3243637W",
+      "number_of_pages_median": 544,
+      "title": "Houdini!!!",
+      "subject": [
+        "Biography",
+        "Magicians",
+        "Escape artists",
+        "Houdini, Harry, 1874-1926.",
+        "Houdini, harry, 1874-1926"
+      ],
+      "ratings_average": 5,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23059313M",
+            "title": "Gudini",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2004"
+            ],
+            "isbn": [
+              "5699052488",
+              "9785699052486"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1950,
+      "key": "/works/OL20376897M",
+      "title": "O razvitii Sovetskogo sotsialisticheskogo obshchestva",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20376897M",
+            "title": "O razvitii Sovetskogo sotsialisticheskogo obshchestva",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1950"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1973,
+      "key": "/works/OL19739274M",
+      "title": "Slavyano-russkaya etnografiya",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19739274M",
+            "title": "Slavyano-russkaya etnografiya",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1973"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "William Shakespeare"
+      ],
+      "cover_i": 7256525,
+      "edition_count": 20,
+      "first_publish_year": 1844,
+      "key": "/works/OL16803705W",
+      "number_of_pages_median": 171,
+      "title": "햄릿",
+      "subject": [
+        "hamlet",
+        "Russian Translations"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 3,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL60601349M",
+            "title": "Gamlet, print︠s︡ datskiĭ",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1941"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Danielle Steel"
+      ],
+      "cover_i": 5012464,
+      "edition_count": 30,
+      "first_publish_year": 1578,
+      "key": "/works/OL19647W",
+      "number_of_pages_median": 406,
+      "title": "Bungalow 2",
+      "subject": [
+        "Literature",
+        "Romance fiction",
+        "Family",
+        "Mothers",
+        "Open Library Staff Picks",
+        "Fiction",
+        "Motion picture industry",
+        "Women screenwriters",
+        "Love stories",
+        "Families",
+        "nyt:mass-market-paperback=2008-06-08",
+        "New York Times bestseller",
+        "Fiction, romance, general",
+        "Authors, fiction",
+        "United states, fiction",
+        "Hollywood (los angeles, calif.), fiction",
+        "Fiction, general",
+        "Motion picture industry, fiction",
+        "Novela",
+        "Mujeres",
+        "Madres",
+        "Ficción",
+        "Autoras",
+        "Femmes scénaristes",
+        "Romans, nouvelles",
+        "Mères"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL23107918M",
+            "title": "Khochy \"Oskar\"!",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2007"
+            ],
+            "isbn": [
+              "9785699246007",
+              "5699246002"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1981,
+      "key": "/works/OL16535558M",
+      "title": "Elektroenergetika evropeĭskikh stran-chlenov Soveta ekonomicheskoĭ vzaimopomoshchi",
+      "subject": [
+        "Sovet ekonomicheskoĭ vzaimopomoshchi."
+      ],
+      "ratings_average": 4,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL16535558M",
+            "title": "Elektroenergetika evropeĭskikh stran-chlenov Soveta ekonomicheskoĭ vzaimopomoshchi",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1981"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1974,
+      "key": "/works/OL21665731M",
+      "number_of_pages_median": 282,
+      "title": "D'iakovskaia kul'tura.",
+      "subject": [
+        "Volga Valley -- Antiquities",
+        "Oka Valley -- Antiquities"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL21665731M",
+            "title": "D'iakovskaia kul'tura.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1974"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Banine",
+        "Anne Thompson-Ahmadova"
+      ],
+      "cover_i": 10863786,
+      "edition_count": 7,
+      "first_publish_year": 1945,
+      "key": "/works/OL1229736W",
+      "number_of_pages_median": 288,
+      "title": "Jours caucasiens",
+      "subject": [
+        "Caucasus",
+        "Europe, social conditions",
+        "Childhood and youth",
+        "Marriage",
+        "Social life and customs",
+        "Social conditions",
+        "Manners and customs"
+      ],
+      "ratings_average": 3,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 2,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL21411440M",
+            "title": "Kavkazskie dni",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "2006"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1974,
+      "key": "/works/OL19739321M",
+      "title": "Poety Estonii",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19739321M",
+            "title": "Poety Estonii",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1974"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Константин Михайлович Симонов"
+      ],
+      "cover_i": 6485470,
+      "edition_count": 17,
+      "first_publish_year": 1940,
+      "key": "/works/OL1249184W",
+      "number_of_pages_median": 308,
+      "title": "Days and nights",
+      "subject": [
+        "Stalingrad, Battle of, 1942-1943",
+        "Fiction",
+        "Stalingrad, Battle of, Volgograd, Russia, 1942-1943 in fiction",
+        "Stalingrad, Battle of, 1942-1943 in fiction",
+        "Stalingrad, Battle of, Volgograd, Russia, 1942-1943",
+        "Stalingrad, Battle of (Volgograd, Russia : 1942-1943) fast (OCoLC)fst01709957",
+        "World War (1939-1945) fast (OCoLC)fst01180924",
+        "World War, 1939-1945",
+        "Stalingrad, Bataille de, 1942-1943",
+        "William D. Paschal Collection",
+        "Translations into English",
+        "Russian fiction"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 9,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL20125562M",
+            "title": "Дни и ночи",
+            "cover_i": 11974707,
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1946"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1974,
+      "key": "/works/OL17356014M",
+      "title": "Statisticheskie issledovaniya v otraslyakh narodnogo khozyaĭstva.",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL17356014M",
+            "title": "Statisticheskie issledovaniya v otraslyakh narodnogo khozyaĭstva.",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1974"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1960,
+      "key": "/works/OL19965058M",
+      "title": "Etimologicheskie issledovaniya po russkomu yazyku",
+      "ratings_average": 2,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL19965058M",
+            "title": "Etimologicheskie issledovaniya po russkomu yazyku",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1960"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Антон Павлович Чехов"
+      ],
+      "cover_i": 12748220,
+      "edition_count": 47,
+      "first_publish_year": 1922,
+      "key": "/works/OL55492W",
+      "number_of_pages_median": 198,
+      "title": "The Cook's Wedding and Other Stories",
+      "subject": [
+        "Classic Literature",
+        "Fiction",
+        "Social life and customs",
+        "Translations into English",
+        "Continental european fiction (fictional works by one author)",
+        "Fiction, general",
+        "Russian Short stories"
+      ],
+      "ratings_average": 3,
+      "ratings_count": 1,
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 2,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL7026492M",
+            "title": "The cook's wedding",
+            "cover_i": 12748220,
+            "language": [
+              "eng",
+              "rus"
+            ],
+            "publish_date": [
+              "1922"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "edition_count": 1,
+      "first_publish_year": 1976,
+      "key": "/works/OL21192770M",
+      "number_of_pages_median": 104,
+      "title": "Materialisticheskai︠a︡ dialektika kak filosofskai︠a︡ nauka",
+      "subject": [
+        "Dialectical materialism"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL21192770M",
+            "title": "Materialisticheskai︠a︡ dialektika kak filosofskai︠a︡ nauka",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1976"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Александр Исаевич Солженицын"
+      ],
+      "cover_i": 249141,
+      "edition_count": 8,
+      "first_publish_year": 1963,
+      "key": "/works/OL1858612W",
+      "number_of_pages_median": 124,
+      "title": "\"We never make mistakes\"",
+      "subject": [
+        "Translations into English",
+        "Social life and customs",
+        "Fiction",
+        "Continental european fiction (fictional works by one author)",
+        "Russian fiction",
+        "Political fiction",
+        "Political prisoners",
+        "World literature",
+        "Fiction subjects",
+        "Peoples & cultures - fiction"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL5705733M",
+            "title": "\"We never make mistakes\"",
+            "cover_i": 14367176,
+            "language": [
+              "eng",
+              "rus"
+            ],
+            "publish_date": [
+              "1971"
+            ],
+            "isbn": [
+              "0872490904",
+              "9780872490901"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Viktor Nekrasov"
+      ],
+      "cover_i": 15001173,
+      "edition_count": 7,
+      "first_publish_year": 1962,
+      "key": "/works/OL3769388W",
+      "number_of_pages_median": 152,
+      "title": "Kira Georgievna",
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 5,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL5570919M",
+            "title": "Kira Georgievna",
+            "cover_i": 15001173,
+            "language": [
+              "rus",
+              "eng"
+            ],
+            "publish_date": [
+              "1967"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "author_name": [
+        "Danielle Steel"
+      ],
+      "cover_i": 280272,
+      "edition_count": 44,
+      "first_publish_year": 1980,
+      "key": "/works/OL19632W",
+      "number_of_pages_median": 292,
+      "title": "Un monde de rêve",
+      "subject": [
+        "American Love stories",
+        "Translations into Russian",
+        "Widows",
+        "Fiction",
+        "Fiction, romance, contemporary",
+        "Large type books",
+        "Fiction, suspense",
+        "Widows, fiction",
+        "Romance fiction",
+        "Romance-language fiction",
+        "Norwegian fiction",
+        "Translations from English",
+        "Translations into Norwegian",
+        "English fiction"
+      ],
+      "readinglog_count": 4,
+      "editions": {
+        "numFound": 1,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL22953323M",
+            "title": "Vernisʹ, li︠u︡bovʹ",
+            "language": [
+              "rus"
+            ],
+            "publish_date": [
+              "1996"
+            ],
+            "isbn": [
+              "5232003488",
+              "9785232003487"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

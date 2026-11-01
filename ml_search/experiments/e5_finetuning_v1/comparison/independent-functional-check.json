@@ -1,0 +1,756 @@
+{
+  "search": {
+    "original": {
+      "cases": [
+        {
+          "name": "author-Стивен Кинг",
+          "passed": true,
+          "state": "results",
+          "product_ids": [
+            60,
+            94,
+            97,
+            105,
+            140,
+            142,
+            157,
+            163,
+            205,
+            218
+          ]
+        },
+        {
+          "name": "author-Джейн Остин",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            64,
+            173,
+            186,
+            236,
+            361,
+            970
+          ]
+        },
+        {
+          "name": "author-Джордж Оруэлл",
+          "passed": true,
+          "state": "results",
+          "product_ids": [
+            62,
+            73,
+            451,
+            59,
+            239,
+            292,
+            304,
+            437,
+            802,
+            834
+          ]
+        },
+        {
+          "name": "author-Агата Кристи",
+          "passed": true,
+          "state": "results",
+          "product_ids": [
+            114,
+            136,
+            177,
+            209,
+            238,
+            240,
+            326,
+            440,
+            469,
+            494
+          ]
+        },
+        {
+          "name": "author-Фёдор Достоевский",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            90,
+            192,
+            199,
+            268,
+            461,
+            226,
+            657,
+            823,
+            939
+          ]
+        },
+        {
+          "name": "filter-0",
+          "passed": true,
+          "state": "results",
+          "product_ids": [
+            94,
+            259,
+            142,
+            218,
+            60,
+            347,
+            140,
+            105,
+            324,
+            157,
+            382,
+            337,
+            274,
+            366,
+            383,
+            163,
+            290,
+            248,
+            346,
+            291,
+            453,
+            521,
+            205,
+            284,
+            279,
+            296,
+            320,
+            97,
+            271,
+            310,
+            302,
+            328,
+            430,
+            339,
+            362,
+            225,
+            252,
+            308,
+            341,
+            247,
+            550,
+            484,
+            400,
+            637,
+            336,
+            438,
+            760,
+            409,
+            492,
+            559
+          ]
+        },
+        {
+          "name": "filter-1",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            618,
+            828
+          ]
+        },
+        {
+          "name": "filter-2",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            828
+          ]
+        },
+        {
+          "name": "filter-3",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            648
+          ]
+        },
+        {
+          "name": "filter-4",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            472
+          ]
+        },
+        {
+          "name": "filter-5",
+          "passed": true,
+          "state": "no_matches",
+          "product_ids": []
+        },
+        {
+          "name": "filter-6",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            58,
+            326
+          ]
+        },
+        {
+          "name": "filter-7",
+          "passed": true,
+          "state": "results",
+          "product_ids": [
+            371,
+            386,
+            431,
+            857,
+            605,
+            703,
+            645,
+            57,
+            74,
+            143,
+            287,
+            293,
+            67,
+            246,
+            116,
+            198,
+            767,
+            181,
+            641,
+            154,
+            160,
+            658,
+            707,
+            195,
+            768,
+            457,
+            485,
+            332,
+            547,
+            220,
+            604,
+            578,
+            235,
+            156,
+            552,
+            98,
+            101,
+            183,
+            270,
+            78,
+            398,
+            432,
+            84,
+            158,
+            115,
+            711,
+            227,
+            509,
+            647,
+            989
+          ]
+        },
+        {
+          "name": "filter-8",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            192
+          ]
+        },
+        {
+          "name": "filter-9",
+          "passed": true,
+          "state": "results",
+          "product_ids": [
+            371,
+            386,
+            431,
+            857,
+            605,
+            703,
+            645,
+            57,
+            74,
+            143,
+            287,
+            293,
+            67,
+            246,
+            116,
+            198,
+            767,
+            181,
+            641,
+            154,
+            160,
+            658,
+            707,
+            195,
+            768,
+            457,
+            485,
+            332,
+            547,
+            220,
+            604,
+            578,
+            235,
+            156,
+            552,
+            98,
+            101,
+            183,
+            270,
+            78,
+            398,
+            432,
+            84,
+            158,
+            115,
+            711,
+            227,
+            509,
+            647,
+            989
+          ]
+        },
+        {
+          "name": "empty",
+          "passed": true,
+          "state": "results",
+          "product_ids": [
+            598,
+            54,
+            53,
+            55,
+            56,
+            57,
+            59,
+            58,
+            60,
+            62,
+            64,
+            65,
+            67,
+            61,
+            63,
+            70,
+            72,
+            69,
+            74,
+            66
+          ]
+        },
+        {
+          "name": "punctuation",
+          "passed": true,
+          "state": "invalid_query",
+          "product_ids": []
+        },
+        {
+          "name": "impossible-filter",
+          "passed": true,
+          "state": "no_matches",
+          "product_ids": []
+        }
+      ],
+      "failures": []
+    },
+    "selected": {
+      "cases": [
+        {
+          "name": "author-Стивен Кинг",
+          "passed": true,
+          "state": "results",
+          "product_ids": [
+            60,
+            94,
+            97,
+            105,
+            140,
+            142,
+            157,
+            163,
+            205,
+            218
+          ]
+        },
+        {
+          "name": "author-Джейн Остин",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            64,
+            173,
+            186,
+            236,
+            361,
+            970
+          ]
+        },
+        {
+          "name": "author-Джордж Оруэлл",
+          "passed": true,
+          "state": "results",
+          "product_ids": [
+            62,
+            73,
+            451,
+            59,
+            239,
+            292,
+            304,
+            437,
+            802,
+            834
+          ]
+        },
+        {
+          "name": "author-Агата Кристи",
+          "passed": true,
+          "state": "results",
+          "product_ids": [
+            114,
+            136,
+            177,
+            209,
+            238,
+            240,
+            326,
+            440,
+            469,
+            494
+          ]
+        },
+        {
+          "name": "author-Фёдор Достоевский",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            90,
+            192,
+            199,
+            268,
+            461,
+            226,
+            657,
+            823,
+            939
+          ]
+        },
+        {
+          "name": "filter-0",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            94
+          ]
+        },
+        {
+          "name": "filter-1",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            828,
+            618,
+            386,
+            371,
+            246,
+            431
+          ]
+        },
+        {
+          "name": "filter-2",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            828,
+            386,
+            371,
+            246,
+            431
+          ]
+        },
+        {
+          "name": "filter-3",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            648
+          ]
+        },
+        {
+          "name": "filter-4",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            472,
+            371
+          ]
+        },
+        {
+          "name": "filter-5",
+          "passed": true,
+          "state": "no_matches",
+          "product_ids": []
+        },
+        {
+          "name": "filter-6",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            326,
+            58
+          ]
+        },
+        {
+          "name": "filter-7",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            386,
+            371,
+            246,
+            431
+          ]
+        },
+        {
+          "name": "filter-8",
+          "passed": true,
+          "state": "no_matches",
+          "product_ids": []
+        },
+        {
+          "name": "filter-9",
+          "passed": true,
+          "state": "partial",
+          "product_ids": [
+            386,
+            371,
+            246,
+            431
+          ]
+        },
+        {
+          "name": "empty",
+          "passed": true,
+          "state": "results",
+          "product_ids": [
+            598,
+            54,
+            53,
+            55,
+            56,
+            57,
+            59,
+            58,
+            60,
+            62,
+            64,
+            65,
+            67,
+            61,
+            63,
+            70,
+            72,
+            69,
+            74,
+            66
+          ]
+        },
+        {
+          "name": "punctuation",
+          "passed": true,
+          "state": "invalid_query",
+          "product_ids": []
+        },
+        {
+          "name": "impossible-filter",
+          "passed": true,
+          "state": "no_matches",
+          "product_ids": []
+        }
+      ],
+      "failures": []
+    }
+  },
+  "navigation": [
+    {
+      "query": "Чудо Р Дж Паласио",
+      "category": "navigational",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "Дюна Фрэнк Герберт",
+      "category": "navigational",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "1984 Джордж Оруэлл",
+      "category": "navigational",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "Мастер и Маргарита Булгаков",
+      "category": "navigational",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "Гордость и предубеждение Джейн Остин",
+      "category": "navigational",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "Цветы для Элджернона Дэниел Киз",
+      "category": "navigational",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "prestuplenie i nakazanie dostoevskiy",
+      "category": "navigational",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "garri potter i filosofskiy kamen",
+      "category": "navigational",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "malenkiy princ sent ekzuperi",
+      "category": "navigational",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "451 po farengeitu bredberi",
+      "category": "navigational",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "ufhhb gjnnh",
+      "category": "navigational",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "vfcnth b vfhufhbnf",
+      "category": "navigational",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "dyuna gerbert",
+      "category": "navigational",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "cveti dlya eldzhernona",
+      "category": "navigational",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "mobi dik melvill",
+      "category": "navigational",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "gordost i predubezhdenie",
+      "category": "navigational",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "гарри потр философкий камин",
+      "category": "typo",
+      "old_rank": 1,
+      "new_rank": 4,
+      "new_failure": true
+    },
+    {
+      "query": "преступлние и наказние достаевский",
+      "category": "typo",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "маленкий принц сент экзюпери",
+      "category": "typo",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "философский камень",
+      "category": "partial_title",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "татуировка дракона",
+      "category": "partial_title",
+      "old_rank": 1,
+      "new_rank": null,
+      "new_failure": true
+    },
+    {
+      "query": "Ричард Мэтисон",
+      "category": "author_only",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    },
+    {
+      "query": "Р Дж Паласио",
+      "category": "author_only",
+      "old_rank": 1,
+      "new_rank": 1,
+      "new_failure": false
+    }
+  ],
+  "navigation_new_failures": [
+    {
+      "query": "гарри потр философкий камин",
+      "category": "typo",
+      "old_rank": 1,
+      "new_rank": 4,
+      "new_failure": true
+    },
+    {
+      "query": "татуировка дракона",
+      "category": "partial_title",
+      "old_rank": 1,
+      "new_rank": null,
+      "new_failure": true
+    }
+  ],
+  "harness_corrections": [
+    "Author comparison canonicalizes ё/е; Фёдор and Федор denote the same author.",
+    "Empty input intentionally browses popular books; punctuation is invalid input."
+  ],
+  "empty_browse_same_order": true
+}

@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-09-16T14:44:57.755198+00:00",
+  "model_name": "multilingual-e5-small-finetuned-lr1e-5-epoch3",
+  "dimension": 384,
+  "books": 1000,
+  "catalog_sha256": "115c7e689447db05d2e34bc5d83ab66238305b24b287601b36bd7fa3774bf5ee",
+  "index": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\experiments\\e5_finetuning_v1\\integration_review_v1\\description_overlay_v1\\book-index.npz",
+  "base_index": "D:\\Programs\\OSPanel\\domains\\bookstore\\ml_search\\experiments\\e5_finetuning_v1\\comparison\\index\\book-index.npz",
+  "overlaid_catalog_ids": [
+    743,
+    38,
+    46,
+    76
+  ],
+  "overlay_sha256": "f916755deeb64d8aca693165bb7c32d1afe2b52c4aba7cadd73bd1601286033f"
+}

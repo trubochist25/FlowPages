@@ -1,0 +1,24 @@
+<?php
+$_['text_refine'] = 'Выберите подкатегорию';
+$_['text_product'] = 'Товары';
+$_['text_error'] = 'Категория не найдена!';
+$_['text_empty'] = 'В этой категории нет товаров.';
+$_['text_quantity'] = 'Кол-во:';
+$_['text_manufacturer'] = 'Производитель:';
+$_['text_model'] = 'Код Товара:';
+$_['text_points'] = 'Бонусные баллы:';
+$_['text_price'] = 'Цена:';
+$_['text_tax'] = 'Без НДС:';
+$_['text_compare'] = 'Сравнение товаров (%s)';
+$_['text_sort'] = 'Сортировка:';
+$_['text_default'] = 'По популярности';
+$_['text_date_added_desc'] = 'Новые поступления';
+$_['text_name_asc'] = 'Название: А → Я';
+$_['text_name_desc'] = 'Название: Я → А';
+$_['text_price_asc'] = 'Цена: сначала дешевле';
+$_['text_price_desc'] = 'Цена: сначала дороже';
+$_['text_external_rating_asc'] = 'OpenLibrary: низкий → высокий';
+$_['text_external_rating_desc'] = 'OpenLibrary: высокий → низкий';
+$_['text_rating_asc'] = 'FlowPages: низкий → высокий';
+$_['text_rating_desc'] = 'FlowPages: высокий → низкий';
+$_['text_limit'] = 'Показать:';

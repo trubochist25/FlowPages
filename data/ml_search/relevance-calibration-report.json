@@ -1,0 +1,3646 @@
+{
+  "model": "intfloat/multilingual-e5-small",
+  "catalog_books": 1000,
+  "positive_queries": 77,
+  "negative_queries": 60,
+  "targets": {
+    "minimum_positive_recall": 0.9,
+    "minimum_negative_rejection": 0.9
+  },
+  "alchemy_similarity_calibration": {
+    "query": {
+      "name": "alchemy-query-v1",
+      "floor": 0.76,
+      "ceiling": 0.88
+    },
+    "anchor": {
+      "name": "alchemy-anchor-v1",
+      "floor": 0.79,
+      "ceiling": 0.88
+    }
+  },
+  "recommended_thresholds": {
+    "search.navigational": {
+      "threshold": 0.735505,
+      "reason": "best_rejection_with_recall_at_least_90_percent",
+      "positive_samples": 33,
+      "negative_samples": 6,
+      "positive_recall": 0.9394,
+      "negative_rejection": 0.3333,
+      "balanced_accuracy": 0.6364,
+      "meets_targets": false,
+      "positive_distribution": {
+        "min": 0.622839,
+        "p10": 0.832473,
+        "p25": 0.97,
+        "median": 0.98,
+        "p75": 0.98,
+        "p90": 1.0,
+        "max": 1.0
+      },
+      "negative_distribution": {
+        "min": 0.596761,
+        "p10": 0.596761,
+        "p25": 0.725169,
+        "median": 0.867302,
+        "p75": 0.97,
+        "p90": 0.97,
+        "max": 0.97
+      }
+    },
+    "search.semantic": {
+      "threshold": 0.608684,
+      "reason": "best_rejection_with_recall_at_least_90_percent",
+      "positive_samples": 42,
+      "negative_samples": 58,
+      "positive_recall": 1.0,
+      "negative_rejection": 0.0,
+      "balanced_accuracy": 0.5,
+      "meets_targets": false,
+      "positive_distribution": {
+        "min": 0.608684,
+        "p10": 0.626036,
+        "p25": 0.862995,
+        "median": 0.875364,
+        "p75": 0.889851,
+        "p90": 0.897417,
+        "max": 0.923056
+      },
+      "negative_distribution": {
+        "min": 0.661022,
+        "p10": 0.683216,
+        "p25": 0.770183,
+        "median": 0.858345,
+        "p75": 0.869223,
+        "p90": 0.888174,
+        "max": 1.0
+      }
+    },
+    "alchemy.anchor": {
+      "threshold": 0.682164,
+      "reason": "best_rejection_with_recall_at_least_90_percent",
+      "positive_samples": 21,
+      "negative_samples": 50,
+      "positive_recall": 0.9048,
+      "negative_rejection": 0.88,
+      "balanced_accuracy": 0.8924,
+      "meets_targets": false,
+      "positive_distribution": {
+        "min": 0.551845,
+        "p10": 0.682164,
+        "p25": 0.72687,
+        "median": 0.848898,
+        "p75": 0.92,
+        "p90": 0.98,
+        "max": 1.0
+      },
+      "negative_distribution": {
+        "min": 0.436832,
+        "p10": 0.46593,
+        "p25": 0.553839,
+        "median": 0.609409,
+        "p75": 0.653084,
+        "p90": 0.696723,
+        "max": 0.809701
+      }
+    },
+    "alchemy.freeform": {
+      "threshold": 0.384666,
+      "reason": "best_rejection_with_recall_at_least_90_percent",
+      "positive_samples": 48,
+      "negative_samples": 55,
+      "positive_recall": 0.9583,
+      "negative_rejection": 0.4182,
+      "balanced_accuracy": 0.6883,
+      "meets_targets": false,
+      "positive_distribution": {
+        "min": 0.231968,
+        "p10": 0.393026,
+        "p25": 0.535131,
+        "median": 0.741233,
+        "p75": 0.904238,
+        "p90": 1.0,
+        "max": 1.0
+      },
+      "negative_distribution": {
+        "min": 0.0,
+        "p10": 0.187803,
+        "p25": 0.273377,
+        "median": 0.413994,
+        "p75": 0.551553,
+        "p90": 0.696508,
+        "max": 0.813717
+      }
+    },
+    "alchemy.hybrid": {
+      "threshold": 0.296545,
+      "reason": "best_rejection_with_recall_at_least_90_percent",
+      "positive_samples": 16,
+      "negative_samples": 5,
+      "positive_recall": 1.0,
+      "negative_rejection": 0.0,
+      "balanced_accuracy": 0.5,
+      "meets_targets": false,
+      "positive_distribution": {
+        "min": 0.296545,
+        "p10": 0.359821,
+        "p25": 0.40011,
+        "median": 0.542869,
+        "p75": 0.699093,
+        "p90": 0.771114,
+        "max": 0.819043
+      },
+      "negative_distribution": {
+        "min": 0.449405,
+        "p10": 0.449405,
+        "p25": 0.484512,
+        "median": 0.521738,
+        "p75": 0.537286,
+        "p90": 0.596585,
+        "max": 0.596585
+      }
+    },
+    "alchemy.structured": {
+      "threshold": 1.0,
+      "reason": "highest_threshold_with_recall_at_least_90_percent",
+      "positive_samples": 99,
+      "negative_samples": 0,
+      "positive_recall": 1.0,
+      "negative_rejection": 0.0,
+      "balanced_accuracy": 0.5,
+      "meets_targets": true,
+      "positive_distribution": {
+        "min": 1.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "median": 1.0,
+        "p75": 1.0,
+        "p90": 1.0,
+        "max": 1.0
+      },
+      "negative_distribution": {}
+    }
+  },
+  "all_thresholds_meet_targets": false,
+  "processing_ms": 276800.403,
+  "search": {
+    "thresholds": {
+      "navigational": {
+        "threshold": 0.735505,
+        "reason": "best_rejection_with_recall_at_least_90_percent",
+        "positive_samples": 33,
+        "negative_samples": 6,
+        "positive_recall": 0.9394,
+        "negative_rejection": 0.3333,
+        "balanced_accuracy": 0.6364,
+        "meets_targets": false,
+        "positive_distribution": {
+          "min": 0.622839,
+          "p10": 0.832473,
+          "p25": 0.97,
+          "median": 0.98,
+          "p75": 0.98,
+          "p90": 1.0,
+          "max": 1.0
+        },
+        "negative_distribution": {
+          "min": 0.596761,
+          "p10": 0.596761,
+          "p25": 0.725169,
+          "median": 0.867302,
+          "p75": 0.97,
+          "p90": 0.97,
+          "max": 0.97
+        }
+      },
+      "semantic": {
+        "threshold": 0.608684,
+        "reason": "best_rejection_with_recall_at_least_90_percent",
+        "positive_samples": 42,
+        "negative_samples": 58,
+        "positive_recall": 1.0,
+        "negative_rejection": 0.0,
+        "balanced_accuracy": 0.5,
+        "meets_targets": false,
+        "positive_distribution": {
+          "min": 0.608684,
+          "p10": 0.626036,
+          "p25": 0.862995,
+          "median": 0.875364,
+          "p75": 0.889851,
+          "p90": 0.897417,
+          "max": 0.923056
+        },
+        "negative_distribution": {
+          "min": 0.661022,
+          "p10": 0.683216,
+          "p25": 0.770183,
+          "median": 0.858345,
+          "p75": 0.869223,
+          "p90": 0.888174,
+          "max": 1.0
+        }
+      }
+    },
+    "retrieval": {
+      "navigational": {
+        "positive_cases": 33,
+        "matched_cases": 33,
+        "coverage": 1.0
+      },
+      "semantic": {
+        "positive_cases": 44,
+        "matched_cases": 42,
+        "coverage": 0.9545
+      }
+    },
+    "contrast_experiment": {
+      "50": {
+        "navigational": {
+          "threshold": 0.007427,
+          "reason": "best_rejection_with_recall_at_least_90_percent",
+          "positive_samples": 33,
+          "negative_samples": 6,
+          "positive_recall": 0.9697,
+          "negative_rejection": 0.5,
+          "balanced_accuracy": 0.7348,
+          "meets_targets": false,
+          "positive_distribution": {
+            "min": 0.0,
+            "p10": 0.009485,
+            "p25": 0.97,
+            "median": 0.98,
+            "p75": 0.98,
+            "p90": 1.0,
+            "max": 1.0
+          },
+          "negative_distribution": {
+            "min": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.012716,
+            "p75": 0.97,
+            "p90": 0.97,
+            "max": 0.97
+          }
+        },
+        "semantic": {
+          "threshold": 0.010897,
+          "reason": "best_rejection_with_recall_at_least_90_percent",
+          "positive_samples": 42,
+          "negative_samples": 58,
+          "positive_recall": 0.9286,
+          "negative_rejection": 0.5,
+          "balanced_accuracy": 0.7143,
+          "meets_targets": false,
+          "positive_distribution": {
+            "min": 0.001603,
+            "p10": 0.011589,
+            "p25": 0.016539,
+            "median": 0.024902,
+            "p75": 0.0357,
+            "p90": 0.129506,
+            "max": 0.326727
+          },
+          "negative_distribution": {
+            "min": 0.0,
+            "p10": 0.003963,
+            "p25": 0.006442,
+            "median": 0.011222,
+            "p75": 0.075555,
+            "p90": 0.142351,
+            "max": 0.300977
+          }
+        }
+      },
+      "75": {
+        "navigational": {
+          "threshold": 0.003854,
+          "reason": "best_rejection_with_recall_at_least_90_percent",
+          "positive_samples": 33,
+          "negative_samples": 6,
+          "positive_recall": 0.9394,
+          "negative_rejection": 0.5,
+          "balanced_accuracy": 0.7197,
+          "meets_targets": false,
+          "positive_distribution": {
+            "min": 0.0,
+            "p10": 0.005308,
+            "p25": 0.97,
+            "median": 0.98,
+            "p75": 0.98,
+            "p90": 1.0,
+            "max": 1.0
+          },
+          "negative_distribution": {
+            "min": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.010271,
+            "p75": 0.97,
+            "p90": 0.97,
+            "max": 0.97
+          }
+        },
+        "semantic": {
+          "threshold": 0.007985,
+          "reason": "best_rejection_with_recall_at_least_90_percent",
+          "positive_samples": 42,
+          "negative_samples": 58,
+          "positive_recall": 0.9048,
+          "negative_rejection": 0.5345,
+          "balanced_accuracy": 0.7196,
+          "meets_targets": false,
+          "positive_distribution": {
+            "min": 0.0,
+            "p10": 0.007985,
+            "p25": 0.010893,
+            "median": 0.016596,
+            "p75": 0.03093,
+            "p90": 0.086114,
+            "max": 0.26163
+          },
+          "negative_distribution": {
+            "min": 0.0,
+            "p10": 0.002268,
+            "p25": 0.003917,
+            "median": 0.006412,
+            "p75": 0.043077,
+            "p90": 0.131533,
+            "max": 0.297144
+          }
+        }
+      },
+      "90": {
+        "navigational": {
+          "threshold": 0.002592,
+          "reason": "best_rejection_with_recall_at_least_90_percent",
+          "positive_samples": 33,
+          "negative_samples": 6,
+          "positive_recall": 0.9091,
+          "negative_rejection": 0.5,
+          "balanced_accuracy": 0.7045,
+          "meets_targets": false,
+          "positive_distribution": {
+            "min": 0.0,
+            "p10": 0.002592,
+            "p25": 0.97,
+            "median": 0.98,
+            "p75": 0.98,
+            "p90": 1.0,
+            "max": 1.0
+          },
+          "negative_distribution": {
+            "min": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.008886,
+            "p75": 0.97,
+            "p90": 0.97,
+            "max": 0.97
+          }
+        },
+        "semantic": {
+          "threshold": 0.0,
+          "reason": "best_rejection_with_recall_at_least_90_percent",
+          "positive_samples": 42,
+          "negative_samples": 58,
+          "positive_recall": 1.0,
+          "negative_rejection": 0.0,
+          "balanced_accuracy": 0.5,
+          "meets_targets": false,
+          "positive_distribution": {
+            "min": 0.0,
+            "p10": 0.0,
+            "p25": 0.006441,
+            "median": 0.013775,
+            "p75": 0.024433,
+            "p90": 0.032076,
+            "max": 0.241939
+          },
+          "negative_distribution": {
+            "min": 0.0,
+            "p10": 0.000617,
+            "p25": 0.001407,
+            "median": 0.004209,
+            "p75": 0.009983,
+            "p90": 0.099064,
+            "max": 0.139419
+          }
+        }
+      }
+    },
+    "samples": [
+      {
+        "id": "десятилетний мальчик после множества операций впервые идёт в обычную школу и сталкивается с насмешками",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.862995,
+        "matched": true
+      },
+      {
+        "id": "наследник знатного дома скрывается среди жителей пустыни и борется за планету с ценным веществом для космических полётов",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.872664,
+        "matched": true
+      },
+      {
+        "id": "служащий переписывает прошлое для государства которое следит за мыслями граждан и контролирует язык",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.864496,
+        "matched": true
+      },
+      {
+        "id": "девочка умеет воспламенять предметы силой мысли и вместе с отцом скрывается от секретной организации",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.866601,
+        "matched": true
+      },
+      {
+        "id": "капитан одержим местью огромному белому киту и превращает плавание китобойного судна в безумную охоту",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.88751,
+        "matched": true
+      },
+      {
+        "id": "южный адвокат рискует репутацией защищая темнокожего мужчину которого несправедливо обвинили",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.880568,
+        "matched": true
+      },
+      {
+        "id": "пожарный уничтожает запрещённые книги но после знакомства с девушкой начинает читать и восстаёт против системы",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.883627,
+        "matched": true
+      },
+      {
+        "id": "группа школьников после катастрофы пытается создать собственное общество на необитаемом острове",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.873489,
+        "matched": true
+      },
+      {
+        "id": "молодой красавец сохраняет юность пока его изображение стареет и принимает следы пороков",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.874172,
+        "matched": true
+      },
+      {
+        "id": "учёный собирает живое существо из мёртвых тел а затем отвергает своё разумное создание",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.889142,
+        "matched": true
+      },
+      {
+        "id": "девочка следует за белым кроликом и оказывается в абсурдном мире странных существ",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.889807,
+        "matched": true
+      },
+      {
+        "id": "датский принц узнаёт от призрака об убийстве отца и должен отомстить своему дяде",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.894094,
+        "matched": true
+      },
+      {
+        "id": "замужняя русская аристократка влюбляется в офицера и бросает вызов лицемерному обществу",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.889851,
+        "matched": true
+      },
+      {
+        "id": "бедный петербургский студент убивает старуху ростовщицу и мучается нравственными сомнениями",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.880179,
+        "matched": true
+      },
+      {
+        "id": "дьявол со свитой приезжает в советскую москву а женщина пытается спасти любимого писателя",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.86773,
+        "matched": true
+      },
+      {
+        "id": "сирота узнаёт что он волшебник поступает в школу магии и вместе с друзьями ищет загадочный камень",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.923056,
+        "matched": true
+      },
+      {
+        "id": "маленький герой несёт опасное кольцо через вымышленный мир чтобы уничтожить его во владениях тёмного властелина",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.622107,
+        "matched": true
+      },
+      {
+        "id": "независимая девушка из семьи с пятью дочерьми сначала презирает богатого молчаливого жениха",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.868379,
+        "matched": true
+      },
+      {
+        "id": "исключённый из школы подросток несколько дней бродит по нью-йорку переживая одиночество и страх взросления",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.877162,
+        "matched": true
+      },
+      {
+        "id": "лётчик терпит аварию в пустыне и встречает мальчика с астероида который рассказывает о розе и лисе",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.892106,
+        "matched": true
+      },
+      {
+        "id": "невиновного моряка заключают в островную крепость а после побега и находки сокровища он мстит предателям",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.876556,
+        "matched": true
+      },
+      {
+        "id": "бывший каторжник воспитывает сироту и пытается жить честно пока его много лет преследует непреклонный инспектор",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.870865,
+        "matched": true
+      },
+      {
+        "id": "смерть рассказывает о приёмной девочке под мюнхеном которая крадёт книги во время войны",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.897417,
+        "matched": true
+      },
+      {
+        "id": "в годовщину свадьбы пропадает жена и общество подозревает мужа в её убийстве",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.0,
+        "matched": false
+      },
+      {
+        "id": "молодая сотрудница фбр просит помощи у заключённого психиатра каннибала чтобы поймать серийного убийцу",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.891019,
+        "matched": true
+      },
+      {
+        "id": "символолог и криптолог расследуют убийство в лувре и разгадывают религиозный заговор",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.626036,
+        "matched": true
+      },
+      {
+        "id": "домосед отправляется с волшебником и гномами возвращать горное королевство и сокровища у дракона",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.915818,
+        "matched": true
+      },
+      {
+        "id": "землю внезапно уничтожают а обычный англичанин путешествует по космосу с инопланетным другом и депрессивным роботом",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.914384,
+        "matched": true
+      },
+      {
+        "id": "математик предсказывает падение галактической империи и создаёт сообщество учёных чтобы сократить эпоху варварства",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.909415,
+        "matched": true
+      },
+      {
+        "id": "умственно отсталому мужчине делают операцию для повышения интеллекта а результаты сравнивают с лабораторной мышью",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.877717,
+        "matched": true
+      },
+      {
+        "id": "в религиозной диктатуре женщин заставляют рожать детей для правящего класса мужчин",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.617497,
+        "matched": true
+      },
+      {
+        "id": "богатый мальчик предаёт сына слуги а спустя годы возвращается в разрушенный афганистан ради искупления",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.882854,
+        "matched": true
+      },
+      {
+        "id": "монах расследует череду загадочных смертей в средневековом аббатстве с лабиринтом библиотеки",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.631084,
+        "matched": true
+      },
+      {
+        "id": "общество будущего выращивает людей по кастам и поддерживает счастье наркотиком и программированием",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.612006,
+        "matched": true
+      },
+      {
+        "id": "жестокого подростка из будущего государство пытается исправить экспериментальным подавлением воли",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.690882,
+        "matched": true
+      },
+      {
+        "id": "после кораблекрушения подросток оказывается в спасательной шлюпке вместе с бенгальским тигром",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.890529,
+        "matched": true
+      },
+      {
+        "id": "журналист и талантливая хакерша расследуют давнее исчезновение девушки из влиятельной семьи",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.89611,
+        "matched": true
+      },
+      {
+        "id": "мальчик вспоминает одно лето с новыми кроссовками яблонями пчёлами и сбором жёлтых цветов",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.8657,
+        "matched": true
+      },
+      {
+        "id": "Чудо Р Дж Паласио",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "Дюна Фрэнк Герберт",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "1984 Джордж Оруэлл",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "Мастер и Маргарита Булгаков",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "Гордость и предубеждение Джейн Остин",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "Цветы для Элджернона Дэниел Киз",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "prestuplenie i nakazanie dostoevskiy",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "garri potter i filosofskiy kamen",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "malenkiy princ sent ekzuperi",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "451 po farengeitu bredberi",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "ufhhb gjnnh",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "vfcnth b vfhufhbnf",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "dyuna gerbert",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "cveti dlya eldzhernona",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mobi dik melvill",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "gordost i predubezhdenie",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "медленная готическая история о старом поместье и распаде аристократической семьи",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.608684,
+        "matched": true
+      },
+      {
+        "id": "ироничное абсурдное космическое приключение с очень странными попутчиками",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.863994,
+        "matched": true
+      },
+      {
+        "id": "мрачный интеллектуальный детектив в средневековом монастыре",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.674326,
+        "matched": true
+      },
+      {
+        "id": "добрая смешная детская история о маленьком мышонке который побеждает страх хитростью",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.768277,
+        "matched": true
+      },
+      {
+        "id": "меланхоличная притча о памяти супружестве и старых войнах",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.0,
+        "matched": false
+      },
+      {
+        "id": "напряжённая философская история об одиночестве среди заражённых и границе между человеком и чудовищем",
+        "label": "positive",
+        "mode": "semantic",
+        "score": 0.678392,
+        "matched": true
+      },
+      {
+        "id": "гарри потр философкий камин",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.622839,
+        "matched": true
+      },
+      {
+        "id": "преступлние и наказние достаевский",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.735505,
+        "matched": true
+      },
+      {
+        "id": "маленкий принц сент экзюпери",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.97,
+        "matched": true
+      },
+      {
+        "id": "муж оказывается главным подозреваемым после исчезновения жены в годовщину свадьбы",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.864829,
+        "matched": true
+      },
+      {
+        "id": "мы живём в государстве которое следит за мыслями граждан и переписывает прошлое",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.86356,
+        "matched": true
+      },
+      {
+        "id": "оно сохраняет юность владельца пока изображение стареет и принимает следы его пороков",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.863828,
+        "matched": true
+      },
+      {
+        "id": "героине нужна помощь заключённого психиатра чтобы поймать другого серийного убийцу",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.884259,
+        "matched": true
+      },
+      {
+        "id": "начала современной космологии объясняются через большой взрыв чёрные дыры и природу времени",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.832473,
+        "matched": true
+      },
+      {
+        "id": "ОНО Стивен Кинг",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "Мы Замятин",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "Муж Дин Кунц",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "Помощь Кэтрин Стокетт",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "Начала Евклид",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "философский камень",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "татуировка дракона",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.640315,
+        "matched": true
+      },
+      {
+        "id": "Ричард Мэтисон",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.99,
+        "matched": true
+      },
+      {
+        "id": "Р Дж Паласио",
+        "label": "positive",
+        "mode": "navigational",
+        "score": 0.99,
+        "matched": true
+      },
+      {
+        "id": "gibberish-01",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.682923,
+        "matched": false
+      },
+      {
+        "id": "gibberish-02",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.673454,
+        "matched": false
+      },
+      {
+        "id": "gibberish-03",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.683216,
+        "matched": false
+      },
+      {
+        "id": "gibberish-04",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.679698,
+        "matched": false
+      },
+      {
+        "id": "gibberish-05",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.661022,
+        "matched": false
+      },
+      {
+        "id": "gibberish-06",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 1.0,
+        "matched": false
+      },
+      {
+        "id": "gibberish-07",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.722936,
+        "matched": false
+      },
+      {
+        "id": "gibberish-08",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.715102,
+        "matched": false
+      },
+      {
+        "id": "gibberish-09",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.736334,
+        "matched": false
+      },
+      {
+        "id": "gibberish-10",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.684608,
+        "matched": false
+      },
+      {
+        "id": "gibberish-11",
+        "label": "reject",
+        "mode": "navigational",
+        "score": 0.97,
+        "matched": false
+      },
+      {
+        "id": "gibberish-12",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.763009,
+        "matched": false
+      },
+      {
+        "id": "out-domain-01",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.852484,
+        "matched": false
+      },
+      {
+        "id": "out-domain-02",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.710566,
+        "matched": false
+      },
+      {
+        "id": "out-domain-03",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.855234,
+        "matched": false
+      },
+      {
+        "id": "out-domain-04",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.853098,
+        "matched": false
+      },
+      {
+        "id": "out-domain-05",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.863089,
+        "matched": false
+      },
+      {
+        "id": "out-domain-06",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.863191,
+        "matched": false
+      },
+      {
+        "id": "out-domain-07",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.85351,
+        "matched": false
+      },
+      {
+        "id": "out-domain-08",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.8643,
+        "matched": false
+      },
+      {
+        "id": "out-domain-09",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.862617,
+        "matched": false
+      },
+      {
+        "id": "out-domain-10",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.845953,
+        "matched": false
+      },
+      {
+        "id": "out-domain-11",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.857572,
+        "matched": false
+      },
+      {
+        "id": "out-domain-12",
+        "label": "reject",
+        "mode": "navigational",
+        "score": 0.97,
+        "matched": false
+      },
+      {
+        "id": "out-domain-13",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.906458,
+        "matched": false
+      },
+      {
+        "id": "out-domain-14",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.863028,
+        "matched": false
+      },
+      {
+        "id": "out-domain-15",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.672271,
+        "matched": false
+      },
+      {
+        "id": "out-domain-16",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.867772,
+        "matched": false
+      },
+      {
+        "id": "out-domain-17",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.868389,
+        "matched": false
+      },
+      {
+        "id": "out-domain-18",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.847145,
+        "matched": false
+      },
+      {
+        "id": "out-domain-19",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.864509,
+        "matched": false
+      },
+      {
+        "id": "out-domain-20",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.86573,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-01",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.870827,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-02",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.874005,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-03",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.888174,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-04",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.86847,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-05",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.869223,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-06",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.877877,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-07",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.860332,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-08",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.872065,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-09",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.874834,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-10",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.872538,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-11",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.869198,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-12",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.862234,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-13",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.930226,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-14",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.78428,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-15",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.816017,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-16",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.875844,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-17",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.774722,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-18",
+        "label": "reject",
+        "mode": "semantic",
+        "score": 0.89192,
+        "matched": false
+      },
+      {
+        "id": "vague-01",
+        "label": "clarify",
+        "mode": "semantic",
+        "score": 0.859117,
+        "matched": false
+      },
+      {
+        "id": "vague-02",
+        "label": "clarify",
+        "mode": "semantic",
+        "score": 0.835149,
+        "matched": false
+      },
+      {
+        "id": "vague-03",
+        "label": "clarify",
+        "mode": "semantic",
+        "score": 0.770183,
+        "matched": false
+      },
+      {
+        "id": "vague-04",
+        "label": "clarify",
+        "mode": "semantic",
+        "score": 0.911007,
+        "matched": false
+      },
+      {
+        "id": "vague-05",
+        "label": "clarify",
+        "mode": "semantic",
+        "score": 0.77385,
+        "matched": false
+      },
+      {
+        "id": "vague-06",
+        "label": "clarify",
+        "mode": "semantic",
+        "score": 0.771022,
+        "matched": false
+      },
+      {
+        "id": "vague-07",
+        "label": "clarify",
+        "mode": "semantic",
+        "score": 0.882552,
+        "matched": false
+      },
+      {
+        "id": "vague-08",
+        "label": "clarify",
+        "mode": "semantic",
+        "score": 0.756107,
+        "matched": false
+      },
+      {
+        "id": "vague-09",
+        "label": "clarify",
+        "mode": "semantic",
+        "score": 0.770303,
+        "matched": false
+      },
+      {
+        "id": "vague-10",
+        "label": "clarify",
+        "mode": "semantic",
+        "score": 0.761897,
+        "matched": false
+      }
+    ]
+  },
+  "alchemy": {
+    "thresholds": {
+      "anchor": {
+        "threshold": 0.682164,
+        "reason": "best_rejection_with_recall_at_least_90_percent",
+        "positive_samples": 21,
+        "negative_samples": 50,
+        "positive_recall": 0.9048,
+        "negative_rejection": 0.88,
+        "balanced_accuracy": 0.8924,
+        "meets_targets": false,
+        "positive_distribution": {
+          "min": 0.551845,
+          "p10": 0.682164,
+          "p25": 0.72687,
+          "median": 0.848898,
+          "p75": 0.92,
+          "p90": 0.98,
+          "max": 1.0
+        },
+        "negative_distribution": {
+          "min": 0.436832,
+          "p10": 0.46593,
+          "p25": 0.553839,
+          "median": 0.609409,
+          "p75": 0.653084,
+          "p90": 0.696723,
+          "max": 0.809701
+        }
+      },
+      "freeform": {
+        "threshold": 0.384666,
+        "reason": "best_rejection_with_recall_at_least_90_percent",
+        "positive_samples": 48,
+        "negative_samples": 55,
+        "positive_recall": 0.9583,
+        "negative_rejection": 0.4182,
+        "balanced_accuracy": 0.6883,
+        "meets_targets": false,
+        "positive_distribution": {
+          "min": 0.231968,
+          "p10": 0.393026,
+          "p25": 0.535131,
+          "median": 0.741233,
+          "p75": 0.904238,
+          "p90": 1.0,
+          "max": 1.0
+        },
+        "negative_distribution": {
+          "min": 0.0,
+          "p10": 0.187803,
+          "p25": 0.273377,
+          "median": 0.413994,
+          "p75": 0.551553,
+          "p90": 0.696508,
+          "max": 0.813717
+        }
+      },
+      "hybrid": {
+        "threshold": 0.296545,
+        "reason": "best_rejection_with_recall_at_least_90_percent",
+        "positive_samples": 16,
+        "negative_samples": 5,
+        "positive_recall": 1.0,
+        "negative_rejection": 0.0,
+        "balanced_accuracy": 0.5,
+        "meets_targets": false,
+        "positive_distribution": {
+          "min": 0.296545,
+          "p10": 0.359821,
+          "p25": 0.40011,
+          "median": 0.542869,
+          "p75": 0.699093,
+          "p90": 0.771114,
+          "max": 0.819043
+        },
+        "negative_distribution": {
+          "min": 0.449405,
+          "p10": 0.449405,
+          "p25": 0.484512,
+          "median": 0.521738,
+          "p75": 0.537286,
+          "p90": 0.596585,
+          "max": 0.596585
+        }
+      },
+      "structured": {
+        "threshold": 1.0,
+        "reason": "highest_threshold_with_recall_at_least_90_percent",
+        "positive_samples": 99,
+        "negative_samples": 0,
+        "positive_recall": 1.0,
+        "negative_rejection": 0.0,
+        "balanced_accuracy": 0.5,
+        "meets_targets": true,
+        "positive_distribution": {
+          "min": 1.0,
+          "p10": 1.0,
+          "p25": 1.0,
+          "median": 1.0,
+          "p75": 1.0,
+          "p90": 1.0,
+          "max": 1.0
+        },
+        "negative_distribution": {}
+      }
+    },
+    "retrieval": {
+      "anchor": {
+        "positive_cases": 21,
+        "matched_cases": 21,
+        "coverage": 1.0
+      },
+      "freeform": {
+        "positive_cases": 54,
+        "matched_cases": 48,
+        "coverage": 0.8889
+      },
+      "hybrid": {
+        "positive_cases": 23,
+        "matched_cases": 16,
+        "coverage": 0.6957
+      },
+      "structured": {
+        "positive_cases": 99,
+        "matched_cases": 99,
+        "coverage": 1.0
+      }
+    },
+    "contrast_experiment": {
+      "50": {
+        "anchor": {
+          "threshold": 0.0375,
+          "reason": "best_rejection_with_recall_at_least_90_percent",
+          "positive_samples": 21,
+          "negative_samples": 50,
+          "positive_recall": 0.9048,
+          "negative_rejection": 0.88,
+          "balanced_accuracy": 0.8924,
+          "meets_targets": false,
+          "positive_distribution": {
+            "min": 0.017865,
+            "p10": 0.0375,
+            "p25": 0.052589,
+            "median": 0.119321,
+            "p75": 0.168303,
+            "p90": 0.279631,
+            "max": 0.404932
+          },
+          "negative_distribution": {
+            "min": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.011141,
+            "p90": 0.039784,
+            "max": 0.297273
+          }
+        },
+        "freeform": {
+          "threshold": 0.013928,
+          "reason": "best_rejection_with_recall_at_least_90_percent",
+          "positive_samples": 48,
+          "negative_samples": 55,
+          "positive_recall": 0.9167,
+          "negative_rejection": 0.1455,
+          "balanced_accuracy": 0.5311,
+          "meets_targets": false,
+          "positive_distribution": {
+            "min": 0.0,
+            "p10": 0.013928,
+            "p25": 0.076829,
+            "median": 0.176661,
+            "p75": 0.399647,
+            "p90": 0.510257,
+            "max": 0.634752
+          },
+          "negative_distribution": {
+            "min": 0.0,
+            "p10": 0.011013,
+            "p25": 0.02705,
+            "median": 0.043868,
+            "p75": 0.067505,
+            "p90": 0.085335,
+            "max": 0.21296
+          }
+        },
+        "hybrid": {
+          "threshold": 0.0,
+          "reason": "best_rejection_with_recall_at_least_90_percent",
+          "positive_samples": 16,
+          "negative_samples": 5,
+          "positive_recall": 1.0,
+          "negative_rejection": 0.0,
+          "balanced_accuracy": 0.5,
+          "meets_targets": false,
+          "positive_distribution": {
+            "min": 0.0,
+            "p10": 0.002246,
+            "p25": 0.008813,
+            "median": 0.052434,
+            "p75": 0.10783,
+            "p90": 0.273329,
+            "max": 0.339443
+          },
+          "negative_distribution": {
+            "min": 0.028182,
+            "p10": 0.028182,
+            "p25": 0.046352,
+            "median": 0.05978,
+            "p75": 0.063687,
+            "p90": 0.084938,
+            "max": 0.084938
+          }
+        },
+        "structured": {
+          "threshold": 0.0,
+          "reason": "highest_threshold_with_recall_at_least_90_percent",
+          "positive_samples": 99,
+          "negative_samples": 0,
+          "positive_recall": 1.0,
+          "negative_rejection": 0.0,
+          "balanced_accuracy": 0.5,
+          "meets_targets": true,
+          "positive_distribution": {
+            "min": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "negative_distribution": {}
+        }
+      },
+      "75": {
+        "anchor": {
+          "threshold": 0.007164,
+          "reason": "best_rejection_with_recall_at_least_90_percent",
+          "positive_samples": 21,
+          "negative_samples": 50,
+          "positive_recall": 1.0,
+          "negative_rejection": 0.88,
+          "balanced_accuracy": 0.94,
+          "meets_targets": false,
+          "positive_distribution": {
+            "min": 0.007164,
+            "p10": 0.01288,
+            "p25": 0.037675,
+            "median": 0.077825,
+            "p75": 0.119241,
+            "p90": 0.228266,
+            "max": 0.286142
+          },
+          "negative_distribution": {
+            "min": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.015108,
+            "max": 0.189805
+          }
+        },
+        "freeform": {
+          "threshold": 0.0,
+          "reason": "best_rejection_with_recall_at_least_90_percent",
+          "positive_samples": 48,
+          "negative_samples": 55,
+          "positive_recall": 1.0,
+          "negative_rejection": 0.0,
+          "balanced_accuracy": 0.5,
+          "meets_targets": false,
+          "positive_distribution": {
+            "min": 0.0,
+            "p10": 0.0,
+            "p25": 0.057941,
+            "median": 0.149525,
+            "p75": 0.372672,
+            "p90": 0.473106,
+            "max": 0.563485
+          },
+          "negative_distribution": {
+            "min": 0.0,
+            "p10": 0.006152,
+            "p25": 0.017546,
+            "median": 0.029404,
+            "p75": 0.054232,
+            "p90": 0.067197,
+            "max": 0.145955
+          }
+        },
+        "hybrid": {
+          "threshold": 0.0,
+          "reason": "best_rejection_with_recall_at_least_90_percent",
+          "positive_samples": 16,
+          "negative_samples": 5,
+          "positive_recall": 1.0,
+          "negative_rejection": 0.0,
+          "balanced_accuracy": 0.5,
+          "meets_targets": false,
+          "positive_distribution": {
+            "min": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.036463,
+            "p75": 0.046507,
+            "p90": 0.247998,
+            "max": 0.300173
+          },
+          "negative_distribution": {
+            "min": 0.021059,
+            "p10": 0.021059,
+            "p25": 0.036753,
+            "median": 0.039955,
+            "p75": 0.050286,
+            "p90": 0.065439,
+            "max": 0.065439
+          }
+        },
+        "structured": {
+          "threshold": 0.0,
+          "reason": "highest_threshold_with_recall_at_least_90_percent",
+          "positive_samples": 99,
+          "negative_samples": 0,
+          "positive_recall": 1.0,
+          "negative_rejection": 0.0,
+          "balanced_accuracy": 0.5,
+          "meets_targets": true,
+          "positive_distribution": {
+            "min": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "negative_distribution": {}
+        }
+      },
+      "90": {
+        "anchor": {
+          "threshold": 0.000342,
+          "reason": "best_rejection_with_recall_at_least_90_percent",
+          "positive_samples": 21,
+          "negative_samples": 50,
+          "positive_recall": 0.9048,
+          "negative_rejection": 0.96,
+          "balanced_accuracy": 0.9324,
+          "meets_targets": true,
+          "positive_distribution": {
+            "min": 0.0,
+            "p10": 0.000342,
+            "p25": 0.002,
+            "median": 0.024431,
+            "p75": 0.049899,
+            "p90": 0.078035,
+            "max": 0.174646
+          },
+          "negative_distribution": {
+            "min": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0,
+            "max": 0.039732
+          }
+        },
+        "freeform": {
+          "threshold": 0.0,
+          "reason": "best_rejection_with_recall_at_least_90_percent",
+          "positive_samples": 48,
+          "negative_samples": 55,
+          "positive_recall": 1.0,
+          "negative_rejection": 0.0,
+          "balanced_accuracy": 0.5,
+          "meets_targets": false,
+          "positive_distribution": {
+            "min": 0.0,
+            "p10": 0.0,
+            "p25": 0.006295,
+            "median": 0.106019,
+            "p75": 0.250505,
+            "p90": 0.377261,
+            "max": 0.526081
+          },
+          "negative_distribution": {
+            "min": 0.0,
+            "p10": 0.001902,
+            "p25": 0.006476,
+            "median": 0.014643,
+            "p75": 0.02508,
+            "p90": 0.051575,
+            "max": 0.109007
+          }
+        },
+        "hybrid": {
+          "threshold": 0.0,
+          "reason": "best_rejection_with_recall_at_least_90_percent",
+          "positive_samples": 16,
+          "negative_samples": 5,
+          "positive_recall": 1.0,
+          "negative_rejection": 0.0,
+          "balanced_accuracy": 0.5,
+          "meets_targets": false,
+          "positive_distribution": {
+            "min": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.002531,
+            "p75": 0.032388,
+            "p90": 0.198239,
+            "max": 0.248241
+          },
+          "negative_distribution": {
+            "min": 0.0093,
+            "p10": 0.0093,
+            "p25": 0.010693,
+            "median": 0.013687,
+            "p75": 0.016288,
+            "p90": 0.020759,
+            "max": 0.020759
+          }
+        },
+        "structured": {
+          "threshold": 0.0,
+          "reason": "highest_threshold_with_recall_at_least_90_percent",
+          "positive_samples": 99,
+          "negative_samples": 0,
+          "positive_recall": 1.0,
+          "negative_rejection": 0.0,
+          "balanced_accuracy": 0.5,
+          "meets_targets": true,
+          "positive_distribution": {
+            "min": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "negative_distribution": {}
+        }
+      }
+    },
+    "samples": [
+      {
+        "id": "genre:Классическая литература:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Классическая литература:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Фэнтези:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Фэнтези:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Романтика:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Романтика:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Триллеры:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Триллеры:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Детская литература:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Детская литература:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Детективы:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Детективы:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Ужасы:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Ужасы:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Приключения:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Приключения:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Фантастика:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Фантастика:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Современная проза:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Современная проза:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Биографии и мемуары:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Биографии и мемуары:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Историческая проза:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Историческая проза:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Философия:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Философия:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:История:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:История:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Подростковая литература:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "genre:Подростковая литература:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:напряжённая:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:напряжённая:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:драматичная:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:драматичная:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:атмосферная:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:атмосферная:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:мрачная:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:мрачная:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:динамичная:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:динамичная:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:вдумчивая:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:вдумчивая:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:познавательная:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:познавательная:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:эмоциональная:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:эмоциональная:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:романтичная:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:романтичная:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:лёгкая:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:лёгкая:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:загадочная:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:загадочная:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:приключенческая:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:приключенческая:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:уютная:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:уютная:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:страшная:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:страшная:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:волшебная:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "mood:волшебная:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:личный выбор:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:личный выбор:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:выживание и испытания:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:выживание и испытания:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:путешествия и приключения:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:путешествия и приключения:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:расследование и тайны:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:расследование и тайны:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:любовь и отношения:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:любовь и отношения:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:смысл жизни и выбор:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:смысл жизни и выбор:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:человеческие отношения:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:человеческие отношения:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:история и память:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:история и память:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:власть и общество:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:власть и общество:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:страх и неизвестность:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:страх и неизвестность:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:магия и сверхъестественное:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:магия и сверхъестественное:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:семья и поколения:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:семья и поколения:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:война и её последствия:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:война и её последствия:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:искусство и творчество:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:искусство и творчество:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:будущее и технологии:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "theme:будущее и технологии:surprise-0.35",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "pace:средний:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "pace:средний:surprise-0.25",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "pace:средний:surprise-0.45",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "pace:быстрый:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "pace:быстрый:surprise-0.25",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "pace:быстрый:surprise-0.45",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "pace:медленный:surprise-0.05",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "pace:медленный:surprise-0.25",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "pace:медленный:surprise-0.45",
+        "label": "positive",
+        "mode": "structured",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "anchor:53:48 законов власти",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.551845,
+        "matched": true
+      },
+      {
+        "id": "anchor:55:Богатый папа, бедный папа",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.895,
+        "matched": true
+      },
+      {
+        "id": "anchor:54:Все закончится на нас",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.669189,
+        "matched": true
+      },
+      {
+        "id": "anchor:57:Гарри Поттер и философский камень",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.9,
+        "matched": true
+      },
+      {
+        "id": "anchor:598:Дюна",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.84,
+        "matched": true
+      },
+      {
+        "id": "anchor:59:Игра престолов",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.94,
+        "matched": true
+      },
+      {
+        "id": "anchor:56:Тонкое искусство пофигизма",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.72687,
+        "matched": true
+      },
+      {
+        "id": "anchor:72:Гарри Поттер и узник Азкабана",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "anchor:73:Скотный двор",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.785157,
+        "matched": true
+      },
+      {
+        "id": "anchor:65:Голодные игры",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.92,
+        "matched": true
+      },
+      {
+        "id": "anchor:74:Хоббит",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.883333,
+        "matched": true
+      },
+      {
+        "id": "anchor:60:ОНО",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.848898,
+        "matched": true
+      },
+      {
+        "id": "anchor:86:О дивный новый мир",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.75854,
+        "matched": true
+      },
+      {
+        "id": "anchor:61:Алхимик",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.682164,
+        "matched": true
+      },
+      {
+        "id": "anchor:67:Гарри Поттер и Тайная комната",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.93,
+        "matched": true
+      },
+      {
+        "id": "anchor:81:451° по Фаренгейту",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.693774,
+        "matched": true
+      },
+      {
+        "id": "anchor:68:Сумерки",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.847761,
+        "matched": true
+      },
+      {
+        "id": "anchor:58:Как завоевывать друзей и оказывать влияние на людей",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.92,
+        "matched": true
+      },
+      {
+        "id": "anchor:137:Игра Эндера",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "anchor:70:Гарри Поттер и Дары Смерти",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.98,
+        "matched": true
+      },
+      {
+        "id": "anchor:62:1984",
+        "label": "positive",
+        "mode": "anchor",
+        "score": 0.709745,
+        "matched": true
+      },
+      {
+        "id": "десятилетний мальчик после множества операций впервые идёт в обычную школу и сталкивается с насмешками",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.0,
+        "matched": false
+      },
+      {
+        "id": "наследник знатного дома скрывается среди жителей пустыни и борется за планету с ценным веществом для космических полётов",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.0,
+        "matched": false
+      },
+      {
+        "id": "служащий переписывает прошлое для государства которое следит за мыслями граждан и контролирует язык",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.0,
+        "matched": false
+      },
+      {
+        "id": "девочка умеет воспламенять предметы силой мысли и вместе с отцом скрывается от секретной организации",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.0,
+        "matched": false
+      },
+      {
+        "id": "капитан одержим местью огромному белому киту и превращает плавание китобойного судна в безумную охоту",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.752753,
+        "matched": true
+      },
+      {
+        "id": "южный адвокат рискует репутацией защищая темнокожего мужчину которого несправедливо обвинили",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.568174,
+        "matched": true
+      },
+      {
+        "id": "пожарный уничтожает запрещённые книги но после знакомства с девушкой начинает читать и восстаёт против системы",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.666463,
+        "matched": true
+      },
+      {
+        "id": "группа школьников после катастрофы пытается создать собственное общество на необитаемом острове",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.0,
+        "matched": false
+      },
+      {
+        "id": "молодой красавец сохраняет юность пока его изображение стареет и принимает следы пороков",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.389013,
+        "matched": true
+      },
+      {
+        "id": "учёный собирает живое существо из мёртвых тел а затем отвергает своё разумное создание",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.598215,
+        "matched": true
+      },
+      {
+        "id": "девочка следует за белым кроликом и оказывается в абсурдном мире странных существ",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.690162,
+        "matched": true
+      },
+      {
+        "id": "датский принц узнаёт от призрака об убийстве отца и должен отомстить своему дяде",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.785422,
+        "matched": true
+      },
+      {
+        "id": "замужняя русская аристократка влюбляется в офицера и бросает вызов лицемерному обществу",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.613969,
+        "matched": true
+      },
+      {
+        "id": "бедный петербургский студент убивает старуху ростовщицу и мучается нравственными сомнениями",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.522489,
+        "matched": true
+      },
+      {
+        "id": "дьявол со свитой приезжает в советскую москву а женщина пытается спасти любимого писателя",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.0,
+        "matched": false
+      },
+      {
+        "id": "сирота узнаёт что он волшебник поступает в школу магии и вместе с друзьями ищет загадочный камень",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.819043,
+        "matched": true
+      },
+      {
+        "id": "маленький герой несёт опасное кольцо через вымышленный мир чтобы уничтожить его во владениях тёмного властелина",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.592961,
+        "matched": true
+      },
+      {
+        "id": "независимая девушка из семьи с пятью дочерьми сначала презирает богатого молчаливого жениха",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.519539,
+        "matched": true
+      },
+      {
+        "id": "исключённый из школы подросток несколько дней бродит по нью-йорку переживая одиночество и страх взросления",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.562359,
+        "matched": true
+      },
+      {
+        "id": "лётчик терпит аварию в пустыне и встречает мальчика с астероида который рассказывает о розе и лисе",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.602361,
+        "matched": true
+      },
+      {
+        "id": "невиновного моряка заключают в островную крепость а после побега и находки сокровища он мстит предателям",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.509336,
+        "matched": true
+      },
+      {
+        "id": "бывший каторжник воспитывает сироту и пытается жить честно пока его много лет преследует непреклонный инспектор",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.352548,
+        "matched": true
+      },
+      {
+        "id": "смерть рассказывает о приёмной девочке под мюнхеном которая крадёт книги во время войны",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.771114,
+        "matched": true
+      },
+      {
+        "id": "в годовщину свадьбы пропадает жена и общество подозревает мужа в её убийстве",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.0,
+        "matched": false
+      },
+      {
+        "id": "молодая сотрудница фбр просит помощи у заключённого психиатра каннибала чтобы поймать серийного убийцу",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.729714,
+        "matched": true
+      },
+      {
+        "id": "символолог и криптолог расследуют убийство в лувре и разгадывают религиозный заговор",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.490013,
+        "matched": true
+      },
+      {
+        "id": "домосед отправляется с волшебником и гномами возвращать горное королевство и сокровища у дракона",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.699093,
+        "matched": true
+      },
+      {
+        "id": "землю внезапно уничтожают а обычный англичанин путешествует по космосу с инопланетным другом и депрессивным роботом",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.707412,
+        "matched": true
+      },
+      {
+        "id": "математик предсказывает падение галактической империи и создаёт сообщество учёных чтобы сократить эпоху варварства",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.801812,
+        "matched": true
+      },
+      {
+        "id": "умственно отсталому мужчине делают операцию для повышения интеллекта а результаты сравнивают с лабораторной мышью",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.535131,
+        "matched": true
+      },
+      {
+        "id": "в религиозной диктатуре женщин заставляют рожать детей для правящего класса мужчин",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.359821,
+        "matched": true
+      },
+      {
+        "id": "богатый мальчик предаёт сына слуги а спустя годы возвращается в разрушенный афганистан ради искупления",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.581948,
+        "matched": true
+      },
+      {
+        "id": "монах расследует череду загадочных смертей в средневековом аббатстве с лабиринтом библиотеки",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.518207,
+        "matched": true
+      },
+      {
+        "id": "общество будущего выращивает людей по кастам и поддерживает счастье наркотиком и программированием",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.40011,
+        "matched": true
+      },
+      {
+        "id": "жестокого подростка из будущего государство пытается исправить экспериментальным подавлением воли",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.0,
+        "matched": false
+      },
+      {
+        "id": "после кораблекрушения подросток оказывается в спасательной шлюпке вместе с бенгальским тигром",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.62903,
+        "matched": true
+      },
+      {
+        "id": "журналист и талантливая хакерша расследуют давнее исчезновение девушки из влиятельной семьи",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.629607,
+        "matched": true
+      },
+      {
+        "id": "мальчик вспоминает одно лето с новыми кроссовками яблонями пчёлами и сбором жёлтых цветов",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.447649,
+        "matched": true
+      },
+      {
+        "id": "Чудо Р Дж Паласио",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.516468,
+        "matched": true
+      },
+      {
+        "id": "Дюна Фрэнк Герберт",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "1984 Джордж Оруэлл",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.88872,
+        "matched": true
+      },
+      {
+        "id": "Мастер и Маргарита Булгаков",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "Гордость и предубеждение Джейн Остин",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.940691,
+        "matched": true
+      },
+      {
+        "id": "Цветы для Элджернона Дэниел Киз",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.973847,
+        "matched": true
+      },
+      {
+        "id": "prestuplenie i nakazanie dostoevskiy",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "garri potter i filosofskiy kamen",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "malenkiy princ sent ekzuperi",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.986822,
+        "matched": true
+      },
+      {
+        "id": "451 po farengeitu bredberi",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.895669,
+        "matched": true
+      },
+      {
+        "id": "ufhhb gjnnh",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.904238,
+        "matched": true
+      },
+      {
+        "id": "vfcnth b vfhufhbnf",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "dyuna gerbert",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.891483,
+        "matched": true
+      },
+      {
+        "id": "cveti dlya eldzhernona",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.894553,
+        "matched": true
+      },
+      {
+        "id": "mobi dik melvill",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.80554,
+        "matched": true
+      },
+      {
+        "id": "gordost i predubezhdenie",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 1.0,
+        "matched": true
+      },
+      {
+        "id": "медленная готическая история о старом поместье и распаде аристократической семьи",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.0,
+        "matched": false
+      },
+      {
+        "id": "ироничное абсурдное космическое приключение с очень странными попутчиками",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.413341,
+        "matched": true
+      },
+      {
+        "id": "мрачный интеллектуальный детектив в средневековом монастыре",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.296545,
+        "matched": true
+      },
+      {
+        "id": "добрая смешная детская история о маленьком мышонке который побеждает страх хитростью",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.665431,
+        "matched": true
+      },
+      {
+        "id": "меланхоличная притча о памяти супружестве и старых войнах",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.0,
+        "matched": false
+      },
+      {
+        "id": "напряжённая философская история об одиночестве среди заражённых и границе между человеком и чудовищем",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.523379,
+        "matched": true
+      },
+      {
+        "id": "гарри потр философкий камин",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.381068,
+        "matched": true
+      },
+      {
+        "id": "преступлние и наказние достаевский",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.775121,
+        "matched": true
+      },
+      {
+        "id": "маленкий принц сент экзюпери",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.976886,
+        "matched": true
+      },
+      {
+        "id": "муж оказывается главным подозреваемым после исчезновения жены в годовщину свадьбы",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.393026,
+        "matched": true
+      },
+      {
+        "id": "мы живём в государстве которое следит за мыслями граждан и переписывает прошлое",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.384666,
+        "matched": true
+      },
+      {
+        "id": "оно сохраняет юность владельца пока изображение стареет и принимает следы его пороков",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.0,
+        "matched": false
+      },
+      {
+        "id": "героине нужна помощь заключённого психиатра чтобы поймать другого серийного убийцу",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.613172,
+        "matched": true
+      },
+      {
+        "id": "начала современной космологии объясняются через большой взрыв чёрные дыры и природу времени",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.708391,
+        "matched": true
+      },
+      {
+        "id": "ОНО Стивен Кинг",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.915107,
+        "matched": true
+      },
+      {
+        "id": "Мы Замятин",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.575156,
+        "matched": true
+      },
+      {
+        "id": "Муж Дин Кунц",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.519795,
+        "matched": true
+      },
+      {
+        "id": "Помощь Кэтрин Стокетт",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.943421,
+        "matched": true
+      },
+      {
+        "id": "Начала Евклид",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.815261,
+        "matched": true
+      },
+      {
+        "id": "философский камень",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.903798,
+        "matched": true
+      },
+      {
+        "id": "татуировка дракона",
+        "label": "positive",
+        "mode": "hybrid",
+        "score": 0.0,
+        "matched": false
+      },
+      {
+        "id": "Ричард Мэтисон",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.0,
+        "matched": false
+      },
+      {
+        "id": "Р Дж Паласио",
+        "label": "positive",
+        "mode": "freeform",
+        "score": 0.231968,
+        "matched": true
+      },
+      {
+        "id": "gibberish-01",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.509397,
+        "matched": false
+      },
+      {
+        "id": "gibberish-02",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.324104,
+        "matched": false
+      },
+      {
+        "id": "gibberish-03",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.515911,
+        "matched": false
+      },
+      {
+        "id": "gibberish-04",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.437741,
+        "matched": false
+      },
+      {
+        "id": "gibberish-05",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.022716,
+        "matched": false
+      },
+      {
+        "id": "gibberish-06",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.0,
+        "matched": false
+      },
+      {
+        "id": "gibberish-07",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.509981,
+        "matched": false
+      },
+      {
+        "id": "gibberish-08",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.584942,
+        "matched": false
+      },
+      {
+        "id": "gibberish-09",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.510288,
+        "matched": false
+      },
+      {
+        "id": "gibberish-10",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.546836,
+        "matched": false
+      },
+      {
+        "id": "gibberish-11",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.413994,
+        "matched": false
+      },
+      {
+        "id": "gibberish-12",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.483525,
+        "matched": false
+      },
+      {
+        "id": "out-domain-01",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.079657,
+        "matched": false
+      },
+      {
+        "id": "out-domain-02",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.33697,
+        "matched": false
+      },
+      {
+        "id": "out-domain-03",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.187803,
+        "matched": false
+      },
+      {
+        "id": "out-domain-04",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.188746,
+        "matched": false
+      },
+      {
+        "id": "out-domain-05",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.346333,
+        "matched": false
+      },
+      {
+        "id": "out-domain-06",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.327667,
+        "matched": false
+      },
+      {
+        "id": "out-domain-07",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.284276,
+        "matched": false
+      },
+      {
+        "id": "out-domain-08",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.425033,
+        "matched": false
+      },
+      {
+        "id": "out-domain-09",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.188985,
+        "matched": false
+      },
+      {
+        "id": "out-domain-10",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.0,
+        "matched": false
+      },
+      {
+        "id": "out-domain-11",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.260811,
+        "matched": false
+      },
+      {
+        "id": "out-domain-12",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.273377,
+        "matched": false
+      },
+      {
+        "id": "out-domain-13",
+        "label": "reject",
+        "mode": "hybrid",
+        "score": 0.521738,
+        "matched": false
+      },
+      {
+        "id": "out-domain-14",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.250349,
+        "matched": false
+      },
+      {
+        "id": "out-domain-15",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.272696,
+        "matched": false
+      },
+      {
+        "id": "out-domain-16",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.410939,
+        "matched": false
+      },
+      {
+        "id": "out-domain-17",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.272533,
+        "matched": false
+      },
+      {
+        "id": "out-domain-18",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.236977,
+        "matched": false
+      },
+      {
+        "id": "out-domain-19",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.174276,
+        "matched": false
+      },
+      {
+        "id": "out-domain-20",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.294001,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-01",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.407268,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-02",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.570484,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-03",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.792745,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-04",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.551553,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-05",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.412835,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-06",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.619499,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-07",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.325923,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-08",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.434776,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-09",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.496315,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-10",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.532975,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-11",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.372538,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-12",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.354035,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-13",
+        "label": "reject",
+        "mode": "hybrid",
+        "score": 0.484512,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-14",
+        "label": "reject",
+        "mode": "hybrid",
+        "score": 0.537286,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-15",
+        "label": "reject",
+        "mode": "hybrid",
+        "score": 0.596585,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-16",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.707212,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-17",
+        "label": "reject",
+        "mode": "freeform",
+        "score": 0.663059,
+        "matched": false
+      },
+      {
+        "id": "catalog-gap-18",
+        "label": "reject",
+        "mode": "hybrid",
+        "score": 0.449405,
+        "matched": false
+      },
+      {
+        "id": "vague-01",
+        "label": "clarify",
+        "mode": "freeform",
+        "score": 0.813717,
+        "matched": false
+      },
+      {
+        "id": "vague-02",
+        "label": "clarify",
+        "mode": "freeform",
+        "score": 0.650577,
+        "matched": false
+      },
+      {
+        "id": "vague-03",
+        "label": "clarify",
+        "mode": "freeform",
+        "score": 0.696508,
+        "matched": false
+      },
+      {
+        "id": "vague-04",
+        "label": "clarify",
+        "mode": "freeform",
+        "score": 0.639152,
+        "matched": false
+      },
+      {
+        "id": "vague-05",
+        "label": "clarify",
+        "mode": "freeform",
+        "score": 0.72445,
+        "matched": false
+      },
+      {
+        "id": "vague-06",
+        "label": "clarify",
+        "mode": "freeform",
+        "score": 0.738164,
+        "matched": false
+      },
+      {
+        "id": "vague-07",
+        "label": "clarify",
+        "mode": "freeform",
+        "score": 0.413814,
+        "matched": false
+      },
+      {
+        "id": "vague-08",
+        "label": "clarify",
+        "mode": "freeform",
+        "score": 0.5135,
+        "matched": false
+      },
+      {
+        "id": "vague-09",
+        "label": "clarify",
+        "mode": "freeform",
+        "score": 0.645626,
+        "matched": false
+      },
+      {
+        "id": "vague-10",
+        "label": "clarify",
+        "mode": "freeform",
+        "score": 0.458816,
+        "matched": false
+      }
+    ]
+  }
+}

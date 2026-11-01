@@ -1,0 +1,27 @@
+{
+  "files": {
+    "smoke_training.py": "c95df2fcd7a0a2c81750ff6d64ecb719ad8ebd64097beac9a4f4ae9d080240fd",
+    "requirements-training.txt": "c226a7b40c7cd75a09e0965ad86ac08a70c7e4ff5d29e4020720213f8d293426",
+    "search-environment-before-training.txt": "e9558f816232d10f2d92ecd338d2f0a553a0791d0b8cd8346c2f6fdb45f6316d",
+    "smoke-training.log": "e2090ad6d14ede06bc6ee621861095e31804363ec2b0046850b537b02782d1fa",
+    "smoke-training-first-attempt.log": "2d680ac66bdedb1af7333b6883d9c0adfcc41d1b5321c4fa66275cf9ac854835",
+    "training_environment/RESOURCE_REPORT.md": "a7a7817c96d0b141ae2b53fa836e08c15da3204966ee4e6ff186c036bea23263",
+    "training_environment/requirements-lock.txt": "b2e477f83776b0195d42e192080d8accba89ee5c9d63ff381bf7a6891d258d5c",
+    "training_environment/smoke-batches.json": "4cf9779ca96c0bb63f1e7cbc5dd94afea79985bf8717031abaf6cb3e37791f1e",
+    "training_environment/smoke-results.json": "af533596b923048ff2b7b5d6092ab8c7a5f960d847fba4bd73dbd49ffae591e8",
+    "training_environment/service-compatibility-check.json": "1536987e38bb6cc25cb3e0d5079e57ced41e5cd08242689e171a2e685d67bc64"
+  },
+  "checkpoint_files": {
+    "smoke-model/config.json": "c5455c1c29ea233a875cac03faf9a468962afdc193fd11caf3e607ca41b315eb",
+    "smoke-model/config_sentence_transformers.json": "4298ce560cc93ed3c9a1bd5630469fbec6ce6478536328275f113b2518b73211",
+    "smoke-model/model.safetensors": "8df00fc0c8b78cfc2cab206d827ebe2b833e2aac24bc7cfbf5ac3c19f4ef6213",
+    "smoke-model/modules.json": "5286260f53f0f5d318eb02f1565fd30f7ec7c6d305f41ad29e2bb3ec974046a6",
+    "smoke-model/README.md": "c484b01232a975bb705e506dde153ab8a2169f4eb14766232590205e7c2b1857",
+    "smoke-model/sentence_bert_config.json": "5fee3fcdc4a727fad422f0fed0c867b0921eefa9051de221521956ed42eb4c19",
+    "smoke-model/tokenizer.json": "fbcc3c7348739d765de2c86fce14c9c5e2dd47696dbb3cfeed294edfc712d8f0",
+    "smoke-model/tokenizer_config.json": "7f8e591fccaa155b910473a53702be26990095e8904323a4241f7750ecc0273e",
+    "smoke-model/1_Pooling/config.json": "bb80272f7adad76ce93073c25e18113ee66be1e91f60bcdd72aa41d05b28247e"
+  },
+  "optimizer_sha256": "a58cb01c303b0d857ef5665c117965692ccb021c8c35c377703b753d371a5ef9",
+  "full_experiment_started": false
+}

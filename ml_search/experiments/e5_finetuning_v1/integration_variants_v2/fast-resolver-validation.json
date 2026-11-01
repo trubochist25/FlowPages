@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "same_decisions_as_reference_cases": 927,
+  "construction_ms_not_in_query_latency": 15.718200011178851,
+  "latency": {
+    "samples": 1540,
+    "mean_ms": 8.689503831159197,
+    "p95_ms": 21.521134994691238,
+    "max_ms": 41.108499994152226
+  },
+  "production_changed": false
+}

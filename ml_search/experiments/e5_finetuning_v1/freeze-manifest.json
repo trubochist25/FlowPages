@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "status": "frozen_before_training_and_parameter_selection",
+  "files": {
+    "test_queries.frozen.json": "7ef2174f9d56aa54b8a9f1ecd11f7386d95c14b2fb7b448da20bdbdc0597be94",
+    "dev_queries.json": "b9b95798e84f8465429e3a0fd90b6f560bbb77b53717e7a997370c08298f040e",
+    "split-policy.json": "5c019711f6e22c647badde2ccb330af7bf8bc1d37c4faa08ee11d08285422e4f",
+    "no-match-evidence.json": "685a3054d03325943b3e7c42395d1b1baa748ed7a5c983a479a733b10275f9d5",
+    "assessment-validation.json": "e603c857476c38b06f5fa0747ade7c162fcd01086c68fe48590e70e4371d930f"
+  },
+  "catalog_sha256": "115c7e689447db05d2e34bc5d83ab66238305b24b287601b36bd7fa3774bf5ee",
+  "regression_sha256": "422fa8b1e5b4e954fc00775eef9bab757bda30a9b0e19a906d6a5987a326223c"
+}

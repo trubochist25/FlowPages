@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html dir="{{ direction }}" lang="{{ lang }}">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ title }}</title>
+  {% if robots %}<meta name="robots" content="{{ robots }}" />{% endif %}
+  <base href="{{ base }}" />
+  {% if description %}<meta name="description" content="{{ description }}" />{% endif %}
+  {% if keywords %}<meta name="keywords" content="{{ keywords }}" />{% endif %}
+  <meta property="og:title" content="{{ title }}" />
+  {% if description %}<meta property="og:description" content="{{ description }}" />{% endif %}
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ og_url }}" />
+  {% if og_image %}<meta property="og:image" content="{{ og_image }}" />{% endif %}
+  <meta property="og:site_name" content="FlowPages" />
+  <link href="catalog/view/theme/flowpages/fonts/Inter-Regular.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+  <link href="catalog/view/theme/flowpages/fonts/Inter-Medium.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+  <link href="catalog/view/theme/flowpages/fonts/Inter-Bold.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+  <script src="catalog/view/javascript/jquery/jquery-3.7.0.min.js" type="text/javascript"></script>
+  <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+  <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="catalog/view/theme/flowpages/stylesheet/stylesheet.css" rel="stylesheet">
+  <link href="catalog/view/theme/flowpages/stylesheet/flowpages.css?v=20260914-6" rel="stylesheet">
+  {% for style in styles %}<link href="{{ style.href }}" type="text/css" rel="{{ style.rel }}" media="{{ style.media }}" />{% endfor %}
+  {% for script in scripts %}<script src="{{ script }}" type="text/javascript"></script>{% endfor %}
+  <script src="catalog/view/javascript/common.js?v=20260915-1" type="text/javascript"></script>
+  <script src="catalog/view/javascript/flowpages-autocomplete.js?v=20260915-2" type="text/javascript" defer></script>
+  {% for link in links %}<link href="{{ link.href }}" rel="{{ link.rel }}" />{% endfor %}
+  {% for analytic in analytics %}{{ analytic }}{% endfor %}
+</head>
+<body class="flowpages-site">
+  <div class="fp-topline">
+    <div class="container fp-topline__inner">
+      <p>Книги, к которым хочется возвращаться</p>
+      <div class="fp-topline__links">
+        {{ currency }}
+        <div class="dropdown fp-account">
+          <a href="{{ account }}" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user-o"></i> {{ text_account }} <span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu-right">
+            {% if logged %}
+              <li><a href="{{ account }}">{{ text_account }}</a></li>
+              <li><a href="{{ order }}">{{ text_order }}</a></li>
+              <li><a href="{{ logout }}">{{ text_logout }}</a></li>
+            {% else %}
+              <li><a href="{{ register }}">{{ text_register }}</a></li>
+              <li><a href="{{ login }}">{{ text_login }}</a></li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="fp-header">
+    <div class="container fp-header__inner">
+      <div class="fp-brand-wrap">
+        <a class="fp-brand" href="{{ home }}" aria-label="FlowPages — на главную">
+          <span class="fp-brand__mark">F</span>
+          <span class="fp-brand__name">FlowPages</span>
+        </a>
+        <span class="fp-brand__tagline">книжный магазин</span>
+      </div>
+      <div class="fp-header__search">{{ search }}</div>
+      <div class="fp-header__actions" aria-label="Покупки">
+        <div class="fp-header__cart">{{ cart }}</div>
+        <a class="fp-header__wishlist" href="{{ wishlist }}" id="wishlist-total" title="{{ text_wishlist }}">
+          <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+          <span>{{ text_wishlist }}</span>
+        </a>
+      </div>
+    </div>
+  </header>
+  <div class="fp-navigation">{{ menu }}</div>

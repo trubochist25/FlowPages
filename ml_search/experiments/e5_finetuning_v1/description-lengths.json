@@ -1,0 +1,8011 @@
+{
+  "max_seq_length": 512,
+  "books": 1000,
+  "min": 139,
+  "median": 208.0,
+  "p95": 236.0,
+  "max": 276,
+  "truncated": 0,
+  "results": [
+    {
+      "catalog_id": 1,
+      "title": "48 законов власти",
+      "tokens": 175,
+      "truncated": false,
+      "retained_end_character": 694,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 2,
+      "title": "Все закончится на нас",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 665,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 3,
+      "title": "Богатый папа, бедный папа",
+      "tokens": 182,
+      "truncated": false,
+      "retained_end_character": 719,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 4,
+      "title": "Тонкое искусство пофигизма",
+      "tokens": 163,
+      "truncated": false,
+      "retained_end_character": 690,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 5,
+      "title": "Гарри Поттер и философский камень",
+      "tokens": 180,
+      "truncated": false,
+      "retained_end_character": 583,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 6,
+      "title": "Как завоевывать друзей и оказывать влияние на людей",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 835,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 7,
+      "title": "Игра престолов",
+      "tokens": 190,
+      "truncated": false,
+      "retained_end_character": 654,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 8,
+      "title": "ОНО",
+      "tokens": 178,
+      "truncated": false,
+      "retained_end_character": 626,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 9,
+      "title": "Алхимик",
+      "tokens": 161,
+      "truncated": false,
+      "retained_end_character": 569,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 10,
+      "title": "1984",
+      "tokens": 192,
+      "truncated": false,
+      "retained_end_character": 649,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 11,
+      "title": "7 навыков высокоэффективных людей",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 872,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 12,
+      "title": "Гордость и предубеждение",
+      "tokens": 183,
+      "truncated": false,
+      "retained_end_character": 653,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 13,
+      "title": "Голодные игры",
+      "tokens": 190,
+      "truncated": false,
+      "retained_end_character": 654,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 14,
+      "title": "Пятьдесят оттенков серого",
+      "tokens": 185,
+      "truncated": false,
+      "retained_end_character": 743,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 15,
+      "title": "Гарри Поттер и Тайная комната",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 659,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 16,
+      "title": "Сумерки",
+      "tokens": 169,
+      "truncated": false,
+      "retained_end_character": 602,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 17,
+      "title": "Убить пересмешника",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 696,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 18,
+      "title": "Гарри Поттер и Дары Смерти",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 678,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 19,
+      "title": "Искусство войны",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 772,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 20,
+      "title": "Гарри Поттер и узник Азкабана",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 671,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 21,
+      "title": "Скотный двор",
+      "tokens": 180,
+      "truncated": false,
+      "retained_end_character": 670,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 22,
+      "title": "Хоббит",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 598,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 23,
+      "title": "Гарри Поттер и Кубок огня",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 677,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 24,
+      "title": "Этим летом я стала красивой",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 677,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 25,
+      "title": "Гарри Поттер и Орден Феникса",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 693,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 26,
+      "title": "Маленький принц",
+      "tokens": 189,
+      "truncated": false,
+      "retained_end_character": 658,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 27,
+      "title": "Маленькая жизнь",
+      "tokens": 189,
+      "truncated": false,
+      "retained_end_character": 674,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 28,
+      "title": "Виноваты звезды",
+      "tokens": 182,
+      "truncated": false,
+      "retained_end_character": 658,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 29,
+      "title": "451° по Фаренгейту",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 669,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 30,
+      "title": "Гарри Поттер и Принц-полукровка",
+      "tokens": 223,
+      "truncated": false,
+      "retained_end_character": 734,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 31,
+      "title": "Чудо",
+      "tokens": 139,
+      "truncated": false,
+      "retained_end_character": 489,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 32,
+      "title": "Грозовой перевал",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 719,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 33,
+      "title": "Heartstopper, Том 1",
+      "tokens": 179,
+      "truncated": false,
+      "retained_end_character": 633,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 34,
+      "title": "О дивный новый мир",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 807,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 35,
+      "title": "Код да Винчи",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 678,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 36,
+      "title": "Лолита",
+      "tokens": 187,
+      "truncated": false,
+      "retained_end_character": 659,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 37,
+      "title": "Повелитель мух",
+      "tokens": 194,
+      "truncated": false,
+      "retained_end_character": 733,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 38,
+      "title": "Преступление и наказание",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 747,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 39,
+      "title": "Рассказ служанки",
+      "tokens": 189,
+      "truncated": false,
+      "retained_end_character": 667,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 40,
+      "title": "Матильда",
+      "tokens": 231,
+      "truncated": false,
+      "retained_end_character": 794,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 41,
+      "title": "Приключения Шерлока Холмса",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 725,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 42,
+      "title": "Страдание",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 677,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 43,
+      "title": "Ромео и Джульетта",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 641,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 44,
+      "title": "Над пропастью во ржи",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 662,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 45,
+      "title": "Кэрри",
+      "tokens": 184,
+      "truncated": false,
+      "retained_end_character": 671,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 46,
+      "title": "Маленькие женщины",
+      "tokens": 186,
+      "truncated": false,
+      "retained_end_character": 667,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 47,
+      "title": "Бегущий за ветром",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 666,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 48,
+      "title": "Краткая история времени",
+      "tokens": 167,
+      "truncated": false,
+      "retained_end_character": 655,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 49,
+      "title": "Книжный вор",
+      "tokens": 188,
+      "truncated": false,
+      "retained_end_character": 629,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 50,
+      "title": "Хорошо быть тихоней",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 691,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 51,
+      "title": "Священное Писание — Перевод нового мира (увеличенный формат)",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 802,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 52,
+      "title": "Властелин колец",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 666,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 53,
+      "title": "Кладбище домашних животных",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 663,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 54,
+      "title": "Дракула",
+      "tokens": 193,
+      "truncated": false,
+      "retained_end_character": 654,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 55,
+      "title": "Хет Ахтерхейс",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 690,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 56,
+      "title": "Франкенштейн; или Современный Прометей",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 715,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 57,
+      "title": "Автостопом по Галактике",
+      "tokens": 212,
+      "truncated": false,
+      "retained_end_character": 752,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 58,
+      "title": "Шестерка воронов",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 762,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 59,
+      "title": "Братство Кольца",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 645,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 60,
+      "title": "Камасутра",
+      "tokens": 180,
+      "truncated": false,
+      "retained_end_character": 697,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 61,
+      "title": "Пропавший герой",
+      "tokens": 184,
+      "truncated": false,
+      "retained_end_character": 645,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 62,
+      "title": "И их не было",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 780,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 63,
+      "title": "Описание В конце они оба умрут",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 700,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 64,
+      "title": "Приключения Алисы в стране чудес",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 717,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 65,
+      "title": "Аутсайдеры",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 663,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 66,
+      "title": "Портрет Дориана Грея",
+      "tokens": 183,
+      "truncated": false,
+      "retained_end_character": 610,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 67,
+      "title": "И вспыхнет пламя",
+      "tokens": 258,
+      "truncated": false,
+      "retained_end_character": 853,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 68,
+      "title": "Стив Джобс",
+      "tokens": 181,
+      "truncated": false,
+      "retained_end_character": 664,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 69,
+      "title": "Тайный язык дней рождения",
+      "tokens": 179,
+      "truncated": false,
+      "retained_end_character": 738,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 70,
+      "title": "Сто лет одиночества",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 729,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 71,
+      "title": "Человек-невидимка",
+      "tokens": 188,
+      "truncated": false,
+      "retained_end_character": 675,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 72,
+      "title": "Гамлет",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 654,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 73,
+      "title": "Моби Дик",
+      "tokens": 186,
+      "truncated": false,
+      "retained_end_character": 589,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 74,
+      "title": "Американский психопат",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 708,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 75,
+      "title": "Вторники с Морри",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 677,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 76,
+      "title": "Тайная история",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 736,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 77,
+      "title": "Игры, в которые играют люди",
+      "tokens": 186,
+      "truncated": false,
+      "retained_end_character": 738,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 78,
+      "title": "Основание",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 753,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 79,
+      "title": "Государь",
+      "tokens": 185,
+      "truncated": false,
+      "retained_end_character": 737,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 80,
+      "title": "Съешь эту лягушку! 21 отличный способ перестать откладывать дела на потом и сделать больше за меньшее время",
+      "tokens": 234,
+      "truncated": false,
+      "retained_end_character": 878,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 81,
+      "title": "Машина времени. Война миров. Рассказы",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 792,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 82,
+      "title": "Ангелы и демоны",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 760,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 83,
+      "title": "Лев, ведьма и платяной шкаф",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 665,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 84,
+      "title": "Убийство в Восточном экспрессе",
+      "tokens": 177,
+      "truncated": false,
+      "retained_end_character": 610,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 85,
+      "title": "Игра Эндера",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 702,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 86,
+      "title": "Гарри Поттер и проклятое дитя. Части первая и вторая",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 759,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 87,
+      "title": "Джейн Эйр",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 699,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 88,
+      "title": "Зеленая миля",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 703,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 89,
+      "title": "Парк Юрского периода",
+      "tokens": 189,
+      "truncated": false,
+      "retained_end_character": 697,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 90,
+      "title": "Участок Салема",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 692,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 91,
+      "title": "Очень голодная гусеница",
+      "tokens": 186,
+      "truncated": false,
+      "retained_end_character": 648,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 92,
+      "title": "Возлюбленная",
+      "tokens": 190,
+      "truncated": false,
+      "retained_end_character": 667,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 93,
+      "title": "Имя ветра",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 736,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 94,
+      "title": "Повесть о двух городах",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 696,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 95,
+      "title": "Странная история доктора Джекила и мистера Хайда",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 823,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 96,
+      "title": "Граф Монте-Кристо",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 699,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 97,
+      "title": "Мальчик в полосатой пижаме",
+      "tokens": 194,
+      "truncated": false,
+      "retained_end_character": 680,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 98,
+      "title": "Задача трёх тел",
+      "tokens": 193,
+      "truncated": false,
+      "retained_end_character": 724,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 99,
+      "title": "Чудесный волшебник страны Оз",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 639,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 100,
+      "title": "Богатый папа, бедный папа для подростков",
+      "tokens": 192,
+      "truncated": false,
+      "retained_end_character": 803,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 101,
+      "title": "Автобиография йога",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 688,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 102,
+      "title": "Приключения Гекльберри Финна",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 768,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 103,
+      "title": "Бойня номер пять, или Крестовый поход детей",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 775,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 104,
+      "title": "Битва в Лабиринте",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 668,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 105,
+      "title": "Стенд",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 667,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 106,
+      "title": "Кот в шляпе",
+      "tokens": 188,
+      "truncated": false,
+      "retained_end_character": 616,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 107,
+      "title": "Сойка-пересмешница",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 660,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 108,
+      "title": "Угадай, как сильно я тебя люблю",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 674,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 109,
+      "title": "Макбет",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 625,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 110,
+      "title": "Две твердыни",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 670,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 111,
+      "title": "Стрелок",
+      "tokens": 192,
+      "truncated": false,
+      "retained_end_character": 647,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 112,
+      "title": "Хладнокровное убийство",
+      "tokens": 232,
+      "truncated": false,
+      "retained_end_character": 812,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 113,
+      "title": "Одиссея",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 677,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 114,
+      "title": "Цветы на чердаке",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 772,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 115,
+      "title": "Исчезнувшая девушка",
+      "tokens": 152,
+      "truncated": false,
+      "retained_end_character": 523,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 116,
+      "title": "Говори",
+      "tokens": 181,
+      "truncated": false,
+      "retained_end_character": 669,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 117,
+      "title": "Анна Каренина",
+      "tokens": 183,
+      "truncated": false,
+      "retained_end_character": 679,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 118,
+      "title": "Благие знамения",
+      "tokens": 233,
+      "truncated": false,
+      "retained_end_character": 735,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 119,
+      "title": "Сидхартха",
+      "tokens": 194,
+      "truncated": false,
+      "retained_end_character": 677,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 120,
+      "title": "Приключения Тома Сойера",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 697,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 121,
+      "title": "Эмма",
+      "tokens": 186,
+      "truncated": false,
+      "retained_end_character": 642,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 122,
+      "title": "Иллюзия Бога",
+      "tokens": 180,
+      "truncated": false,
+      "retained_end_character": 730,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 123,
+      "title": "Уловка-22",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 720,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 124,
+      "title": "Цветы для Элджернона",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 714,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 125,
+      "title": "Убийства",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 683,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 126,
+      "title": "Краткая история почти всего",
+      "tokens": 177,
+      "truncated": false,
+      "retained_end_character": 710,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 127,
+      "title": "Алая буква",
+      "tokens": 194,
+      "truncated": false,
+      "retained_end_character": 688,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 128,
+      "title": "Тринадцать причин, почему",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 674,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 129,
+      "title": "Остров Сокровищ",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 712,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 130,
+      "title": "Норвежское дерево",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 689,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 131,
+      "title": "Новолуние",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 691,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 132,
+      "title": "Заводной Апельсин",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 736,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 133,
+      "title": "Большие надежды",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 666,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 134,
+      "title": "Чувство и чувствительность",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 713,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 135,
+      "title": "Сильмариллион",
+      "tokens": 231,
+      "truncated": false,
+      "retained_end_character": 706,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 136,
+      "title": "Жизнь Пи",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 721,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 137,
+      "title": "Где обитают дикие твари",
+      "tokens": 179,
+      "truncated": false,
+      "retained_end_character": 614,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 138,
+      "title": "Дом Аида",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 668,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 139,
+      "title": "Heartstopper, Том 2",
+      "tokens": 181,
+      "truncated": false,
+      "retained_end_character": 634,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 140,
+      "title": "Записки изъ подполья",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 703,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 141,
+      "title": "Оружие, микробы и сталь",
+      "tokens": 194,
+      "truncated": false,
+      "retained_end_character": 744,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 142,
+      "title": "Груффало",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 747,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 143,
+      "title": "Оливер Твист",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 695,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 144,
+      "title": "Кровь Олимпа",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 660,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 145,
+      "title": "Когда дыхание растворяется в воздухе",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 737,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 146,
+      "title": "Волшебник Земноморья",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 689,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 147,
+      "title": "Бра́тья Карама́зовы",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 725,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 148,
+      "title": "Кафка на пляже",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 706,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 149,
+      "title": "Помощь",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 722,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 150,
+      "title": "Затмение",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 669,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 151,
+      "title": "Принципы маркетинга",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 850,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 152,
+      "title": "Процесс",
+      "tokens": 179,
+      "truncated": false,
+      "retained_end_character": 691,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 153,
+      "title": "Бессонница",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 694,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 154,
+      "title": "Мечтают ли андроиды об электроовцах?",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 752,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 155,
+      "title": "Ребекка",
+      "tokens": 214,
+      "truncated": false,
+      "retained_end_character": 709,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 156,
+      "title": "Язык программирования C",
+      "tokens": 172,
+      "truncated": false,
+      "retained_end_character": 631,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 157,
+      "title": "Убийство Роджера Экройда",
+      "tokens": 230,
+      "truncated": false,
+      "retained_end_character": 756,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 158,
+      "title": "Отверженные",
+      "tokens": 192,
+      "truncated": false,
+      "retained_end_character": 635,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 159,
+      "title": "Крестный отец",
+      "tokens": 194,
+      "truncated": false,
+      "retained_end_character": 667,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 160,
+      "title": "Рождественская песнь",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 734,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 161,
+      "title": "Дао Дэ Цзин",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 715,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 162,
+      "title": "Дас Парфюм",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 713,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 163,
+      "title": "Плохое начало",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 737,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 164,
+      "title": "Сон в летнюю ночь",
+      "tokens": 189,
+      "truncated": false,
+      "retained_end_character": 590,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 165,
+      "title": "Возвращение короля",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 733,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 166,
+      "title": "Как писать книги",
+      "tokens": 230,
+      "truncated": false,
+      "retained_end_character": 853,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 167,
+      "title": "Капитал",
+      "tokens": 181,
+      "truncated": false,
+      "retained_end_character": 780,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 168,
+      "title": "Алиса в Стране Чудес / Алиса в Зазеркалье",
+      "tokens": 233,
+      "truncated": false,
+      "retained_end_character": 734,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 169,
+      "title": "Рассвет",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 740,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 170,
+      "title": "Дон Кихот де ла Манча",
+      "tokens": 236,
+      "truncated": false,
+      "retained_end_character": 774,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 171,
+      "title": "Илиада",
+      "tokens": 193,
+      "truncated": false,
+      "retained_end_character": 600,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 172,
+      "title": "Никогда не отпускай меня",
+      "tokens": 220,
+      "truncated": false,
+      "retained_end_character": 809,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 173,
+      "title": "22.11.63",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 745,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 174,
+      "title": "Белые ночи",
+      "tokens": 176,
+      "truncated": false,
+      "retained_end_character": 614,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 175,
+      "title": "Племянник волшебника",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 651,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 176,
+      "title": "Цвет волшебства",
+      "tokens": 244,
+      "truncated": false,
+      "retained_end_character": 767,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 177,
+      "title": "Путешествия Гулливера",
+      "tokens": 239,
+      "truncated": false,
+      "retained_end_character": 801,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 178,
+      "title": "Любовь во время чумы",
+      "tokens": 247,
+      "truncated": false,
+      "retained_end_character": 835,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 179,
+      "title": "На пятьдесят оттенков темнее",
+      "tokens": 220,
+      "truncated": false,
+      "retained_end_character": 779,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 180,
+      "title": "Манифест коммунистической партии",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 850,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 181,
+      "title": "Утраченный символ",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 780,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 182,
+      "title": "Бурый медведь, бурый медведь, что ты видишь?",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 715,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 183,
+      "title": "Призрачная платная будка",
+      "tokens": 235,
+      "truncated": false,
+      "retained_end_character": 750,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 184,
+      "title": "Убеждение",
+      "tokens": 214,
+      "truncated": false,
+      "retained_end_character": 678,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 185,
+      "title": "Пикассо",
+      "tokens": 234,
+      "truncated": false,
+      "retained_end_character": 843,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 186,
+      "title": "Смерть на Ниле",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 672,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 187,
+      "title": "Битва королей",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 753,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 188,
+      "title": "Таинственное происшествие в Стайлз",
+      "tokens": 251,
+      "truncated": false,
+      "retained_end_character": 783,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 189,
+      "title": "Женщины, которые бегут с волками",
+      "tokens": 238,
+      "truncated": false,
+      "retained_end_character": 849,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 190,
+      "title": "Второй секс",
+      "tokens": 194,
+      "truncated": false,
+      "retained_end_character": 641,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 191,
+      "title": "На западном фронте без перемен",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 795,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 192,
+      "title": "Дневники Никки. Не такая уж талантливая поп-звезда",
+      "tokens": 242,
+      "truncated": false,
+      "retained_end_character": 827,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 193,
+      "title": "Молчание ягнят",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 757,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 194,
+      "title": "Хроники Нарнии",
+      "tokens": 190,
+      "truncated": false,
+      "retained_end_character": 678,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 195,
+      "title": "Куджо",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 711,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 196,
+      "title": "Долгая прогулка",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 738,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 197,
+      "title": "Война и мир",
+      "tokens": 182,
+      "truncated": false,
+      "retained_end_character": 711,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 198,
+      "title": "Умрет первым",
+      "tokens": 230,
+      "truncated": false,
+      "retained_end_character": 803,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 199,
+      "title": "Унесенные ветром",
+      "tokens": 235,
+      "truncated": false,
+      "retained_end_character": 738,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 200,
+      "title": "Ячейка",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 743,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 201,
+      "title": "Мужчина, который принял жену за шляпу",
+      "tokens": 212,
+      "truncated": false,
+      "retained_end_character": 835,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 202,
+      "title": "Марсианские хроники",
+      "tokens": 188,
+      "truncated": false,
+      "retained_end_character": 665,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 203,
+      "title": "Американа",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 680,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 204,
+      "title": "Мастер и Маргарита",
+      "tokens": 169,
+      "truncated": false,
+      "retained_end_character": 541,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 205,
+      "title": "Именинница",
+      "tokens": 191,
+      "truncated": false,
+      "retained_end_character": 689,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 206,
+      "title": "Элита",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 720,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 207,
+      "title": "Скелет экипажа",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 718,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 208,
+      "title": "Имя розы",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 775,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 209,
+      "title": "Пятьдесят оттенков свободы",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 748,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 210,
+      "title": "Потерянный рай",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 641,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 211,
+      "title": "По ком звонит колокол",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 728,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 212,
+      "title": "Атлант расправил плечи",
+      "tokens": 233,
+      "truncated": false,
+      "retained_end_character": 837,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 213,
+      "title": "2001 г.",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 719,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 214,
+      "title": "Улисс",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 658,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 215,
+      "title": "Комната Джованни",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 668,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 216,
+      "title": "Идиот",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 682,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 217,
+      "title": "Милые кости",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 655,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 218,
+      "title": "Приключения Робинзона Крузо",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 740,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 219,
+      "title": "Ночная смена",
+      "tokens": 184,
+      "truncated": false,
+      "retained_end_character": 624,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 220,
+      "title": "Юлий Цезарь",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 748,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 221,
+      "title": "Обитатели холмов",
+      "tokens": 185,
+      "truncated": false,
+      "retained_end_character": 636,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 222,
+      "title": "Нужные вещи",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 678,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 223,
+      "title": "Искупление",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 697,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 224,
+      "title": "Инферно",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 683,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 225,
+      "title": "Гиперион",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 676,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 226,
+      "title": "Левая рука тьмы",
+      "tokens": 184,
+      "truncated": false,
+      "retained_end_character": 687,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 227,
+      "title": "Мёртвая зона",
+      "tokens": 186,
+      "truncated": false,
+      "retained_end_character": 729,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 228,
+      "title": "Точка обмана",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 709,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 229,
+      "title": "Бессердечная",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 680,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 230,
+      "title": "Девушка с татуировкой дракона",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 708,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 231,
+      "title": "Дзен и искусство обслуживания мотоциклов",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 725,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 232,
+      "title": "Мистер Мерседес",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 726,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 233,
+      "title": "Эпоха невинности",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 706,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 234,
+      "title": "Сатанинская библия",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 743,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 235,
+      "title": "Мост в Терабитию",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 670,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 236,
+      "title": "Затерянный мир",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 739,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 237,
+      "title": "Зазеркалье",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 689,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 238,
+      "title": "Полная темнота, без звезд",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 646,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 239,
+      "title": "Волки Кальи",
+      "tokens": 212,
+      "truncated": false,
+      "retained_end_character": 704,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 240,
+      "title": "Пир стервятников",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 678,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 241,
+      "title": "Винни-Пух",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 621,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 242,
+      "title": "Замок Дас",
+      "tokens": 194,
+      "truncated": false,
+      "retained_end_character": 690,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 243,
+      "title": "Час ведьмовства",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 712,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 244,
+      "title": "Кристина",
+      "tokens": 189,
+      "truncated": false,
+      "retained_end_character": 649,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 245,
+      "title": "Дом духа",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 765,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 246,
+      "title": "Кандид",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 665,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 247,
+      "title": "Академия и Империя",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 727,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 248,
+      "title": "Половина желтого солнца",
+      "tokens": 185,
+      "truncated": false,
+      "retained_end_character": 723,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 249,
+      "title": "Хроника объявленной смерти",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 761,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 250,
+      "title": "Поджигатель",
+      "tokens": 166,
+      "truncated": false,
+      "retained_end_character": 615,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 251,
+      "title": "Божественная комедия",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 695,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 252,
+      "title": "Буря мечей",
+      "tokens": 192,
+      "truncated": false,
+      "retained_end_character": 674,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 253,
+      "title": "Двадцать тысячь лье под водой",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 780,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 254,
+      "title": "Кто будет плакать, когда ты умрешь?",
+      "tokens": 193,
+      "truncated": false,
+      "retained_end_character": 722,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 255,
+      "title": "Белый Клык",
+      "tokens": 189,
+      "truncated": false,
+      "retained_end_character": 652,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 256,
+      "title": "Игра Джеральда",
+      "tokens": 191,
+      "truncated": false,
+      "retained_end_character": 627,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 257,
+      "title": "Колыбель для кошки",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 744,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 258,
+      "title": "Мешок с костями",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 654,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 259,
+      "title": "И восходит солнце",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 720,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 260,
+      "title": "Жена путешественника во времени",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 738,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 261,
+      "title": "Не бойся зла",
+      "tokens": 192,
+      "truncated": false,
+      "retained_end_character": 681,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 262,
+      "title": "Уолден",
+      "tokens": 186,
+      "truncated": false,
+      "retained_end_character": 722,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 263,
+      "title": "Одинокий голубь",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 691,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 264,
+      "title": "Независимая легкость бытия",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 794,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 265,
+      "title": "Пришёл паук",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 692,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 266,
+      "title": "О происхождении видов путем естественного отбора",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 801,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 267,
+      "title": "Космос",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 719,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 268,
+      "title": "Бесплодные земли",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 670,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 269,
+      "title": "Отелло",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 634,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 270,
+      "title": "Признания",
+      "tokens": 189,
+      "truncated": false,
+      "retained_end_character": 707,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 271,
+      "title": "Над кукушкиным гнездом",
+      "tokens": 226,
+      "truncated": false,
+      "retained_end_character": 807,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 272,
+      "title": "Извлечение троих",
+      "tokens": 193,
+      "truncated": false,
+      "retained_end_character": 700,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 273,
+      "title": "Сказка о Десперо",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 639,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 274,
+      "title": "Тайна синего поезда",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 711,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 275,
+      "title": "Взлет и падение Третьего Рейха",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 792,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 276,
+      "title": "Доктор Сон",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 745,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 277,
+      "title": "Венецианский купец",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 648,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 278,
+      "title": "Дублинцы",
+      "tokens": 192,
+      "truncated": false,
+      "retained_end_character": 709,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 279,
+      "title": "Госпожа Бовари",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 669,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 280,
+      "title": "Книга джунглей",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 632,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 281,
+      "title": "Ворон",
+      "tokens": 180,
+      "truncated": false,
+      "retained_end_character": 615,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 282,
+      "title": "Острые предметы",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 738,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 283,
+      "title": "Автобиография",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 741,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 284,
+      "title": "Худеющий",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 648,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 285,
+      "title": "Четыре сезона",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 703,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 286,
+      "title": "«Вы, конечно, шутите, мистер Фейнман»",
+      "tokens": 223,
+      "truncated": false,
+      "retained_end_character": 782,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 287,
+      "title": "Танец смерти",
+      "tokens": 193,
+      "truncated": false,
+      "retained_end_character": 737,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 288,
+      "title": "Вторая мировая война",
+      "tokens": 194,
+      "truncated": false,
+      "retained_end_character": 803,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 289,
+      "title": "Глаза Дракона",
+      "tokens": 224,
+      "truncated": false,
+      "retained_end_character": 723,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 290,
+      "title": "Знак четырех",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 701,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 291,
+      "title": "Артемис Фаул",
+      "tokens": 192,
+      "truncated": false,
+      "retained_end_character": 733,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 292,
+      "title": "Морт",
+      "tokens": 183,
+      "truncated": false,
+      "retained_end_character": 646,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 293,
+      "title": "Рамаяна, Святая Библия Индии",
+      "tokens": 230,
+      "truncated": false,
+      "retained_end_character": 738,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 294,
+      "title": "Девочка, которая любила Тома Гордона",
+      "tokens": 234,
+      "truncated": false,
+      "retained_end_character": 743,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 295,
+      "title": "Четыре часа ночи",
+      "tokens": 212,
+      "truncated": false,
+      "retained_end_character": 729,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 296,
+      "title": "Чарли и большой стеклянный фуникулёр",
+      "tokens": 191,
+      "truncated": false,
+      "retained_end_character": 691,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 297,
+      "title": "Это твой человек",
+      "tokens": 194,
+      "truncated": false,
+      "retained_end_character": 729,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 298,
+      "title": "Так говорил Заратустра",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 725,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 299,
+      "title": "Начала",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 699,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 300,
+      "title": "Дети полуночи",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 724,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 301,
+      "title": "Степной волк",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 725,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 302,
+      "title": "Я — Малала",
+      "tokens": 179,
+      "truncated": false,
+      "retained_end_character": 664,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 303,
+      "title": "Цифровая крепость",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 770,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 304,
+      "title": "Большая магия",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 750,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 305,
+      "title": "Убийство на улице Морг",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 712,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 306,
+      "title": "Толкование сновидений",
+      "tokens": 223,
+      "truncated": false,
+      "retained_end_character": 862,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 307,
+      "title": "Брисингр",
+      "tokens": 223,
+      "truncated": false,
+      "retained_end_character": 728,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 308,
+      "title": "Нигде",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 631,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 309,
+      "title": "Нортенгерское аббатство",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 716,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 310,
+      "title": "Розовая марена",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 679,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 311,
+      "title": "Чудесный нож роман",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 680,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 312,
+      "title": "Метаморфозы",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 657,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 313,
+      "title": "Прах Анжелы",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 680,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 314,
+      "title": "Колдун и кристалл",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 667,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 315,
+      "title": "Мемуары гейши",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 696,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 316,
+      "title": "Приключение Пиноккио",
+      "tokens": 214,
+      "truncated": false,
+      "retained_end_character": 683,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 317,
+      "title": "Маленький домик в большом лесу",
+      "tokens": 214,
+      "truncated": false,
+      "retained_end_character": 699,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 318,
+      "title": "Кентерберийские рассказы",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 720,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 319,
+      "title": "Фантастические звери и где их найти",
+      "tokens": 239,
+      "truncated": false,
+      "retained_end_character": 838,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 320,
+      "title": "Стихи Эмили Дикинсон, том II",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 741,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 321,
+      "title": "Тошнота",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 720,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 322,
+      "title": "Стража! Стража!",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 683,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 323,
+      "title": "В воздухе",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 707,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 324,
+      "title": "Фауст",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 665,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 325,
+      "title": "Хижина дяди Тома",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 696,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 326,
+      "title": "Солярис",
+      "tokens": 188,
+      "truncated": false,
+      "retained_end_character": 711,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 327,
+      "title": "1Q84",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 700,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 328,
+      "title": "История болезни Шерлока Холмса",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 751,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 329,
+      "title": "Фирма",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 709,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 330,
+      "title": "Всё возможно. 14 темных историй",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 739,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 331,
+      "title": "Сердца в Атлантиде",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 677,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 332,
+      "title": "О природе вещей",
+      "tokens": 183,
+      "truncated": false,
+      "retained_end_character": 688,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 333,
+      "title": "Челюсти",
+      "tokens": 184,
+      "truncated": false,
+      "retained_end_character": 667,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 334,
+      "title": "Бесконечная история",
+      "tokens": 190,
+      "truncated": false,
+      "retained_end_character": 661,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 335,
+      "title": "Дэвид Копперфильд",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 690,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 336,
+      "title": "Стоунер",
+      "tokens": 194,
+      "truncated": false,
+      "retained_end_character": 690,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 337,
+      "title": "Семь духовных законов успеха",
+      "tokens": 192,
+      "truncated": false,
+      "retained_end_character": 752,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 338,
+      "title": "Старикам здесь не место",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 683,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 339,
+      "title": "Вегетарианка",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 718,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 340,
+      "title": "Дельта Венеры",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 723,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 341,
+      "title": "Ученик убийцы",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 652,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 342,
+      "title": "Осколок кристалла",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 679,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 343,
+      "title": "Создатель дождя",
+      "tokens": 188,
+      "truncated": false,
+      "retained_end_character": 762,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 344,
+      "title": "Король Лир",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 624,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 345,
+      "title": "Момо",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 756,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 346,
+      "title": "Сказки Барда Бидля",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 639,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 347,
+      "title": "Охота за Красным Октябрем",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 726,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 348,
+      "title": "После заката",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 706,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 349,
+      "title": "Пеппи Длинныйчулок",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 662,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 350,
+      "title": "Лунный камень",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 728,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 351,
+      "title": "Женщина в белом",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 663,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 352,
+      "title": "Как выработать уверенность в себе и влиять на людей, выступая публично",
+      "tokens": 238,
+      "truncated": false,
+      "retained_end_character": 934,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 353,
+      "title": "Дневник Бриджит Джонс",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 715,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 354,
+      "title": "Ловец снов",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 691,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 355,
+      "title": "Время убивать",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 665,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 356,
+      "title": "Принц и нищий",
+      "tokens": 193,
+      "truncated": false,
+      "retained_end_character": 688,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 357,
+      "title": "История Лизи",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 687,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 358,
+      "title": "Шпион, пришедший с холода",
+      "tokens": 212,
+      "truncated": false,
+      "retained_end_character": 763,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 359,
+      "title": "Танец в эфире",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 687,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 360,
+      "title": "Файлы полубогов",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 701,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 361,
+      "title": "Мальчик",
+      "tokens": 183,
+      "truncated": false,
+      "retained_end_character": 672,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 362,
+      "title": "Облачный атлас",
+      "tokens": 192,
+      "truncated": false,
+      "retained_end_character": 720,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 363,
+      "title": "Ночь нежна",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 706,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 364,
+      "title": "Собор Парижской Богоматери",
+      "tokens": 232,
+      "truncated": false,
+      "retained_end_character": 725,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 365,
+      "title": "Сонеты",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 676,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 366,
+      "title": "Пятеро, что ждут тебя на небесах",
+      "tokens": 194,
+      "truncated": false,
+      "retained_end_character": 692,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 367,
+      "title": "Принцесса Марса",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 710,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 368,
+      "title": "В Бруклине растёт дерево",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 690,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 369,
+      "title": "Янтарный телескоп",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 681,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 370,
+      "title": "Остатки дня",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 744,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 371,
+      "title": "Гэндзи моногатари",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 697,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 372,
+      "title": "Стюарт Литтл",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 601,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 373,
+      "title": "Мы",
+      "tokens": 184,
+      "truncated": false,
+      "retained_end_character": 660,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 374,
+      "title": "Трое мушкетеров",
+      "tokens": 233,
+      "truncated": false,
+      "retained_end_character": 707,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 375,
+      "title": "Серый",
+      "tokens": 186,
+      "truncated": false,
+      "retained_end_character": 712,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 376,
+      "title": "Фантастический свет",
+      "tokens": 190,
+      "truncated": false,
+      "retained_end_character": 699,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 377,
+      "title": "Надвигающаяся красная буря",
+      "tokens": 187,
+      "truncated": false,
+      "retained_end_character": 742,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 378,
+      "title": "Отчаяние",
+      "tokens": 189,
+      "truncated": false,
+      "retained_end_character": 649,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 379,
+      "title": "Чернильное сердце",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 649,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 380,
+      "title": "Комната на метле",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 631,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 381,
+      "title": "И горы отозвались эхом",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 718,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 382,
+      "title": "Орикс и Коростель",
+      "tokens": 220,
+      "truncated": false,
+      "retained_end_character": 747,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 383,
+      "title": "Лама Лама Красная пижама",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 649,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 384,
+      "title": "Сказки",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 697,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 385,
+      "title": "Миддлмарч",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 714,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 386,
+      "title": "Песня Сусанны",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 668,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 387,
+      "title": "Игра в классики",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 683,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 388,
+      "title": "Убийство в доме священника",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 739,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 389,
+      "title": "Игра в бисер",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 705,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 390,
+      "title": "Трое мужчин в лодке (не говоря уже о собаке)",
+      "tokens": 229,
+      "truncated": false,
+      "retained_end_character": 759,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 391,
+      "title": "Легенда о Сонной Лощине",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 659,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 392,
+      "title": "Открытие Индии",
+      "tokens": 193,
+      "truncated": false,
+      "retained_end_character": 761,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 393,
+      "title": "Между смертью и жизнью",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 755,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 394,
+      "title": "Земля людей",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 684,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 395,
+      "title": "Буря века",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 659,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 396,
+      "title": "Женщины",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 731,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 397,
+      "title": "Тайна Красного дома",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 777,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 398,
+      "title": "Миф о красоте: как изображения красоты используются против женщин",
+      "tokens": 224,
+      "truncated": false,
+      "retained_end_character": 860,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 399,
+      "title": "Посвящение Каталонии",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 727,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 400,
+      "title": "Снег падает на кедры",
+      "tokens": 226,
+      "truncated": false,
+      "retained_end_character": 735,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 401,
+      "title": "Томминокеры",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 773,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 402,
+      "title": "Искусство быть счастливым",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 774,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 403,
+      "title": "Пендоло ди Фуко",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 708,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 404,
+      "title": "Ложь Локка Ламоры",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 656,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 405,
+      "title": "Артемис Фаул и код вечности",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 766,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 406,
+      "title": "Архипелаг ГУЛАГ",
+      "tokens": 214,
+      "truncated": false,
+      "retained_end_character": 777,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 407,
+      "title": "Утопия",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 794,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 408,
+      "title": "Голый обед",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 752,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 409,
+      "title": "Бесы",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 759,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 410,
+      "title": "Любовник леди Чаттерлей",
+      "tokens": 223,
+      "truncated": false,
+      "retained_end_character": 783,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 411,
+      "title": "Маленькие боги",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 696,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 412,
+      "title": "Трейнспоттинг",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 678,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 413,
+      "title": "Говорящий за мертвых",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 733,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 414,
+      "title": "Смелость надежды",
+      "tokens": 186,
+      "truncated": false,
+      "retained_end_character": 802,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 415,
+      "title": "Классическая сказка о бархатном кролике",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 702,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 416,
+      "title": "Если наступит завтра",
+      "tokens": 214,
+      "truncated": false,
+      "retained_end_character": 732,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 417,
+      "title": "4:50 из Паддингтона",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 684,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 418,
+      "title": "Антоний и Клеопатра",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 663,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 419,
+      "title": "Эйнштейн. Его жизнь и его Вселенная",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 747,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 420,
+      "title": "Пикник на обочине",
+      "tokens": 220,
+      "truncated": false,
+      "retained_end_character": 722,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 421,
+      "title": "В поисках утраченного времени",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 762,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 422,
+      "title": "Хроники Заводной Птицы",
+      "tokens": 237,
+      "truncated": false,
+      "retained_end_character": 788,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 423,
+      "title": "Смерть Ивана Ильича",
+      "tokens": 189,
+      "truncated": false,
+      "retained_end_character": 682,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 424,
+      "title": "Двенадцатая ночь, или что хотите",
+      "tokens": 259,
+      "truncated": false,
+      "retained_end_character": 792,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 425,
+      "title": "Тропик Рака",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 745,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 426,
+      "title": "JavaScript. Подробное руководство",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 825,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 427,
+      "title": "Портрет художника в молодости",
+      "tokens": 193,
+      "truncated": false,
+      "retained_end_character": 753,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 428,
+      "title": "Коллапс",
+      "tokens": 189,
+      "truncated": false,
+      "retained_end_character": 731,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 429,
+      "title": "Сестры Вирд",
+      "tokens": 236,
+      "truncated": false,
+      "retained_end_character": 735,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 430,
+      "title": "Метро 2033",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 711,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 431,
+      "title": "Копи царя Соломона",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 728,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 432,
+      "title": "Долорес Клейборн",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 691,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 433,
+      "title": "Чудесное путешествие Эдварда Тулейна",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 710,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 434,
+      "title": "Эйхман в Иерусалиме",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 757,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 435,
+      "title": "Большая маленькая ложь",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 707,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 436,
+      "title": "Джек Ричер, или Ловушка",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 684,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 437,
+      "title": "Завтрак у Тиффани",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 669,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 438,
+      "title": "Очарованный кровью",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 683,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 439,
+      "title": "Дер Зауберберг",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 670,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 440,
+      "title": "Кошмары и пейзажи снов",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 729,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 441,
+      "title": "Клиент",
+      "tokens": 191,
+      "truncated": false,
+      "retained_end_character": 719,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 442,
+      "title": "Зеркало треснуло из стороны в сторону",
+      "tokens": 223,
+      "truncated": false,
+      "retained_end_character": 740,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 443,
+      "title": "Временная шкала",
+      "tokens": 186,
+      "truncated": false,
+      "retained_end_character": 747,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 444,
+      "title": "Король прошлого и будущего",
+      "tokens": 219,
+      "truncated": false,
+      "retained_end_character": 758,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 445,
+      "title": "Приливы",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 682,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 446,
+      "title": "Зло под солнцем",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 687,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 447,
+      "title": "Джек Ричер, или выстрел",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 743,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 448,
+      "title": "Папийон",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 647,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 449,
+      "title": "Умер лорд Эджвер",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 662,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 450,
+      "title": "Эль Амо дель Хуэго/Мастера игры",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 713,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 451,
+      "title": "Завтрак чемпионов",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 751,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 452,
+      "title": "История западной философии",
+      "tokens": 187,
+      "truncated": false,
+      "retained_end_character": 793,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 453,
+      "title": "Равные обряды",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 719,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 454,
+      "title": "День триффидов",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 720,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 455,
+      "title": "Слепой убийца",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 707,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 456,
+      "title": "Рассказы",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 663,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 457,
+      "title": "Что, если это мы",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 715,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 458,
+      "title": "Арс Аматория",
+      "tokens": 219,
+      "truncated": false,
+      "retained_end_character": 733,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 459,
+      "title": "Она же грейс",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 729,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 460,
+      "title": "Критика психоанализа",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 799,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 461,
+      "title": "Декамерон",
+      "tokens": 194,
+      "truncated": false,
+      "retained_end_character": 667,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 462,
+      "title": "Цветы Зла",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 640,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 463,
+      "title": "Фантомы",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 728,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 464,
+      "title": "Талантливый мистер Рипли",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 690,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 465,
+      "title": "Последний из Могикан",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 752,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 466,
+      "title": "Позор",
+      "tokens": 193,
+      "truncated": false,
+      "retained_end_character": 693,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 467,
+      "title": "Секс в большом городе",
+      "tokens": 193,
+      "truncated": false,
+      "retained_end_character": 745,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 468,
+      "title": "Полночь в саду добра и зла",
+      "tokens": 223,
+      "truncated": false,
+      "retained_end_character": 765,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 469,
+      "title": "Темная половина",
+      "tokens": 212,
+      "truncated": false,
+      "retained_end_character": 722,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 470,
+      "title": "Вино из одуванчиков",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 694,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 471,
+      "title": "Казино Рояль",
+      "tokens": 185,
+      "truncated": false,
+      "retained_end_character": 658,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 472,
+      "title": "Остров проклятых",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 706,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 473,
+      "title": "Ночная тьма",
+      "tokens": 190,
+      "truncated": false,
+      "retained_end_character": 671,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 474,
+      "title": "Звук и ярость",
+      "tokens": 214,
+      "truncated": false,
+      "retained_end_character": 712,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 475,
+      "title": "Комната",
+      "tokens": 190,
+      "truncated": false,
+      "retained_end_character": 655,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 476,
+      "title": "Величайший продавец в мире",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 669,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 477,
+      "title": "Человек-Жнец",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 691,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 478,
+      "title": "Бунтующий человек",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 719,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 479,
+      "title": "Дикая",
+      "tokens": 190,
+      "truncated": false,
+      "retained_end_character": 656,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 480,
+      "title": "Доброе утро, печаль",
+      "tokens": 228,
+      "truncated": false,
+      "retained_end_character": 718,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 481,
+      "title": "Психологический тип",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 806,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 482,
+      "title": "Наблюдатели",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 721,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 483,
+      "title": "Если есть шипы",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 679,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 484,
+      "title": "Комната рептилий",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 695,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 485,
+      "title": "Исследование истории",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 838,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 486,
+      "title": "Цена ее жизни",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 652,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 487,
+      "title": "Бэмби",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 703,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 488,
+      "title": "Уитни, любовь моя",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 698,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 489,
+      "title": "Всего доброго и спасибо за рыбу",
+      "tokens": 223,
+      "truncated": false,
+      "retained_end_character": 804,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 490,
+      "title": "Айвенго",
+      "tokens": 235,
+      "truncated": false,
+      "retained_end_character": 677,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 491,
+      "title": "Укрощение строптивой",
+      "tokens": 212,
+      "truncated": false,
+      "retained_end_character": 691,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 492,
+      "title": "Голос на ветру",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 676,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 493,
+      "title": "Скрытые богатства",
+      "tokens": 212,
+      "truncated": false,
+      "retained_end_character": 715,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 494,
+      "title": "Дело о пеликанах",
+      "tokens": 228,
+      "truncated": false,
+      "retained_end_character": 817,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 495,
+      "title": "Чудесная страна Оз",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 699,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 496,
+      "title": "Замок Отранто",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 702,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 497,
+      "title": "Еретики Дюны",
+      "tokens": 220,
+      "truncated": false,
+      "retained_end_character": 694,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 498,
+      "title": "От Бьюика 8",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 721,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 499,
+      "title": "Капитан Подштанник и ужасные унитазы-убийцы",
+      "tokens": 223,
+      "truncated": false,
+      "retained_end_character": 769,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 500,
+      "title": "Широкое окно",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 679,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 501,
+      "title": "Поющие в терновнике",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 688,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 502,
+      "title": "Книга о табу на знание о том, кто ты есть",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 794,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 503,
+      "title": "Королевство мечты",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 751,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 504,
+      "title": "Чье тело?",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 740,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 505,
+      "title": "Умы Билли Миллигана",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 783,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 506,
+      "title": "Сбежавшее жюри",
+      "tokens": 237,
+      "truncated": false,
+      "retained_end_character": 784,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 507,
+      "title": "Возрождение",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 715,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 508,
+      "title": "Форрест Гамп",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 736,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 509,
+      "title": "Санта-Хрякус",
+      "tokens": 229,
+      "truncated": false,
+      "retained_end_character": 756,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 510,
+      "title": "Чтец",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 734,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 511,
+      "title": "Первые люди на Луне",
+      "tokens": 234,
+      "truncated": false,
+      "retained_end_character": 809,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 512,
+      "title": "Кошки-мышки",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 715,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 513,
+      "title": "Поллианна",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 735,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 514,
+      "title": "Прекрасный разум",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 744,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 515,
+      "title": "Мать Ночь",
+      "tokens": 191,
+      "truncated": false,
+      "retained_end_character": 753,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 516,
+      "title": "Почтовое отделение",
+      "tokens": 228,
+      "truncated": false,
+      "retained_end_character": 813,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 517,
+      "title": "Сплошные проблемы и неприятности",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 798,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 518,
+      "title": "Жареные зелёные помидоры в кафе «Полустанок»",
+      "tokens": 262,
+      "truncated": false,
+      "retained_end_character": 782,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 519,
+      "title": "Брида",
+      "tokens": 189,
+      "truncated": false,
+      "retained_end_character": 652,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 520,
+      "title": "Источники",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 737,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 521,
+      "title": "Диана, ее правдивая история",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 826,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 522,
+      "title": "Здесь этого не может быть",
+      "tokens": 231,
+      "truncated": false,
+      "retained_end_character": 804,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 523,
+      "title": "Ворчливая божья коровка",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 738,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 524,
+      "title": "Сирены Титана",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 774,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 525,
+      "title": "Муж",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 736,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 526,
+      "title": "Уступите дорогу утятам",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 723,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 527,
+      "title": "Тень Эндера",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 715,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 528,
+      "title": "Палата",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 730,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 529,
+      "title": "Штормовой остров",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 769,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 530,
+      "title": "Доктор Живаго",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 777,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 531,
+      "title": "Обнаженная после смерти",
+      "tokens": 191,
+      "truncated": false,
+      "retained_end_character": 709,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 532,
+      "title": "Красный кролик",
+      "tokens": 214,
+      "truncated": false,
+      "retained_end_character": 764,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 533,
+      "title": "Все красивые лошади",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 727,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 534,
+      "title": "История Рима от основания города",
+      "tokens": 236,
+      "truncated": false,
+      "retained_end_character": 787,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 535,
+      "title": "Планета Обезьян",
+      "tokens": 247,
+      "truncated": false,
+      "retained_end_character": 835,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 536,
+      "title": "Роботы рассвета",
+      "tokens": 242,
+      "truncated": false,
+      "retained_end_character": 819,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 537,
+      "title": "Пианино",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 759,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 538,
+      "title": "Заклинание для Хамелеона",
+      "tokens": 226,
+      "truncated": false,
+      "retained_end_character": 762,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 539,
+      "title": "Пирамиды",
+      "tokens": 224,
+      "truncated": false,
+      "retained_end_character": 757,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 540,
+      "title": "Лес тайн",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 789,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 541,
+      "title": "Уличный адвокат",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 766,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 542,
+      "title": "Исход",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 737,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 543,
+      "title": "Звёздные Войны. Траун",
+      "tokens": 241,
+      "truncated": false,
+      "retained_end_character": 761,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 544,
+      "title": "Коллекционер",
+      "tokens": 219,
+      "truncated": false,
+      "retained_end_character": 764,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 545,
+      "title": "Завет",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 773,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 546,
+      "title": "Дюна",
+      "tokens": 193,
+      "truncated": false,
+      "retained_end_character": 642,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 547,
+      "title": "Смёрч Мяста",
+      "tokens": 235,
+      "truncated": false,
+      "retained_end_character": 781,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 548,
+      "title": "Перекресток сумерек",
+      "tokens": 236,
+      "truncated": false,
+      "retained_end_character": 745,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 549,
+      "title": "Плач лота 49",
+      "tokens": 229,
+      "truncated": false,
+      "retained_end_character": 788,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 550,
+      "title": "Сумма всех страхов",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 816,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 551,
+      "title": "Критика чистого разума",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 791,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 552,
+      "title": "Котик Петенька и его четыре чудесные пуговки",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 788,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 553,
+      "title": "Несчастная мельница",
+      "tokens": 232,
+      "truncated": false,
+      "retained_end_character": 754,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 554,
+      "title": "Красный знак мужества",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 739,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 555,
+      "title": "Приключения Тома Сойера / Приключения Гекльберри Финна",
+      "tokens": 240,
+      "truncated": false,
+      "retained_end_character": 819,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 556,
+      "title": "Тесс из рода д'Эрбервиллей",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 718,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 557,
+      "title": "Путешествие на край ночи",
+      "tokens": 237,
+      "truncated": false,
+      "retained_end_character": 837,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 558,
+      "title": "На берегу",
+      "tokens": 189,
+      "truncated": false,
+      "retained_end_character": 756,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 559,
+      "title": "Ведьмы за рубежом",
+      "tokens": 224,
+      "truncated": false,
+      "retained_end_character": 702,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 560,
+      "title": "Служитель Годо",
+      "tokens": 224,
+      "truncated": false,
+      "retained_end_character": 751,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 561,
+      "title": "Закройте ей лицо",
+      "tokens": 223,
+      "truncated": false,
+      "retained_end_character": 755,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 562,
+      "title": "Земляне",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 747,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 563,
+      "title": "Ночная стража",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 756,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 564,
+      "title": "Идеальный парень",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 800,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 565,
+      "title": "Один раз и всегда",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 796,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 566,
+      "title": "Интересные времена",
+      "tokens": 231,
+      "truncated": false,
+      "retained_end_character": 716,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 567,
+      "title": "Бремя страстей человеческих",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 803,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 568,
+      "title": "Кухня",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 710,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 569,
+      "title": "Партнер",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 727,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 570,
+      "title": "Роботы и империя",
+      "tokens": 231,
+      "truncated": false,
+      "retained_end_character": 810,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 571,
+      "title": "Переслать Фонд",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 823,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 572,
+      "title": "Детеныш Дьявола (Аластер-Одли #2)",
+      "tokens": 257,
+      "truncated": false,
+      "retained_end_character": 801,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 573,
+      "title": "Си Ю Цзи",
+      "tokens": 231,
+      "truncated": false,
+      "retained_end_character": 747,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 574,
+      "title": "Рубин",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 706,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 575,
+      "title": "Послемрак",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 734,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 576,
+      "title": "Сравнительные жизнеописания",
+      "tokens": 224,
+      "truncated": false,
+      "retained_end_character": 810,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 577,
+      "title": "Ученик Ведьмака",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 771,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 578,
+      "title": "До мозга костей",
+      "tokens": 194,
+      "truncated": false,
+      "retained_end_character": 734,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 579,
+      "title": "Что-то чудесное",
+      "tokens": 229,
+      "truncated": false,
+      "retained_end_character": 780,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 580,
+      "title": "Дитя Груффало",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 706,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 581,
+      "title": "Рожденный в огне",
+      "tokens": 224,
+      "truncated": false,
+      "retained_end_character": 740,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 582,
+      "title": "Тихий американец",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 713,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 583,
+      "title": "Янки из Коннектикута при дворе короля Артура",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 804,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 584,
+      "title": "Я легенда",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 772,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 585,
+      "title": "Парень из Колорадо",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 778,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 586,
+      "title": "Строгая Академия",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 746,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 587,
+      "title": "Рассечение Стоуна",
+      "tokens": 232,
+      "truncated": false,
+      "retained_end_character": 756,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 588,
+      "title": "Хирург",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 767,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 589,
+      "title": "Очень занятой паук",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 725,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 590,
+      "title": "Занавес",
+      "tokens": 233,
+      "truncated": false,
+      "retained_end_character": 763,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 591,
+      "title": "Полуплохой",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 721,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 592,
+      "title": "Мартин Иден",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 734,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 593,
+      "title": "Морские феи",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 733,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 594,
+      "title": "Эти старые оттенки",
+      "tokens": 233,
+      "truncated": false,
+      "retained_end_character": 758,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 595,
+      "title": "Сказки матушки Гусыни",
+      "tokens": 233,
+      "truncated": false,
+      "retained_end_character": 837,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 596,
+      "title": "Воспоминания Адриана",
+      "tokens": 223,
+      "truncated": false,
+      "retained_end_character": 787,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 597,
+      "title": "Темная ведьма",
+      "tokens": 220,
+      "truncated": false,
+      "retained_end_character": 696,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 598,
+      "title": "Зов кукушки",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 749,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 599,
+      "title": "Путешествие с Чарли",
+      "tokens": 223,
+      "truncated": false,
+      "retained_end_character": 787,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 600,
+      "title": "Моя Антония",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 729,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 601,
+      "title": "Образ города",
+      "tokens": 232,
+      "truncated": false,
+      "retained_end_character": 803,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 602,
+      "title": "Где дети?",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 740,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 603,
+      "title": "Путеводитель по науке для умного человека",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 815,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 604,
+      "title": "Мэри Поппинс",
+      "tokens": 226,
+      "truncated": false,
+      "retained_end_character": 705,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 605,
+      "title": "Игрокъ",
+      "tokens": 189,
+      "truncated": false,
+      "retained_end_character": 725,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 606,
+      "title": "На берегу Плам-Крик",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 738,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 607,
+      "title": "Дверь в лето",
+      "tokens": 220,
+      "truncated": false,
+      "retained_end_character": 820,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 608,
+      "title": "Медведь и Дракон (Романы Джека Райана)",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 866,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 609,
+      "title": "Тайна Ситтафорда",
+      "tokens": 230,
+      "truncated": false,
+      "retained_end_character": 789,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 610,
+      "title": "Порт приписки",
+      "tokens": 223,
+      "truncated": false,
+      "retained_end_character": 804,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 611,
+      "title": "Маленькие птички",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 752,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 612,
+      "title": "Движущийся палец",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 733,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 613,
+      "title": "Пространство Откровения",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 864,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 614,
+      "title": "Женское детективное агентство №1",
+      "tokens": 231,
+      "truncated": false,
+      "retained_end_character": 829,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 615,
+      "title": "Мальчики в лодке",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 819,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 616,
+      "title": "Воспоминания, сновидения, размышления",
+      "tokens": 234,
+      "truncated": false,
+      "retained_end_character": 813,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 617,
+      "title": "Энеида",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 717,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 618,
+      "title": "Слава в смерти",
+      "tokens": 220,
+      "truncated": false,
+      "retained_end_character": 790,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 619,
+      "title": "Жажда жизни",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 741,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 620,
+      "title": "Охота на овец",
+      "tokens": 234,
+      "truncated": false,
+      "retained_end_character": 757,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 621,
+      "title": "Слепой часовщик",
+      "tokens": 187,
+      "truncated": false,
+      "retained_end_character": 746,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 622,
+      "title": "Бесцветный Цкуру Тадзаки и годы его странствий",
+      "tokens": 241,
+      "truncated": false,
+      "retained_end_character": 804,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 623,
+      "title": "Румяна и черный цвет",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 742,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 624,
+      "title": "Волхв",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 768,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 625,
+      "title": "Больше не плачь, моя леди",
+      "tokens": 249,
+      "truncated": false,
+      "retained_end_character": 811,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 626,
+      "title": "День Шакала",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 785,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 627,
+      "title": "Конец реки",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 739,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 628,
+      "title": "Раскрашенный дом",
+      "tokens": 220,
+      "truncated": false,
+      "retained_end_character": 746,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 629,
+      "title": "Очень громко и невероятно близко",
+      "tokens": 223,
+      "truncated": false,
+      "retained_end_character": 740,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 630,
+      "title": "Монтана Скай",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 709,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 631,
+      "title": "С головы до пят",
+      "tokens": 187,
+      "truncated": false,
+      "retained_end_character": 713,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 632,
+      "title": "Полярный экспресс",
+      "tokens": 224,
+      "truncated": false,
+      "retained_end_character": 781,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 633,
+      "title": "Мой любимый Спутник",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 740,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 634,
+      "title": "Общая химия",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 797,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 635,
+      "title": "Захир",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 765,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 636,
+      "title": "Учение Дона Хуана",
+      "tokens": 224,
+      "truncated": false,
+      "retained_end_character": 829,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 637,
+      "title": "Рембрандт. Рисунки из Берлинского гравюрного кабинета",
+      "tokens": 244,
+      "truncated": false,
+      "retained_end_character": 863,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 638,
+      "title": "Мерзкая деревня",
+      "tokens": 246,
+      "truncated": false,
+      "retained_end_character": 784,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 639,
+      "title": "Глиняные ноги",
+      "tokens": 224,
+      "truncated": false,
+      "retained_end_character": 775,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 640,
+      "title": "Саломея",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 650,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 641,
+      "title": "Эпоха басен",
+      "tokens": 224,
+      "truncated": false,
+      "retained_end_character": 713,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 642,
+      "title": "Документы Пиквикского клуба",
+      "tokens": 243,
+      "truncated": false,
+      "retained_end_character": 802,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 643,
+      "title": "Коротко о Вселенной",
+      "tokens": 223,
+      "truncated": false,
+      "retained_end_character": 815,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 644,
+      "title": "Соул-музыка",
+      "tokens": 230,
+      "truncated": false,
+      "retained_end_character": 735,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 645,
+      "title": "Бенджамин Франклин",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 852,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 646,
+      "title": "Почти рай",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 766,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 647,
+      "title": "Обещание",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 773,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 648,
+      "title": "Я, Клавдий",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 772,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 649,
+      "title": "К югу от границы, на запад от солнца",
+      "tokens": 240,
+      "truncated": false,
+      "retained_end_character": 781,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 650,
+      "title": "Апелляция",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 791,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 651,
+      "title": "Предпоследняя опасность",
+      "tokens": 236,
+      "truncated": false,
+      "retained_end_character": 776,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 652,
+      "title": "Дети разума",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 787,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 653,
+      "title": "Победа над болью",
+      "tokens": 220,
+      "truncated": false,
+      "retained_end_character": 900,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 654,
+      "title": "Плохое место",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 766,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 655,
+      "title": "Счастливый принц и другие сказки",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 728,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 656,
+      "title": "Один день",
+      "tokens": 214,
+      "truncated": false,
+      "retained_end_character": 758,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 657,
+      "title": "Овердрайв Моны Лизы",
+      "tokens": 228,
+      "truncated": false,
+      "retained_end_character": 823,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 658,
+      "title": "Возвращение в Брайдсхед",
+      "tokens": 248,
+      "truncated": false,
+      "retained_end_character": 782,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 659,
+      "title": "Я посланник",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 760,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 660,
+      "title": "Гарун и море историй",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 740,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 661,
+      "title": "Звёздные Войны. Асока",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 728,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 662,
+      "title": "Нью-Йоркская трилогия",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 767,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 663,
+      "title": "Сета",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 751,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 664,
+      "title": "Конституция США и связанные с ней документы",
+      "tokens": 191,
+      "truncated": false,
+      "retained_end_character": 844,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 665,
+      "title": "Алмазная площадь",
+      "tokens": 178,
+      "truncated": false,
+      "retained_end_character": 686,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 666,
+      "title": "Краткая история быта и частной жизни",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 791,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 667,
+      "title": "Личность Борна",
+      "tokens": 214,
+      "truncated": false,
+      "retained_end_character": 764,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 668,
+      "title": "Скарлетт",
+      "tokens": 239,
+      "truncated": false,
+      "retained_end_character": 795,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 669,
+      "title": "Высокая точность",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 783,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 670,
+      "title": "Полночь",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 732,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 671,
+      "title": "Другая сторона полуночи",
+      "tokens": 212,
+      "truncated": false,
+      "retained_end_character": 735,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 672,
+      "title": "Исправления",
+      "tokens": 228,
+      "truncated": false,
+      "retained_end_character": 826,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 673,
+      "title": "Родословная.",
+      "tokens": 186,
+      "truncated": false,
+      "retained_end_character": 781,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 674,
+      "title": "Каждый день",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 746,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 675,
+      "title": "Съедобная женщина",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 821,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 676,
+      "title": "Американская трагедия",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 784,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 677,
+      "title": "Полный отзыв",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 766,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 678,
+      "title": "Брокер",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 785,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 679,
+      "title": "Наш человек в Гаване",
+      "tokens": 235,
+      "truncated": false,
+      "retained_end_character": 819,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 680,
+      "title": "Мошенник",
+      "tokens": 212,
+      "truncated": false,
+      "retained_end_character": 769,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 681,
+      "title": "Алиенист",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 767,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 682,
+      "title": "Дорожные работы",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 758,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 683,
+      "title": "Наперекор волне",
+      "tokens": 231,
+      "truncated": false,
+      "retained_end_character": 760,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 684,
+      "title": "Мечты роботов",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 779,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 685,
+      "title": "Французский люкс",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 774,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 686,
+      "title": "Опыты",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 746,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 687,
+      "title": "Тайна семи циферблатов",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 728,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 688,
+      "title": "Вызов",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 737,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 689,
+      "title": "Приключения Кавалера и Клея",
+      "tokens": 242,
+      "truncated": false,
+      "retained_end_character": 781,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 690,
+      "title": "Бледный огонь",
+      "tokens": 226,
+      "truncated": false,
+      "retained_end_character": 760,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 691,
+      "title": "Наступить на трещину",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 804,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 692,
+      "title": "Бегство",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 752,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 693,
+      "title": "Перечеркнуто",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 745,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 694,
+      "title": "Головоломка с обезьянами",
+      "tokens": 229,
+      "truncated": false,
+      "retained_end_character": 757,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 695,
+      "title": "Злоключения добродетели",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 789,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 696,
+      "title": "Рубин в дыму (Салли Локхарт #1)",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 763,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 697,
+      "title": "Дневники",
+      "tokens": 219,
+      "truncated": false,
+      "retained_end_character": 824,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 698,
+      "title": "Лицом к огню",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 723,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 699,
+      "title": "Мухаммед",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 796,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 700,
+      "title": "Кентервильское привидение",
+      "tokens": 238,
+      "truncated": false,
+      "retained_end_character": 741,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 701,
+      "title": "Кот-де-Ше Сван",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 787,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 702,
+      "title": "Маскарад",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 693,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 703,
+      "title": "Богатый папа уходит на пенсию молодым, уходит на пенсию богатым",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 907,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 704,
+      "title": "Снежная страна",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 730,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 705,
+      "title": "Ярмарка тщеславия",
+      "tokens": 243,
+      "truncated": false,
+      "retained_end_character": 775,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 706,
+      "title": "Конец одного романа",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 747,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 707,
+      "title": "Голод",
+      "tokens": 228,
+      "truncated": false,
+      "retained_end_character": 799,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 708,
+      "title": "Регуляторы",
+      "tokens": 232,
+      "truncated": false,
+      "retained_end_character": 751,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 709,
+      "title": "ПК для чайников",
+      "tokens": 192,
+      "truncated": false,
+      "retained_end_character": 813,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 710,
+      "title": "Двойные стандарты",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 764,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 711,
+      "title": "Начало бесконечности",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 835,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 712,
+      "title": "История на миллион долларов",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 810,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 713,
+      "title": "4 июля",
+      "tokens": 241,
+      "truncated": false,
+      "retained_end_character": 786,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 714,
+      "title": "Еёземье",
+      "tokens": 219,
+      "truncated": false,
+      "retained_end_character": 831,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 715,
+      "title": "Винни-Пух / Дом на углу Пуха",
+      "tokens": 256,
+      "truncated": false,
+      "retained_end_character": 762,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 716,
+      "title": "Улитка и кит",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 728,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 717,
+      "title": "Джек Ричер, или В розыске",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 764,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 718,
+      "title": "Последний выезд в Бруклин",
+      "tokens": 242,
+      "truncated": false,
+      "retained_end_character": 823,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 719,
+      "title": "Лорды и дамы",
+      "tokens": 242,
+      "truncated": false,
+      "retained_end_character": 743,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 720,
+      "title": "Отцы и дети",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 781,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 721,
+      "title": "Отечество",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 801,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 722,
+      "title": "Последний аргумент королей",
+      "tokens": 223,
+      "truncated": false,
+      "retained_end_character": 739,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 723,
+      "title": "Третья девушка",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 738,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 724,
+      "title": "Марина",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 734,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 725,
+      "title": "Генерал в своем лабиринте",
+      "tokens": 220,
+      "truncated": false,
+      "retained_end_character": 767,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 726,
+      "title": "Часы работы",
+      "tokens": 238,
+      "truncated": false,
+      "retained_end_character": 736,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 727,
+      "title": "Почему мужчины не слушают, а женщины не умеют читать карты",
+      "tokens": 260,
+      "truncated": false,
+      "retained_end_character": 946,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 728,
+      "title": "Альгамбра",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 805,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 729,
+      "title": "Меня зовут Красный",
+      "tokens": 219,
+      "truncated": false,
+      "retained_end_character": 812,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 730,
+      "title": "Сирано де Бержерак",
+      "tokens": 230,
+      "truncated": false,
+      "retained_end_character": 768,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 731,
+      "title": "Индустриальное общество и его будущее",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 1011,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 732,
+      "title": "Указы",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 857,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 733,
+      "title": "Все еще Алиса",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 796,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 734,
+      "title": "Английский пациент",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 798,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 735,
+      "title": "Ексклусиве",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 793,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 736,
+      "title": "Моя семья и другие животные",
+      "tokens": 226,
+      "truncated": false,
+      "retained_end_character": 803,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 737,
+      "title": "Эрик",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 739,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 738,
+      "title": "Маленькая принцесса",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 748,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 739,
+      "title": "Дэнс, дэнс, дэнс",
+      "tokens": 240,
+      "truncated": false,
+      "retained_end_character": 753,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 740,
+      "title": "Джек Ричер",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 671,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 741,
+      "title": "Империализм, как высшая︡ стадия︡ капитализма",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 907,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 742,
+      "title": "Последний присяжный",
+      "tokens": 236,
+      "truncated": false,
+      "retained_end_character": 753,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 743,
+      "title": "Дважды два",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 757,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 744,
+      "title": "3-я степень",
+      "tokens": 230,
+      "truncated": false,
+      "retained_end_character": 845,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 745,
+      "title": "Сказка на время",
+      "tokens": 229,
+      "truncated": false,
+      "retained_end_character": 753,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 746,
+      "title": "Ширли",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 718,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 747,
+      "title": "Отчет о кораблекрушении",
+      "tokens": 246,
+      "truncated": false,
+      "retained_end_character": 847,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 748,
+      "title": "Каролина Мун",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 721,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 749,
+      "title": "Владение",
+      "tokens": 237,
+      "truncated": false,
+      "retained_end_character": 784,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 750,
+      "title": "Земля пребывает вовеки",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 751,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 751,
+      "title": "Семена вчерашнего дня",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 720,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 752,
+      "title": "Хрупкие вещи",
+      "tokens": 191,
+      "truncated": false,
+      "retained_end_character": 634,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 753,
+      "title": "Пока ты",
+      "tokens": 188,
+      "truncated": false,
+      "retained_end_character": 667,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 754,
+      "title": "Жалоба Портного",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 725,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 755,
+      "title": "Гостиница Ямайка",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 653,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 756,
+      "title": "Воспоминания о молодой девушке",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 789,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 757,
+      "title": "Оккультная философия",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 734,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 758,
+      "title": "Руководство по установке!",
+      "tokens": 176,
+      "truncated": false,
+      "retained_end_character": 772,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 759,
+      "title": "Неправильное воспитание Кэмерон Пост",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 712,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 760,
+      "title": "Вероника решает больше",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 729,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 761,
+      "title": "Эль Клуб Дюма",
+      "tokens": 241,
+      "truncated": false,
+      "retained_end_character": 736,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 762,
+      "title": "Король правонарушений",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 777,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 763,
+      "title": "Поцелуй Поцелуй",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 673,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 764,
+      "title": "Кот среди голубей",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 689,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 765,
+      "title": "Жизнь в полной катастрофе",
+      "tokens": 192,
+      "truncated": false,
+      "retained_end_character": 752,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 766,
+      "title": "О мальчике",
+      "tokens": 212,
+      "truncated": false,
+      "retained_end_character": 722,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 767,
+      "title": "Зонненфинстернис",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 752,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 768,
+      "title": "Люди на деревьях",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 687,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 769,
+      "title": "Рождение трагедии",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 704,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 770,
+      "title": "Явная и реальная опасность",
+      "tokens": 188,
+      "truncated": false,
+      "retained_end_character": 704,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 771,
+      "title": "Дом Мертвых",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 756,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 772,
+      "title": "Японская любовь",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 677,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 773,
+      "title": "Стихи",
+      "tokens": 175,
+      "truncated": false,
+      "retained_end_character": 613,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 774,
+      "title": "Храни веру",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 725,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 775,
+      "title": "Три чашки чая",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 767,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 776,
+      "title": "Небо и Земля",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 726,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 777,
+      "title": "100 самых влиятельных книг, когда-либо написанных",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 829,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 778,
+      "title": "Мистер Убийство",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 671,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 779,
+      "title": "Октябрьская страна",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 695,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 780,
+      "title": "Среброкрыло",
+      "tokens": 187,
+      "truncated": false,
+      "retained_end_character": 667,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 781,
+      "title": "Выбор Софи",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 698,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 782,
+      "title": "Линкольн в Бардо",
+      "tokens": 224,
+      "truncated": false,
+      "retained_end_character": 741,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 783,
+      "title": "Женщина французского лейтенанта",
+      "tokens": 228,
+      "truncated": false,
+      "retained_end_character": 754,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 784,
+      "title": "Доктор Фауст",
+      "tokens": 192,
+      "truncated": false,
+      "retained_end_character": 727,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 785,
+      "title": "Вся королевская рать",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 717,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 786,
+      "title": "Последний герой",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 688,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 787,
+      "title": "Помните, когда",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 706,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 788,
+      "title": "Рожденный во льду",
+      "tokens": 214,
+      "truncated": false,
+      "retained_end_character": 695,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 789,
+      "title": "Почему не Эванс?",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 710,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 790,
+      "title": "Будденброки",
+      "tokens": 192,
+      "truncated": false,
+      "retained_end_character": 711,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 791,
+      "title": "Сборник статей",
+      "tokens": 191,
+      "truncated": false,
+      "retained_end_character": 696,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 792,
+      "title": "Джек Ричер, или Личный интерес",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 694,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 793,
+      "title": "Руководство джентльмена по пороку и добродетели",
+      "tokens": 219,
+      "truncated": false,
+      "retained_end_character": 764,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 794,
+      "title": "Одна дверь вдали от рая",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 687,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 795,
+      "title": "Алиби",
+      "tokens": 192,
+      "truncated": false,
+      "retained_end_character": 666,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 796,
+      "title": "Моя автобиография",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 785,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 797,
+      "title": "Кардинал в Кремле",
+      "tokens": 212,
+      "truncated": false,
+      "retained_end_character": 749,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 798,
+      "title": "Сексуальная психопатия",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 790,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 799,
+      "title": "Краткая история Соединенных Штатов",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 796,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 800,
+      "title": "Демократия в Америке",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 820,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 801,
+      "title": "Клумба из роз",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 680,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 802,
+      "title": "Среди Других",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 683,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 803,
+      "title": "Дело Джен, или Эйра немилосердия",
+      "tokens": 224,
+      "truncated": false,
+      "retained_end_character": 754,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 804,
+      "title": "Фанни Хилл",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 688,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 805,
+      "title": "Чудо-книга для девочек и мальчиков",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 756,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 806,
+      "title": "Случайная вакансия",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 738,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 807,
+      "title": "Мед горький",
+      "tokens": 188,
+      "truncated": false,
+      "retained_end_character": 641,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 808,
+      "title": "Свет в ночи",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 685,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 809,
+      "title": "Чернобыльская молитва",
+      "tokens": 184,
+      "truncated": false,
+      "retained_end_character": 704,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 810,
+      "title": "Наполеон Ноттинг-Хилл",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 733,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 811,
+      "title": "Погребенный великан",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 647,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 812,
+      "title": "Яд бесмертия",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 684,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 813,
+      "title": "Другие берега",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 702,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 814,
+      "title": "Дело о бархатных когтях",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 734,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 815,
+      "title": "Сошествие тьмы",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 697,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 816,
+      "title": "Общая теория занятости, процента и денег",
+      "tokens": 187,
+      "truncated": false,
+      "retained_end_character": 792,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 817,
+      "title": "Государство и революция",
+      "tokens": 186,
+      "truncated": false,
+      "retained_end_character": 769,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 818,
+      "title": "Ночь над водой",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 725,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 819,
+      "title": "Карман, полный ржи",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 667,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 820,
+      "title": "Р.У.Р. и игра с насекомыми",
+      "tokens": 248,
+      "truncated": false,
+      "retained_end_character": 786,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 821,
+      "title": "Валис",
+      "tokens": 219,
+      "truncated": false,
+      "retained_end_character": 743,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 822,
+      "title": "Таинственный незнакомец",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 763,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 823,
+      "title": "Верно, как рассвет",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 677,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 824,
+      "title": "Линия красоты",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 704,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 825,
+      "title": "Любовник-демон",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 758,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 826,
+      "title": "Мышеловка",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 668,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 827,
+      "title": "Церковная история",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 733,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 828,
+      "title": "Джуд Неизвестный",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 723,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 829,
+      "title": "Переключатель",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 653,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 830,
+      "title": "Душераздирающее творение ошеломляющего гения",
+      "tokens": 220,
+      "truncated": false,
+      "retained_end_character": 788,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 831,
+      "title": "ИГРА В ИМИТАЦИЮ Ходжес Эндрю",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 772,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 832,
+      "title": "Пустошь",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 671,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 833,
+      "title": "Внутренняя гавань",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 675,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 834,
+      "title": "Книгу смеются и вспоминают",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 721,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 835,
+      "title": "Талисман",
+      "tokens": 191,
+      "truncated": false,
+      "retained_end_character": 682,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 836,
+      "title": "Смерть от черной дыры: и другие космические загадки",
+      "tokens": 276,
+      "truncated": false,
+      "retained_end_character": 999,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 837,
+      "title": "Голубой георгин",
+      "tokens": 210,
+      "truncated": false,
+      "retained_end_character": 670,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 838,
+      "title": "Лидер, не имевший титула",
+      "tokens": 186,
+      "truncated": false,
+      "retained_end_character": 774,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 839,
+      "title": "Страна Чудес без тормозов и Конец Света",
+      "tokens": 219,
+      "truncated": false,
+      "retained_end_character": 747,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 840,
+      "title": "Пока моя красотка спит",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 728,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 841,
+      "title": "Электропрохладительный кислотный тест",
+      "tokens": 219,
+      "truncated": false,
+      "retained_end_character": 768,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 842,
+      "title": "Сбор стариков",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 700,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 843,
+      "title": "Признание",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 689,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 844,
+      "title": "Короткая вторая жизнь Бри Таннер",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 734,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 845,
+      "title": "Агония и экстаз",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 726,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 846,
+      "title": "Меррик",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 667,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 847,
+      "title": "Праздник козла",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 726,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 848,
+      "title": "Свистун",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 675,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 849,
+      "title": "PS, я люблю тебя",
+      "tokens": 194,
+      "truncated": false,
+      "retained_end_character": 680,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 850,
+      "title": "Моя кузина Рейчел. Козёл отпущения",
+      "tokens": 228,
+      "truncated": false,
+      "retained_end_character": 716,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 851,
+      "title": "Посмотрите с наветренной стороны",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 765,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 852,
+      "title": "Минкс",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 753,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 853,
+      "title": "Двенадцать странствующих рассказов",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 770,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 854,
+      "title": "Дом Грома",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 717,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 855,
+      "title": "Тощие ноги и все такое",
+      "tokens": 234,
+      "truncated": false,
+      "retained_end_character": 773,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 856,
+      "title": "Взаимная помощь",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 788,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 857,
+      "title": "Зима нашего недовольства",
+      "tokens": 191,
+      "truncated": false,
+      "retained_end_character": 728,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 858,
+      "title": "Иней о древнем мореплавателе",
+      "tokens": 205,
+      "truncated": false,
+      "retained_end_character": 671,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 859,
+      "title": "Гражданин Галактики",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 743,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 860,
+      "title": "Сексус",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 744,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 861,
+      "title": "Незнакомцы в поезде",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 666,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 862,
+      "title": "Всё подсвечено",
+      "tokens": 212,
+      "truncated": false,
+      "retained_end_character": 732,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 863,
+      "title": "Возвращение блудного сына",
+      "tokens": 226,
+      "truncated": false,
+      "retained_end_character": 772,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 864,
+      "title": "Маттимео (Рэдволл #3)",
+      "tokens": 223,
+      "truncated": false,
+      "retained_end_character": 681,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 865,
+      "title": "Цементный сад",
+      "tokens": 190,
+      "truncated": false,
+      "retained_end_character": 673,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 866,
+      "title": "Почтальон всегда звонит дважды",
+      "tokens": 219,
+      "truncated": false,
+      "retained_end_character": 746,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 867,
+      "title": "Утилитаризм",
+      "tokens": 193,
+      "truncated": false,
+      "retained_end_character": 704,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 868,
+      "title": "Мемуары революционера",
+      "tokens": 212,
+      "truncated": false,
+      "retained_end_character": 746,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 869,
+      "title": "Взломать код",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 782,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 870,
+      "title": "Американская пастораль",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 728,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 871,
+      "title": "Кот, который умел читать наоборот",
+      "tokens": 238,
+      "truncated": false,
+      "retained_end_character": 827,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 872,
+      "title": "Море-океан",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 694,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 873,
+      "title": "Зоя",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 657,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 874,
+      "title": "Белая мгла",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 726,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 875,
+      "title": "Первый человек в Риме",
+      "tokens": 214,
+      "truncated": false,
+      "retained_end_character": 722,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 876,
+      "title": "Ничего не бойся",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 731,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 877,
+      "title": "Пропуск Рождества",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 722,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 878,
+      "title": "Кровавая песнь",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 658,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 879,
+      "title": "Ровно в полдень",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 704,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 880,
+      "title": "Паутина грез",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 643,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 881,
+      "title": "Дерево плюща",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 714,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 882,
+      "title": "Вечный человек",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 782,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 883,
+      "title": "Дневник экономки",
+      "tokens": 231,
+      "truncated": false,
+      "retained_end_character": 838,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 884,
+      "title": "Нежный бунтарь",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 712,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 885,
+      "title": "Плененный принц",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 706,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 886,
+      "title": "Идеально",
+      "tokens": 212,
+      "truncated": false,
+      "retained_end_character": 688,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 887,
+      "title": "Белые ночи и другие рассказы",
+      "tokens": 238,
+      "truncated": false,
+      "retained_end_character": 776,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 888,
+      "title": "Безопасная гавань",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 707,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 889,
+      "title": "Морской волк",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 704,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 890,
+      "title": "Кролик, беги",
+      "tokens": 193,
+      "truncated": false,
+      "retained_end_character": 688,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 891,
+      "title": "Воскресение",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 700,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 892,
+      "title": "Зимние огни",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 660,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 893,
+      "title": "Проклятие Шалиона",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 716,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 894,
+      "title": "В поисках кота Шрёдингера",
+      "tokens": 219,
+      "truncated": false,
+      "retained_end_character": 763,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 895,
+      "title": "Незнакомец в зеркале",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 729,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 896,
+      "title": "Что такое искусство? / Что такое искусство?",
+      "tokens": 194,
+      "truncated": false,
+      "retained_end_character": 807,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 897,
+      "title": "Интернет для чайников",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 816,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 898,
+      "title": "Влюбленность",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 698,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 899,
+      "title": "О Пионеры!",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 716,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 900,
+      "title": "Монологи вагины",
+      "tokens": 214,
+      "truncated": false,
+      "retained_end_character": 759,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 901,
+      "title": "Горячий лед",
+      "tokens": 228,
+      "truncated": false,
+      "retained_end_character": 727,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 902,
+      "title": "Мистическая река",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 674,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 903,
+      "title": "Периодическая система",
+      "tokens": 185,
+      "truncated": false,
+      "retained_end_character": 719,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 904,
+      "title": "Нарисованная птица",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 741,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 905,
+      "title": "Агнес Грей",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 696,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 906,
+      "title": "Рыцарь в сияющих доспехах",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 706,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 907,
+      "title": "Публичная тайна",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 703,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 908,
+      "title": "Ярость ангелов",
+      "tokens": 224,
+      "truncated": false,
+      "retained_end_character": 730,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 909,
+      "title": "Тигр Шарпа",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 704,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 910,
+      "title": "Хоббит и Властелин колец",
+      "tokens": 229,
+      "truncated": false,
+      "retained_end_character": 708,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 911,
+      "title": "Травесурас-де-ла-нинья мала",
+      "tokens": 227,
+      "truncated": false,
+      "retained_end_character": 747,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 912,
+      "title": "Расёмон и другие истории",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 737,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 913,
+      "title": "Дыхание скандала",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 687,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 914,
+      "title": "Черные дыры и детские вселенные и другие эссе",
+      "tokens": 224,
+      "truncated": false,
+      "retained_end_character": 770,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 915,
+      "title": "О боли других",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 711,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 916,
+      "title": "Экспедиция Кон-Тики",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 733,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 917,
+      "title": "Генрих IV, часть 1",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 632,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 918,
+      "title": "Мэнсфилд Парк",
+      "tokens": 220,
+      "truncated": false,
+      "retained_end_character": 719,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 919,
+      "title": "Ричард III",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 709,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 920,
+      "title": "Опасности курения в постели",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 763,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 921,
+      "title": "Любить",
+      "tokens": 199,
+      "truncated": false,
+      "retained_end_character": 711,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 922,
+      "title": "Комета в долине муми-троллей",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 715,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 923,
+      "title": "Полное собрание поэтических произведений",
+      "tokens": 192,
+      "truncated": false,
+      "retained_end_character": 695,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 924,
+      "title": "Правда",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 718,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 925,
+      "title": "Мистер мичман Хорнблауэр",
+      "tokens": 229,
+      "truncated": false,
+      "retained_end_character": 787,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 926,
+      "title": "Костяные часы",
+      "tokens": 211,
+      "truncated": false,
+      "retained_end_character": 717,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 927,
+      "title": "Эйлин",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 656,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 928,
+      "title": "Еще одна из рода Болейн",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 746,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 929,
+      "title": "Мальчик на вершине горы",
+      "tokens": 219,
+      "truncated": false,
+      "retained_end_character": 723,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 930,
+      "title": "Тропик Козерога",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 752,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 931,
+      "title": "Маленькая Доррит",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 691,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 932,
+      "title": "Инверсии",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 722,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 933,
+      "title": "Последнее континент",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 725,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 934,
+      "title": "Карпе Югулум",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 702,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 935,
+      "title": "Рэкетир",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 688,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 936,
+      "title": "Скай О'Мэлли",
+      "tokens": 212,
+      "truncated": false,
+      "retained_end_character": 683,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 937,
+      "title": "Охота на снарка в вос'ми напастиах",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 722,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 938,
+      "title": "Обнаженные и мертвые",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 773,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 939,
+      "title": "Что вадис? Повесь из Часова Нерона",
+      "tokens": 215,
+      "truncated": false,
+      "retained_end_character": 739,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 940,
+      "title": "Виртуальный свет",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 713,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 941,
+      "title": "Крейцерова соната и другие рассказы",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 745,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 942,
+      "title": "История Тома Джонса",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 723,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 943,
+      "title": "Сатирикон",
+      "tokens": 214,
+      "truncated": false,
+      "retained_end_character": 724,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 944,
+      "title": "Художник плавучего мира",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 798,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 945,
+      "title": "Обнаженное лицо",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 751,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 946,
+      "title": "Парень встретил парня",
+      "tokens": 198,
+      "truncated": false,
+      "retained_end_character": 668,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 947,
+      "title": "Блум",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 665,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 948,
+      "title": "Творческая уверенность",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 754,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 949,
+      "title": "Магия крови",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 677,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 950,
+      "title": "Человеческий фактор",
+      "tokens": 229,
+      "truncated": false,
+      "retained_end_character": 904,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 951,
+      "title": "Письмо незнакомки",
+      "tokens": 190,
+      "truncated": false,
+      "retained_end_character": 717,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 952,
+      "title": "Ночной садовник",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 747,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 953,
+      "title": "Поцелуй",
+      "tokens": 219,
+      "truncated": false,
+      "retained_end_character": 746,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 954,
+      "title": "Врата в рай",
+      "tokens": 185,
+      "truncated": false,
+      "retained_end_character": 680,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 955,
+      "title": "Берлинский дневник",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 783,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 956,
+      "title": "Светила",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 728,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 957,
+      "title": "Дом развлечений",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 675,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 958,
+      "title": "Одесский файл",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 743,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 959,
+      "title": "Йогасутра",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 707,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 960,
+      "title": "Я иду",
+      "tokens": 181,
+      "truncated": false,
+      "retained_end_character": 688,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 961,
+      "title": "Шахматы для чайников",
+      "tokens": 189,
+      "truncated": false,
+      "retained_end_character": 699,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 962,
+      "title": "2666",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 745,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 963,
+      "title": "Исследование природы и причин богатства народов",
+      "tokens": 187,
+      "truncated": false,
+      "retained_end_character": 795,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 964,
+      "title": "Отсутствует весной",
+      "tokens": 206,
+      "truncated": false,
+      "retained_end_character": 765,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 965,
+      "title": "Смерть приходит как конец",
+      "tokens": 204,
+      "truncated": false,
+      "retained_end_character": 692,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 966,
+      "title": "Богатый человек, бедный человек",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 752,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 967,
+      "title": "Книга вымышленных существ",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 762,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 968,
+      "title": "Звёздные войны. Эпизод I — Скрытая угроза",
+      "tokens": 245,
+      "truncated": false,
+      "retained_end_character": 729,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 969,
+      "title": "Нет проблем?",
+      "tokens": 202,
+      "truncated": false,
+      "retained_end_character": 698,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 970,
+      "title": "Рожденный в стыде",
+      "tokens": 220,
+      "truncated": false,
+      "retained_end_character": 701,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 971,
+      "title": "Мишне Тора",
+      "tokens": 256,
+      "truncated": false,
+      "retained_end_character": 909,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 972,
+      "title": "Скажи, что любишь меня",
+      "tokens": 220,
+      "truncated": false,
+      "retained_end_character": 751,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 973,
+      "title": "Холодный огонь",
+      "tokens": 212,
+      "truncated": false,
+      "retained_end_character": 752,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 974,
+      "title": "Пеппи Лангструмп и Содерхавет",
+      "tokens": 203,
+      "truncated": false,
+      "retained_end_character": 666,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 975,
+      "title": "ГУЛАГ",
+      "tokens": 207,
+      "truncated": false,
+      "retained_end_character": 762,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 976,
+      "title": "ПОЧТАЛЬОН",
+      "tokens": 195,
+      "truncated": false,
+      "retained_end_character": 800,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 977,
+      "title": "Остров Камино",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 724,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 978,
+      "title": "Аэропорт",
+      "tokens": 196,
+      "truncated": false,
+      "retained_end_character": 709,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 979,
+      "title": "Драгоценности Солнца",
+      "tokens": 224,
+      "truncated": false,
+      "retained_end_character": 719,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 980,
+      "title": "Сокровище, которое стоит искать",
+      "tokens": 216,
+      "truncated": false,
+      "retained_end_character": 728,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 981,
+      "title": "Как быть пиратом",
+      "tokens": 221,
+      "truncated": false,
+      "retained_end_character": 695,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 982,
+      "title": "Соблазнение замыслом",
+      "tokens": 218,
+      "truncated": false,
+      "retained_end_character": 731,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 983,
+      "title": "Черная стрелка",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 705,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 984,
+      "title": "Развитие социализма от утопии к науке",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 831,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 985,
+      "title": "Собачье сердце",
+      "tokens": 213,
+      "truncated": false,
+      "retained_end_character": 760,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 986,
+      "title": "Тайная доктрина",
+      "tokens": 217,
+      "truncated": false,
+      "retained_end_character": 770,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 987,
+      "title": "Жертвоприношение",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 762,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 988,
+      "title": "Затонувший мир",
+      "tokens": 225,
+      "truncated": false,
+      "retained_end_character": 766,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 989,
+      "title": "Химик",
+      "tokens": 189,
+      "truncated": false,
+      "retained_end_character": 727,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 990,
+      "title": "Мышление, готовое к убийству",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 727,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 991,
+      "title": "Баудолино",
+      "tokens": 239,
+      "truncated": false,
+      "retained_end_character": 777,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 992,
+      "title": "Снег",
+      "tokens": 201,
+      "truncated": false,
+      "retained_end_character": 712,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 993,
+      "title": "Волшебник",
+      "tokens": 208,
+      "truncated": false,
+      "retained_end_character": 667,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 994,
+      "title": "Мост Сан-Луис-Рей",
+      "tokens": 197,
+      "truncated": false,
+      "retained_end_character": 689,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 995,
+      "title": "Дистанция спасения",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 746,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 996,
+      "title": "Город и псы",
+      "tokens": 209,
+      "truncated": false,
+      "retained_end_character": 729,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 997,
+      "title": "Далее",
+      "tokens": 194,
+      "truncated": false,
+      "retained_end_character": 755,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 998,
+      "title": "Танец богов",
+      "tokens": 200,
+      "truncated": false,
+      "retained_end_character": 693,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 999,
+      "title": "Маленький незнакомец",
+      "tokens": 232,
+      "truncated": false,
+      "retained_end_character": 805,
+      "lost_tail": ""
+    },
+    {
+      "catalog_id": 1000,
+      "title": "Мария-Антуанетта",
+      "tokens": 222,
+      "truncated": false,
+      "retained_end_character": 788,
+      "lost_tail": ""
+    }
+  ]
+}

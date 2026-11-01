@@ -1,0 +1,1570 @@
+{
+  "selection_protocol": "dev family-macro NDCG; regression77 Hit@3/10 constraints; closed test excluded from selection",
+  "selected": "new_entity",
+  "metrics": {
+    "old": {
+      "dev": {
+        "ndcg10": 0.9102611680253396,
+        "hit3": 0.9166666666666666,
+        "hit10": 0.9375,
+        "mrr": 0.9010416666666666
+      },
+      "regression77": {
+        "hit1": 0.8571428571428571,
+        "hit3": 0.935064935064935,
+        "hit10": 0.974025974025974,
+        "navigation": [
+          {
+            "query": "Чудо Р Дж Паласио",
+            "rank": 1
+          },
+          {
+            "query": "Дюна Фрэнк Герберт",
+            "rank": 1
+          },
+          {
+            "query": "1984 Джордж Оруэлл",
+            "rank": 1
+          },
+          {
+            "query": "Мастер и Маргарита Булгаков",
+            "rank": 1
+          },
+          {
+            "query": "Гордость и предубеждение Джейн Остин",
+            "rank": 1
+          },
+          {
+            "query": "Цветы для Элджернона Дэниел Киз",
+            "rank": 1
+          },
+          {
+            "query": "prestuplenie i nakazanie dostoevskiy",
+            "rank": 1
+          },
+          {
+            "query": "garri potter i filosofskiy kamen",
+            "rank": 1
+          },
+          {
+            "query": "malenkiy princ sent ekzuperi",
+            "rank": 1
+          },
+          {
+            "query": "451 po farengeitu bredberi",
+            "rank": 1
+          },
+          {
+            "query": "ufhhb gjnnh",
+            "rank": 1
+          },
+          {
+            "query": "vfcnth b vfhufhbnf",
+            "rank": 1
+          },
+          {
+            "query": "dyuna gerbert",
+            "rank": 1
+          },
+          {
+            "query": "cveti dlya eldzhernona",
+            "rank": 1
+          },
+          {
+            "query": "mobi dik melvill",
+            "rank": 1
+          },
+          {
+            "query": "gordost i predubezhdenie",
+            "rank": 1
+          },
+          {
+            "query": "гарри потр философкий камин",
+            "rank": 1
+          },
+          {
+            "query": "преступлние и наказние достаевский",
+            "rank": 1
+          },
+          {
+            "query": "маленкий принц сент экзюпери",
+            "rank": 1
+          },
+          {
+            "query": "философский камень",
+            "rank": 1
+          },
+          {
+            "query": "татуировка дракона",
+            "rank": 1
+          },
+          {
+            "query": "Ричард Мэтисон",
+            "rank": 1
+          },
+          {
+            "query": "Р Дж Паласио",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    "new_current": {
+      "dev": {
+        "ndcg10": 0.981894369866072,
+        "hit3": 1.0,
+        "hit10": 1.0,
+        "mrr": 0.9756944444444444
+      },
+      "regression77": {
+        "hit1": 0.8831168831168831,
+        "hit3": 0.922077922077922,
+        "hit10": 0.974025974025974,
+        "navigation": [
+          {
+            "query": "Чудо Р Дж Паласио",
+            "rank": 1
+          },
+          {
+            "query": "Дюна Фрэнк Герберт",
+            "rank": 1
+          },
+          {
+            "query": "1984 Джордж Оруэлл",
+            "rank": 1
+          },
+          {
+            "query": "Мастер и Маргарита Булгаков",
+            "rank": 1
+          },
+          {
+            "query": "Гордость и предубеждение Джейн Остин",
+            "rank": 1
+          },
+          {
+            "query": "Цветы для Элджернона Дэниел Киз",
+            "rank": 1
+          },
+          {
+            "query": "prestuplenie i nakazanie dostoevskiy",
+            "rank": 1
+          },
+          {
+            "query": "garri potter i filosofskiy kamen",
+            "rank": 1
+          },
+          {
+            "query": "malenkiy princ sent ekzuperi",
+            "rank": 1
+          },
+          {
+            "query": "451 po farengeitu bredberi",
+            "rank": 1
+          },
+          {
+            "query": "ufhhb gjnnh",
+            "rank": 1
+          },
+          {
+            "query": "vfcnth b vfhufhbnf",
+            "rank": 1
+          },
+          {
+            "query": "dyuna gerbert",
+            "rank": 1
+          },
+          {
+            "query": "cveti dlya eldzhernona",
+            "rank": 1
+          },
+          {
+            "query": "mobi dik melvill",
+            "rank": 1
+          },
+          {
+            "query": "gordost i predubezhdenie",
+            "rank": 1
+          },
+          {
+            "query": "гарри потр философкий камин",
+            "rank": 4
+          },
+          {
+            "query": "преступлние и наказние достаевский",
+            "rank": 1
+          },
+          {
+            "query": "маленкий принц сент экзюпери",
+            "rank": 1
+          },
+          {
+            "query": "философский камень",
+            "rank": 1
+          },
+          {
+            "query": "татуировка дракона",
+            "rank": null
+          },
+          {
+            "query": "Ричард Мэтисон",
+            "rank": 1
+          },
+          {
+            "query": "Р Дж Паласио",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    "new_entity": {
+      "dev": {
+        "ndcg10": 0.981894369866072,
+        "hit3": 1.0,
+        "hit10": 1.0,
+        "mrr": 0.9756944444444444
+      },
+      "regression77": {
+        "hit1": 0.8961038961038961,
+        "hit3": 0.935064935064935,
+        "hit10": 0.987012987012987,
+        "navigation": [
+          {
+            "query": "Чудо Р Дж Паласио",
+            "rank": 1
+          },
+          {
+            "query": "Дюна Фрэнк Герберт",
+            "rank": 1
+          },
+          {
+            "query": "1984 Джордж Оруэлл",
+            "rank": 1
+          },
+          {
+            "query": "Мастер и Маргарита Булгаков",
+            "rank": 1
+          },
+          {
+            "query": "Гордость и предубеждение Джейн Остин",
+            "rank": 1
+          },
+          {
+            "query": "Цветы для Элджернона Дэниел Киз",
+            "rank": 1
+          },
+          {
+            "query": "prestuplenie i nakazanie dostoevskiy",
+            "rank": 1
+          },
+          {
+            "query": "garri potter i filosofskiy kamen",
+            "rank": 1
+          },
+          {
+            "query": "malenkiy princ sent ekzuperi",
+            "rank": 1
+          },
+          {
+            "query": "451 po farengeitu bredberi",
+            "rank": 1
+          },
+          {
+            "query": "ufhhb gjnnh",
+            "rank": 1
+          },
+          {
+            "query": "vfcnth b vfhufhbnf",
+            "rank": 1
+          },
+          {
+            "query": "dyuna gerbert",
+            "rank": 1
+          },
+          {
+            "query": "cveti dlya eldzhernona",
+            "rank": 1
+          },
+          {
+            "query": "mobi dik melvill",
+            "rank": 1
+          },
+          {
+            "query": "gordost i predubezhdenie",
+            "rank": 1
+          },
+          {
+            "query": "гарри потр философкий камин",
+            "rank": 4
+          },
+          {
+            "query": "преступлние и наказние достаевский",
+            "rank": 1
+          },
+          {
+            "query": "маленкий принц сент экзюпери",
+            "rank": 1
+          },
+          {
+            "query": "философский камень",
+            "rank": 1
+          },
+          {
+            "query": "татуировка дракона",
+            "rank": 1
+          },
+          {
+            "query": "Ричард Мэтисон",
+            "rank": 1
+          },
+          {
+            "query": "Р Дж Паласио",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    "route_old_for_entity": {
+      "dev": {
+        "ndcg10": 0.981894369866072,
+        "hit3": 1.0,
+        "hit10": 1.0,
+        "mrr": 0.9756944444444444
+      },
+      "regression77": {
+        "hit1": 0.8961038961038961,
+        "hit3": 0.935064935064935,
+        "hit10": 0.987012987012987,
+        "navigation": [
+          {
+            "query": "Чудо Р Дж Паласио",
+            "rank": 1
+          },
+          {
+            "query": "Дюна Фрэнк Герберт",
+            "rank": 1
+          },
+          {
+            "query": "1984 Джордж Оруэлл",
+            "rank": 1
+          },
+          {
+            "query": "Мастер и Маргарита Булгаков",
+            "rank": 1
+          },
+          {
+            "query": "Гордость и предубеждение Джейн Остин",
+            "rank": 1
+          },
+          {
+            "query": "Цветы для Элджернона Дэниел Киз",
+            "rank": 1
+          },
+          {
+            "query": "prestuplenie i nakazanie dostoevskiy",
+            "rank": 1
+          },
+          {
+            "query": "garri potter i filosofskiy kamen",
+            "rank": 1
+          },
+          {
+            "query": "malenkiy princ sent ekzuperi",
+            "rank": 1
+          },
+          {
+            "query": "451 po farengeitu bredberi",
+            "rank": 1
+          },
+          {
+            "query": "ufhhb gjnnh",
+            "rank": 1
+          },
+          {
+            "query": "vfcnth b vfhufhbnf",
+            "rank": 1
+          },
+          {
+            "query": "dyuna gerbert",
+            "rank": 1
+          },
+          {
+            "query": "cveti dlya eldzhernona",
+            "rank": 1
+          },
+          {
+            "query": "mobi dik melvill",
+            "rank": 1
+          },
+          {
+            "query": "gordost i predubezhdenie",
+            "rank": 1
+          },
+          {
+            "query": "гарри потр философкий камин",
+            "rank": 4
+          },
+          {
+            "query": "преступлние и наказние достаевский",
+            "rank": 1
+          },
+          {
+            "query": "маленкий принц сент экзюпери",
+            "rank": 1
+          },
+          {
+            "query": "философский камень",
+            "rank": 1
+          },
+          {
+            "query": "татуировка дракона",
+            "rank": 1
+          },
+          {
+            "query": "Ричард Мэтисон",
+            "rank": 1
+          },
+          {
+            "query": "Р Дж Паласио",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    "rrf_new_1": {
+      "dev": {
+        "ndcg10": 0.9567283214123257,
+        "hit3": 0.9375,
+        "hit10": 1.0,
+        "mrr": 0.9427083333333334
+      },
+      "regression77": {
+        "hit1": 0.8701298701298701,
+        "hit3": 0.935064935064935,
+        "hit10": 0.974025974025974,
+        "navigation": [
+          {
+            "query": "Чудо Р Дж Паласио",
+            "rank": 1
+          },
+          {
+            "query": "Дюна Фрэнк Герберт",
+            "rank": 1
+          },
+          {
+            "query": "1984 Джордж Оруэлл",
+            "rank": 1
+          },
+          {
+            "query": "Мастер и Маргарита Булгаков",
+            "rank": 1
+          },
+          {
+            "query": "Гордость и предубеждение Джейн Остин",
+            "rank": 1
+          },
+          {
+            "query": "Цветы для Элджернона Дэниел Киз",
+            "rank": 1
+          },
+          {
+            "query": "prestuplenie i nakazanie dostoevskiy",
+            "rank": 1
+          },
+          {
+            "query": "garri potter i filosofskiy kamen",
+            "rank": 1
+          },
+          {
+            "query": "malenkiy princ sent ekzuperi",
+            "rank": 1
+          },
+          {
+            "query": "451 po farengeitu bredberi",
+            "rank": 1
+          },
+          {
+            "query": "ufhhb gjnnh",
+            "rank": 1
+          },
+          {
+            "query": "vfcnth b vfhufhbnf",
+            "rank": 1
+          },
+          {
+            "query": "dyuna gerbert",
+            "rank": 1
+          },
+          {
+            "query": "cveti dlya eldzhernona",
+            "rank": 1
+          },
+          {
+            "query": "mobi dik melvill",
+            "rank": 1
+          },
+          {
+            "query": "gordost i predubezhdenie",
+            "rank": 1
+          },
+          {
+            "query": "гарри потр философкий камин",
+            "rank": 2
+          },
+          {
+            "query": "преступлние и наказние достаевский",
+            "rank": 1
+          },
+          {
+            "query": "маленкий принц сент экзюпери",
+            "rank": 1
+          },
+          {
+            "query": "философский камень",
+            "rank": 1
+          },
+          {
+            "query": "татуировка дракона",
+            "rank": 9
+          },
+          {
+            "query": "Ричард Мэтисон",
+            "rank": 1
+          },
+          {
+            "query": "Р Дж Паласио",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    "entity_rrf_new_1": {
+      "dev": {
+        "ndcg10": 0.9567283214123257,
+        "hit3": 0.9375,
+        "hit10": 1.0,
+        "mrr": 0.9427083333333334
+      },
+      "regression77": {
+        "hit1": 0.8831168831168831,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974,
+        "navigation": [
+          {
+            "query": "Чудо Р Дж Паласио",
+            "rank": 1
+          },
+          {
+            "query": "Дюна Фрэнк Герберт",
+            "rank": 1
+          },
+          {
+            "query": "1984 Джордж Оруэлл",
+            "rank": 1
+          },
+          {
+            "query": "Мастер и Маргарита Булгаков",
+            "rank": 1
+          },
+          {
+            "query": "Гордость и предубеждение Джейн Остин",
+            "rank": 1
+          },
+          {
+            "query": "Цветы для Элджернона Дэниел Киз",
+            "rank": 1
+          },
+          {
+            "query": "prestuplenie i nakazanie dostoevskiy",
+            "rank": 1
+          },
+          {
+            "query": "garri potter i filosofskiy kamen",
+            "rank": 1
+          },
+          {
+            "query": "malenkiy princ sent ekzuperi",
+            "rank": 1
+          },
+          {
+            "query": "451 po farengeitu bredberi",
+            "rank": 1
+          },
+          {
+            "query": "ufhhb gjnnh",
+            "rank": 1
+          },
+          {
+            "query": "vfcnth b vfhufhbnf",
+            "rank": 1
+          },
+          {
+            "query": "dyuna gerbert",
+            "rank": 1
+          },
+          {
+            "query": "cveti dlya eldzhernona",
+            "rank": 1
+          },
+          {
+            "query": "mobi dik melvill",
+            "rank": 1
+          },
+          {
+            "query": "gordost i predubezhdenie",
+            "rank": 1
+          },
+          {
+            "query": "гарри потр философкий камин",
+            "rank": 2
+          },
+          {
+            "query": "преступлние и наказние достаевский",
+            "rank": 1
+          },
+          {
+            "query": "маленкий принц сент экзюпери",
+            "rank": 1
+          },
+          {
+            "query": "философский камень",
+            "rank": 1
+          },
+          {
+            "query": "татуировка дракона",
+            "rank": 1
+          },
+          {
+            "query": "Ричард Мэтисон",
+            "rank": 1
+          },
+          {
+            "query": "Р Дж Паласио",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    "rrf_new_1.5": {
+      "dev": {
+        "ndcg10": 0.96875,
+        "hit3": 1.0,
+        "hit10": 1.0,
+        "mrr": 0.9583333333333333
+      },
+      "regression77": {
+        "hit1": 0.8831168831168831,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974,
+        "navigation": [
+          {
+            "query": "Чудо Р Дж Паласио",
+            "rank": 1
+          },
+          {
+            "query": "Дюна Фрэнк Герберт",
+            "rank": 1
+          },
+          {
+            "query": "1984 Джордж Оруэлл",
+            "rank": 1
+          },
+          {
+            "query": "Мастер и Маргарита Булгаков",
+            "rank": 1
+          },
+          {
+            "query": "Гордость и предубеждение Джейн Остин",
+            "rank": 1
+          },
+          {
+            "query": "Цветы для Элджернона Дэниел Киз",
+            "rank": 1
+          },
+          {
+            "query": "prestuplenie i nakazanie dostoevskiy",
+            "rank": 1
+          },
+          {
+            "query": "garri potter i filosofskiy kamen",
+            "rank": 1
+          },
+          {
+            "query": "malenkiy princ sent ekzuperi",
+            "rank": 1
+          },
+          {
+            "query": "451 po farengeitu bredberi",
+            "rank": 1
+          },
+          {
+            "query": "ufhhb gjnnh",
+            "rank": 1
+          },
+          {
+            "query": "vfcnth b vfhufhbnf",
+            "rank": 1
+          },
+          {
+            "query": "dyuna gerbert",
+            "rank": 1
+          },
+          {
+            "query": "cveti dlya eldzhernona",
+            "rank": 1
+          },
+          {
+            "query": "mobi dik melvill",
+            "rank": 1
+          },
+          {
+            "query": "gordost i predubezhdenie",
+            "rank": 1
+          },
+          {
+            "query": "гарри потр философкий камин",
+            "rank": 2
+          },
+          {
+            "query": "преступлние и наказние достаевский",
+            "rank": 1
+          },
+          {
+            "query": "маленкий принц сент экзюпери",
+            "rank": 1
+          },
+          {
+            "query": "философский камень",
+            "rank": 1
+          },
+          {
+            "query": "татуировка дракона",
+            "rank": null
+          },
+          {
+            "query": "Ричард Мэтисон",
+            "rank": 1
+          },
+          {
+            "query": "Р Дж Паласио",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    "entity_rrf_new_1.5": {
+      "dev": {
+        "ndcg10": 0.96875,
+        "hit3": 1.0,
+        "hit10": 1.0,
+        "mrr": 0.9583333333333333
+      },
+      "regression77": {
+        "hit1": 0.8961038961038961,
+        "hit3": 0.961038961038961,
+        "hit10": 0.987012987012987,
+        "navigation": [
+          {
+            "query": "Чудо Р Дж Паласио",
+            "rank": 1
+          },
+          {
+            "query": "Дюна Фрэнк Герберт",
+            "rank": 1
+          },
+          {
+            "query": "1984 Джордж Оруэлл",
+            "rank": 1
+          },
+          {
+            "query": "Мастер и Маргарита Булгаков",
+            "rank": 1
+          },
+          {
+            "query": "Гордость и предубеждение Джейн Остин",
+            "rank": 1
+          },
+          {
+            "query": "Цветы для Элджернона Дэниел Киз",
+            "rank": 1
+          },
+          {
+            "query": "prestuplenie i nakazanie dostoevskiy",
+            "rank": 1
+          },
+          {
+            "query": "garri potter i filosofskiy kamen",
+            "rank": 1
+          },
+          {
+            "query": "malenkiy princ sent ekzuperi",
+            "rank": 1
+          },
+          {
+            "query": "451 po farengeitu bredberi",
+            "rank": 1
+          },
+          {
+            "query": "ufhhb gjnnh",
+            "rank": 1
+          },
+          {
+            "query": "vfcnth b vfhufhbnf",
+            "rank": 1
+          },
+          {
+            "query": "dyuna gerbert",
+            "rank": 1
+          },
+          {
+            "query": "cveti dlya eldzhernona",
+            "rank": 1
+          },
+          {
+            "query": "mobi dik melvill",
+            "rank": 1
+          },
+          {
+            "query": "gordost i predubezhdenie",
+            "rank": 1
+          },
+          {
+            "query": "гарри потр философкий камин",
+            "rank": 2
+          },
+          {
+            "query": "преступлние и наказние достаевский",
+            "rank": 1
+          },
+          {
+            "query": "маленкий принц сент экзюпери",
+            "rank": 1
+          },
+          {
+            "query": "философский камень",
+            "rank": 1
+          },
+          {
+            "query": "татуировка дракона",
+            "rank": 1
+          },
+          {
+            "query": "Ричард Мэтисон",
+            "rank": 1
+          },
+          {
+            "query": "Р Дж Паласио",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    "rrf_new_2": {
+      "dev": {
+        "ndcg10": 0.96875,
+        "hit3": 1.0,
+        "hit10": 1.0,
+        "mrr": 0.9583333333333333
+      },
+      "regression77": {
+        "hit1": 0.8831168831168831,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974,
+        "navigation": [
+          {
+            "query": "Чудо Р Дж Паласио",
+            "rank": 1
+          },
+          {
+            "query": "Дюна Фрэнк Герберт",
+            "rank": 1
+          },
+          {
+            "query": "1984 Джордж Оруэлл",
+            "rank": 1
+          },
+          {
+            "query": "Мастер и Маргарита Булгаков",
+            "rank": 1
+          },
+          {
+            "query": "Гордость и предубеждение Джейн Остин",
+            "rank": 1
+          },
+          {
+            "query": "Цветы для Элджернона Дэниел Киз",
+            "rank": 1
+          },
+          {
+            "query": "prestuplenie i nakazanie dostoevskiy",
+            "rank": 1
+          },
+          {
+            "query": "garri potter i filosofskiy kamen",
+            "rank": 1
+          },
+          {
+            "query": "malenkiy princ sent ekzuperi",
+            "rank": 1
+          },
+          {
+            "query": "451 po farengeitu bredberi",
+            "rank": 1
+          },
+          {
+            "query": "ufhhb gjnnh",
+            "rank": 1
+          },
+          {
+            "query": "vfcnth b vfhufhbnf",
+            "rank": 1
+          },
+          {
+            "query": "dyuna gerbert",
+            "rank": 1
+          },
+          {
+            "query": "cveti dlya eldzhernona",
+            "rank": 1
+          },
+          {
+            "query": "mobi dik melvill",
+            "rank": 1
+          },
+          {
+            "query": "gordost i predubezhdenie",
+            "rank": 1
+          },
+          {
+            "query": "гарри потр философкий камин",
+            "rank": 3
+          },
+          {
+            "query": "преступлние и наказние достаевский",
+            "rank": 1
+          },
+          {
+            "query": "маленкий принц сент экзюпери",
+            "rank": 1
+          },
+          {
+            "query": "философский камень",
+            "rank": 1
+          },
+          {
+            "query": "татуировка дракона",
+            "rank": null
+          },
+          {
+            "query": "Ричард Мэтисон",
+            "rank": 1
+          },
+          {
+            "query": "Р Дж Паласио",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    "entity_rrf_new_2": {
+      "dev": {
+        "ndcg10": 0.96875,
+        "hit3": 1.0,
+        "hit10": 1.0,
+        "mrr": 0.9583333333333333
+      },
+      "regression77": {
+        "hit1": 0.8961038961038961,
+        "hit3": 0.961038961038961,
+        "hit10": 0.987012987012987,
+        "navigation": [
+          {
+            "query": "Чудо Р Дж Паласио",
+            "rank": 1
+          },
+          {
+            "query": "Дюна Фрэнк Герберт",
+            "rank": 1
+          },
+          {
+            "query": "1984 Джордж Оруэлл",
+            "rank": 1
+          },
+          {
+            "query": "Мастер и Маргарита Булгаков",
+            "rank": 1
+          },
+          {
+            "query": "Гордость и предубеждение Джейн Остин",
+            "rank": 1
+          },
+          {
+            "query": "Цветы для Элджернона Дэниел Киз",
+            "rank": 1
+          },
+          {
+            "query": "prestuplenie i nakazanie dostoevskiy",
+            "rank": 1
+          },
+          {
+            "query": "garri potter i filosofskiy kamen",
+            "rank": 1
+          },
+          {
+            "query": "malenkiy princ sent ekzuperi",
+            "rank": 1
+          },
+          {
+            "query": "451 po farengeitu bredberi",
+            "rank": 1
+          },
+          {
+            "query": "ufhhb gjnnh",
+            "rank": 1
+          },
+          {
+            "query": "vfcnth b vfhufhbnf",
+            "rank": 1
+          },
+          {
+            "query": "dyuna gerbert",
+            "rank": 1
+          },
+          {
+            "query": "cveti dlya eldzhernona",
+            "rank": 1
+          },
+          {
+            "query": "mobi dik melvill",
+            "rank": 1
+          },
+          {
+            "query": "gordost i predubezhdenie",
+            "rank": 1
+          },
+          {
+            "query": "гарри потр философкий камин",
+            "rank": 3
+          },
+          {
+            "query": "преступлние и наказние достаевский",
+            "rank": 1
+          },
+          {
+            "query": "маленкий принц сент экзюпери",
+            "rank": 1
+          },
+          {
+            "query": "философский камень",
+            "rank": 1
+          },
+          {
+            "query": "татуировка дракона",
+            "rank": 1
+          },
+          {
+            "query": "Ричард Мэтисон",
+            "rank": 1
+          },
+          {
+            "query": "Р Дж Паласио",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    "rrf_new_3": {
+      "dev": {
+        "ndcg10": 0.96875,
+        "hit3": 1.0,
+        "hit10": 1.0,
+        "mrr": 0.9583333333333333
+      },
+      "regression77": {
+        "hit1": 0.8831168831168831,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974,
+        "navigation": [
+          {
+            "query": "Чудо Р Дж Паласио",
+            "rank": 1
+          },
+          {
+            "query": "Дюна Фрэнк Герберт",
+            "rank": 1
+          },
+          {
+            "query": "1984 Джордж Оруэлл",
+            "rank": 1
+          },
+          {
+            "query": "Мастер и Маргарита Булгаков",
+            "rank": 1
+          },
+          {
+            "query": "Гордость и предубеждение Джейн Остин",
+            "rank": 1
+          },
+          {
+            "query": "Цветы для Элджернона Дэниел Киз",
+            "rank": 1
+          },
+          {
+            "query": "prestuplenie i nakazanie dostoevskiy",
+            "rank": 1
+          },
+          {
+            "query": "garri potter i filosofskiy kamen",
+            "rank": 1
+          },
+          {
+            "query": "malenkiy princ sent ekzuperi",
+            "rank": 1
+          },
+          {
+            "query": "451 po farengeitu bredberi",
+            "rank": 1
+          },
+          {
+            "query": "ufhhb gjnnh",
+            "rank": 1
+          },
+          {
+            "query": "vfcnth b vfhufhbnf",
+            "rank": 1
+          },
+          {
+            "query": "dyuna gerbert",
+            "rank": 1
+          },
+          {
+            "query": "cveti dlya eldzhernona",
+            "rank": 1
+          },
+          {
+            "query": "mobi dik melvill",
+            "rank": 1
+          },
+          {
+            "query": "gordost i predubezhdenie",
+            "rank": 1
+          },
+          {
+            "query": "гарри потр философкий камин",
+            "rank": 3
+          },
+          {
+            "query": "преступлние и наказние достаевский",
+            "rank": 1
+          },
+          {
+            "query": "маленкий принц сент экзюпери",
+            "rank": 1
+          },
+          {
+            "query": "философский камень",
+            "rank": 1
+          },
+          {
+            "query": "татуировка дракона",
+            "rank": null
+          },
+          {
+            "query": "Ричард Мэтисон",
+            "rank": 1
+          },
+          {
+            "query": "Р Дж Паласио",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    "entity_rrf_new_3": {
+      "dev": {
+        "ndcg10": 0.96875,
+        "hit3": 1.0,
+        "hit10": 1.0,
+        "mrr": 0.9583333333333333
+      },
+      "regression77": {
+        "hit1": 0.8961038961038961,
+        "hit3": 0.961038961038961,
+        "hit10": 0.987012987012987,
+        "navigation": [
+          {
+            "query": "Чудо Р Дж Паласио",
+            "rank": 1
+          },
+          {
+            "query": "Дюна Фрэнк Герберт",
+            "rank": 1
+          },
+          {
+            "query": "1984 Джордж Оруэлл",
+            "rank": 1
+          },
+          {
+            "query": "Мастер и Маргарита Булгаков",
+            "rank": 1
+          },
+          {
+            "query": "Гордость и предубеждение Джейн Остин",
+            "rank": 1
+          },
+          {
+            "query": "Цветы для Элджернона Дэниел Киз",
+            "rank": 1
+          },
+          {
+            "query": "prestuplenie i nakazanie dostoevskiy",
+            "rank": 1
+          },
+          {
+            "query": "garri potter i filosofskiy kamen",
+            "rank": 1
+          },
+          {
+            "query": "malenkiy princ sent ekzuperi",
+            "rank": 1
+          },
+          {
+            "query": "451 po farengeitu bredberi",
+            "rank": 1
+          },
+          {
+            "query": "ufhhb gjnnh",
+            "rank": 1
+          },
+          {
+            "query": "vfcnth b vfhufhbnf",
+            "rank": 1
+          },
+          {
+            "query": "dyuna gerbert",
+            "rank": 1
+          },
+          {
+            "query": "cveti dlya eldzhernona",
+            "rank": 1
+          },
+          {
+            "query": "mobi dik melvill",
+            "rank": 1
+          },
+          {
+            "query": "gordost i predubezhdenie",
+            "rank": 1
+          },
+          {
+            "query": "гарри потр философкий камин",
+            "rank": 3
+          },
+          {
+            "query": "преступлние и наказние достаевский",
+            "rank": 1
+          },
+          {
+            "query": "маленкий принц сент экзюпери",
+            "rank": 1
+          },
+          {
+            "query": "философский камень",
+            "rank": 1
+          },
+          {
+            "query": "татуировка дракона",
+            "rank": 1
+          },
+          {
+            "query": "Ричард Мэтисон",
+            "rank": 1
+          },
+          {
+            "query": "Р Дж Паласио",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    "rrf_new_4": {
+      "dev": {
+        "ndcg10": 0.96875,
+        "hit3": 1.0,
+        "hit10": 1.0,
+        "mrr": 0.9583333333333333
+      },
+      "regression77": {
+        "hit1": 0.8831168831168831,
+        "hit3": 0.948051948051948,
+        "hit10": 0.974025974025974,
+        "navigation": [
+          {
+            "query": "Чудо Р Дж Паласио",
+            "rank": 1
+          },
+          {
+            "query": "Дюна Фрэнк Герберт",
+            "rank": 1
+          },
+          {
+            "query": "1984 Джордж Оруэлл",
+            "rank": 1
+          },
+          {
+            "query": "Мастер и Маргарита Булгаков",
+            "rank": 1
+          },
+          {
+            "query": "Гордость и предубеждение Джейн Остин",
+            "rank": 1
+          },
+          {
+            "query": "Цветы для Элджернона Дэниел Киз",
+            "rank": 1
+          },
+          {
+            "query": "prestuplenie i nakazanie dostoevskiy",
+            "rank": 1
+          },
+          {
+            "query": "garri potter i filosofskiy kamen",
+            "rank": 1
+          },
+          {
+            "query": "malenkiy princ sent ekzuperi",
+            "rank": 1
+          },
+          {
+            "query": "451 po farengeitu bredberi",
+            "rank": 1
+          },
+          {
+            "query": "ufhhb gjnnh",
+            "rank": 1
+          },
+          {
+            "query": "vfcnth b vfhufhbnf",
+            "rank": 1
+          },
+          {
+            "query": "dyuna gerbert",
+            "rank": 1
+          },
+          {
+            "query": "cveti dlya eldzhernona",
+            "rank": 1
+          },
+          {
+            "query": "mobi dik melvill",
+            "rank": 1
+          },
+          {
+            "query": "gordost i predubezhdenie",
+            "rank": 1
+          },
+          {
+            "query": "гарри потр философкий камин",
+            "rank": 3
+          },
+          {
+            "query": "преступлние и наказние достаевский",
+            "rank": 1
+          },
+          {
+            "query": "маленкий принц сент экзюпери",
+            "rank": 1
+          },
+          {
+            "query": "философский камень",
+            "rank": 1
+          },
+          {
+            "query": "татуировка дракона",
+            "rank": null
+          },
+          {
+            "query": "Ричард Мэтисон",
+            "rank": 1
+          },
+          {
+            "query": "Р Дж Паласио",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    "entity_rrf_new_4": {
+      "dev": {
+        "ndcg10": 0.96875,
+        "hit3": 1.0,
+        "hit10": 1.0,
+        "mrr": 0.9583333333333333
+      },
+      "regression77": {
+        "hit1": 0.8961038961038961,
+        "hit3": 0.961038961038961,
+        "hit10": 0.987012987012987,
+        "navigation": [
+          {
+            "query": "Чудо Р Дж Паласио",
+            "rank": 1
+          },
+          {
+            "query": "Дюна Фрэнк Герберт",
+            "rank": 1
+          },
+          {
+            "query": "1984 Джордж Оруэлл",
+            "rank": 1
+          },
+          {
+            "query": "Мастер и Маргарита Булгаков",
+            "rank": 1
+          },
+          {
+            "query": "Гордость и предубеждение Джейн Остин",
+            "rank": 1
+          },
+          {
+            "query": "Цветы для Элджернона Дэниел Киз",
+            "rank": 1
+          },
+          {
+            "query": "prestuplenie i nakazanie dostoevskiy",
+            "rank": 1
+          },
+          {
+            "query": "garri potter i filosofskiy kamen",
+            "rank": 1
+          },
+          {
+            "query": "malenkiy princ sent ekzuperi",
+            "rank": 1
+          },
+          {
+            "query": "451 po farengeitu bredberi",
+            "rank": 1
+          },
+          {
+            "query": "ufhhb gjnnh",
+            "rank": 1
+          },
+          {
+            "query": "vfcnth b vfhufhbnf",
+            "rank": 1
+          },
+          {
+            "query": "dyuna gerbert",
+            "rank": 1
+          },
+          {
+            "query": "cveti dlya eldzhernona",
+            "rank": 1
+          },
+          {
+            "query": "mobi dik melvill",
+            "rank": 1
+          },
+          {
+            "query": "gordost i predubezhdenie",
+            "rank": 1
+          },
+          {
+            "query": "гарри потр философкий камин",
+            "rank": 3
+          },
+          {
+            "query": "преступлние и наказние достаевский",
+            "rank": 1
+          },
+          {
+            "query": "маленкий принц сент экзюпери",
+            "rank": 1
+          },
+          {
+            "query": "философский камень",
+            "rank": 1
+          },
+          {
+            "query": "татуировка дракона",
+            "rank": 1
+          },
+          {
+            "query": "Ричард Мэтисон",
+            "rank": 1
+          },
+          {
+            "query": "Р Дж Паласио",
+            "rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "eligible": [
+    "old",
+    "new_current",
+    "new_entity",
+    "route_old_for_entity",
+    "rrf_new_1",
+    "entity_rrf_new_1",
+    "rrf_new_1.5",
+    "entity_rrf_new_1.5",
+    "rrf_new_2",
+    "entity_rrf_new_2",
+    "rrf_new_3",
+    "entity_rrf_new_3",
+    "rrf_new_4",
+    "entity_rrf_new_4"
+  ],
+  "opened_test_diagnostic_after_selection": {
+    "old": {
+      "ndcg10": 0.736581617923468,
+      "hit3": 0.7777777777777778,
+      "hit10": 0.8981481481481483,
+      "mrr": 0.7244598765432098
+    },
+    "new_current": {
+      "ndcg10": 0.8773554475441575,
+      "hit3": 0.9537037037037036,
+      "hit10": 0.972222222222222,
+      "mrr": 0.892526455026455
+    },
+    "new_entity": {
+      "ndcg10": 0.8773554475441575,
+      "hit3": 0.9537037037037036,
+      "hit10": 0.972222222222222,
+      "mrr": 0.892526455026455
+    }
+  },
+  "resolver": {
+    "synthetic_title_typo_probes": 300,
+    "top1_accuracy": 0.9933333333333333,
+    "activations_dev": 0,
+    "activations_regression77": 2,
+    "dev_activations": [],
+    "regression_activations": [
+      {
+        "query": "философский камень",
+        "category": "partial_title",
+        "catalog_id": 5,
+        "title": "Гарри Поттер и философский камень",
+        "score": 0.8400000000000001,
+        "margin": 0.8400000000000001
+      },
+      {
+        "query": "татуировка дракона",
+        "category": "partial_title",
+        "catalog_id": 230,
+        "title": "Девушка с татуировкой дракона",
+        "score": 0.8295238095238096,
+        "margin": 0.8295238095238096
+      }
+    ]
+  },
+  "limitations": [
+    "RRF uses saved top-10 lists; production experiment should fuse deeper lists.",
+    "Resolver typo probes are generated from titles and measure navigation robustness, not general search quality.",
+    "Existing dev and diagnostic test are synthetic and agent-labeled."
+  ]
+}
